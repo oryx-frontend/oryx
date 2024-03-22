@@ -41,7 +41,7 @@ jobs:
       - name: Install Deps
         run: npm ci
       - name: Build packages
-        run: npx nx run-many --target=build --all --parallel=2 --exclude testfront,storybook,fulfillment,storefront
+        run: npx nx run-many --target=build --all --parallel=2 --exclude testfront,storybook,storefront
       - name: Fix js extension
         run: node tools/post-build/add-js-extension.js
       - name: Fix d.ts files
@@ -54,7 +54,5 @@ jobs:
       - name: Release Error Log
         if: failure()
         run: cat libs/lerna-debug.log
-      - name: Run b2c stable env update
+      - name: Run storefront stable env update
         run: curl -X POST -d {} https://api.netlify.com/build_hooks/64b4f98cb4ec05454bd6c23b?clear_cache=true
-      - name: Run b2b stable env update
-        run: curl -X POST -d {} https://api.netlify.com/build_hooks/64b4f9b48ca8dd49b432a8c1?clear_cache=true
