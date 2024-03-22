@@ -35,7 +35,7 @@ jobs:
           submodules: recursive
       - uses: ./.github/actions/release-preparation
       - name: Build packages
-        run: npx nx run-many --target=build --all --parallel=2 --exclude testfront,storybook,fulfillment,storefront
+        run: npx nx run-many --target=build --all --parallel=2 --exclude testfront,storybook,storefront
       - name: Fix js extension
         run: node tools/post-build/add-js-extension.js
       - name: Release Next
