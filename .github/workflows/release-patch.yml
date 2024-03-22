@@ -54,5 +54,3 @@ jobs:
       - name: Release Error Log
         if: failure()
         run: cat libs/lerna-debug.log
-      - name: Run storefront stable env update
-        run: curl -X POST -d {} https://api.netlify.com/build_hooks/64b4f98cb4ec05454bd6c23b?clear_cache=true
