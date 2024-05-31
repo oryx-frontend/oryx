@@ -1,5 +1,5 @@
 {
-  "name": "oryx",
+  "name": "oryx-frontend",
   "version": "0.1.0",
   "description": "Oryx composable frontend framework monorepo",
   "repository": {
