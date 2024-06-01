@@ -9,7 +9,7 @@ import {
   oauthHandlerComponent,
 } from '@spryker-oryx/auth';
 import { AuthLoginStrategy } from '@spryker-oryx/auth/login';
-import { AppFeature, AppPlugin, injectEnv } from '@spryker-oryx/core';
+import { AppFeature, AppPlugin } from '@spryker-oryx/core';
 import { Provider } from '@spryker-oryx/di';
 import { provideLitRoutes } from '@spryker-oryx/router/lit';
 import { ComponentsInfo } from '@spryker-oryx/utilities';
