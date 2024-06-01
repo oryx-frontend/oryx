@@ -1,10 +1,10 @@
 {
-  "name": "spryker-oryx",
-  "version": "0.0.0",
-  "description": "Spryker Oryx Monorepo",
+  "name": "oryx-frontend",
+  "version": "0.1.0",
+  "description": "Oryx composable frontend framework monorepo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/spryker/oryx"
+    "url": "https://github.com/oryx-frontend/oryx"
   },
   "scripts": {
     "start": "nx serve",
@@ -55,11 +55,6 @@
     "release-branch:libs": "cd libs && npm run release-branch",
     "release-from-packages": "run-s release-from-packages:*",
     "release-from-packages:libs": "cd libs && npm run release-from-packages"
-  },
-  "author": {
-    "name": "Spryker Systems GmbH",
-    "email": "info@spryker.com",
-    "url": "https://spryker.com/"
   },
   "lint-staged": {
     "*.{js,ts}": [
