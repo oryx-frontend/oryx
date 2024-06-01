@@ -189,10 +189,3 @@ export interface CreateAppOptions {
 export enum OryxTemplateRef {
   Latest = 'latest',
 }
-
-export enum OryxOption {
-  Labs = 'Labs',
-  Ssr = 'SSR',
-  Sw = 'service-worker',
-  Fa = 'fulfillment-application',
-}
