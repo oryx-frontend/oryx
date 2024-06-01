@@ -59,23 +59,6 @@ const user = {
     'Removing this address will not remove any pending orders being dispatched to this` address',
 };
 
-const picking = {
-  'picking.product-card.of-<count>-items':
-    'Of {count, plural, one {{count} item} other {{count} items}}',
-  'picking.filter.<count>-open-pick-lists':
-    '{count} Open Pick {count, plural, one {List} other {Lists}}',
-  'picking.select-your-location': 'Select your location to get started',
-  'picking.discard.pick-list': 'Discard pick list?',
-  'picking.discard.stop-picking': 'Stop picking and discard pick list?',
-  'picking.discard.warning': 'The pick list will be lost!',
-  'picking.processed.success': 'Great job!',
-  'picking.processed.all': 'All items are processed!',
-  'picking.location.loading': 'Loading locations',
-  'picking.location.unassigned': 'You are not assigned to any locations',
-  'picking.location.help': 'Please reach out to your manager',
-  'picking.location.select': 'Select your location',
-};
-
 const ui = {
   'ui.password.at-least-<count>-characters':
     'At least {count, plural, one {{count} character} other {{count} characters}}',
@@ -108,7 +91,6 @@ export default {
   ...checkout,
   ...order,
   ...user,
-  ...picking,
   ...ui,
   ...search,
   ...merchant,

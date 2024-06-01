@@ -18,7 +18,6 @@
     "merchant": "libs/domain/merchant",
     "offline": "libs/platform/offline",
     "order": "libs/domain/order",
-    "picking": "libs/domain/picking",
     "presets": "libs/template/presets",
     "product": "libs/domain/product",
     "push-notification": "libs/platform/push-notification",
