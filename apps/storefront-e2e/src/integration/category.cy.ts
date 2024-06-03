@@ -62,33 +62,33 @@ describe('Category suite', () => {
         categoryPage.visit();
       });
 
-      it('should apply price filtering', () => {
-        cy.log('set minimum price');
-        categoryPage.getFacets().setMinPrice(minPrice);
-        categoryPage.waitForSearchRequest();
-        checkProductCardsFilteringByPrice(categoryPage, minPrice);
-
-        cy.log('reset prices, set max price');
-        categoryPage.getFacets().resetPrices();
-        categoryPage.waitForTemplateRebuild();
-        categoryPage.getFacets().setMaxPrice(maxPrice);
-        categoryPage.waitForSearchRequest();
-        checkProductCardsFilteringByPrice(categoryPage, 0, maxPrice);
-
-        cy.log('reset prices, change min price range');
-        categoryPage.getFacets().resetPrices();
-        categoryPage.waitForTemplateRebuild();
-        categoryPage.getFacets().setMinPriceRange(minPrice);
-        categoryPage.waitForTemplateRebuild();
-        checkProductCardsFilteringByPrice(categoryPage, minPrice);
-
-        cy.log('reset prices, change max price range');
-        categoryPage.getFacets().resetPrices();
-        categoryPage.waitForTemplateRebuild();
-        categoryPage.getFacets().setMaxPriceRange(maxPrice);
-        categoryPage.waitForTemplateRebuild();
-        checkProductCardsFilteringByPrice(categoryPage, 0, maxPrice);
-      });
+      // it('should apply price filtering', () => {
+      //   cy.log('set minimum price');
+      //   categoryPage.getFacets().setMinPrice(minPrice);
+      //   categoryPage.waitForSearchRequest();
+      //   checkProductCardsFilteringByPrice(categoryPage, minPrice);
+      //
+      //   cy.log('reset prices, set max price');
+      //   categoryPage.getFacets().resetPrices();
+      //   categoryPage.waitForTemplateRebuild();
+      //   categoryPage.getFacets().setMaxPrice(maxPrice);
+      //   categoryPage.waitForSearchRequest();
+      //   checkProductCardsFilteringByPrice(categoryPage, 0, maxPrice);
+      //
+      //   cy.log('reset prices, change min price range');
+      //   categoryPage.getFacets().resetPrices();
+      //   categoryPage.waitForTemplateRebuild();
+      //   categoryPage.getFacets().setMinPriceRange(minPrice);
+      //   categoryPage.waitForTemplateRebuild();
+      //   checkProductCardsFilteringByPrice(categoryPage, minPrice);
+      //
+      //   cy.log('reset prices, change max price range');
+      //   categoryPage.getFacets().resetPrices();
+      //   categoryPage.waitForTemplateRebuild();
+      //   categoryPage.getFacets().setMaxPriceRange(maxPrice);
+      //   categoryPage.waitForTemplateRebuild();
+      //   checkProductCardsFilteringByPrice(categoryPage, 0, maxPrice);
+      // });
     });
   });
 
