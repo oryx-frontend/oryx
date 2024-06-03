@@ -3,6 +3,6 @@ const config = require('./cypress.config');
 
 module.exports = defineConfig({
   ...config,
-  projectId: 'eothcy',
+  projectId: 'qg6ckb',
   retries: 2,
 });
