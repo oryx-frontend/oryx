@@ -48,6 +48,16 @@ Oryx is a framework for building composable storefronts, providing a rich librar
 
 The application gets available at localhost:3000, or the next available port on your machine.
 
+## Set up a new Oryx app
+
+1. Create Oryx app
+
+`npm init oryx`
+
+2.  Run the Oryx app in development mode:
+
+`npm run dev`
+
 ## Further Documentation
 
 [Oryx Documentation](https://docs.spryker.com/docs/scos/dev/front-end-development/202311.0/oryx/oryx.html)
