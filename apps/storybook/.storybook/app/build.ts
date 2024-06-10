@@ -8,7 +8,6 @@ import { mockCoreFeature } from '@spryker-oryx/core/mocks';
 import { mockExperienceFeature } from '@spryker-oryx/experience/mocks';
 import { formFeature } from '@spryker-oryx/form';
 import { I18nFeature } from '@spryker-oryx/i18n';
-import { mockMerchantFeature } from '@spryker-oryx/merchant/mocks';
 import { mockOfflineFeature } from '@spryker-oryx/offline/mocks';
 import { mockOrderFeature } from '@spryker-oryx/order/mocks';
 import { mockProductFeature } from '@spryker-oryx/product/mocks';
@@ -52,7 +51,6 @@ const builder = appBuilder()
   .withFeature(contentFeature)
   .withFeature(mockOfflineFeature)
   .withFeature(mockProductFeature)
-  .withFeature(mockMerchantFeature)
   .withFeature(mockSearchFeature)
   .withFeature(mockSiteFeature)
   .withFeature(mockUserFeature)
