@@ -1,14 +1,15 @@
-import { Product, ProductLabel, ProductMediaSet } from '@spryker-oryx/product';
-
-export const enum ProductLabelAppearance {
-  Highlight = 'error',
-  Info = 'info',
-}
+import {
+  Product,
+  ProductLabel,
+  ProductLabelAppearance,
+  ProductMediaSet,
+} from '@spryker-oryx/product';
 
 const img1 = {
   sm: 'https://images.icecat.biz/img/gallery_mediums/29885545_9575.jpg',
   lg: 'https://images.icecat.biz/img/gallery/29885545_9575.jpg',
 };
+
 const img2 = {
   sm: 'https://images.icecat.biz/img/norm/medium/26138343-5454.jpg',
   lg: 'https://images.icecat.biz/img/norm/high/26138343-5454.jpg',
@@ -49,12 +50,12 @@ const mediaSet: ProductMediaSet[] = [
 
 const newLabel: ProductLabel = {
   name: 'New',
-  appearance: ProductLabelAppearance.Highlight,
+  appearance: 'error' as ProductLabelAppearance,
 };
 
 const saleLabel: ProductLabel = {
   name: 'sale',
-  appearance: ProductLabelAppearance.Info,
+  appearance: 'info' as ProductLabelAppearance,
 };
 
 export const mockProducts: Product[] = [
