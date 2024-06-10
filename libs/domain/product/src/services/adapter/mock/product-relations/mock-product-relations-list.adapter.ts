@@ -9,7 +9,7 @@ import { mockProducts } from '../mock-product';
 export class MockProductRelationsListAdapter
   implements ProductRelationsListAdapter
 {
-  get({ sku }: ProductQualifier): Observable<Product[] | undefined> {
+  get({ sku }: ProductQualifier): Observable<Product[]> {
     return of([
       mockProducts[Number(sku) - 1],
       mockProducts[Number(sku)],
