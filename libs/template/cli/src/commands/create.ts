@@ -183,16 +183,8 @@ interface CreateAppConfig extends Required<CreateAppOptions> {
 
 export interface CreateAppOptions {
   name?: string;
-  options?: OryxOption[];
 }
 
 export enum OryxTemplateRef {
   Latest = 'latest',
-}
-
-export enum OryxOption {
-  Labs = 'Labs',
-  Ssr = 'SSR',
-  Sw = 'service-worker',
-  Fa = 'fulfillment-application',
 }
