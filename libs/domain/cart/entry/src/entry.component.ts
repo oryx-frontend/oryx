@@ -3,7 +3,6 @@ import { resolve } from '@spryker-oryx/di';
 import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
 import {
   PRODUCT,
-  Product,
   ProductContext,
   ProductMediaContainerSize,
   ProductMixin,
@@ -146,18 +145,6 @@ export class CartEntryComponent
           maxLines: featureVersion >= '1.4' ? 1 : undefined,
         } as ProductTitleOptions}
       ></oryx-product-title>
-      ${featureVersion >= '1.4' &&
-      (this.$product() as Product & { merchantId: string })?.merchantId
-        ? html`<oryx-data-text
-            .options=${{
-              entity: 'merchant',
-              field: 'name',
-              prefix: 'Sold by: ',
-              link: true,
-            }}
-            >}
-          </oryx-data-text>`
-        : html``}
       ${when(
         this.$options()?.enableItemId,
         () => html`<oryx-product-id></oryx-product-id>`

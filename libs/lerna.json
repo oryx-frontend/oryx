@@ -23,8 +23,7 @@
     "template/themes",
     "base/ui",
     "domain/user",
-    "base/utilities",
-    "domain/merchant"
+    "base/utilities"
   ],
   "version": "1.4.0",
   "npmClient": "npm",
