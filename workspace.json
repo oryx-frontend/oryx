@@ -15,7 +15,6 @@
     "i18n": "libs/platform/i18n",
     "indexed-db": "libs/platform/indexed-db",
     "labs": "libs/template/labs",
-    "merchant": "libs/domain/merchant",
     "offline": "libs/platform/offline",
     "order": "libs/domain/order",
     "presets": "libs/template/presets",
