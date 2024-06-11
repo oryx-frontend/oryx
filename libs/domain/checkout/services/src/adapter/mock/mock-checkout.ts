@@ -1,4 +1,4 @@
-import { PlaceOrderData } from '../../models';
+import { PlaceOrderData } from '@spryker-oryx/checkout';
 
 export const mockSelectedShipmentMethod = {
   selectedShipmentMethod: {
