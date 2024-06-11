@@ -14,6 +14,5 @@ export class MockCheckoutAdapter implements CheckoutAdapter {
 
   placeOrder(data: PlaceOrderData): Observable<CheckoutResponse> {
     return of(mockPlaceOrderResponse as CheckoutResponse);
-  );
   }
 }
