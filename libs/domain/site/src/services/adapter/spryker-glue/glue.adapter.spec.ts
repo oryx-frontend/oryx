@@ -2,7 +2,7 @@ import { HttpService, JsonAPITransformerService } from '@spryker-oryx/core';
 import { HttpTestService } from '@spryker-oryx/core/testing';
 import { createInjector, destroyInjector } from '@spryker-oryx/di';
 import { of } from 'rxjs';
-import { GlueStoreAdapter } from './default-store.adapter';
+import { GlueStoreAdapter } from './glue-store.adapter';
 import { StoreNormalizer } from './normalizers';
 import { StoreAdapter } from './store.adapter';
 
