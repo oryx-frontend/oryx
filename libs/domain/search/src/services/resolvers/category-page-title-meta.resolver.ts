@@ -2,7 +2,7 @@ import { ElementResolver, PageMetaResolver } from '@oryx-frontend/core';
 import { inject } from '@oryx-frontend/di';
 import { FacetValue } from '@oryx-frontend/product';
 import { RouterService } from '@oryx-frontend/router';
-import { combineLatest, map, Observable, of, switchMap } from 'rxjs';
+import { Observable, combineLatest, map, of, switchMap } from 'rxjs';
 import { FacetListService } from '../facet-list.service';
 
 export class CategoryPageTitleMetaResolver implements PageMetaResolver {

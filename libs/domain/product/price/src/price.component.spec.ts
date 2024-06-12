@@ -1,6 +1,10 @@
 import { fixture } from '@open-wc/testing-helpers';
 import { ContextService, DefaultContextService } from '@oryx-frontend/core';
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { ExperienceService } from '@oryx-frontend/experience';
 import { ProductPrice, ProductService } from '@oryx-frontend/product';
 import { PricingService } from '@oryx-frontend/site';

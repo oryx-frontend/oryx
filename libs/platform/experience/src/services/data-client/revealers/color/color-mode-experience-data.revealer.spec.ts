@@ -1,5 +1,9 @@
 import { nextFrame } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { EVENT_TOGGLE_COLOR } from '@oryx-frontend/ui/color-mode-selector';
 import { MessageType } from '../../data-client.model';
 import { postMessage } from '../../utilities';

@@ -1,16 +1,16 @@
 import { fixture, nextFrame } from '@open-wc/testing-helpers';
+import { ContextService } from '@oryx-frontend/core';
 import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
-  HydratableLitElement,
   HYDRATE_ON_DEMAND,
+  HydratableLitElement,
 } from '@oryx-frontend/utilities';
-import { html, LitElement } from 'lit';
+import { LitElement, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
-import { BehaviorSubject, Observable, of, Subject } from 'rxjs';
+import { BehaviorSubject, Observable, of } from 'rxjs';
 import { AppRef } from '../../orchestration/app';
 import { DefaultHydrationService } from './default-hydration.service';
 import { HydrationService, HydrationTrigger } from './hydration.service';
-import { ContextService } from '@oryx-frontend/core';
 
 @customElement('mock-a')
 class MockA extends LitElement {

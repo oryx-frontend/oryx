@@ -1,5 +1,9 @@
 import { EntityContext, provideEntity } from '@oryx-frontend/core';
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { firstValueFrom, of } from 'rxjs';
 import { ContextService } from '../context';
 import { DefaultEntityService } from './default-entity.service';

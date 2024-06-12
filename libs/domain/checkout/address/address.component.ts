@@ -8,7 +8,7 @@ import {
 import { UserAddressFormComponent } from '@oryx-frontend/user/address-form';
 import { AddressDefaults } from '@oryx-frontend/user/address-list-item';
 import { signalAware } from '@oryx-frontend/utilities';
-import { html, LitElement, TemplateResult } from 'lit';
+import { LitElement, TemplateResult, html } from 'lit';
 import { query } from 'lit/decorators.js';
 import { CheckoutAddressOptions } from './address.model';
 

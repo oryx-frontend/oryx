@@ -1,4 +1,7 @@
-import { ExperienceComponent, ShadowElevation } from '@oryx-frontend/experience';
+import {
+  ExperienceComponent,
+  ShadowElevation,
+} from '@oryx-frontend/experience';
 import { IconTypes } from '@oryx-frontend/ui/icon';
 import { Size, featureVersion } from '@oryx-frontend/utilities';
 

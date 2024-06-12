@@ -5,7 +5,7 @@ import {
   mockCurrentAddress,
   mockNormalizedAddresses,
 } from '@oryx-frontend/user/mocks';
-import { firstValueFrom, mergeMap, Observable, of, Subject } from 'rxjs';
+import { Observable, Subject, firstValueFrom, mergeMap, of } from 'rxjs';
 import { AddressAdapter } from './adapter';
 import { AddressService } from './address.service';
 import { DefaultAddressService } from './default-address.service';

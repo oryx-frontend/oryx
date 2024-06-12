@@ -56,7 +56,9 @@
       "@oryx-frontend/checkout/billing-address": [
         "libs/domain/checkout/billing-address/index.ts"
       ],
-      "@oryx-frontend/checkout/header": ["libs/domain/checkout/header/index.ts"],
+      "@oryx-frontend/checkout/header": [
+        "libs/domain/checkout/header/index.ts"
+      ],
       "@oryx-frontend/checkout/heading": [
         "libs/domain/checkout/heading/index.ts"
       ],
@@ -96,7 +98,9 @@
       "@oryx-frontend/core/mocks": ["libs/platform/core/src/mocks/index.ts"],
       "@oryx-frontend/core/server": ["libs/platform/core/server/index.ts"],
       "@oryx-frontend/core/testing": ["libs/platform/core/testing/index.ts"],
-      "@oryx-frontend/core/utilities": ["libs/platform/core/utilities/index.ts"],
+      "@oryx-frontend/core/utilities": [
+        "libs/platform/core/utilities/index.ts"
+      ],
       "@oryx-frontend/di": ["libs/base/di/src/index.ts"],
       "@oryx-frontend/experience": ["libs/platform/experience/src/index.ts"],
       "@oryx-frontend/experience/carousel-navigation": [
@@ -187,7 +191,9 @@
       "@oryx-frontend/product/labels": ["libs/domain/product/labels/index.ts"],
       "@oryx-frontend/product/list": ["libs/domain/product/list/index.ts"],
       "@oryx-frontend/product/media": ["libs/domain/product/media/index.ts"],
-      "@oryx-frontend/product/mocks": ["libs/domain/product/src/mocks/index.ts"],
+      "@oryx-frontend/product/mocks": [
+        "libs/domain/product/src/mocks/index.ts"
+      ],
       "@oryx-frontend/product/price": ["libs/domain/product/price/index.ts"],
       "@oryx-frontend/product/relations": [
         "libs/domain/product/relations/index.ts"
@@ -232,7 +238,9 @@
         "libs/domain/search/product-sort/index.ts"
       ],
       "@oryx-frontend/site": ["libs/domain/site/src/index.ts"],
-      "@oryx-frontend/site/breadcrumb": ["libs/domain/site/breadcrumb/index.ts"],
+      "@oryx-frontend/site/breadcrumb": [
+        "libs/domain/site/breadcrumb/index.ts"
+      ],
       "@oryx-frontend/site/currency-selector": [
         "libs/domain/site/currency-selector/index.ts"
       ],

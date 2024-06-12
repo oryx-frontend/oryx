@@ -1,6 +1,6 @@
 import { AuthIdentity, IdentityService } from '@oryx-frontend/auth';
 import { createInjector, destroyInjector } from '@oryx-frontend/di';
-import { mergeMap, Observable, of, Subject } from 'rxjs';
+import { Observable, Subject, mergeMap, of } from 'rxjs';
 import { UserAdapter } from './adapter';
 import { DefaultUserService } from './default-user.service';
 import { UserService } from './user.service';

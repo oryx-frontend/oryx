@@ -1,5 +1,9 @@
 import { nextFrame } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { MessageType, postMessage } from '@oryx-frontend/experience';
 import { RouteType } from '@oryx-frontend/router';
 import { of } from 'rxjs';

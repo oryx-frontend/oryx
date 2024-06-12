@@ -1,7 +1,11 @@
 import { fixture } from '@open-wc/testing-helpers';
 import { mockCartProviders } from '@oryx-frontend/cart/mocks';
 import { ContextService, DefaultContextService } from '@oryx-frontend/core';
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { RouteParams, RouterService } from '@oryx-frontend/router';
 import { LitRouter, RouteConfig } from '@oryx-frontend/router/lit';
 import { siteProviders } from '@oryx-frontend/site';

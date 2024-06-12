@@ -4,7 +4,7 @@ import {
 } from '@oryx-frontend/checkout/mocks';
 import { resolve } from '@oryx-frontend/di';
 import { Story } from '@storybook/web-components';
-import { html, TemplateResult } from 'lit';
+import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';
 import { CheckoutDataService } from '../../src/services';
 

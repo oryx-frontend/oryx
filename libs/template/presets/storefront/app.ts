@@ -2,7 +2,10 @@ import {
   ThemeMetaInitializer,
   applicationFeature,
 } from '@oryx-frontend/application';
-import { SapiAuthComponentsFeature, SapiAuthFeature } from '@oryx-frontend/auth';
+import {
+  SapiAuthComponentsFeature,
+  SapiAuthFeature,
+} from '@oryx-frontend/auth';
 import { cartFeature } from '@oryx-frontend/cart';
 import { checkoutFeature } from '@oryx-frontend/checkout';
 import { contentFeature } from '@oryx-frontend/content';

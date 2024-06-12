@@ -1,13 +1,9 @@
-import {
-  HttpHandlerFn,
-  HttpInterceptor,
-  RequestOptions,
-} from '@oryx-frontend/core';
+import { HttpHandlerFn, HttpInterceptor } from '@oryx-frontend/core';
 import { inject } from '@oryx-frontend/di';
 import {
+  Observable,
   catchError,
   finalize,
-  Observable,
   of,
   shareReplay,
   switchMap,

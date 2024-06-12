@@ -1,6 +1,6 @@
 import { Transformer, TransformerService } from '@oryx-frontend/core';
 import { Provider } from '@oryx-frontend/di';
-import { combineLatest, Observable } from 'rxjs';
+import { Observable, combineLatest } from 'rxjs';
 import { DeserializedAddress } from '../';
 import { Address } from '../../../../models';
 import { AddressNormalizer } from '../address';

@@ -4,7 +4,7 @@ import { AlertType } from '@oryx-frontend/ui';
 import { Notification } from '@oryx-frontend/ui/notification';
 import { NotificationPosition } from '@oryx-frontend/ui/notification-center';
 import { Meta, Story } from '@storybook/web-components';
-import { html, TemplateResult } from 'lit';
+import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';
 import { SiteNotificationCenterOptions } from '../notification-center.model';
 

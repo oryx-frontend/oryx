@@ -5,7 +5,7 @@ import {
   AuthTokenService,
   IdentityService,
 } from '@oryx-frontend/auth';
-import { BehaviorSubject, map, Observable, of } from 'rxjs';
+import { BehaviorSubject, Observable, map, of } from 'rxjs';
 
 export class MockAuthService
   implements AuthService, AuthTokenService, IdentityService

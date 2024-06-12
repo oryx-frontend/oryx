@@ -1,5 +1,9 @@
 import { AuthService } from '@oryx-frontend/auth';
-import { CheckoutMixin, ContactDetails, isValid } from '@oryx-frontend/checkout';
+import {
+  CheckoutMixin,
+  ContactDetails,
+  isValid,
+} from '@oryx-frontend/checkout';
 import { resolve } from '@oryx-frontend/di';
 import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
 import { FormFieldType, FormRenderer } from '@oryx-frontend/form';

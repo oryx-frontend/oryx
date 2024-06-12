@@ -1,14 +1,14 @@
 import { fixture, nextFrame } from '@open-wc/testing-helpers';
 import { AppRef } from '@oryx-frontend/core';
 import { createInjector, destroyInjector } from '@oryx-frontend/di';
-import { defaultIconFont, IconTypes } from '@oryx-frontend/ui/icon';
+import { IconTypes, defaultIconFont } from '@oryx-frontend/ui/icon';
 import {
   computed,
   fontInjectable,
   signalAware,
   signalProperty,
 } from '@oryx-frontend/utilities';
-import { html, LitElement, TemplateResult } from 'lit';
+import { LitElement, TemplateResult, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { of } from 'rxjs';
 import { ThemePlugin } from '../plugins';

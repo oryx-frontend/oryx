@@ -5,7 +5,7 @@ import {
   UserAddressListItemOptions,
 } from '@oryx-frontend/user/address-list-item';
 import { MockAddressService, MockAddressType } from '@oryx-frontend/user/mocks';
-import { html, TemplateResult } from 'lit';
+import { TemplateResult, html } from 'lit';
 
 export const renderSelector = (
   type: MockAddressType,

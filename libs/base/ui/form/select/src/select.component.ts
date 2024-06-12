@@ -4,8 +4,8 @@ import {
   ClearIconAppearance,
   ClearIconPosition,
   SearchAttributes,
-  SearchboxController,
   SearchIconPosition,
+  SearchboxController,
 } from '@oryx-frontend/ui/searchbox';
 import {
   FilterStrategyType,
@@ -14,7 +14,7 @@ import {
 } from '@oryx-frontend/ui/typeahead';
 import { getControl } from '@oryx-frontend/ui/utilities';
 import { hydrate } from '@oryx-frontend/utilities';
-import { html, LitElement, TemplateResult } from 'lit';
+import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { SelectController, SelectFilterController } from './controllers';
 import { baseStyles } from './styles';

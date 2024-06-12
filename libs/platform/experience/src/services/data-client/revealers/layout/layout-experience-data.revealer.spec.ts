@@ -1,5 +1,9 @@
 import { nextFrame } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { FormFieldType } from '@oryx-frontend/form';
 import { BehaviorSubject, of } from 'rxjs';
 import {

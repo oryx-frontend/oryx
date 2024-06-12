@@ -1,6 +1,6 @@
 import { MockProductService } from '@oryx-frontend/product/mocks';
 import { Meta, Story } from '@storybook/web-components';
-import { html, TemplateResult } from 'lit';
+import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';
 import { ProductDescriptionOptions } from '../description.model';
 

@@ -8,7 +8,7 @@ import {
 } from '@oryx-frontend/product';
 import { LoadingStrategy } from '@oryx-frontend/ui/image';
 import { computed, hydrate } from '@oryx-frontend/utilities';
-import { html, LitElement, TemplateResult } from 'lit';
+import { LitElement, TemplateResult, html } from 'lit';
 import { ProductMediaOptions } from './media.model';
 
 @defaultOptions({

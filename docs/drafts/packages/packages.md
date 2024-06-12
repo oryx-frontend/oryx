@@ -45,13 +45,13 @@ The base layer contains packages that serve as utilities to all above layers. An
 
 ## Packages
 
-| Layer        | Packages    | Location                    |
-| ------------ | ----------- | --------------------------- |
-| **Template** |             |                             |
+| Layer        | Packages    | Location                     |
+| ------------ | ----------- | ---------------------------- |
+| **Template** |             |                              |
 |              | Presets     | `@oryx-frontend/presets`     |
 |              | Application | `@oryx-frontend/application` |
 |              | Themes      | `@oryx-frontend/themes`      |
-| **Domain**   |             |                             |
+| **Domain**   |             |                              |
 |              | Site        | `@oryx-frontend/site`        |
 |              | Auth        | `@oryx-frontend/auth`        |
 |              | User        | `@oryx-frontend/user`        |
@@ -60,11 +60,11 @@ The base layer contains packages that serve as utilities to all above layers. An
 |              | Cart        | `@oryx-frontend/cart`        |
 |              | Checkout    | `@oryx-frontend/checkout`    |
 |              | Content     | `@oryx-frontend/content`     |
-| **Platform** |             |                             |
+| **Platform** |             |                              |
 |              | Core        | `@oryx-frontend/core`        |
 |              | I18n        | `@oryx-frontend/i18n`        |
 |              | Experience  | `@oryx-frontend/experience`  |
-| **Base**     |             |                             |
+| **Base**     |             |                              |
 |              | UI          | `@oryx-frontend/ui`          |
 |              | Form        | `@oryx-frontend/form`        |
 |              | Utilities   | `@oryx-frontend/utilities`   |

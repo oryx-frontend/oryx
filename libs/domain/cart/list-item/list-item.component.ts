@@ -1,4 +1,8 @@
-import { CartComponentMixin, CartService, PriceMode } from '@oryx-frontend/cart';
+import {
+  CartComponentMixin,
+  CartService,
+  PriceMode,
+} from '@oryx-frontend/cart';
 import { resolve } from '@oryx-frontend/di';
 import { LinkService, RouteType } from '@oryx-frontend/router';
 import { AlertType } from '@oryx-frontend/ui';

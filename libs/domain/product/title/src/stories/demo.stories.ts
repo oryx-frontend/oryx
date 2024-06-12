@@ -2,7 +2,7 @@ import { ProductComponentProperties } from '@oryx-frontend/product';
 import { MockProductService } from '@oryx-frontend/product/mocks';
 import { ProductTitleOptions } from '@oryx-frontend/product/title';
 import { Meta, Story } from '@storybook/web-components';
-import { html, TemplateResult } from 'lit';
+import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../../.constants';
 
 const tags = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'subtitle', 'caption'];

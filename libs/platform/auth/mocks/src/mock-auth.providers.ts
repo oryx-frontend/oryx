@@ -3,7 +3,7 @@ import {
   AuthTokenService,
   IdentityService,
 } from '@oryx-frontend/auth';
-import { inject, Provider } from '@oryx-frontend/di';
+import { Provider, inject } from '@oryx-frontend/di';
 import { MockAuthService } from './mock-auth.service';
 
 export const mockAuthProviders: Provider[] = [

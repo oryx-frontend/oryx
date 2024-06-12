@@ -1,8 +1,8 @@
 import { App, AppPlugin, InjectionPlugin } from '@oryx-frontend/core';
 import {
-  i18nInjectable,
   I18nInjectable,
   Injectable,
+  i18nInjectable,
 } from '@oryx-frontend/utilities';
 import { I18nService, I18nServiceInjectableAdapter } from './i18n';
 

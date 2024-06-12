@@ -1,4 +1,8 @@
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { of } from 'rxjs';
 import { IdentityService } from '../services/identity.service';
 import {

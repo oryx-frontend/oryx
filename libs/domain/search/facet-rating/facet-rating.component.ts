@@ -1,6 +1,9 @@
 import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
 import { RangeFacet } from '@oryx-frontend/product';
-import { FacetController, searchFacetStyles } from '@oryx-frontend/search/facet';
+import {
+  FacetController,
+  searchFacetStyles,
+} from '@oryx-frontend/search/facet';
 import { I18nMixin, computed, featureVersion } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';

@@ -1,5 +1,9 @@
 import { TokenResolver } from '@oryx-frontend/core';
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import {
   Component,
   ExperienceService,

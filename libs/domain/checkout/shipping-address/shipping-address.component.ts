@@ -6,12 +6,12 @@ import {
   AddressService,
 } from '@oryx-frontend/user';
 import {
+  I18nMixin,
   elementEffect,
   hydrate,
-  I18nMixin,
   signal,
 } from '@oryx-frontend/utilities';
-import { html, LitElement, TemplateResult } from 'lit';
+import { LitElement, TemplateResult, html } from 'lit';
 import { query } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';
 import { CheckoutAddressComponent } from '../address';

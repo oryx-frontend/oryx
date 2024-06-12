@@ -1,4 +1,8 @@
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { firstValueFrom } from 'rxjs';
 import { DefaultJsonApiIncludeService } from './default-json-api-include.service';
 import { JsonApiIncludeService } from './json-api-include.service';

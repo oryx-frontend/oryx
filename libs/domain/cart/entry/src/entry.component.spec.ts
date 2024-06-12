@@ -4,7 +4,11 @@ import { ContextService, DefaultContextService } from '@oryx-frontend/core';
 import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { ProductService } from '@oryx-frontend/product';
 import { MockProductService } from '@oryx-frontend/product/mocks';
-import { LinkService, PricingService, siteProviders } from '@oryx-frontend/site';
+import {
+  LinkService,
+  PricingService,
+  siteProviders,
+} from '@oryx-frontend/site';
 import { IconTypes } from '@oryx-frontend/ui/icon';
 import { featureVersion, useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';

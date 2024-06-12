@@ -1,4 +1,8 @@
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { of } from 'rxjs';
 import { IndexedDbStorageStrategyToken } from './indexed-db-storage-method';
 import { IndexedDbStorageStrategy } from './indexed-db-storage-strategy';

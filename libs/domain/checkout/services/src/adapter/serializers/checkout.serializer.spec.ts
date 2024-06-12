@@ -1,4 +1,7 @@
-import { mockCheckout, mockPlaceOrderData } from '@oryx-frontend/checkout/mocks';
+import {
+  mockCheckout,
+  mockPlaceOrderData,
+} from '@oryx-frontend/checkout/mocks';
 import { checkoutAttributesSerializer } from './checkout.serializer';
 
 describe('Checkout Serializers', () => {

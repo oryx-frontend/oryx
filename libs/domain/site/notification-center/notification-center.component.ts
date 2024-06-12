@@ -6,7 +6,7 @@ import {
   NotificationPosition,
 } from '@oryx-frontend/ui/notification-center';
 import { elementEffect, hydrate, signal } from '@oryx-frontend/utilities';
-import { html, LitElement, TemplateResult } from 'lit';
+import { LitElement, TemplateResult, html } from 'lit';
 import { createRef, ref } from 'lit/directives/ref.js';
 import { SiteNotificationCenterOptions } from './notification-center.model';
 

@@ -5,7 +5,7 @@ import {
   ProductRelationsListService,
 } from '@oryx-frontend/product';
 import { computed, hydrate } from '@oryx-frontend/utilities';
-import { html, LitElement, TemplateResult } from 'lit';
+import { LitElement, TemplateResult, html } from 'lit';
 import { repeat } from 'lit/directives/repeat.js';
 import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 import { of } from 'rxjs';

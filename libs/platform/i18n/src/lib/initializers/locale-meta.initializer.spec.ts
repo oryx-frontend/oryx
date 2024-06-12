@@ -1,6 +1,10 @@
 import { nextFrame } from '@open-wc/testing-helpers';
 import { PageMetaService } from '@oryx-frontend/core';
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import {
   DefaultLocaleMetaInitializer,
   LocaleMetaInitializer,

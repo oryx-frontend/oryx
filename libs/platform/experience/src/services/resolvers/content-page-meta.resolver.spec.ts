@@ -1,4 +1,8 @@
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { RouterService } from '@oryx-frontend/router';
 import { RouteConfig } from '@oryx-frontend/router/lit';
 import { of } from 'rxjs';

@@ -1,5 +1,9 @@
 import { StorageService } from '@oryx-frontend/core';
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { RouterService } from '@oryx-frontend/router';
 import { BehaviorSubject, catchError, of } from 'rxjs';
 import { OauthService, OauthServiceConfig } from './oauth.service';

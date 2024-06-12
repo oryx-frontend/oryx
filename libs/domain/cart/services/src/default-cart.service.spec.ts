@@ -1,4 +1,8 @@
-import { AuthIdentity, AuthService, IdentityService } from '@oryx-frontend/auth';
+import {
+  AuthIdentity,
+  AuthService,
+  IdentityService,
+} from '@oryx-frontend/auth';
 import {
   CartAdapter,
   CartService,

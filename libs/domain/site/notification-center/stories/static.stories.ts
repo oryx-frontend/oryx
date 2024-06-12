@@ -3,7 +3,7 @@ import { NotificationService } from '@oryx-frontend/site';
 import { AlertType } from '@oryx-frontend/ui';
 import { NotificationPosition } from '@oryx-frontend/ui/notification-center';
 import { Meta, Story } from '@storybook/web-components';
-import { html, TemplateResult } from 'lit';
+import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';
 
 export default {

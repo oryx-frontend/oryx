@@ -1,7 +1,7 @@
 import { IdentityService } from '@oryx-frontend/auth';
 import { createCommand, createQuery } from '@oryx-frontend/core';
 import { inject } from '@oryx-frontend/di';
-import { map, Observable, skip } from 'rxjs';
+import { Observable, map, skip } from 'rxjs';
 import { Address } from '../models';
 import { AddressAdapter } from './adapter';
 import { AddressService } from './address.service';

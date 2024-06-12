@@ -1,4 +1,8 @@
-import { CheckoutMixin, isValid, ShipmentMethod } from '@oryx-frontend/checkout';
+import {
+  CheckoutMixin,
+  isValid,
+  ShipmentMethod,
+} from '@oryx-frontend/checkout';
 import { ContentMixin } from '@oryx-frontend/experience';
 import { IconTypes } from '@oryx-frontend/ui/icon';
 import {

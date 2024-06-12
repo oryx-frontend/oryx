@@ -1,4 +1,8 @@
-import { AppFeature, ContextFallback, EntityContext } from '@oryx-frontend/core';
+import {
+  AppFeature,
+  ContextFallback,
+  EntityContext,
+} from '@oryx-frontend/core';
 import { Provider } from '@oryx-frontend/di';
 import { featureVersion } from '@oryx-frontend/utilities';
 import {

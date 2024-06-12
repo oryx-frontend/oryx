@@ -1,4 +1,8 @@
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { Size } from '@oryx-frontend/utilities';
 import { lastValueFrom, of } from 'rxjs';
 import { DefaultLayoutService } from './default-layout.service';

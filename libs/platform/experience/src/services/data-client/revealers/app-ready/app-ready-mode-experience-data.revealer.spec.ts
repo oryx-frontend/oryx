@@ -1,6 +1,10 @@
 import { nextFrame } from '@open-wc/testing-helpers';
 import { AppRef } from '@oryx-frontend/core';
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { MessageType } from '../../data-client.model';
 import { AppReadyExperienceDataRevealer } from './app-ready-mode-experience-data.revealer';
 

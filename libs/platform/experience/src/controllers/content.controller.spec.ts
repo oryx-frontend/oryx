@@ -1,5 +1,9 @@
 import { FeatureOptionsService } from '@oryx-frontend/core';
-import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import * as litRxjs from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { of } from 'rxjs';

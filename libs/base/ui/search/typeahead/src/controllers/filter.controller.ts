@@ -1,5 +1,5 @@
 import { OptionComponent } from '@oryx-frontend/ui/option';
-import { PopoverSelectEvent, POPOVER_EVENT } from '@oryx-frontend/ui/popover';
+import { POPOVER_EVENT, PopoverSelectEvent } from '@oryx-frontend/ui/popover';
 import { getControl } from '@oryx-frontend/ui/utilities';
 import { LitElement, ReactiveController } from 'lit';
 import { FilterStrategyType, TypeaheadOptions } from '../typeahead.model';

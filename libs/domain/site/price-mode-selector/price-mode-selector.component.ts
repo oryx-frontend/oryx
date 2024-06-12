@@ -3,7 +3,11 @@ import { ContentMixin } from '@oryx-frontend/experience';
 import { Position } from '@oryx-frontend/ui';
 import { ButtonSize, ButtonType } from '@oryx-frontend/ui/button';
 import { IconTypes } from '@oryx-frontend/ui/icon';
-import { I18nTranslationValue, hydrate, signal } from '@oryx-frontend/utilities';
+import {
+  I18nTranslationValue,
+  hydrate,
+  signal,
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { repeat } from 'lit/directives/repeat.js';
 import { PriceModes } from '../src/models';
