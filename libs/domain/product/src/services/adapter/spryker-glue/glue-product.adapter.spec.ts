@@ -5,6 +5,7 @@ import {
 } from '@spryker-oryx/core';
 import { HttpTestService } from '@spryker-oryx/core/testing';
 import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { GlueProductAdapter } from '@spryker-oryx/product';
 import { featureVersion } from '@spryker-oryx/utilities';
 import { of } from 'rxjs';
 import { ApiProductModel } from '../../../models';
@@ -44,7 +45,7 @@ describe('GlueProductService', () => {
         },
         {
           provide: ProductAdapter,
-          useClass: DefaultProductAdapter,
+          useClass: GlueProductAdapter,
         },
         {
           provide: 'SCOS_BASE_URL',
@@ -70,7 +71,7 @@ describe('GlueProductService', () => {
   });
 
   it('should be provided', () => {
-    expect(service).toBeInstanceOf(DefaultProductAdapter);
+    expect(service).toBeInstanceOf(GlueProductAdapter);
   });
 
   describe('get', () => {
