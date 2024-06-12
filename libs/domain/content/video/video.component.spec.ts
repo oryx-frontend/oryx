@@ -1,8 +1,8 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { ExperienceService } from '@spryker-oryx/experience';
-import { siteProviders } from '@spryker-oryx/site';
-import { useComponent } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { ExperienceService } from '@oryx-frontend/experience';
+import { siteProviders } from '@oryx-frontend/site';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { Observable, of } from 'rxjs';
 import { ContentVideoComponent } from './video.component';

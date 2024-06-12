@@ -2,7 +2,7 @@ import {
   Suggestion,
   SuggestionQualifier,
   SuggestionService,
-} from '@spryker-oryx/search';
+} from '@oryx-frontend/search';
 import { Observable, of } from 'rxjs';
 import { completion } from './completion.mock';
 import { createSuggestionMock } from './mock-suggestion.generator';

@@ -1,10 +1,10 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { FacetValue } from '@spryker-oryx/product';
-import { generateFacet } from '@spryker-oryx/product/mocks';
-import { FacetListService } from '@spryker-oryx/search';
-import { SearchFacetValueNavigationComponent } from '@spryker-oryx/search/facet-value-navigation';
-import { featureVersion, i18n, useComponent } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { FacetValue } from '@oryx-frontend/product';
+import { generateFacet } from '@oryx-frontend/product/mocks';
+import { FacetListService } from '@oryx-frontend/search';
+import { SearchFacetValueNavigationComponent } from '@oryx-frontend/search/facet-value-navigation';
+import { featureVersion, i18n, useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { SearchFacetComponent } from './facet.component';

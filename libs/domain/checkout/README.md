@@ -4,4 +4,4 @@ Provides anonymous and registered checkout features for an Oryx based applicatio
 
 ## Installation
 
-`npm install @spryker-oryx/checkout`
+`npm install @oryx-frontend/checkout`

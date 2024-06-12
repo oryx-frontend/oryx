@@ -1,5 +1,5 @@
-import { AppPlugin, AppPluginBeforeApply } from '@spryker-oryx/core';
-import { rootInjectable } from '@spryker-oryx/utilities';
+import { AppPlugin, AppPluginBeforeApply } from '@oryx-frontend/core';
+import { rootInjectable } from '@oryx-frontend/utilities';
 import { isServer } from 'lit';
 
 export const previewPluginName = 'oryx.experiencePreview';

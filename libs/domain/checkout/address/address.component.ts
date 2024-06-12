@@ -1,13 +1,13 @@
-import { isValid } from '@spryker-oryx/checkout';
-import { ContentMixin } from '@spryker-oryx/experience';
+import { isValid } from '@oryx-frontend/checkout';
+import { ContentMixin } from '@oryx-frontend/experience';
 import {
   AddressEventDetail,
   AddressMixin,
   CrudState,
-} from '@spryker-oryx/user';
-import { UserAddressFormComponent } from '@spryker-oryx/user/address-form';
-import { AddressDefaults } from '@spryker-oryx/user/address-list-item';
-import { signalAware } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/user';
+import { UserAddressFormComponent } from '@oryx-frontend/user/address-form';
+import { AddressDefaults } from '@oryx-frontend/user/address-list-item';
+import { signalAware } from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { query } from 'lit/decorators.js';
 import { CheckoutAddressOptions } from './address.model';

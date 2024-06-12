@@ -1,6 +1,6 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { PopoverComponent } from '@spryker-oryx/ui/popover';
-import { Size, a11yConfig, useComponent } from '@spryker-oryx/utilities';
+import { PopoverComponent } from '@oryx-frontend/ui/popover';
+import { Size, a11yConfig, useComponent } from '@oryx-frontend/utilities';
 import { DropdownComponent } from './dropdown.component';
 import { dropdownComponent } from './dropdown.def';
 

@@ -1,6 +1,6 @@
 import { dispatchKeydown, userAgentSafariMacOsX154 } from '@/tools/testing';
 import { fixture } from '@open-wc/testing-helpers';
-import { a11yConfig } from '@spryker-oryx/utilities';
+import { a11yConfig } from '@oryx-frontend/utilities';
 import { clear, mockUserAgent } from 'jest-useragent-mock';
 import { LitElement, TemplateResult, html } from 'lit';
 import { customElement } from 'lit/decorators.js';

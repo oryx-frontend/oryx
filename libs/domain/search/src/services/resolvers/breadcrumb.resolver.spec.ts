@@ -1,6 +1,6 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { ProductCategoryService } from '@spryker-oryx/product';
-import { LinkService } from '@spryker-oryx/site';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { ProductCategoryService } from '@oryx-frontend/product';
+import { LinkService } from '@oryx-frontend/site';
 import { of } from 'rxjs';
 import { FacetListService } from '../facet-list.service';
 import {

@@ -1,6 +1,6 @@
 import { getShadowElementBySelector } from '@/tools/testing';
 import { fixture, html } from '@open-wc/testing-helpers';
-import { a11yConfig, useComponent } from '@spryker-oryx/utilities';
+import { a11yConfig, useComponent } from '@oryx-frontend/utilities';
 import { navigationComponent } from '../../navigation/src/component';
 import { NavigationComponent } from '../../navigation/src/navigation.component';
 import { navigationItemComponent } from './component';

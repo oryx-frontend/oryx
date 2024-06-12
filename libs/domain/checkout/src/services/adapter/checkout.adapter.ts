@@ -1,4 +1,4 @@
-import { Serializer, Transformer } from '@spryker-oryx/core';
+import { Serializer, Transformer } from '@oryx-frontend/core';
 import { Observable } from 'rxjs';
 import {
   ApiCheckoutModel,

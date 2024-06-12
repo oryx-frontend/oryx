@@ -1,8 +1,8 @@
 import { elementUpdated, fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { BreadcrumbService } from '@spryker-oryx/site';
-import { IconComponent, IconTypes } from '@spryker-oryx/ui/icon';
-import { I18nRawContent, useComponent } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { BreadcrumbService } from '@oryx-frontend/site';
+import { IconComponent, IconTypes } from '@oryx-frontend/ui/icon';
+import { I18nRawContent, useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { SpyInstance } from 'vitest';

@@ -1,6 +1,6 @@
-import { HttpService } from '@spryker-oryx/core';
-import { HttpTestService } from '@spryker-oryx/core/testing';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { HttpService } from '@oryx-frontend/core';
+import { HttpTestService } from '@oryx-frontend/core/testing';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { AddressFormAdapter } from './address-form.adapter';
 import { DefaultAddressFormAdapter } from './default-address-form.adapter';
 

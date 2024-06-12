@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { map, Observable, of } from 'rxjs';
 import { fromFetch } from 'rxjs/fetch';
 import { Mock } from 'vitest';

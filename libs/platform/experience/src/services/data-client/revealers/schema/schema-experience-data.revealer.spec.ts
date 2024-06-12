@@ -1,7 +1,7 @@
 import { nextFrame } from '@open-wc/testing-helpers';
-import { App, AppRef } from '@spryker-oryx/core';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
-import { ComponentsPlugin } from '@spryker-oryx/utilities';
+import { App, AppRef } from '@oryx-frontend/core';
+import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import { ComponentsPlugin } from '@oryx-frontend/utilities';
 import { of } from 'rxjs';
 import { MessageType } from '../../data-client.model';
 import { SchemaExperienceDataRevealer } from './schema-experience-data.revealer';

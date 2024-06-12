@@ -2,8 +2,8 @@ import {
   ContextService,
   EntityService,
   TransformerService,
-} from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+} from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { of } from 'rxjs';
 import { DefaultJsonLdService } from './default-jsonld.service';
 import { JsonLdNormalizer, jsonLdTokenFactory } from './jsonld.normalizer';

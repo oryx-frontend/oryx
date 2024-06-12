@@ -1,8 +1,8 @@
-import { isFirefox } from '@spryker-oryx/ui';
-import { ButtonColor, ButtonSize, ButtonType } from '@spryker-oryx/ui/button';
-import { HeadingTag } from '@spryker-oryx/ui/heading';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { I18nMixin, featureVersion } from '@spryker-oryx/utilities';
+import { isFirefox } from '@oryx-frontend/ui';
+import { ButtonColor, ButtonSize, ButtonType } from '@oryx-frontend/ui/button';
+import { HeadingTag } from '@oryx-frontend/ui/heading';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { I18nMixin, featureVersion } from '@oryx-frontend/utilities';
 import { LitElement, PropertyValues, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';

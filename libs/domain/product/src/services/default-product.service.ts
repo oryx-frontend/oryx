@@ -1,4 +1,4 @@
-import { injectQuery, QueryState } from '@spryker-oryx/core';
+import { injectQuery, QueryState } from '@oryx-frontend/core';
 import { Observable } from 'rxjs';
 import { Product, ProductQualifier } from '../models';
 import { ProductService } from './product.service';

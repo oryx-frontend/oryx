@@ -1,6 +1,6 @@
-import { ButtonColor, ButtonType } from '@spryker-oryx/ui/button';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { AffixController } from '@spryker-oryx/ui/input';
+import { ButtonColor, ButtonType } from '@oryx-frontend/ui/button';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { AffixController } from '@oryx-frontend/ui/input';
 import { LitElement, ReactiveController, TemplateResult, html } from 'lit';
 import { when } from 'lit/directives/when.js';
 import { getControl } from '../../../form/utilities';

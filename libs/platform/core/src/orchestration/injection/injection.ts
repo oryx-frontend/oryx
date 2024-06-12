@@ -4,7 +4,7 @@ import {
   Injector,
   InjectorOptions,
   Provider,
-} from '@spryker-oryx/di';
+} from '@oryx-frontend/di';
 import { App, AppPlugin, AppPluginBeforeApply, AppRef } from '../app';
 
 export const InjectionPluginName = 'core$injection';

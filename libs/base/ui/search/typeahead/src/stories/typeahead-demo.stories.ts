@@ -1,13 +1,13 @@
 import { branches, getAppIcons, states } from '@/tools/storybook';
-import { AffixOptions } from '@spryker-oryx/ui/input';
-import '@spryker-oryx/ui/popover';
+import { AffixOptions } from '@oryx-frontend/ui/input';
+import '@oryx-frontend/ui/popover';
 import {
   ClearIconAppearance,
   ClearIconPosition,
   SearchAttributes,
   SearchEventDetail,
   SearchIconPosition,
-} from '@spryker-oryx/ui/searchbox';
+} from '@oryx-frontend/ui/searchbox';
 import { Meta, Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';
 import { ifDefined } from 'lit/directives/if-defined.js';

@@ -1,4 +1,4 @@
-import { ssrAwaiter } from '@spryker-oryx/core/utilities';
+import { ssrAwaiter } from '@oryx-frontend/core/utilities';
 import { Observable, map, of } from 'rxjs';
 import { LayoutStyles, LayoutStylesOptions } from '../../../layout.model';
 import {
@@ -9,7 +9,7 @@ import {
   LayoutPluginRenderParams,
 } from '../../layout.plugin';
 
-import { Position } from '@spryker-oryx/ui';
+import { Position } from '@oryx-frontend/ui';
 import { html } from 'lit';
 import { renderLabelSlot } from '../util';
 

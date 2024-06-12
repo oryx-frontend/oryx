@@ -1,6 +1,6 @@
 import { fixture, nextFrame } from '@open-wc/testing-helpers';
-import { destroyInjector } from '@spryker-oryx/di';
-import { useComponent } from '@spryker-oryx/utilities';
+import { destroyInjector } from '@oryx-frontend/di';
+import { useComponent } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { LayoutComponent } from '../layout';

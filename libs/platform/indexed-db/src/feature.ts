@@ -1,5 +1,5 @@
-import { AppFeature } from '@spryker-oryx/core';
-import { inject, Provider } from '@spryker-oryx/di';
+import { AppFeature } from '@oryx-frontend/core';
+import { inject, Provider } from '@oryx-frontend/di';
 import {
   IndexedDbEntities,
   provideIndexedDbEntities,

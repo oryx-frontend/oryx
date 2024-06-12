@@ -1,6 +1,6 @@
-import { HttpService, TransformerService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { LocaleService } from '@spryker-oryx/i18n';
+import { HttpService, TransformerService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { LocaleService } from '@oryx-frontend/i18n';
 import { of } from 'rxjs';
 import { ContentAdapter } from '../../adapter';
 import { StrapiFieldNormalizer } from './normalizers';

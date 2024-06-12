@@ -1,4 +1,4 @@
-import { ButtonSize } from '@spryker-oryx/ui/button';
+import { ButtonSize } from '@oryx-frontend/ui/button';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../../../.constants';

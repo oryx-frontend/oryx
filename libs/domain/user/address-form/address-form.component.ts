@@ -1,26 +1,26 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
 import {
   FormFieldDefinition,
   FormFieldType,
   FormMixin,
   FormRenderer,
   FormValues,
-} from '@spryker-oryx/form';
-import { CountryService } from '@spryker-oryx/site';
+} from '@oryx-frontend/form';
+import { CountryService } from '@oryx-frontend/site';
 import {
   Address,
   AddressEventDetail,
   AddressFormService,
   AddressService,
   UserService,
-} from '@spryker-oryx/user';
+} from '@oryx-frontend/user';
 import {
   computed,
   hydrate,
   signal,
   signalProperty,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property, query } from 'lit/decorators.js';
 import {

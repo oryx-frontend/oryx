@@ -2,10 +2,10 @@ import {
   HttpService,
   JsonApiIncludeService,
   JsonAPITransformerService,
-} from '@spryker-oryx/core';
-import { HttpTestService } from '@spryker-oryx/core/testing';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/core';
+import { HttpTestService } from '@oryx-frontend/core/testing';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { of } from 'rxjs';
 import { ApiProductModel, ProductListQualifier } from '../../../models';
 import { ProductListNormalizer } from '../../adapter';

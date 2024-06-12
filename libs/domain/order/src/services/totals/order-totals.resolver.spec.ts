@@ -1,6 +1,6 @@
-import { TotalsResolver } from '@spryker-oryx/cart';
-import { ContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { TotalsResolver } from '@oryx-frontend/cart';
+import { ContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { of } from 'rxjs';
 import { OrderData } from '../../models';
 import { OrderContext } from '../order-context';

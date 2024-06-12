@@ -1,5 +1,5 @@
-import { ClassTransformer } from '@spryker-oryx/core';
-import { JSONLD } from '@spryker-oryx/site';
+import { ClassTransformer } from '@oryx-frontend/core';
+import { JSONLD } from '@oryx-frontend/site';
 import { Observable, of } from 'rxjs';
 import {
   Product,

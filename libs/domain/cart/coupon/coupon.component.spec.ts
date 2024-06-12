@@ -1,10 +1,10 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { CartService, Coupon } from '@spryker-oryx/cart';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { NotificationService, PricingService } from '@spryker-oryx/site';
-import { AlertType } from '@spryker-oryx/ui';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { useComponent } from '@spryker-oryx/utilities';
+import { CartService, Coupon } from '@oryx-frontend/cart';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { NotificationService, PricingService } from '@oryx-frontend/site';
+import { AlertType } from '@oryx-frontend/ui';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { useComponent } from '@oryx-frontend/utilities';
 import { of, throwError } from 'rxjs';
 import { CouponComponent } from './coupon.component';
 import { couponComponent } from './coupon.def';

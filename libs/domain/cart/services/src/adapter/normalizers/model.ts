@@ -1,5 +1,5 @@
-import { ApiCartModel, CartId } from '@spryker-oryx/cart';
-import { CamelCase } from '@spryker-oryx/core/utilities';
+import { ApiCartModel, CartId } from '@oryx-frontend/cart';
+import { CamelCase } from '@oryx-frontend/core/utilities';
 
 export type DeserializedCartIncludes = {
   [P in ApiCartModel.Includes as `${CamelCase<P>}`]?: P extends

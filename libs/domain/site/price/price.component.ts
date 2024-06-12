@@ -1,11 +1,11 @@
-import { resolve } from '@spryker-oryx/di';
-import { PricingService } from '@spryker-oryx/site';
+import { resolve } from '@oryx-frontend/di';
+import { PricingService } from '@oryx-frontend/site';
 import {
   computed,
   hydrate,
   signalAware,
   signalProperty,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { SitePriceComponentAttributes } from './price.model';

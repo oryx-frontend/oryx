@@ -2,12 +2,12 @@
   "name": "create-oryx",
   "version": "0.33.0",
   "type": "module",
-  "author": "Spryker Systems GmbH",
+  "author": "Oryx frontend team",
   "license": "See license in LICENSE",
-  "description": "Create Spryker Oryx Apps",
+  "description": "Create Oryx Apps",
   "bin": "./bin/main.cjs",
   "devDependencies": {
-    "@spryker-oryx/cli": "*"
+    "@oryx-frontend/cli": "*"
   },
   "publishConfig": {
     "access": "public"

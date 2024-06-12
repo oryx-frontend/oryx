@@ -1,5 +1,5 @@
-import { provideEntity } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
+import { provideEntity } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
 import {
   DefaultProductAdapter,
   DefaultProductImageService,
@@ -16,7 +16,7 @@ import {
   ProductMediaConfig,
   ProductRelationsListService,
   ProductService,
-} from '@spryker-oryx/product';
+} from '@oryx-frontend/product';
 import { MockProductCategoryService } from './mock-category.service';
 import { MockProductService } from './mock-product.service';
 import { MockProductListAdapter } from './product-list';

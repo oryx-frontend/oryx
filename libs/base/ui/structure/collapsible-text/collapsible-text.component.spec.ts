@@ -1,6 +1,6 @@
 import '@/tools/testing';
 import { fixture, html } from '@open-wc/testing-helpers';
-import { i18n, useComponent } from '@spryker-oryx/utilities';
+import { i18n, useComponent } from '@oryx-frontend/utilities';
 import { ButtonComponent, ButtonType } from '../../action/button';
 import { CollapsibleTextComponent } from './collapsible-text.component';
 import { collapsibleTextComponent } from './collapsible-text.def';

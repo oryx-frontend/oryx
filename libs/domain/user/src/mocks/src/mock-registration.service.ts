@@ -1,4 +1,4 @@
-import { RegistrationService, User } from '@spryker-oryx/user';
+import { RegistrationService, User } from '@oryx-frontend/user';
 import { Observable, of } from 'rxjs';
 
 export class MockRegistrationService implements RegistrationService {

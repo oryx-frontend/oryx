@@ -1,4 +1,4 @@
-import { Breakpoint, Size } from '@spryker-oryx/utilities';
+import { Breakpoint, Size } from '@oryx-frontend/utilities';
 import { CSSResult } from 'lit';
 import { LayoutPluginType, LayoutTypes } from './plugins';
 

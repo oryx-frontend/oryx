@@ -2,10 +2,10 @@ import {
   PageMetaResolver,
   TokenResourceResolvers,
   provideEntity,
-} from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
-import { provideLitRoutes } from '@spryker-oryx/router/lit';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
+import { provideLitRoutes } from '@oryx-frontend/router/lit';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { CATEGORY } from '../entity';
 import {
   AvailabilityNormalizer,

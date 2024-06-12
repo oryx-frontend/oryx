@@ -1,5 +1,5 @@
 import { fixture } from '@open-wc/testing-helpers';
-import * as utilities from '@spryker-oryx/utilities';
+import * as utilities from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { ssrShim } from './ssr-shim';

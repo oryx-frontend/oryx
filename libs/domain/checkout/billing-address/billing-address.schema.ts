@@ -1,4 +1,4 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 import { CheckoutBillingAddressComponent } from './billing-address.component';
 
 export const checkoutBillingAddressSchema: ContentComponentSchema<CheckoutBillingAddressComponent> =

@@ -1,9 +1,9 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin } from '@spryker-oryx/experience';
-import { Position } from '@spryker-oryx/ui';
-import { ButtonSize, ButtonType } from '@spryker-oryx/ui/button';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { I18nTranslationValue, hydrate, signal } from '@spryker-oryx/utilities';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { Position } from '@oryx-frontend/ui';
+import { ButtonSize, ButtonType } from '@oryx-frontend/ui/button';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { I18nTranslationValue, hydrate, signal } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { repeat } from 'lit/directives/repeat.js';
 import { PriceModes } from '../src/models';

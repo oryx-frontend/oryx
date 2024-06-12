@@ -1,4 +1,4 @@
-import { Type, observe, signalProperty } from '@spryker-oryx/utilities';
+import { Type, observe, signalProperty } from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { BehaviorSubject } from 'rxjs';
 import { FormController } from '../controllers';

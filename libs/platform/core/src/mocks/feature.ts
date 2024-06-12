@@ -1,4 +1,4 @@
-import { AppFeature, coreFeature } from '@spryker-oryx/core';
+import { AppFeature, coreFeature } from '@oryx-frontend/core';
 import { mockCoreProviders } from './src';
 
 export const mockCoreFeature: AppFeature = {

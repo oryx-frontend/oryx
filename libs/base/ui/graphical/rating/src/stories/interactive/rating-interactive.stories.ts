@@ -1,4 +1,4 @@
-import { wait } from '@spryker-oryx/utilities';
+import { wait } from '@oryx-frontend/utilities';
 import { expect } from '@storybook/jest';
 import { Meta, Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';

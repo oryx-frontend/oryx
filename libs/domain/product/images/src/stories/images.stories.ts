@@ -1,5 +1,5 @@
-import { ProductComponentProperties } from '@spryker-oryx/product';
-import { MockProductService } from '@spryker-oryx/product/mocks';
+import { ProductComponentProperties } from '@oryx-frontend/product';
+import { MockProductService } from '@oryx-frontend/product/mocks';
 import { forceReRender, Meta, Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';
 import { storybookPrefix } from '../../../.constants';

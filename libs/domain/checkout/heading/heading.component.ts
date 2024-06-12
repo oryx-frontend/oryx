@@ -1,6 +1,6 @@
-import { CartComponentMixin } from '@spryker-oryx/cart';
-import { ContentMixin } from '@spryker-oryx/experience';
-import { hydrate } from '@spryker-oryx/utilities';
+import { CartComponentMixin } from '@oryx-frontend/cart';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { styles } from './heading.styles';
 

@@ -1,12 +1,12 @@
-import { HttpService, JsonAPITransformerService } from '@spryker-oryx/core';
-import { HttpTestService } from '@spryker-oryx/core/testing';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { HttpService, JsonAPITransformerService } from '@oryx-frontend/core';
+import { HttpTestService } from '@oryx-frontend/core/testing';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   DefaultRegistrationAdapter,
   RegistrationAdapter,
   UserNormalizer,
   UserSerializer,
-} from '@spryker-oryx/user';
+} from '@oryx-frontend/user';
 import { of } from 'rxjs';
 import { beforeEach } from 'vitest';
 

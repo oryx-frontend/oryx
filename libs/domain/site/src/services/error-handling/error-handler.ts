@@ -1,6 +1,6 @@
-import { ErrorHandler } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { AlertType } from '@spryker-oryx/ui';
+import { ErrorHandler } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { AlertType } from '@oryx-frontend/ui';
 import { NotificationService } from '../notification';
 
 interface ApiError {

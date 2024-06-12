@@ -1,4 +1,4 @@
-import { featureVersion, screenCss } from '@spryker-oryx/utilities';
+import { featureVersion, screenCss } from '@oryx-frontend/utilities';
 import { css, unsafeCSS } from 'lit';
 
 const focusStyles =

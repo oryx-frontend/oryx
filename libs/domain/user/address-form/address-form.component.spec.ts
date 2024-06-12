@@ -1,15 +1,15 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { FormRenderer } from '@spryker-oryx/form';
-import { CountryService } from '@spryker-oryx/site';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { FormRenderer } from '@oryx-frontend/form';
+import { CountryService } from '@oryx-frontend/site';
 import {
   Address,
   AddressFormService,
   AddressService,
   User,
   UserService,
-} from '@spryker-oryx/user';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/user';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { UserAddressFormComponent } from './address-form.component';

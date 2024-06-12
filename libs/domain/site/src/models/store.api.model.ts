@@ -1,4 +1,4 @@
-import { JsonApiModel } from '@spryker-oryx/utilities';
+import { JsonApiModel } from '@oryx-frontend/utilities';
 
 export module ApiStoreModel {
   export interface Country {

@@ -3,7 +3,7 @@ import {
   I18nInjectable,
   I18nTranslation,
   I18nTranslationResult,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { Observable, map } from 'rxjs';
 import { I18nService } from './i18n.service';
 

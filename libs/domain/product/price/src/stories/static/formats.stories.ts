@@ -1,5 +1,5 @@
-import { resolve } from '@spryker-oryx/di';
-import { LocaleService } from '@spryker-oryx/i18n';
+import { resolve } from '@oryx-frontend/di';
+import { LocaleService } from '@oryx-frontend/i18n';
 import { Meta, Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';
 import { storybookPrefix } from '../../../../.constants';

@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { CrudState } from '../../models';
 import { AddressStateService } from './address-state.service';
 import { DefaultAddressStateService } from './default-address-state.service';

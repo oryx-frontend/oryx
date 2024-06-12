@@ -1,7 +1,7 @@
-import { ssrAwaiter } from '@spryker-oryx/core/utilities';
-import { INJECTOR, inject } from '@spryker-oryx/di';
-import { LayoutProperties } from '@spryker-oryx/experience/layout';
-import { Breakpoint, featureVersion, sizes } from '@spryker-oryx/utilities';
+import { ssrAwaiter } from '@oryx-frontend/core/utilities';
+import { INJECTOR, inject } from '@oryx-frontend/di';
+import { LayoutProperties } from '@oryx-frontend/experience/layout';
+import { Breakpoint, featureVersion, sizes } from '@oryx-frontend/utilities';
 import { Observable, map, merge, of, reduce } from 'rxjs';
 import { CompositionLayout } from '../../models';
 import { LayoutBuilder } from './layout.builder';

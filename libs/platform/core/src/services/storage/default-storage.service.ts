@@ -1,5 +1,5 @@
-import { inject, INJECTOR } from '@spryker-oryx/di';
-import { subscribeReplay, toObservable } from '@spryker-oryx/utilities';
+import { inject, INJECTOR } from '@oryx-frontend/di';
+import { subscribeReplay, toObservable } from '@oryx-frontend/utilities';
 import { isObservable, map, Observable, of } from 'rxjs';
 import { IndexedDBStorageService } from './indexed-db-storage.service';
 import { StorageType } from './model';

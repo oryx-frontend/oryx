@@ -1,6 +1,6 @@
-import { ExperienceComponent } from '@spryker-oryx/experience';
-import { RouteType } from '@spryker-oryx/router';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { ExperienceComponent } from '@oryx-frontend/experience';
+import { RouteType } from '@oryx-frontend/router';
+import { featureVersion } from '@oryx-frontend/utilities';
 
 const orderEntries = (): ExperienceComponent => {
   if (featureVersion >= '1.2')

@@ -1,10 +1,10 @@
-import { ContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { ContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   PRODUCT,
   ProductPageCanonicalUrlResolver,
-} from '@spryker-oryx/product';
-import { LinkService, RouterService } from '@spryker-oryx/router';
+} from '@oryx-frontend/product';
+import { LinkService, RouterService } from '@oryx-frontend/router';
 import { of } from 'rxjs';
 
 const mockContextService = {

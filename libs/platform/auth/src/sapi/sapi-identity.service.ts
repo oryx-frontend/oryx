@@ -5,10 +5,10 @@ import {
   AuthTokenService,
   IdentityOptions,
   IdentityService,
-} from '@spryker-oryx/auth';
-import { StorageService, StorageType } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/auth';
+import { StorageService, StorageType } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { featureVersion } from '@oryx-frontend/utilities';
 import {
   BehaviorSubject,
   Observable,

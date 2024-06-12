@@ -1,7 +1,7 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
-import { FormFieldType } from '@spryker-oryx/form';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { PasswordVisibilityStrategy } from '@spryker-oryx/ui/password';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
+import { FormFieldType } from '@oryx-frontend/form';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { PasswordVisibilityStrategy } from '@oryx-frontend/ui/password';
 import { UserRegistrationComponent } from './registration.component';
 
 export const registrationComponentSchema: ContentComponentSchema<UserRegistrationComponent> =

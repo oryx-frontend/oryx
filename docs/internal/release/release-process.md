@@ -31,7 +31,7 @@ This workflow should be used in case regular workflow
 
 1. Create branch from `development` for next minor/major as `release/v1.2.x`
 2. Set the version of every package in `libs` manually (ex. `1.2.0`).
-3. Update every `@spryker-oryx` `peerDependency` in every package in `libs` manually (ex. `1.2.0`).
+3. Update every `@oryx-frontend` `peerDependency` in every package in `libs` manually (ex. `1.2.0`).
 4. Update `libs/lerna.json` version `1.2.0`.
 5. Push the release branch.
 6. Trigger Release from packages workflow from Github actions panel on release branch.

@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { mockProductProviders } from '../../mocks/src';
 import { ImageSource, ProductMediaContainerSize } from '../../models';
 import { DefaultProductImageService } from './default-product-image.service';

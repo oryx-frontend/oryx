@@ -1,6 +1,6 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { ButtonSize } from '@spryker-oryx/ui/button';
-import { useComponent } from '@spryker-oryx/utilities';
+import { ButtonSize } from '@oryx-frontend/ui/button';
+import { useComponent } from '@oryx-frontend/utilities';
 import { UiStateController } from '../../src/controllers';
 import { CollapsibleComponent } from './collapsible.component';
 import { collapsibleComponent } from './collapsible.def';

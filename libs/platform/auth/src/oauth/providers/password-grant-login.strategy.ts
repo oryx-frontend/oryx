@@ -1,5 +1,5 @@
-import { AuthLoginStrategy, LoginRequest } from '@spryker-oryx/auth/login';
-import { inject } from '@spryker-oryx/di';
+import { AuthLoginStrategy, LoginRequest } from '@oryx-frontend/auth/login';
+import { inject } from '@oryx-frontend/di';
 import { Observable } from 'rxjs';
 import { OauthService } from '../oauth.service';
 import { OauthPasswordProviderRequest } from './password-grant';

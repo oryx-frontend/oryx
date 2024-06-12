@@ -1,8 +1,8 @@
-import { TokenResolver } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { RouteType } from '@spryker-oryx/router';
-import { RouteConfig } from '@spryker-oryx/router/lit';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { TokenResolver } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { RouteType } from '@oryx-frontend/router';
+import { RouteConfig } from '@oryx-frontend/router/lit';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { html, TemplateResult } from 'lit';
 import { map, take } from 'rxjs';
 import 'urlpattern-polyfill';

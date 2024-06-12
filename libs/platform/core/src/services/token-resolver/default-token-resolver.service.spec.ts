@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { of } from 'rxjs';
 import { SpyInstance } from 'vitest';
 import { DefaultTokenService } from './default-token-resolver.service';

@@ -2,8 +2,8 @@ import {
   HttpHandlerFn,
   HttpInterceptor,
   RequestOptions,
-} from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+} from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import {
   catchError,
   finalize,

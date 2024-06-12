@@ -1,5 +1,5 @@
 import { mockLitHtml } from '@/tools/testing';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
 import { html } from 'lit';
 import { of, take } from 'rxjs';
 import { Suggestion } from '../../../models';

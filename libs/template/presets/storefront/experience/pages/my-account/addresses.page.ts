@@ -1,6 +1,6 @@
-import { ExperienceComponent } from '@spryker-oryx/experience';
-import { RouteType } from '@spryker-oryx/router';
-import { EditTarget } from '@spryker-oryx/user/address-list-item';
+import { ExperienceComponent } from '@oryx-frontend/experience';
+import { RouteType } from '@oryx-frontend/router';
+import { EditTarget } from '@oryx-frontend/user/address-list-item';
 
 export const addressBookPage: ExperienceComponent = {
   id: 'address-book',

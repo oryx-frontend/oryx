@@ -1,7 +1,7 @@
-import { ExperienceComponent } from '@spryker-oryx/experience';
-import { PRODUCT } from '@spryker-oryx/product';
-import { HeadingTag } from '@spryker-oryx/ui/heading';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { ExperienceComponent } from '@oryx-frontend/experience';
+import { PRODUCT } from '@oryx-frontend/product';
+import { HeadingTag } from '@oryx-frontend/ui/heading';
+import { featureVersion } from '@oryx-frontend/utilities';
 
 export const productPage: ExperienceComponent = {
   id: 'product-page',

@@ -1,4 +1,4 @@
-import { HeadingTag } from '@spryker-oryx/ui/heading';
+import { HeadingTag } from '@oryx-frontend/ui/heading';
 
 export {};
 

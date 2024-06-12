@@ -1,4 +1,4 @@
-import { Transformer } from '@spryker-oryx/core';
+import { Transformer } from '@oryx-frontend/core';
 import { ProductAvailability } from '../../../../models/product.model';
 import { DeserializedAvailability } from './model';
 

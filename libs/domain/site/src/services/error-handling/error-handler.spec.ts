@@ -1,6 +1,6 @@
-import { ErrorHandler } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { AlertType } from '@spryker-oryx/ui';
+import { ErrorHandler } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { AlertType } from '@oryx-frontend/ui';
 import { NotificationService } from '../notification';
 import { SiteErrorHandler } from './error-handler';
 

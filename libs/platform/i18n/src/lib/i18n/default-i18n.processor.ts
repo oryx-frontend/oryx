@@ -1,5 +1,5 @@
-import { inject } from '@spryker-oryx/di';
-import { DefaultI18nInjectable, I18nContext } from '@spryker-oryx/utilities';
+import { inject } from '@oryx-frontend/di';
+import { DefaultI18nInjectable, I18nContext } from '@oryx-frontend/utilities';
 import {
   combineLatest,
   distinctUntilChanged,

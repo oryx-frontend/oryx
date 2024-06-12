@@ -1,4 +1,4 @@
-import { componentDef } from '@spryker-oryx/utilities';
+import { componentDef } from '@oryx-frontend/utilities';
 import { DataWrapperComponentOptions } from './data-wrapper.model';
 
 declare global {

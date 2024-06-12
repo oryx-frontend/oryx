@@ -1,8 +1,8 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   ProductListPageService,
   ProductListService,
-} from '@spryker-oryx/product';
+} from '@oryx-frontend/product';
 import { Observable, of } from 'rxjs';
 import { DefaultFacetListService } from './default-facet-list.service';
 import { FacetListService } from './facet-list.service';

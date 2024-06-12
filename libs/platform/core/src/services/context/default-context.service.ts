@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import { inject, INJECTOR } from '@spryker-oryx/di';
+import { inject, INJECTOR } from '@oryx-frontend/di';
 import {
   BehaviorSubject,
   distinctUntilChanged,

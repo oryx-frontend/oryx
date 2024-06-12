@@ -1,4 +1,4 @@
-import { FieldOrMethodContext, TargetContext } from '@spryker-oryx/utilities';
+import { FieldOrMethodContext, TargetContext } from '@oryx-frontend/utilities';
 import { IndexedDbPrimaryKey, IndexedDbWithPropPath } from '../models';
 import { IndexedDbSchemaMetadata } from '../schema-metadata';
 

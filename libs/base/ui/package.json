@@ -1,8 +1,8 @@
 {
-  "name": "@spryker-oryx/ui",
+  "name": "@oryx-frontend/ui",
   "version": "1.4.0",
   "type": "module",
-  "author": "Spryker Systems GmbH",
+  "author": "Oryx frontend team",
   "license": "See license in LICENSE",
   "description": "Design System for Oryx applications",
   "files": [
@@ -14,7 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@spryker-oryx/utilities": "1.4.0"
+    "@oryx-frontend/utilities": "1.4.0"
   },
   "peerDependencies": {
     "lit": "^2.4.0",

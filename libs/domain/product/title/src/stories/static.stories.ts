@@ -1,4 +1,4 @@
-import { HeadingTag } from '@spryker-oryx/ui/heading';
+import { HeadingTag } from '@oryx-frontend/ui/heading';
 import { Meta, Story } from '@storybook/web-components';
 
 import { html, TemplateResult } from 'lit';

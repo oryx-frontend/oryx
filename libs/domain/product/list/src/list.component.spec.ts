@@ -1,17 +1,17 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { LayoutBuilder, LayoutService } from '@spryker-oryx/experience';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { LayoutBuilder, LayoutService } from '@oryx-frontend/experience';
 import {
   ProductListPageService,
   ProductListQualifier,
   ProductListService,
   SortParamNames,
-} from '@spryker-oryx/product';
+} from '@oryx-frontend/product';
 import {
   MockProductService,
   mockProductProviders,
-} from '@spryker-oryx/product/mocks';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/product/mocks';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { ProductListComponent } from './list.component';

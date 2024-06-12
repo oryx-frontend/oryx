@@ -6,14 +6,14 @@
 
 /// <reference types="urlpattern-polyfill" />
 
-import { SSRAwaiterService } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
+import { SSRAwaiterService } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
 import {
   BASE_ROUTE,
   RouteParams,
   RouterService,
   RouteType,
-} from '@spryker-oryx/router';
+} from '@oryx-frontend/router';
 import type { ReactiveController, ReactiveControllerHost } from 'lit';
 import { html, isServer, TemplateResult } from 'lit';
 import {
@@ -27,7 +27,7 @@ import {
   tap,
 } from 'rxjs';
 
-import { featureVersion } from '@spryker-oryx/utilities';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { when } from 'lit/directives/when.js';
 import { LitRoutesRegistry } from './lit-routes-registry';
 

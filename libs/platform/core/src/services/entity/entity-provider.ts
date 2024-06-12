@@ -1,4 +1,4 @@
-import { Provider } from '@spryker-oryx/di';
+import { Provider } from '@oryx-frontend/di';
 import { Observable } from 'rxjs';
 
 export const EntityProvider = 'oryx.EntityProvider*';

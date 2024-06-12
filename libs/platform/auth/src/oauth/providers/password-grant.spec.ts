@@ -1,7 +1,7 @@
 import { nextFrame } from '@open-wc/testing-helpers';
-import { HttpService, StorageService } from '@spryker-oryx/core';
-import { HttpTestService } from '@spryker-oryx/core/testing';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import { HttpService, StorageService } from '@oryx-frontend/core';
+import { HttpTestService } from '@oryx-frontend/core/testing';
+import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
 import { BehaviorSubject, catchError, of, switchMap } from 'rxjs';
 import { OauthTokenInterceptor } from '../oauth-token.interceptor';
 import {

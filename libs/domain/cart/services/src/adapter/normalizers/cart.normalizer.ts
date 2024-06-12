@@ -1,5 +1,5 @@
-import { ApiCartModel, Cart } from '@spryker-oryx/cart';
-import { camelize } from '@spryker-oryx/core/utilities';
+import { ApiCartModel, Cart } from '@oryx-frontend/cart';
+import { camelize } from '@oryx-frontend/core/utilities';
 import { DeserializedCart } from './model';
 
 export function cartAttributesNormalizer(data: DeserializedCart): Cart {

@@ -1,4 +1,4 @@
-import { inject, INJECTOR, OnDestroy } from '@spryker-oryx/di';
+import { inject, INJECTOR, OnDestroy } from '@oryx-frontend/di';
 import {
   ComponentsPlugin,
   deferHydrationAttribute,
@@ -8,7 +8,7 @@ import {
   HYDRATE_ON_DEMAND,
   rootInjectable,
   treewalk,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { skip, Subscription, take } from 'rxjs';
 import { AppRef } from '../../orchestration/app';

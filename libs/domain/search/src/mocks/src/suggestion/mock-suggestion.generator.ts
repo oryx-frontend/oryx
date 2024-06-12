@@ -1,12 +1,12 @@
-import { Product, PRODUCTS } from '@spryker-oryx/product';
-import { RouteType } from '@spryker-oryx/router';
+import { Product, PRODUCTS } from '@oryx-frontend/product';
+import { RouteType } from '@oryx-frontend/router';
 import {
   Suggestion,
   SuggestionField,
   SuggestionQualifier,
   SuggestionResource,
-} from '@spryker-oryx/search';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/search';
+import { featureVersion } from '@oryx-frontend/utilities';
 
 const dummyUrl = (): string => '#';
 const makeTheNameGreatAgain = (name: string): string =>

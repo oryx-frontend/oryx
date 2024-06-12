@@ -1,6 +1,6 @@
-import { IdentityService } from '@spryker-oryx/auth';
-import { StorageService, StorageType } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { IdentityService } from '@oryx-frontend/auth';
+import { StorageService, StorageType } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { Observable, catchError, of, shareReplay, switchMap } from 'rxjs';
 import { OrderData, orderStorageKey } from '../models';
 import { GetOrderDataProps, OrderAdapter } from './adapter';

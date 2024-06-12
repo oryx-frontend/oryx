@@ -1,6 +1,6 @@
-import { TotalsController } from '@spryker-oryx/cart';
-import { ContentMixin } from '@spryker-oryx/experience';
-import { hydrate, signal, signalAware } from '@spryker-oryx/utilities';
+import { TotalsController } from '@oryx-frontend/cart';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { hydrate, signal, signalAware } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 
 @hydrate({ event: 'window:load' })

@@ -4,7 +4,7 @@ import {
   a11yConfig,
   queryFirstAssigned,
   useComponent,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { toggleComponent } from './component';
 import { ToggleComponent } from './toggle.component';

@@ -1,5 +1,5 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { RouteWithParams, RouterService } from '@spryker-oryx/router';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { RouteWithParams, RouterService } from '@oryx-frontend/router';
 import { Observable, of } from 'rxjs';
 import { SpyInstance } from 'vitest';
 import { BreadcrumbItem } from '../../models';

@@ -1,10 +1,10 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
 import {
   ProductListPageService,
   ProductListQualifier,
-} from '@spryker-oryx/product';
-import { hydrate, signal } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/product';
+import { hydrate, signal } from '@oryx-frontend/utilities';
 import { html, LitElement } from 'lit';
 import { TemplateResult } from 'lit/development';
 import urlJoin from 'url-join';

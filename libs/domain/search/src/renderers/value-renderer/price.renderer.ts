@@ -1,5 +1,5 @@
-import { Facet } from '@spryker-oryx/product';
-import { SelectFacetEventDetail } from '@spryker-oryx/search';
+import { Facet } from '@oryx-frontend/product';
+import { SelectFacetEventDetail } from '@oryx-frontend/search';
 import { TemplateResult, html } from 'lit';
 import { FacetMappingOptions, FacetParams } from '../renderer';
 

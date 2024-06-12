@@ -2,8 +2,8 @@ import {
   ExperienceComponent,
   ObjectFit,
   StyleRuleSet,
-} from '@spryker-oryx/experience';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/experience';
+import { featureVersion } from '@oryx-frontend/utilities';
 
 const brand = (name: string, rules?: StyleRuleSet[]) => ({
   type: 'oryx-content-image',

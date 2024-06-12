@@ -1,10 +1,10 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { CartService } from '@spryker-oryx/cart';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { ProductService } from '@spryker-oryx/product';
-import { MockProductService } from '@spryker-oryx/product/mocks';
-import { PricingService } from '@spryker-oryx/site';
-import { useComponent } from '@spryker-oryx/utilities';
+import { CartService } from '@oryx-frontend/cart';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { ProductService } from '@oryx-frontend/product';
+import { MockProductService } from '@oryx-frontend/product/mocks';
+import { PricingService } from '@oryx-frontend/site';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { CartEntriesComponent } from './entries.component';

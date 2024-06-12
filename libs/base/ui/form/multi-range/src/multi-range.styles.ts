@@ -1,4 +1,4 @@
-import { featureVersion } from '@spryker-oryx/utilities';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { css, unsafeCSS } from 'lit';
 
 const disabledThumbStyles = unsafeCSS(`
@@ -9,7 +9,7 @@ const disabledThumbStyles = unsafeCSS(`
 const thumbStyles = unsafeCSS(`
   width: var(--_height);
   height: var(--_height);
-  
+
   background: var(--oryx-color-neutral-4);
   border: 1px solid var(--oryx-color-neutral-9);
   border-radius: 50%;

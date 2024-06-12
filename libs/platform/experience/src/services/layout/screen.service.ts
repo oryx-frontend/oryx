@@ -1,4 +1,4 @@
-import { Breakpoint, Breakpoints, Size } from '@spryker-oryx/utilities';
+import { Breakpoint, Breakpoints, Size } from '@oryx-frontend/utilities';
 import { Observable } from 'rxjs';
 
 export const ScreenService = 'oryx.ScreenService';

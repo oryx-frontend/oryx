@@ -1,14 +1,14 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
 import {
   Address,
   AddressEventDetail,
   AddressService,
   AddressStateService,
   CrudState,
-} from '@spryker-oryx/user';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/user';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { BehaviorSubject, of } from 'rxjs';
 import { SpyInstance } from 'vitest';

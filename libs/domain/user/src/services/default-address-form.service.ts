@@ -1,6 +1,6 @@
-import { ErrorService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { AddressForm } from '@spryker-oryx/user/address-form';
+import { ErrorService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { AddressForm } from '@oryx-frontend/user/address-form';
 import { catchError, Observable, of, switchMap } from 'rxjs';
 import { AddressFormQualifier } from '../models';
 import { AddressFormAdapter } from './adapter';

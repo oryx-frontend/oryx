@@ -1,6 +1,6 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { a11yConfig, Size, useComponent } from '@spryker-oryx/utilities';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { a11yConfig, Size, useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { spinnerComponent } from './component';
 import { SpinnerComponent } from './spinner.component';

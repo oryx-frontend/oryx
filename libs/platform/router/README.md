@@ -4,4 +4,4 @@ Provides routing functionality to Oryx applications.
 
 ## Installation
 
-`npm install @spryker-oryx/router`
+`npm install @oryx-frontend/router`

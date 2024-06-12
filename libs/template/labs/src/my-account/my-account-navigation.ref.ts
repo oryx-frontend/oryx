@@ -1,6 +1,6 @@
-import { ExperienceComponent } from '@spryker-oryx/experience';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { i18n } from '@spryker-oryx/utilities';
+import { ExperienceComponent } from '@oryx-frontend/experience';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { i18n } from '@oryx-frontend/utilities';
 
 export const myAccountNavigation: ExperienceComponent = {
   type: 'oryx-composition',

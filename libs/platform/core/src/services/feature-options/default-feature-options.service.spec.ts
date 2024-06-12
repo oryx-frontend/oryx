@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
 import { DefaultFeatureOptionsService } from './default-feature-options.service';
 import {
   FeatureOptions,

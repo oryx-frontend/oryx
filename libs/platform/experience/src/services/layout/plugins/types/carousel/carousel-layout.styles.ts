@@ -1,4 +1,4 @@
-import { featureVersion } from '@spryker-oryx/utilities';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { css } from 'lit';
 import { LayoutStyles } from '../../../layout.model';
 import { gridSystem } from '../../grid-system.styles';

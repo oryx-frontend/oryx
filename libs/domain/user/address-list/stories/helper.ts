@@ -1,10 +1,10 @@
-import { resolve } from '@spryker-oryx/di';
-import { AddressService } from '@spryker-oryx/user';
+import { resolve } from '@oryx-frontend/di';
+import { AddressService } from '@oryx-frontend/user';
 import {
   AddressDefaults,
   UserAddressListItemOptions,
-} from '@spryker-oryx/user/address-list-item';
-import { MockAddressService, MockAddressType } from '@spryker-oryx/user/mocks';
+} from '@oryx-frontend/user/address-list-item';
+import { MockAddressService, MockAddressType } from '@oryx-frontend/user/mocks';
 import { html, TemplateResult } from 'lit';
 
 export const renderSelector = (

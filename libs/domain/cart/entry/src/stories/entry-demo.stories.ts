@@ -1,4 +1,4 @@
-import { MockProductService } from '@spryker-oryx/product/mocks';
+import { MockProductService } from '@oryx-frontend/product/mocks';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../../.constants';

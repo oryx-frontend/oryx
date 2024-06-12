@@ -1,6 +1,6 @@
-import { AppInitializer, PageMetaService } from '@spryker-oryx/core';
-import { OnDestroy, inject } from '@spryker-oryx/di';
-import { LocaleService } from '@spryker-oryx/i18n';
+import { AppInitializer, PageMetaService } from '@oryx-frontend/core';
+import { OnDestroy, inject } from '@oryx-frontend/di';
+import { LocaleService } from '@oryx-frontend/i18n';
 
 import { Subscription, tap } from 'rxjs';
 

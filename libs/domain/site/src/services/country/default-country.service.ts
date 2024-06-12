@@ -1,4 +1,4 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import { BehaviorSubject, combineLatest, filter, map, Observable } from 'rxjs';
 import { Country } from '../../models';
 import { StoreService } from '../store';

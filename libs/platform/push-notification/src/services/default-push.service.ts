@@ -1,4 +1,4 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import { Observable } from 'rxjs';
 import { PushProvider } from './providers';
 import { PushService } from './push.service';

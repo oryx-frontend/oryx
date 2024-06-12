@@ -3,7 +3,7 @@ import {
   Resolver,
   ResourceResolverConfig,
   TokenResourceResolver,
-} from '@spryker-oryx/core';
+} from '@oryx-frontend/core';
 import { Observable, of } from 'rxjs';
 
 export class BaseResolver<T extends Record<string, Resolver>>

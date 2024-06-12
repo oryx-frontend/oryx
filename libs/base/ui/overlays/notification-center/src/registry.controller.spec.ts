@@ -1,5 +1,5 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { AlertType } from '@spryker-oryx/ui';
+import { AlertType } from '@oryx-frontend/ui';
 import { LitElement } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { RegistryController } from './registry.controller';

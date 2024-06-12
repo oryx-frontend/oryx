@@ -1,4 +1,4 @@
-import { ssrAwaiter } from '@spryker-oryx/core/utilities';
+import { ssrAwaiter } from '@oryx-frontend/core/utilities';
 import { Observable, of } from 'rxjs';
 import { LayoutStyles } from '../../../layout.model';
 import { LayoutPlugin, LayoutPluginConfig } from '../../layout.plugin';

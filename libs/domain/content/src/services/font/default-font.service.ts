@@ -1,5 +1,5 @@
-import { PageMetaService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { PageMetaService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { FontService } from './font.service';
 
 export class DefaultFontService implements FontService {

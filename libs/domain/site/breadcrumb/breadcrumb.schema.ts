@@ -1,7 +1,7 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
-import { FormFieldType } from '@spryker-oryx/form';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { i18n, iconInjectable } from '@spryker-oryx/utilities';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
+import { FormFieldType } from '@oryx-frontend/form';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { i18n, iconInjectable } from '@oryx-frontend/utilities';
 import { SiteBreadcrumbComponent } from './breadcrumb.component';
 
 const icons =

@@ -4,9 +4,9 @@ import {
   AppFeature,
   InjectionPlugin,
   SimpleAppBuilder,
-} from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
-import { ComponentsInfo } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
+import { ComponentsInfo } from '@oryx-frontend/utilities';
 import { AppBuilderWithModules, ModularAppBuilderOptions } from './app.model';
 
 /**

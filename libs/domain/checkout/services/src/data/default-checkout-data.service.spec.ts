@@ -1,15 +1,15 @@
-import { CartQuery, CartService } from '@spryker-oryx/cart';
+import { CartQuery, CartService } from '@oryx-frontend/cart';
 import {
   CheckoutAdapter,
   CheckoutDataService,
   CheckoutStateService,
-} from '@spryker-oryx/checkout';
+} from '@oryx-frontend/checkout';
 import {
   DefaultQueryService,
   QueryService,
   provideQuery,
-} from '@spryker-oryx/core';
-import { Injector, createInjector, destroyInjector } from '@spryker-oryx/di';
+} from '@oryx-frontend/core';
+import { Injector, createInjector, destroyInjector } from '@oryx-frontend/di';
 import { of, take } from 'rxjs';
 import { DefaultCheckoutDataService } from './';
 

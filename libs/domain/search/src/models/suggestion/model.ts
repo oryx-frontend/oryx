@@ -1,5 +1,5 @@
-import { Product } from '@spryker-oryx/product';
-import { RouteType } from '@spryker-oryx/router';
+import { Product } from '@oryx-frontend/product';
+import { RouteType } from '@oryx-frontend/router';
 import { SuggestionField } from '../../services';
 
 export interface SuggestionResource {

@@ -1,4 +1,4 @@
-import { mockUser } from '@spryker-oryx/user/mocks';
+import { mockUser } from '@oryx-frontend/user/mocks';
 import { userDataNormalizer } from './user.normalizer';
 
 describe('User Normalizers', () => {

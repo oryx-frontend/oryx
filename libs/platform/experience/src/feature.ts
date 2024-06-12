@@ -1,5 +1,5 @@
-import { AppFeature } from '@spryker-oryx/core';
-import { provideLitRoutes } from '@spryker-oryx/router/lit';
+import { AppFeature } from '@oryx-frontend/core';
+import { provideLitRoutes } from '@oryx-frontend/router/lit';
 import * as components from './components';
 import { PreviewPlugin } from './plugins';
 import { defaultExperienceRoutes } from './routes';

@@ -1,4 +1,4 @@
-import { componentDef } from '@spryker-oryx/utilities';
+import { componentDef } from '@oryx-frontend/utilities';
 import { SearchFacetNavigationOptions } from './facet-navigation.model';
 
 declare global {

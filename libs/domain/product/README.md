@@ -6,4 +6,4 @@ The product component can also be used in other features, e.g. a product image c
 
 ## Installation
 
-`npm install @spryker-oryx/product`
+`npm install @oryx-frontend/product`

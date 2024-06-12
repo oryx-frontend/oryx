@@ -1,6 +1,6 @@
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { Address, AddressMixin } from '@spryker-oryx/user';
-import { computed, hydrate } from '@spryker-oryx/utilities';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { Address, AddressMixin } from '@oryx-frontend/user';
+import { computed, hydrate } from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import {
   AddressOptions,

@@ -1,6 +1,6 @@
-import { HydrationTrigger } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { rootInjectable } from '@spryker-oryx/utilities';
+import { HydrationTrigger } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { rootInjectable } from '@oryx-frontend/utilities';
 import { map, Observable, skip, take } from 'rxjs';
 import { RouterService } from './router.service';
 

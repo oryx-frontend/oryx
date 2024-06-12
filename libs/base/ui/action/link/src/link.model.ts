@@ -1,4 +1,4 @@
-import { Icons } from '@spryker-oryx/ui/icon';
+import { Icons } from '@oryx-frontend/ui/icon';
 
 export interface LinkComponentAttributes {
   linkType?: LinkType;

@@ -1,9 +1,9 @@
 {
-  "name": "@spryker-oryx/auth",
+  "name": "@oryx-frontend/auth",
   "version": "1.4.0",
   "type": "module",
   "description": "Authentication features for Oryx applications",
-  "author": "Spryker Systems GmbH",
+  "author": "Oryx frontend team",
   "license": "See license in LICENSE",
   "files": [
     "**/*"
@@ -11,13 +11,13 @@
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
   "dependencies": {
-    "@spryker-oryx/core": "1.4.0",
-    "@spryker-oryx/di": "1.4.0",
-    "@spryker-oryx/experience": "1.4.0",
-    "@spryker-oryx/i18n": "1.4.0",
-    "@spryker-oryx/router": "1.4.0",
-    "@spryker-oryx/ui": "1.4.0",
-    "@spryker-oryx/utilities": "1.4.0",
+    "@oryx-frontend/core": "1.4.0",
+    "@oryx-frontend/di": "1.4.0",
+    "@oryx-frontend/experience": "1.4.0",
+    "@oryx-frontend/i18n": "1.4.0",
+    "@oryx-frontend/router": "1.4.0",
+    "@oryx-frontend/ui": "1.4.0",
+    "@oryx-frontend/utilities": "1.4.0",
     "oauth4webapi": "^2.1.0"
   },
   "peerDependencies": {

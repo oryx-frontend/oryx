@@ -1,4 +1,4 @@
-import { PasswordVisibilityStrategy } from '@spryker-oryx/ui/password';
+import { PasswordVisibilityStrategy } from '@oryx-frontend/ui/password';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';

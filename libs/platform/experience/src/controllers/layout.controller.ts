@@ -1,10 +1,10 @@
-import { ssrAwaiter } from '@spryker-oryx/core/utilities';
-import { resolve } from '@spryker-oryx/di';
+import { ssrAwaiter } from '@oryx-frontend/core/utilities';
+import { resolve } from '@oryx-frontend/di';
 import {
   LayoutAttributes,
   LayoutProperties,
-} from '@spryker-oryx/experience/layout';
-import { Size, featureVersion, sizes } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/experience/layout';
+import { Size, featureVersion, sizes } from '@oryx-frontend/utilities';
 import { LitElement, html } from 'lit';
 import { Observable, combineLatest, map, of, startWith, switchMap } from 'rxjs';
 import {

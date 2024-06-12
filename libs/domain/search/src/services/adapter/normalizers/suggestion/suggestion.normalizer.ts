@@ -1,14 +1,14 @@
-import { Transformer, TransformerService } from '@spryker-oryx/core';
-import { camelize } from '@spryker-oryx/core/utilities';
-import { Provider } from '@spryker-oryx/di';
+import { Transformer, TransformerService } from '@oryx-frontend/core';
+import { camelize } from '@oryx-frontend/core/utilities';
+import { Provider } from '@oryx-frontend/di';
 import {
   ApiProductModel,
   ConcreteProductsNormalizer,
   PRODUCTS,
   Product,
-} from '@spryker-oryx/product';
-import { RouteType } from '@spryker-oryx/router';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/product';
+import { RouteType } from '@oryx-frontend/router';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { Observable, map } from 'rxjs';
 import { Suggestion } from '../../../../models';
 import { SuggestionField } from '../../suggestion.adapter';

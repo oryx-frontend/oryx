@@ -4,4 +4,4 @@ Provides authentication functionality to Oryx applications.
 
 ## Installation
 
-`npm install @spryker-oryx/auth`
+`npm install @oryx-frontend/auth`

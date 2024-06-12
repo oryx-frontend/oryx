@@ -1,4 +1,4 @@
-import { featureVersion } from '@spryker-oryx/utilities';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { css, unsafeCSS as unsafecss } from 'lit';
 import { POPOVER_HEIGHT } from '../popover';
 import { Position } from './dropdown.model';

@@ -4,4 +4,4 @@ Provides internationalization features to Oryx applications.
 
 ## Installation
 
-`npm install @spryker-oryx/i18n`
+`npm install @oryx-frontend/i18n`

@@ -1,4 +1,4 @@
-import { inject, INJECTOR } from '@spryker-oryx/di';
+import { inject, INJECTOR } from '@oryx-frontend/di';
 import { Observable, of } from 'rxjs';
 import {
   IncludeDefinition,

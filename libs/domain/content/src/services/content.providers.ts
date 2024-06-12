@@ -1,5 +1,5 @@
-import { Provider } from '@spryker-oryx/di';
-import { ExperienceAdapter } from '@spryker-oryx/experience';
+import { Provider } from '@oryx-frontend/di';
+import { ExperienceAdapter } from '@oryx-frontend/experience';
 import { ContentExperienceAdapter } from './adapter';
 import {
   contentfulProviders,

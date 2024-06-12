@@ -1,4 +1,4 @@
-import { OnDestroy } from '@spryker-oryx/di';
+import { OnDestroy } from '@oryx-frontend/di';
 import { AppInitializer } from '../app-initializer';
 
 export interface ErrorService extends AppInitializer, OnDestroy {

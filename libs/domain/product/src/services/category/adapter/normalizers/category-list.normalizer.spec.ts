@@ -1,5 +1,5 @@
-import { QueryService } from '@spryker-oryx/core';
-import * as di from '@spryker-oryx/di';
+import { QueryService } from '@oryx-frontend/core';
+import * as di from '@oryx-frontend/di';
 import { SpyInstance } from 'vitest';
 import { CategoriesLoaded } from '../../state';
 import { categoryListNormalizerFactory } from './category-list.normalizer';

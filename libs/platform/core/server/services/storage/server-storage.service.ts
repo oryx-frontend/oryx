@@ -1,4 +1,4 @@
-import { StorageService } from '@spryker-oryx/core';
+import { StorageService } from '@oryx-frontend/core';
 import { Observable, of } from 'rxjs';
 
 export class ServerStorageService implements StorageService {

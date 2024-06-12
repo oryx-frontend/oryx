@@ -1,17 +1,17 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { PRODUCTS } from '@spryker-oryx/product';
-import { RouteType, RouterService } from '@spryker-oryx/router';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { PRODUCTS } from '@oryx-frontend/product';
+import { RouteType, RouterService } from '@oryx-frontend/router';
 import {
   Suggestion,
   SuggestionField,
   SuggestionRendererService,
-} from '@spryker-oryx/search';
-import { LinkService } from '@spryker-oryx/site';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { SearchEventDetail } from '@spryker-oryx/ui/searchbox';
-import '@spryker-oryx/ui/typeahead';
-import { TypeaheadComponent } from '@spryker-oryx/ui/typeahead';
+} from '@oryx-frontend/search';
+import { LinkService } from '@oryx-frontend/site';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { SearchEventDetail } from '@oryx-frontend/ui/searchbox';
+import '@oryx-frontend/ui/typeahead';
+import { TypeaheadComponent } from '@oryx-frontend/ui/typeahead';
 import {
   Size,
   computed,
@@ -20,7 +20,7 @@ import {
   hydrate,
   signalAware,
   signalProperty,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { query } from 'lit/decorators.js';
 import { ifDefined } from 'lit/directives/if-defined.js';

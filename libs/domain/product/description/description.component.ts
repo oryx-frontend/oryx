@@ -1,7 +1,7 @@
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { PRODUCT, ProductContext, ProductMixin } from '@spryker-oryx/product';
-import { CollapsibleTextToggle } from '@spryker-oryx/ui/collapsible-text';
-import { featureVersion, hydrate } from '@spryker-oryx/utilities';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { PRODUCT, ProductContext, ProductMixin } from '@oryx-frontend/product';
+import { CollapsibleTextToggle } from '@oryx-frontend/ui/collapsible-text';
+import { featureVersion, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 import { html } from 'lit/static-html.js';

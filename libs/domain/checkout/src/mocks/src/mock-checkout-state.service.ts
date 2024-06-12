@@ -1,6 +1,6 @@
-import { DefaultCheckoutStateService } from '@spryker-oryx/checkout/services';
-import { StorageService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { DefaultCheckoutStateService } from '@oryx-frontend/checkout/services';
+import { StorageService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { Observable, of } from 'rxjs';
 
 class MockStorageService implements StorageService {

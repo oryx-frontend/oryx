@@ -2,8 +2,8 @@ import {
   ApiCheckoutModel,
   Shipment,
   ShipmentMethod,
-} from '@spryker-oryx/checkout';
-import { camelize } from '@spryker-oryx/core/utilities';
+} from '@oryx-frontend/checkout';
+import { camelize } from '@oryx-frontend/core/utilities';
 import { DeserializedCheckout } from './model';
 
 export function shipmentsNormalizer(data?: DeserializedCheckout): Shipment[] {

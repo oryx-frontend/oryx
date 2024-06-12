@@ -1,11 +1,11 @@
 import { nextFrame } from '@open-wc/testing-helpers';
-import { PageMetaService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import { PageMetaService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
 import {
   DefaultLocaleMetaInitializer,
   LocaleMetaInitializer,
   LocaleService,
-} from '@spryker-oryx/i18n';
+} from '@oryx-frontend/i18n';
 import { of } from 'rxjs';
 
 const mockMeta = {

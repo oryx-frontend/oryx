@@ -1,4 +1,4 @@
-import { queryFirstAssigned, wait } from '@spryker-oryx/utilities';
+import { queryFirstAssigned, wait } from '@oryx-frontend/utilities';
 import { expect } from '@storybook/jest';
 import { PageNavigationItemComponent } from '../../../../../../navigation/page-navigation-item';
 import { getNavItems, PageNavigationItem } from '../../common';

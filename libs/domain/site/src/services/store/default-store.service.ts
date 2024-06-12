@@ -1,4 +1,4 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import {
   BehaviorSubject,
   combineLatest,

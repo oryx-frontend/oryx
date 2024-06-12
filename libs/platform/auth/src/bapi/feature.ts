@@ -7,12 +7,12 @@ import {
   OauthFeature,
   OauthFeatureConfig,
   oauthHandlerComponent,
-} from '@spryker-oryx/auth';
-import { AuthLoginStrategy } from '@spryker-oryx/auth/login';
-import { AppFeature, AppPlugin } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
-import { provideLitRoutes } from '@spryker-oryx/router/lit';
-import { ComponentsInfo } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/auth';
+import { AuthLoginStrategy } from '@oryx-frontend/auth/login';
+import { AppFeature, AppPlugin } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
+import { provideLitRoutes } from '@oryx-frontend/router/lit';
+import { ComponentsInfo } from '@oryx-frontend/utilities';
 import urlJoin from 'url-join';
 import { BapiIdentityService } from './bapi-identity.service';
 import { BapiPlugin } from './plugin';

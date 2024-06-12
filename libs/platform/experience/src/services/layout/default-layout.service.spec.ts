@@ -1,5 +1,5 @@
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
-import { Size } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import { Size } from '@oryx-frontend/utilities';
 import { lastValueFrom, of } from 'rxjs';
 import { DefaultLayoutService } from './default-layout.service';
 import { LayoutBuilder } from './layout.builder';

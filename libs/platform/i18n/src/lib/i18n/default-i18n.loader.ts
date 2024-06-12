@@ -1,4 +1,4 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import { GlobalizeService } from './globalize.service';
 import { I18nData, I18nDataBundle, I18nLoader } from './i18n.loader';
 

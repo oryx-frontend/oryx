@@ -1,6 +1,6 @@
-import { Cart, CartEntry, CartService } from '@spryker-oryx/cart';
-import { ContextService, TokenResourceResolvers } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { Cart, CartEntry, CartService } from '@oryx-frontend/cart';
+import { ContextService, TokenResourceResolvers } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { of } from 'rxjs';
 import { CartResolver } from './cart.resolver';
 

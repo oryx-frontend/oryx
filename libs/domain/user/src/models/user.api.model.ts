@@ -1,4 +1,4 @@
-import { JsonApiModel } from '@spryker-oryx/utilities';
+import { JsonApiModel } from '@oryx-frontend/utilities';
 
 export module ApiUserModel {
   export interface User {

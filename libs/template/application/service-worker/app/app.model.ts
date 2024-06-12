@@ -1,5 +1,5 @@
-import { AppBuilder, AppFeature } from '@spryker-oryx/core';
-import { InjectorOptions, Provider } from '@spryker-oryx/di';
+import { AppBuilder, AppFeature } from '@oryx-frontend/core';
+import { InjectorOptions, Provider } from '@oryx-frontend/di';
 
 export interface ModularAppBuilderOptions {
   injector?: Omit<InjectorOptions, 'providers'>;

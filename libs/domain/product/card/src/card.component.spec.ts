@@ -1,10 +1,10 @@
 import { fixture } from '@open-wc/testing-helpers';
-import * as core from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { mockProductProviders } from '@spryker-oryx/product/mocks';
-import { RouteType, RouterService } from '@spryker-oryx/router';
-import { siteProviders } from '@spryker-oryx/site';
-import { useComponent } from '@spryker-oryx/utilities';
+import * as core from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { mockProductProviders } from '@oryx-frontend/product/mocks';
+import { RouteType, RouterService } from '@oryx-frontend/router';
+import { siteProviders } from '@oryx-frontend/site';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { SpyInstance } from 'vitest';

@@ -1,9 +1,9 @@
-import { resolve } from '@spryker-oryx/di';
+import { resolve } from '@oryx-frontend/di';
 
 import {
   LayoutAttributes,
   LayoutProperties,
-} from '@spryker-oryx/experience/layout';
+} from '@oryx-frontend/experience/layout';
 import {
   ConnectableSignal,
   Size,
@@ -14,7 +14,7 @@ import {
   signalAware,
   signalProperty,
   ssrShim,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 import { when } from 'lit/directives/when.js';

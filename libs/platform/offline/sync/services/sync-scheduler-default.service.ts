@@ -1,5 +1,5 @@
-import { inject } from '@spryker-oryx/di';
-import { IndexedDbService } from '@spryker-oryx/indexed-db';
+import { inject } from '@oryx-frontend/di';
+import { IndexedDbService } from '@oryx-frontend/indexed-db';
 import { liveQuery } from 'dexie';
 import {
   filter,
@@ -196,7 +196,7 @@ export class SyncSchedulerDefaultService implements SyncSchedulerService {
       } catch {
         //when background sync is denied
         throw new Error(
-          `The application does not have permissions to process data from and to the backend. 
+          `The application does not have permissions to process data from and to the backend.
           Please, provide your permission to enable background sync in the browser`
         );
       }

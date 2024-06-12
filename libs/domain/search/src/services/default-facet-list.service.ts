@@ -1,5 +1,5 @@
-import { inject } from '@spryker-oryx/di';
-import { Facet, ProductListPageService } from '@spryker-oryx/product';
+import { inject } from '@oryx-frontend/di';
+import { Facet, ProductListPageService } from '@oryx-frontend/product';
 import { Observable, map } from 'rxjs';
 import { FacetQualifier } from '../models';
 import { FacetListService } from './facet-list.service';

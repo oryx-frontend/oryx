@@ -1,4 +1,4 @@
-import { resolve } from '@spryker-oryx/di';
+import { resolve } from '@oryx-frontend/di';
 import { ReactiveController, ReactiveControllerHost } from 'lit';
 import { isObservable, Observable, Subscription } from 'rxjs';
 

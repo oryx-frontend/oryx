@@ -1,5 +1,5 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
-import { Position } from '@spryker-oryx/ui';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
+import { Position } from '@oryx-frontend/ui';
 export const schema: ContentComponentSchema = {
   name: 'dropdown',
   group: 'layout',

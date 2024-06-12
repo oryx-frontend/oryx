@@ -1,4 +1,4 @@
-import { provideIncludes } from '@spryker-oryx/core';
+import { provideIncludes } from '@oryx-frontend/core';
 import { PRODUCT, PRODUCTS } from '../../../entity';
 import { ApiProductModel } from '../../../models';
 

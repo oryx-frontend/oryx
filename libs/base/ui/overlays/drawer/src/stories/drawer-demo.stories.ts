@@ -1,5 +1,5 @@
 import { OverlaysDecorator } from '@/tools/storybook';
-import { Position } from '@spryker-oryx/ui';
+import { Position } from '@oryx-frontend/ui';
 import { Meta, Story } from '@storybook/web-components';
 import { LitElement, TemplateResult, html } from 'lit';
 import { customElement, property, state } from 'lit/decorators.js';

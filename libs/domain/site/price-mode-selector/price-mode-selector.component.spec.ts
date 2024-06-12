@@ -1,6 +1,6 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { useComponent } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { useComponent } from '@oryx-frontend/utilities';
 import { PriceModeService } from '../src/services';
 import { SitePriceModeSelectorComponent } from './price-mode-selector.component';
 import { sitePriceModeSelectorComponent } from './price-mode-selector.def';

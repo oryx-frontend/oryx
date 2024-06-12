@@ -1,4 +1,4 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 import { DataListComponent } from './data-list.component';
 
 export const dataListSchema: ContentComponentSchema<DataListComponent> = {

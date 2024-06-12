@@ -1,4 +1,4 @@
-import { AppFeature } from '@spryker-oryx/core';
+import { AppFeature } from '@oryx-frontend/core';
 import { isServer } from 'lit';
 import * as components from './components';
 import { RootPlugin } from './plugins';

@@ -1,10 +1,10 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import {
   catchMessage,
   ExperienceDataRevealer,
   MessageType,
   postMessage,
-} from '@spryker-oryx/experience';
+} from '@oryx-frontend/experience';
 import { Observable, of, switchMap, tap } from 'rxjs';
 import { Suggestion } from '../../models';
 import { SuggestionField } from '../adapter';

@@ -3,7 +3,7 @@ import {
   Type,
   signal,
   signalAware,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { property } from 'lit/decorators.js';
 import { OrderController } from '../controllers';

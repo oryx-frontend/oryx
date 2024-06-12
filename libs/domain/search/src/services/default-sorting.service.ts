@@ -1,5 +1,5 @@
-import { inject } from '@spryker-oryx/di';
-import { ProductListPageService, ProductListSort } from '@spryker-oryx/product';
+import { inject } from '@oryx-frontend/di';
+import { ProductListPageService, ProductListSort } from '@oryx-frontend/product';
 import { map, Observable } from 'rxjs';
 import { SortingService } from './sorting.service';
 

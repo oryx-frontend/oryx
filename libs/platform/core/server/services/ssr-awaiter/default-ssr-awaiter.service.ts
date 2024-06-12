@@ -1,4 +1,4 @@
-import { SSRAwaiterService } from '@spryker-oryx/core';
+import { SSRAwaiterService } from '@oryx-frontend/core';
 
 export class DefaultSSRAwaiterService implements SSRAwaiterService {
   protected awaiters: Promise<unknown>[] = [];

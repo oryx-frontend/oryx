@@ -2,8 +2,8 @@ import {
   Product,
   ProductQualifier,
   ProductRelationsListService,
-} from '@spryker-oryx/product';
-import { MockProductService } from '@spryker-oryx/product/mocks';
+} from '@oryx-frontend/product';
+import { MockProductService } from '@oryx-frontend/product/mocks';
 import { Observable, of } from 'rxjs';
 
 export class MockProductRelationsListService

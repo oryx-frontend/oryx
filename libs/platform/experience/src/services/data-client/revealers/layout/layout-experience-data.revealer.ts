@@ -1,6 +1,6 @@
-import { inject } from '@spryker-oryx/di';
-import { FormFieldType } from '@spryker-oryx/form';
-import { resolveLazyLoadable } from '@spryker-oryx/utilities';
+import { inject } from '@oryx-frontend/di';
+import { FormFieldType } from '@oryx-frontend/form';
+import { resolveLazyLoadable } from '@oryx-frontend/utilities';
 import {
   combineLatest,
   forkJoin,

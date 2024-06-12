@@ -1,13 +1,13 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { ContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { LayoutBuilder, LayoutService } from '@spryker-oryx/experience';
+import { ContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { LayoutBuilder, LayoutService } from '@oryx-frontend/experience';
 import {
   ProductRelationsListService,
   ProductService,
-} from '@spryker-oryx/product';
-import { MockProductService } from '@spryker-oryx/product/mocks';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/product';
+import { MockProductService } from '@oryx-frontend/product/mocks';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { beforeEach } from 'vitest';

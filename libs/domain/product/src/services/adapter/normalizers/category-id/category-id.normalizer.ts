@@ -1,4 +1,4 @@
-import { Transformer } from '@spryker-oryx/core';
+import { Transformer } from '@oryx-frontend/core';
 import { ApiProductModel } from '../../../../models';
 import { DeserializeCategoryIds } from './model';
 

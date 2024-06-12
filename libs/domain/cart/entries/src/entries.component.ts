@@ -1,7 +1,7 @@
-import { CartComponentMixin } from '@spryker-oryx/cart';
-import { RemoveByQuantity } from '@spryker-oryx/cart/entry';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { featureVersion, hydrate } from '@spryker-oryx/utilities';
+import { CartComponentMixin } from '@oryx-frontend/cart';
+import { RemoveByQuantity } from '@oryx-frontend/cart/entry';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { featureVersion, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { repeat } from 'lit/directives/repeat.js';
 import { when } from 'lit/directives/when.js';

@@ -1,6 +1,6 @@
-import { ExperienceComponent } from '@spryker-oryx/experience';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { ExperienceComponent } from '@oryx-frontend/experience';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { featureVersion } from '@oryx-frontend/utilities';
 
 const image = (graphic: string) => ({
   type: 'oryx-content-image',

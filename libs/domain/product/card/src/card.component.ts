@@ -1,15 +1,15 @@
-import { ContextController } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
+import { ContextController } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
 import {
   PRODUCT,
   ProductContext,
   ProductMediaContainerSize,
   ProductMixin,
-} from '@spryker-oryx/product';
-import { RouteType } from '@spryker-oryx/router';
-import { LinkService } from '@spryker-oryx/site';
-import { HeadingTag } from '@spryker-oryx/ui/heading';
+} from '@oryx-frontend/product';
+import { RouteType } from '@oryx-frontend/router';
+import { LinkService } from '@oryx-frontend/site';
+import { HeadingTag } from '@oryx-frontend/ui/heading';
 import {
   Size,
   computed,
@@ -17,7 +17,7 @@ import {
   featureVersion,
   hydrate,
   ssrShim,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { ProductPriceOptions } from '../../price/src/price.model.js';
 import { ProductTitleOptions } from '../../title/src/title.model.js';

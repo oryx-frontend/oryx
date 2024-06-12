@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { Observable } from 'rxjs';
 import { DefaultSalutationService } from './default-salutation.service';
 import { SalutationService } from './salutation.service';

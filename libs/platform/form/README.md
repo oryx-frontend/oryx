@@ -4,4 +4,4 @@ Provides form related capabilities for Oryx based applications with main focus o
 
 ## Installation
 
-`npm install @spryker-oryx/form`
+`npm install @oryx-frontend/form`

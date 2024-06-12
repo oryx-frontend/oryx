@@ -1,4 +1,4 @@
-import { AlertType } from '@spryker-oryx/ui';
+import { AlertType } from '@oryx-frontend/ui';
 import { LitElement } from 'lit';
 import { property } from 'lit/decorators.js';
 import { SwatchAttributes } from './swatch.model';

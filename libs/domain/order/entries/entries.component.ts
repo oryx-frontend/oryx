@@ -1,8 +1,8 @@
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { OrderMixin } from '@spryker-oryx/order';
-import { ButtonType } from '@spryker-oryx/ui/button';
-import { HeadingTag } from '@spryker-oryx/ui/heading';
-import { computed, featureVersion, hydrate } from '@spryker-oryx/utilities';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { OrderMixin } from '@oryx-frontend/order';
+import { ButtonType } from '@oryx-frontend/ui/button';
+import { HeadingTag } from '@oryx-frontend/ui/heading';
+import { computed, featureVersion, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { repeat } from 'lit/directives/repeat.js';

@@ -1,8 +1,8 @@
 {
-  "name": "@spryker-oryx/search",
+  "name": "@oryx-frontend/search",
   "version": "1.4.0",
   "type": "module",
-  "author": "Spryker Systems GmbH",
+  "author": "Oryx frontend team",
   "license": "See license in LICENSE",
   "description": "Search features for Oryx applications",
   "main": "./src/index.js",
@@ -20,15 +20,15 @@
     }
   },
   "dependencies": {
-    "@spryker-oryx/content": "1.4.0",
-    "@spryker-oryx/core": "1.4.0",
-    "@spryker-oryx/di": "1.4.0",
-    "@spryker-oryx/experience": "1.4.0",
-    "@spryker-oryx/product": "1.4.0",
-    "@spryker-oryx/router": "1.4.0",
-    "@spryker-oryx/site": "1.4.0",
-    "@spryker-oryx/ui": "1.4.0",
-    "@spryker-oryx/utilities": "1.4.0"
+    "@oryx-frontend/content": "1.4.0",
+    "@oryx-frontend/core": "1.4.0",
+    "@oryx-frontend/di": "1.4.0",
+    "@oryx-frontend/experience": "1.4.0",
+    "@oryx-frontend/product": "1.4.0",
+    "@oryx-frontend/router": "1.4.0",
+    "@oryx-frontend/site": "1.4.0",
+    "@oryx-frontend/ui": "1.4.0",
+    "@oryx-frontend/utilities": "1.4.0"
   },
   "peerDependencies": {
     "lit": "^2.4.0",

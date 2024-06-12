@@ -1,4 +1,4 @@
-import { ProductComponentProperties } from '@spryker-oryx/product';
+import { ProductComponentProperties } from '@oryx-frontend/product';
 import { Meta, Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';
 import { storybookPrefix } from '../../../.constants';

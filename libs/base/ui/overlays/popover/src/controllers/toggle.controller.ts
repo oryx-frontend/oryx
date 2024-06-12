@@ -1,5 +1,5 @@
-import { isSafari, nonFocusableOnClickInSafari } from '@spryker-oryx/ui';
-import { debounce, isFocusable, throttle } from '@spryker-oryx/utilities';
+import { isSafari, nonFocusableOnClickInSafari } from '@oryx-frontend/ui';
+import { debounce, isFocusable, throttle } from '@oryx-frontend/utilities';
 import { LitElement, ReactiveController } from 'lit';
 import { getControl } from '../../../../form/utilities';
 import { PopoverComponent } from '../popover.component';

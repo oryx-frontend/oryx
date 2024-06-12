@@ -1,4 +1,4 @@
-import { componentDef, featureVersion } from '@spryker-oryx/utilities';
+import { componentDef, featureVersion } from '@oryx-frontend/utilities';
 import { LoginOptions } from './login.model';
 
 declare global {

@@ -1,4 +1,4 @@
-import { ColorId } from '@spryker-oryx/utilities';
+import { ColorId } from '@oryx-frontend/utilities';
 
 export type Color = {
   [mode in ColorId]?: {

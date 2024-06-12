@@ -1,4 +1,4 @@
-import { StorageStrategy } from '@spryker-oryx/core';
+import { StorageStrategy } from '@oryx-frontend/core';
 import { Dexie, liveQuery } from 'dexie';
 import { Observable, shareReplay, switchMap } from 'rxjs';
 

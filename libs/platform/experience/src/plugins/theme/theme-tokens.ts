@@ -8,7 +8,7 @@ import {
   DefaultMedia,
   getPropByPath,
   resolveLazyLoadable,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { CSSResult, unsafeCSS } from 'lit';
 import { Color } from '../../color';
 import {

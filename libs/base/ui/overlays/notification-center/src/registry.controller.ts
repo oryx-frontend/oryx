@@ -1,4 +1,4 @@
-import { AlertType } from '@spryker-oryx/ui';
+import { AlertType } from '@oryx-frontend/ui';
 import { LitElement, ReactiveController } from 'lit';
 import {
   Notification,

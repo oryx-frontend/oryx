@@ -3,8 +3,8 @@ import {
   TotalsOptions,
   TotalsResolver,
   TotalsService,
-} from '@spryker-oryx/cart';
-import { INJECTOR, inject } from '@spryker-oryx/di';
+} from '@oryx-frontend/cart';
+import { INJECTOR, inject } from '@oryx-frontend/di';
 import { Observable, of } from 'rxjs';
 
 export class DefaultTotalsService implements TotalsService {

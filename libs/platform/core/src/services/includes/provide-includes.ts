@@ -1,4 +1,4 @@
-import { Provider } from '@spryker-oryx/di';
+import { Provider } from '@oryx-frontend/di';
 import { IncludeDefinition, IncludesToken } from './json-api-include.service';
 
 export const includesTokenFactory = (entity: string): string =>

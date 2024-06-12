@@ -1,4 +1,4 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import { combineLatest, map, Observable, throwError } from 'rxjs';
 import { Sync, SyncAction, SyncActionHandler } from '../models';
 import { SyncActionHandlerRegistry } from '../sync-action-handler.provider';

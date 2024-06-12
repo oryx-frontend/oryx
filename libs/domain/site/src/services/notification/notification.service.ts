@@ -1,4 +1,4 @@
-import { Notification } from '@spryker-oryx/ui/notification-center';
+import { Notification } from '@oryx-frontend/ui/notification-center';
 import { Observable } from 'rxjs';
 
 export const NotificationService = 'oryx.NotificationService';

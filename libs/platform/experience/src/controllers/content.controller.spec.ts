@@ -1,6 +1,6 @@
-import { FeatureOptionsService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
-import * as litRxjs from '@spryker-oryx/utilities';
+import { FeatureOptionsService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import * as litRxjs from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { of } from 'rxjs';
 import { SpyInstance } from 'vitest';

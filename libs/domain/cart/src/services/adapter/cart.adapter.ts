@@ -1,4 +1,4 @@
-import { Transformer } from '@spryker-oryx/core';
+import { Transformer } from '@oryx-frontend/core';
 import { Observable } from 'rxjs';
 import {
   AddCartEntryQualifier,

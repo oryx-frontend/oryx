@@ -1,5 +1,5 @@
 import { sideBySide } from '@/tools/storybook';
-import { PopoverSelectEvent } from '@spryker-oryx/ui/popover';
+import { PopoverSelectEvent } from '@oryx-frontend/ui/popover';
 import { Meta, Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';
 import { storybookPrefix } from '../../../../../.constants';

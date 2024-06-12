@@ -1,4 +1,4 @@
-import { inject, Injector } from '@spryker-oryx/di';
+import { inject, Injector } from '@oryx-frontend/di';
 import { Observable, of, throwError } from 'rxjs';
 import { mockStore } from '../../../mocks';
 import { StoreService } from '../../store';

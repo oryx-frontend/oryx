@@ -1,5 +1,5 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { Size, useComponent } from '@spryker-oryx/utilities';
+import { Size, useComponent } from '@oryx-frontend/utilities';
 import { svg } from 'lit';
 import { IconComponent } from './icon.component';
 import { iconComponent } from './icon.def';

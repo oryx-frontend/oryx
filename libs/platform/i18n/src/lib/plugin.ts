@@ -1,9 +1,9 @@
-import { App, AppPlugin, InjectionPlugin } from '@spryker-oryx/core';
+import { App, AppPlugin, InjectionPlugin } from '@oryx-frontend/core';
 import {
   i18nInjectable,
   I18nInjectable,
   Injectable,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { I18nService, I18nServiceInjectableAdapter } from './i18n';
 
 export class I18nPlugin implements AppPlugin {

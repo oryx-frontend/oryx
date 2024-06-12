@@ -1,4 +1,4 @@
-import { OrderData, OrderService } from '@spryker-oryx/order';
+import { OrderData, OrderService } from '@oryx-frontend/order';
 import { Observable, of } from 'rxjs';
 import { mockOrderData } from './mock-order';
 

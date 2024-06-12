@@ -1,7 +1,7 @@
-import { HttpService, TransformerService } from '@spryker-oryx/core';
-import { INJECTOR, inject } from '@spryker-oryx/di';
-import { ContentAsset } from '@spryker-oryx/experience';
-import { LocaleService } from '@spryker-oryx/i18n';
+import { HttpService, TransformerService } from '@oryx-frontend/core';
+import { INJECTOR, inject } from '@oryx-frontend/di';
+import { ContentAsset } from '@oryx-frontend/experience';
+import { LocaleService } from '@oryx-frontend/i18n';
 import {
   Observable,
   combineLatest,

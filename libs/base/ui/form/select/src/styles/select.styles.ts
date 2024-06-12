@@ -1,7 +1,7 @@
 import {
   baseStyles as typeaheadBaseStyles,
   screenStyles as typeaheadScreenStyles,
-} from '@spryker-oryx/ui/typeahead';
+} from '@oryx-frontend/ui/typeahead';
 import { css } from 'lit';
 import { selectFilterStyles } from './select-filter.styles';
 import { selectFloatingLabelStyles } from './select-floating-label.styles';

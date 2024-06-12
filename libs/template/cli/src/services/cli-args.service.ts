@@ -1,5 +1,5 @@
-import { FeatureOptionsService } from '@spryker-oryx/core';
-import { inject, INJECTOR } from '@spryker-oryx/di';
+import { FeatureOptionsService } from '@oryx-frontend/core';
+import { inject, INJECTOR } from '@oryx-frontend/di';
 import { parseArgs, ParseArgsConfig } from 'node:util';
 import { CliCommands } from '../commands';
 import { CliCommand } from '../models';

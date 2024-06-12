@@ -1,4 +1,4 @@
-import { VideoAspectRatio, VideoPreload } from '@spryker-oryx/ui/video';
+import { VideoAspectRatio, VideoPreload } from '@oryx-frontend/ui/video';
 
 export interface ContentVideoOptions {
   /**

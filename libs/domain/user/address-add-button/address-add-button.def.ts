@@ -1,4 +1,4 @@
-import { componentDef } from '@spryker-oryx/utilities';
+import { componentDef } from '@oryx-frontend/utilities';
 
 export const userAddressAddButtonComponent = componentDef({
   name: 'oryx-user-address-add-button',

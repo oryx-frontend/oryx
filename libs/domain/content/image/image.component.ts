@@ -1,6 +1,6 @@
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { OBJECT_FIT, OBJECT_POSITION } from '@spryker-oryx/ui';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { OBJECT_FIT, OBJECT_POSITION } from '@oryx-frontend/ui';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { ifDefined } from 'lit/directives/if-defined.js';
 import { ContentImageContent, ContentImageOptions } from './image.model';

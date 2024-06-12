@@ -4,11 +4,11 @@ import {
   CssStyles,
   CssStylesWithMedia,
   LazyLoadable,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { CSSResult } from 'lit';
 import { Color } from '../../color/color.model';
 
-declare module '@spryker-oryx/utilities' {
+declare module '@oryx-frontend/utilities' {
   interface ComponentMap {
     themes?: (ThemeStyles | ThemeStylesheets)[] | null;
   }

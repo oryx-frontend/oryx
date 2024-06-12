@@ -1,4 +1,4 @@
-import { hydrate, Size } from '@spryker-oryx/utilities';
+import { hydrate, Size } from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { property } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';

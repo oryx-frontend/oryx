@@ -1,8 +1,8 @@
 import { dispatchKeydown } from '@/tools/testing';
 import { fixture, html } from '@open-wc/testing-helpers';
-import { optionComponent } from '@spryker-oryx/ui';
-import { OptionComponent } from '@spryker-oryx/ui/option';
-import { a11yConfig, useComponent } from '@spryker-oryx/utilities';
+import { optionComponent } from '@oryx-frontend/ui';
+import { OptionComponent } from '@oryx-frontend/ui/option';
+import { a11yConfig, useComponent } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { SpyInstance } from 'vitest';

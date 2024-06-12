@@ -1,7 +1,7 @@
-import { ContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { Product } from '@spryker-oryx/product';
-import { RouterService } from '@spryker-oryx/router';
+import { ContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { Product } from '@oryx-frontend/product';
+import { RouterService } from '@oryx-frontend/router';
 import { of } from 'rxjs';
 import { ProductService } from '../product.service';
 import { ProductPageRobotMetaResolver } from './product-page-robots-meta.resolver';

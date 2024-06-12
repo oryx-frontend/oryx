@@ -1,16 +1,16 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { fixture } from '@open-wc/testing-helpers';
-import { EntityService, SSRAwaiterService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { EntityService, SSRAwaiterService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   ComponentTemplate,
   ComponentsRegistryService,
   ExperienceService,
   LayoutBuilder,
   LayoutService,
-} from '@spryker-oryx/experience';
-import { RouterService } from '@spryker-oryx/router';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/experience';
+import { RouterService } from '@oryx-frontend/router';
+import { useComponent } from '@oryx-frontend/utilities';
 import { TemplateResult, html } from 'lit';
 import { Observable, of } from 'rxjs';
 import { SpyInstance } from 'vitest';

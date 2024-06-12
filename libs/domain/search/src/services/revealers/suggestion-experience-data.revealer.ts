@@ -1,12 +1,12 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import {
   catchMessage,
   ExperienceDataRevealer,
   ExperienceSuggestionRecords,
   MessageType,
   postMessage,
-} from '@spryker-oryx/experience';
-import { RouteType } from '@spryker-oryx/router';
+} from '@oryx-frontend/experience';
+import { RouteType } from '@oryx-frontend/router';
 import { Observable, of, switchMap, tap } from 'rxjs';
 import { Suggestion } from '../../models';
 import { SuggestionService } from '../suggestion';

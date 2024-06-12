@@ -3,7 +3,7 @@ import {
   a11yConfig,
   queryFirstAssigned,
   useComponent,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { pageNavigationItemComponent } from './component';
 import { PageNavigationItemComponent } from './page-navigation-item.component';
 

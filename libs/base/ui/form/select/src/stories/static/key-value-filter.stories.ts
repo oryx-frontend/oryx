@@ -1,5 +1,5 @@
 import { sideBySide } from '@/tools/storybook';
-import { FilterStrategyType } from '@spryker-oryx/ui/typeahead';
+import { FilterStrategyType } from '@oryx-frontend/ui/typeahead';
 import { Meta, Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';
 import { storybookPrefix } from '../../../../../.constants';

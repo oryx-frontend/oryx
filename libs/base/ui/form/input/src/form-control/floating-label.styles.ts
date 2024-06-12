@@ -1,4 +1,4 @@
-import { screenCss } from '@spryker-oryx/utilities';
+import { screenCss } from '@oryx-frontend/utilities';
 import { css, unsafeCSS } from 'lit';
 
 const floatingLabelStyles = (attribute = true) => {

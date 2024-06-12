@@ -1,5 +1,5 @@
-import { Address } from '@spryker-oryx/user';
-import { mockNormalizedAddresses } from '@spryker-oryx/user/mocks';
+import { Address } from '@oryx-frontend/user';
+import { mockNormalizedAddresses } from '@oryx-frontend/user/mocks';
 import { Meta, Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';
 import { storybookPrefix } from '../../.constants';

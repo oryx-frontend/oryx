@@ -1,12 +1,12 @@
-import { IdentityService } from '@spryker-oryx/auth';
+import { IdentityService } from '@oryx-frontend/auth';
 import {
   CheckoutStateService,
   ContactDetails,
   PlaceOrderData,
   checkoutDataStorageKey,
-} from '@spryker-oryx/checkout';
-import { StorageService, StorageType } from '@spryker-oryx/core';
-import { Injector, createInjector, destroyInjector } from '@spryker-oryx/di';
+} from '@oryx-frontend/checkout';
+import { StorageService, StorageType } from '@oryx-frontend/core';
+import { Injector, createInjector, destroyInjector } from '@oryx-frontend/di';
 import { BehaviorSubject, of, take } from 'rxjs';
 import { DefaultCheckoutStateService } from './default-checkout-state.service';
 

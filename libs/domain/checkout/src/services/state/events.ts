@@ -1,4 +1,4 @@
-import { QueryEvent } from '@spryker-oryx/core';
+import { QueryEvent } from '@oryx-frontend/core';
 import { CheckoutResponse } from '../../models';
 
 export const PlaceOrderStart = 'PlaceOrderStart';

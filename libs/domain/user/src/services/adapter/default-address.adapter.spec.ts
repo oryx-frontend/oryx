@@ -1,12 +1,12 @@
-import { AuthIdentity, IdentityService } from '@spryker-oryx/auth';
-import { HttpService, JsonAPITransformerService } from '@spryker-oryx/core';
-import { HttpTestService } from '@spryker-oryx/core/testing';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { AuthIdentity, IdentityService } from '@oryx-frontend/auth';
+import { HttpService, JsonAPITransformerService } from '@oryx-frontend/core';
+import { HttpTestService } from '@oryx-frontend/core/testing';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   mockCurrentAddress,
   mockCurrentAddressResponse,
   mockGetAddressesResponse,
-} from '@spryker-oryx/user/mocks';
+} from '@oryx-frontend/user/mocks';
 import { Observable, of } from 'rxjs';
 import { AddressAdapter } from './address.adapter';
 import { DefaultAddressAdapter } from './default-address.adapter';

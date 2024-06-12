@@ -1,11 +1,11 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { I18nService } from '@spryker-oryx/i18n';
-import { RouteType, RouterService } from '@spryker-oryx/router';
-import { SuggestionRendererService } from '@spryker-oryx/search';
-import { LinkService } from '@spryker-oryx/site';
-import { typeheadComponent } from '@spryker-oryx/ui';
-import { useComponent } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { I18nService } from '@oryx-frontend/i18n';
+import { RouteType, RouterService } from '@oryx-frontend/router';
+import { SuggestionRendererService } from '@oryx-frontend/search';
+import { LinkService } from '@oryx-frontend/site';
+import { typeheadComponent } from '@oryx-frontend/ui';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { SearchBoxComponent } from './box.component';

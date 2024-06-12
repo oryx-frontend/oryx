@@ -3,10 +3,10 @@ import {
   ContextSerializer,
   ContextService,
   FieldContextSerializer,
-} from '@spryker-oryx/core';
-import { Provider, inject } from '@spryker-oryx/di';
-import { RouteType, RouterService } from '@spryker-oryx/router';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/core';
+import { Provider, inject } from '@oryx-frontend/di';
+import { RouteType, RouterService } from '@oryx-frontend/router';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { Observable, map, of, take } from 'rxjs';
 import { PRODUCT } from '../entity';
 import { ProductQualifier } from '../models';

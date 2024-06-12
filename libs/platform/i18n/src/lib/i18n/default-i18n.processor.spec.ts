@@ -1,4 +1,4 @@
-import { DefaultI18nInjectable } from '@spryker-oryx/utilities';
+import { DefaultI18nInjectable } from '@oryx-frontend/utilities';
 import {
   BehaviorSubject,
   EMPTY,

@@ -4,15 +4,15 @@ import {
   PageMetaService,
   InjectionPlugin,
   SSRAwaiterService,
-} from '@spryker-oryx/core';
+} from '@oryx-frontend/core';
 import { TemplateResult } from 'lit';
 import {
   ServerContextService,
   ServerPageMetaService,
-} from '@spryker-oryx/core/server';
-import { RouterService } from '@spryker-oryx/router';
+} from '@oryx-frontend/core/server';
+import { RouterService } from '@oryx-frontend/router';
 import { render as litRender } from '@lit-labs/ssr';
-import { rootInjectable } from '@spryker-oryx/utilities';
+import { rootInjectable } from '@oryx-frontend/utilities';
 // organize-imports-ignore
 import 'abort-controller/polyfill.js';
 

@@ -1,5 +1,5 @@
-import { ExperienceComponent } from '@spryker-oryx/experience';
-import { Size } from '@spryker-oryx/utilities';
+import { ExperienceComponent } from '@oryx-frontend/experience';
+import { Size } from '@oryx-frontend/utilities';
 
 export const myAccountPage: ExperienceComponent = {
   id: 'my-account',

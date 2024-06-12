@@ -1,4 +1,4 @@
-import { LinkOptions } from '@spryker-oryx/site';
+import { LinkOptions } from '@oryx-frontend/site';
 
 export interface SiteNavigationItemOptions {
   icon?: string;

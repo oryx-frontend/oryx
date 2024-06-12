@@ -1,4 +1,4 @@
-import { LayoutProperties } from '@spryker-oryx/experience/layout';
+import { LayoutProperties } from '@oryx-frontend/experience/layout';
 import { Observable } from 'rxjs';
 import { Component } from '../../models';
 import { StylesFromOptionsParams } from './layout.builder';

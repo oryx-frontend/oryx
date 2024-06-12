@@ -5,7 +5,7 @@ const mockCliBuilder = {
 };
 const mockCliApp = vi.fn().mockReturnValue(mockCliBuilder);
 
-vi.mock('@spryker-oryx/cli', () => ({ cliApp: mockCliApp }));
+vi.mock('@oryx-frontend/cli', () => ({ cliApp: mockCliApp }));
 
 describe('cli.ts', () => {
   afterEach(() => {

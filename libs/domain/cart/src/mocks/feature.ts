@@ -1,5 +1,5 @@
-import { cartComponents } from '@spryker-oryx/cart';
-import { AppFeature } from '@spryker-oryx/core';
+import { cartComponents } from '@oryx-frontend/cart';
+import { AppFeature } from '@oryx-frontend/core';
 import { mockCartProviders } from './src';
 
 export const mockCartFeature: AppFeature = {

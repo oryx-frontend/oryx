@@ -1,11 +1,11 @@
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { PRODUCT, ProductContext, ProductMixin } from '@spryker-oryx/product';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { PRODUCT, ProductContext, ProductMixin } from '@oryx-frontend/product';
 import {
   Size,
   computed,
   featureVersion,
   hydrate,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { ProductAverageRatingOptions } from './average-rating.model';
 

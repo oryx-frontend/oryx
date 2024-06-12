@@ -1,5 +1,5 @@
-import { LayoutProperties } from '@spryker-oryx/experience/layout';
-import { LazyLoadable } from '@spryker-oryx/utilities';
+import { LayoutProperties } from '@oryx-frontend/experience/layout';
+import { LazyLoadable } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { Observable } from 'rxjs';
 import {

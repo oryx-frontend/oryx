@@ -1,4 +1,4 @@
-import { ExperienceComponent } from '@spryker-oryx/experience';
+import { ExperienceComponent } from '@oryx-frontend/experience';
 
 export const cartsPage: ExperienceComponent = {
   id: 'carts-page-content',
@@ -36,7 +36,7 @@ export const cartsPage: ExperienceComponent = {
       type: 'oryx-content-text',
       content: {
         data: {
-          text: `Manage your carts with ease. Create, track, and shop effortlessly. 
+          text: `Manage your carts with ease. Create, track, and shop effortlessly.
                 Need help? Our support team is here for you. Enjoy your shopping!`,
         },
       },

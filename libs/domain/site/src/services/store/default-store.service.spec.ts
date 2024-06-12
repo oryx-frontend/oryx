@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { of } from 'rxjs';
 import { StoreAdapter } from '../adapter';
 import { DefaultStoreService } from './default-store.service';

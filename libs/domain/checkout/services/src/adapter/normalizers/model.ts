@@ -1,5 +1,5 @@
-import { ApiCheckoutModel } from '@spryker-oryx/checkout';
-import { CamelCase } from '@spryker-oryx/core/utilities';
+import { ApiCheckoutModel } from '@oryx-frontend/checkout';
+import { CamelCase } from '@oryx-frontend/core/utilities';
 
 export type DeserializedCheckoutIncludes = {
   [P in ApiCheckoutModel.Includes as `${CamelCase<P>}`]?: P extends ApiCheckoutModel.Includes.ShipmentMethods

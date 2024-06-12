@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/no-unused-vars */
-import { HttpService, RequestOptions } from '@spryker-oryx/core';
+import { HttpService, RequestOptions } from '@oryx-frontend/core';
 import { BehaviorSubject, filter, Observable, take, tap } from 'rxjs';
 
 const NO_RESPONSE = Symbol('NO_RESPONSE');

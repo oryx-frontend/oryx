@@ -1,6 +1,6 @@
-import { injectEnv } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { injectEnv } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { storyblokFieldNormalizers } from './normalizers';
 import { DefaultStoryblokContentAdapter } from './storyblok-content.adapter';
 import {

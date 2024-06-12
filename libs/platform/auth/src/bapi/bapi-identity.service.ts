@@ -4,7 +4,7 @@ import {
   OauthResponseSuccess,
   OauthService,
 } from '../index';
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import { getValidatedIdTokenClaims, TokenEndpointResponse } from 'oauth4webapi';
 import { catchError, map, Observable, of, shareReplay, switchMap } from 'rxjs';
 

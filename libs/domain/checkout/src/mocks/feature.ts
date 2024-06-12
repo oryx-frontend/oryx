@@ -1,5 +1,5 @@
-import { checkoutComponents } from '@spryker-oryx/checkout';
-import { AppFeature } from '@spryker-oryx/core';
+import { checkoutComponents } from '@oryx-frontend/checkout';
+import { AppFeature } from '@oryx-frontend/core';
 import { mockCheckoutProviders } from './src';
 
 export const mockCheckoutFeature: AppFeature = {

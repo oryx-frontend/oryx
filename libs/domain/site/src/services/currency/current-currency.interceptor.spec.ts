@@ -3,8 +3,8 @@ import {
   DefaultHttpHandler,
   HttpHandler,
   HttpInterceptor,
-} from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+} from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { of } from 'rxjs';
 import { fromFetch } from 'rxjs/fetch';
 import { Mock } from 'vitest';

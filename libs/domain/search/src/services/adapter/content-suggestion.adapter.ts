@@ -1,5 +1,5 @@
-import { ContentService } from '@spryker-oryx/content';
-import { inject } from '@spryker-oryx/di';
+import { ContentService } from '@oryx-frontend/content';
+import { inject } from '@oryx-frontend/di';
 import { Observable, map } from 'rxjs';
 import { Suggestion, SuggestionQualifier } from '../../models';
 import { SuggestionAdapter, SuggestionField } from './suggestion.adapter';

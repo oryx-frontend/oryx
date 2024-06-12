@@ -1,18 +1,18 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector, resolve } from '@spryker-oryx/di';
-import { FacetValue } from '@spryker-oryx/product';
+import { createInjector, destroyInjector, resolve } from '@oryx-frontend/di';
+import { FacetValue } from '@oryx-frontend/product';
 import {
   generateFacet,
   generateRange,
   generateValues,
-} from '@spryker-oryx/product/mocks';
-import { FacetListService } from '@spryker-oryx/search';
-import { SearchFacetComponentAttributes } from '@spryker-oryx/search/facet';
+} from '@oryx-frontend/product/mocks';
+import { FacetListService } from '@oryx-frontend/search';
+import { SearchFacetComponentAttributes } from '@oryx-frontend/search/facet';
 import {
   FACET_CLEAR_EVENT,
   FACET_TOGGLE_EVENT,
-} from '@spryker-oryx/search/facet-value-navigation';
-import { computed } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/search/facet-value-navigation';
+import { computed } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { of } from 'rxjs';

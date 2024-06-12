@@ -1,4 +1,4 @@
-import { PushNotificationFeature } from '@spryker-oryx/push-notification';
+import { PushNotificationFeature } from '@oryx-frontend/push-notification';
 import { webPushProviders } from './web-push.providers';
 
 export class WebPushNotificationFeature extends PushNotificationFeature {

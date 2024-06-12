@@ -1,10 +1,10 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import {
   BASE_ROUTE,
   RouterEventType,
   RouterService,
-} from '@spryker-oryx/router';
-import { isDefined } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/router';
+import { isDefined } from '@oryx-frontend/utilities';
 import {
   BehaviorSubject,
   EMPTY,

@@ -1,4 +1,4 @@
-import { ErrorController, ErrorOptions } from '@spryker-oryx/ui/input';
+import { ErrorController, ErrorOptions } from '@oryx-frontend/ui/input';
 import { html, LitElement, TemplateResult } from 'lit';
 import { property } from 'lit/decorators.js';
 import { styles } from './toggle.styles';

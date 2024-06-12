@@ -1,4 +1,4 @@
-import { Type, hydrate, signalAware, ssrShim } from '@spryker-oryx/utilities';
+import { Type, hydrate, signalAware, ssrShim } from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { DirectiveResult } from 'lit/directive.js';
 import { UnsafeHTMLDirective, unsafeHTML } from 'lit/directives/unsafe-html.js';

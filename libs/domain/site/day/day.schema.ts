@@ -1,4 +1,4 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 import { SiteDayComponent } from './day.component';
 
 export const siteDaySchema: ContentComponentSchema<SiteDayComponent> = {

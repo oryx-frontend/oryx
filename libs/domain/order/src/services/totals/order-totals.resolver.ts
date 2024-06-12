@@ -4,9 +4,9 @@ import {
   PriceMode,
   TotalsResolver,
   TotalsResolverOptions,
-} from '@spryker-oryx/cart';
-import { ContextService } from '@spryker-oryx/core';
-import { Provider, inject } from '@spryker-oryx/di';
+} from '@oryx-frontend/cart';
+import { ContextService } from '@oryx-frontend/core';
+import { Provider, inject } from '@oryx-frontend/di';
 import { Observable, map, of, switchMap } from 'rxjs';
 import { OrderData, OrderDiscount } from '../../models';
 import { OrderContext } from '../order-context';

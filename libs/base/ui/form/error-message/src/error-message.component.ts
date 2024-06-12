@@ -1,4 +1,4 @@
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import { html, LitElement, TemplateResult } from 'lit';
 import { property } from 'lit/decorators.js';
 import { errorStyles } from './error-message.styles';

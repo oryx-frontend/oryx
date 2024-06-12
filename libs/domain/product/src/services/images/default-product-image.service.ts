@@ -1,5 +1,5 @@
-import { inject } from '@spryker-oryx/di';
-import { Size, sizes } from '@spryker-oryx/utilities';
+import { inject } from '@oryx-frontend/di';
+import { Size, sizes } from '@oryx-frontend/utilities';
 import {
   ImageSource,
   MediaContext,

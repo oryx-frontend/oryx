@@ -1,5 +1,5 @@
-import { HttpHandlerFn, HttpInterceptor } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { HttpHandlerFn, HttpInterceptor } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { Observable, map, switchMap, take } from 'rxjs';
 import { PriceModeService } from './price-mode.service';
 

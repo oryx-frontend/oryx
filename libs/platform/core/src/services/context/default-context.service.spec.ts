@@ -1,5 +1,5 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector, resolve } from '@spryker-oryx/di';
+import { createInjector, destroyInjector, resolve } from '@oryx-frontend/di';
 import { LitElement, TemplateResult, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { firstValueFrom, lastValueFrom, of } from 'rxjs';

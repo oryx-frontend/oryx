@@ -1,5 +1,5 @@
-import { Icons, IconTypes } from '@spryker-oryx/ui/icon';
-import { Size } from '@spryker-oryx/utilities';
+import { Icons, IconTypes } from '@oryx-frontend/ui/icon';
+import { Size } from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { property } from 'lit/decorators.js';
 import { SpinnerProperties, SpinnerRotation } from './spinner.model';

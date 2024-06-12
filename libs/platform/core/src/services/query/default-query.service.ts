@@ -1,4 +1,4 @@
-import { inject, INJECTOR, OnDestroy } from '@spryker-oryx/di';
+import { inject, INJECTOR, OnDestroy } from '@oryx-frontend/di';
 
 import { CoreQueryManager } from './core/core-query-manager';
 

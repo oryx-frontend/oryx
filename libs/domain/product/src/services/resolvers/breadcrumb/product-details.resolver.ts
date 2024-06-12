@@ -1,13 +1,13 @@
-import { ContextService } from '@spryker-oryx/core';
-import { Provider, inject } from '@spryker-oryx/di';
-import { RouteType, RouterService } from '@spryker-oryx/router';
+import { ContextService } from '@oryx-frontend/core';
+import { Provider, inject } from '@oryx-frontend/di';
+import { RouteType, RouterService } from '@oryx-frontend/router';
 import {
   BreadcrumbItem,
   BreadcrumbResolver,
   BreadcrumbResolvers,
   LinkService,
-} from '@spryker-oryx/site';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/site';
+import { featureVersion } from '@oryx-frontend/utilities';
 import {
   Observable,
   combineLatest,

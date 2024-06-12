@@ -1,19 +1,19 @@
-import { CartComponentMixin, CartService } from '@spryker-oryx/cart';
+import { CartComponentMixin, CartService } from '@oryx-frontend/cart';
 import {
   QuantityEventDetail,
   QuantityInputComponent,
-} from '@spryker-oryx/cart/quantity-input';
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { ProductMixin } from '@spryker-oryx/product';
-import { ButtonComponent, ButtonType } from '@spryker-oryx/ui/button';
-import { IconTypes } from '@spryker-oryx/ui/icon';
+} from '@oryx-frontend/cart/quantity-input';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { ProductMixin } from '@oryx-frontend/product';
+import { ButtonComponent, ButtonType } from '@oryx-frontend/ui/button';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import {
   Size,
   computed,
   elementEffect,
   hydrate,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { query, state } from 'lit/decorators.js';
 import { ifDefined } from 'lit/directives/if-defined.js';

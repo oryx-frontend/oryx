@@ -1,6 +1,6 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { a11yConfig, useComponent } from '@spryker-oryx/utilities';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { a11yConfig, useComponent } from '@oryx-frontend/utilities';
 import { errorMessageComponent } from './component';
 import { ErrorMessageComponent } from './error-message.component';
 

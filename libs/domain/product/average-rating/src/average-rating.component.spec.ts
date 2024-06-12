@@ -1,12 +1,12 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { ContextService, DefaultContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { ContextService, DefaultContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   ProductService,
   productAverageRatingComponent,
-} from '@spryker-oryx/product';
-import { RatingComponent } from '@spryker-oryx/ui/rating';
-import { Size, useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/product';
+import { RatingComponent } from '@oryx-frontend/ui/rating';
+import { Size, useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { ProductAverageRatingComponent } from './average-rating.component';

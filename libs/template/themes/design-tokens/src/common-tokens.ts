@@ -1,4 +1,4 @@
-import { ThemeToken } from '@spryker-oryx/experience';
+import { ThemeToken } from '@oryx-frontend/experience';
 
 export const commonTokens: ThemeToken = {
   /** @deprecated use oryx-shadow instead */

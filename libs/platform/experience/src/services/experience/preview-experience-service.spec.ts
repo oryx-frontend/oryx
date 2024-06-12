@@ -1,8 +1,8 @@
 import { nextFrame } from '@open-wc/testing-helpers';
-import { HttpService } from '@spryker-oryx/core';
-import { HttpTestService } from '@spryker-oryx/core/testing';
-import { createInjector, destroyInjector, Injector } from '@spryker-oryx/di';
-import { RouterEventType, RouterService } from '@spryker-oryx/router';
+import { HttpService } from '@oryx-frontend/core';
+import { HttpTestService } from '@oryx-frontend/core/testing';
+import { createInjector, destroyInjector, Injector } from '@oryx-frontend/di';
+import { RouterEventType, RouterService } from '@oryx-frontend/router';
 import { NEVER, of } from 'rxjs';
 import { SpyInstance } from 'vitest';
 import { ExperienceDataClientService, postMessage } from '../data-client';

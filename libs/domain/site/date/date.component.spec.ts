@@ -1,8 +1,8 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { LocaleService } from '@spryker-oryx/i18n';
-import { siteProviders } from '@spryker-oryx/site';
-import { useComponent } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { LocaleService } from '@oryx-frontend/i18n';
+import { siteProviders } from '@oryx-frontend/site';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { DateComponent } from './date.component';

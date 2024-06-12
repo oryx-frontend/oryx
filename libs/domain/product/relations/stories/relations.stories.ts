@@ -1,7 +1,7 @@
-import { ContextService } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { PRODUCT, ProductContext } from '@spryker-oryx/product';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { ContextService } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { PRODUCT, ProductContext } from '@oryx-frontend/product';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';

@@ -1,23 +1,23 @@
-import { resolve } from '@spryker-oryx/di';
+import { resolve } from '@oryx-frontend/di';
 import {
   FacetType,
   FacetValue,
   RangeFacet,
   RangeFacetValue,
-} from '@spryker-oryx/product';
+} from '@oryx-frontend/product';
 import {
   FacetListService,
   SelectFacetEventDetail,
   SelectFacetEventDetailValue,
   SingleMultiFacet,
-} from '@spryker-oryx/search';
+} from '@oryx-frontend/search';
 import {
   FACET_CLEAR_EVENT,
   FACET_TOGGLE_EVENT,
   ToggleFacetEventDetail,
-} from '@spryker-oryx/search/facet-value-navigation';
-import { SearchEventDetail } from '@spryker-oryx/ui/searchbox';
-import { ObserveController, computed, signal } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/search/facet-value-navigation';
+import { SearchEventDetail } from '@oryx-frontend/ui/searchbox';
+import { ObserveController, computed, signal } from '@oryx-frontend/utilities';
 import { LitElement, ReactiveController } from 'lit';
 import { defer, of, switchMap } from 'rxjs';
 import {

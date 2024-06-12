@@ -1,8 +1,8 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { Pagination, ProductListPageService } from '@spryker-oryx/product';
-import { PaginationComponent } from '@spryker-oryx/ui/pagination';
-import { useComponent } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { Pagination, ProductListPageService } from '@oryx-frontend/product';
+import { PaginationComponent } from '@oryx-frontend/ui/pagination';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { beforeEach } from 'vitest';

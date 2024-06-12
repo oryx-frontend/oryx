@@ -1,4 +1,4 @@
-import { Provider } from '@spryker-oryx/di';
+import { Provider } from '@oryx-frontend/di';
 import {
   AddressAdapter,
   addressesNormalizer,
@@ -13,7 +13,7 @@ import {
   RegistrationService,
   UserAdapter,
   UserService,
-} from '@spryker-oryx/user';
+} from '@oryx-frontend/user';
 import { MockAddressFormService } from './mock-address-form.service';
 import { MockAddressService } from './mock-address.service';
 import { MockRegistrationService } from './mock-registration.service';

@@ -1,7 +1,7 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
-import { FormFieldType } from '@spryker-oryx/form';
-import { SortParamNames } from '@spryker-oryx/product';
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
+import { FormFieldType } from '@oryx-frontend/form';
+import { SortParamNames } from '@oryx-frontend/product';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import { ProductListComponent } from './list.component';
 
 export const productListSchema: ContentComponentSchema<ProductListComponent> = {

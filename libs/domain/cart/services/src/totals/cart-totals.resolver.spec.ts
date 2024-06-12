@@ -1,7 +1,7 @@
-import { CartService, TotalsResolver } from '@spryker-oryx/cart';
-import { mockBaseCart } from '@spryker-oryx/cart/mocks';
-import { ContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { CartService, TotalsResolver } from '@oryx-frontend/cart';
+import { mockBaseCart } from '@oryx-frontend/cart/mocks';
+import { ContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { of } from 'rxjs';
 import { CartTotalsResolver } from './cart-totals.resolver';
 

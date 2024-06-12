@@ -1,5 +1,5 @@
-import { HeadingTag, headingUtil } from '@spryker-oryx/ui/heading';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { HeadingTag, headingUtil } from '@oryx-frontend/ui/heading';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { css } from 'lit';
 
 const pricing =

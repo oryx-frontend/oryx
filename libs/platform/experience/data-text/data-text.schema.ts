@@ -1,6 +1,6 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
-import { FormFieldType } from '@spryker-oryx/form';
-import { HeadingTag } from '@spryker-oryx/ui/heading';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
+import { FormFieldType } from '@oryx-frontend/form';
+import { HeadingTag } from '@oryx-frontend/ui/heading';
 import { DataTextComponent } from './data-text.component';
 
 export const dataTextSchema: ContentComponentSchema<DataTextComponent> = {

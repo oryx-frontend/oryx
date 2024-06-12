@@ -1,5 +1,5 @@
-import { inject, INJECTOR } from '@spryker-oryx/di';
-import { featureVersion, i18n } from '@spryker-oryx/utilities';
+import { inject, INJECTOR } from '@oryx-frontend/di';
+import { featureVersion, i18n } from '@oryx-frontend/utilities';
 import { html, TemplateResult } from 'lit';
 import { ifDefined } from 'lit/directives/if-defined.js';
 import { repeat } from 'lit/directives/repeat.js';

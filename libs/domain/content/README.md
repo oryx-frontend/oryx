@@ -4,4 +4,4 @@ Provides components and services that can be used to render content in an Oryx b
 
 ## Installation
 
-`npm install @spryker-oryx/content`
+`npm install @oryx-frontend/content`

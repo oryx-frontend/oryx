@@ -1,4 +1,4 @@
-import { featureVersion } from '@spryker-oryx/utilities';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { LitElement, ReactiveController } from 'lit';
 import { FormMixinProperties, SUBMIT_EVENT } from '../models';
 

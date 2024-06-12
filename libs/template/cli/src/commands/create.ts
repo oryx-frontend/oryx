@@ -7,7 +7,7 @@ import {
   spinner,
   text,
 } from '@clack/prompts';
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import fs from 'fs';
 import path from 'path';
 import c from 'picocolors';

@@ -1,4 +1,4 @@
-import { subscribeReplay } from '@spryker-oryx/utilities';
+import { subscribeReplay } from '@oryx-frontend/utilities';
 import { map, Observable, shareReplay, Subscriber, switchMap } from 'rxjs';
 import {
   indexedDbStorageName,

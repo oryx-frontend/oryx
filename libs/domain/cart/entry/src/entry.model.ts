@@ -1,4 +1,4 @@
-import { ProductAvailability } from '@spryker-oryx/product';
+import { ProductAvailability } from '@oryx-frontend/product';
 
 export interface CartEntryAttributes {
   /**

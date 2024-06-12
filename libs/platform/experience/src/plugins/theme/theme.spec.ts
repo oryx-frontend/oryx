@@ -3,7 +3,7 @@ import {
   DefaultMedia,
   rootInjectable,
   Size,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { css, CSSResult } from 'lit';
 import { ThemePlugin, ThemePluginName } from './theme';
 import { Theme, ThemeStrategies, ThemeStyles } from './theme.model';

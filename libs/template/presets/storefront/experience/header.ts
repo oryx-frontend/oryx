@@ -1,6 +1,6 @@
-import { ExperienceComponent, ShadowElevation } from '@spryker-oryx/experience';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { Size, featureVersion } from '@spryker-oryx/utilities';
+import { ExperienceComponent, ShadowElevation } from '@oryx-frontend/experience';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { Size, featureVersion } from '@oryx-frontend/utilities';
 
 const siteLinks = (): ExperienceComponent[] => {
   const components: ExperienceComponent[] = [

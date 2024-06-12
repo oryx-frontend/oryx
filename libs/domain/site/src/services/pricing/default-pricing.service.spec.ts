@@ -1,6 +1,6 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { LocaleService } from '@spryker-oryx/i18n';
-import { CurrencyService } from '@spryker-oryx/site';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { LocaleService } from '@oryx-frontend/i18n';
+import { CurrencyService } from '@oryx-frontend/site';
 import { Observable, of } from 'rxjs';
 import { DefaultPricingService } from './default-pricing.service';
 import { Price, PricingService } from './pricing.service';

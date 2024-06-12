@@ -1,5 +1,5 @@
-import { AuthLoginStrategy } from '@spryker-oryx/auth/login';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import { AuthLoginStrategy } from '@oryx-frontend/auth/login';
+import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
 import { OauthService } from '../oauth.service';
 import {
   PasswordGrantAuthLoginStrategy,

@@ -1,6 +1,6 @@
-import { AppFeature, AppPlugin } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
-import { isDefined } from '@spryker-oryx/utilities';
+import { AppFeature, AppPlugin } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
+import { isDefined } from '@oryx-frontend/utilities';
 import { DefaultI18nLoaderConfig } from './i18n';
 import { DefaultLocaleAdapterConfig } from './locale';
 import { I18nPlugin } from './plugin';

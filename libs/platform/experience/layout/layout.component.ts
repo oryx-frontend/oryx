@@ -1,5 +1,5 @@
-import { ContentMixin, LayoutMixin } from '@spryker-oryx/experience';
-import { featureVersion, hydrate } from '@spryker-oryx/utilities';
+import { ContentMixin, LayoutMixin } from '@oryx-frontend/experience';
+import { featureVersion, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 import { LayoutAttributes } from './layout.model';

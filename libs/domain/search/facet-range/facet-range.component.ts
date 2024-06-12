@@ -1,14 +1,14 @@
-import { RangeFacet } from '@spryker-oryx/product';
-import { SelectRangeFacetValues } from '@spryker-oryx/search';
-import { FacetController } from '@spryker-oryx/search/facet';
-import { MultiRangeChangeEvent } from '@spryker-oryx/ui/multi-range';
+import { RangeFacet } from '@oryx-frontend/product';
+import { SelectRangeFacetValues } from '@oryx-frontend/search';
+import { FacetController } from '@oryx-frontend/search/facet';
+import { MultiRangeChangeEvent } from '@oryx-frontend/ui/multi-range';
 import {
   computed,
   effect,
   elementEffect,
   featureVersion,
   signalProperty,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { state } from 'lit/decorators.js';
 import { ifDefined } from 'lit/directives/if-defined.js';

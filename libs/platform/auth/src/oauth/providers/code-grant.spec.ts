@@ -1,6 +1,6 @@
 import { nextFrame } from '@open-wc/testing-helpers';
-import { StorageService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { StorageService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { skipStateCheck } from 'oauth4webapi';
 import { catchError, of } from 'rxjs';
 import {

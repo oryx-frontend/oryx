@@ -1,6 +1,6 @@
-import { StorageService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
+import { StorageService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
 import { BehaviorSubject, catchError, of } from 'rxjs';
 import { OauthService, OauthServiceConfig } from './oauth.service';
 import { OauthProviderFactoryService } from './provider-factory.service';

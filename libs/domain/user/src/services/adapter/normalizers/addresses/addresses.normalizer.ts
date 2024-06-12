@@ -1,5 +1,5 @@
-import { Transformer, TransformerService } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
+import { Transformer, TransformerService } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
 import { combineLatest, Observable } from 'rxjs';
 import { DeserializedAddress } from '../';
 import { Address } from '../../../../models';

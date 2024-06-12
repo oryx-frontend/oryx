@@ -1,8 +1,8 @@
 import {
   AddressDefaults,
   UserAddressListItemOptions,
-} from '@spryker-oryx/user/address-list-item';
-import { MockAddressType } from '@spryker-oryx/user/mocks';
+} from '@oryx-frontend/user/address-list-item';
+import { MockAddressType } from '@oryx-frontend/user/mocks';
 import { Meta, Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';
 import { storybookPrefix } from '../../.constants';

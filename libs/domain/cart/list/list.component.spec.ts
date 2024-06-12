@@ -1,9 +1,9 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { CartService } from '@spryker-oryx/cart';
-import { mockDefaultCart } from '@spryker-oryx/cart/mocks';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { LayoutBuilder, LayoutService } from '@spryker-oryx/experience';
-import { useComponent } from '@spryker-oryx/utilities';
+import { CartService } from '@oryx-frontend/cart';
+import { mockDefaultCart } from '@oryx-frontend/cart/mocks';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { LayoutBuilder, LayoutService } from '@oryx-frontend/experience';
+import { useComponent } from '@oryx-frontend/utilities';
 import { of } from 'rxjs';
 import { CartListComponent } from './list.component';
 import { cartListComponent } from './list.def';

@@ -1,5 +1,5 @@
-import { ContextController } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
+import { ContextController } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
 import {
   Component,
   ComponentsRegistryService,
@@ -10,8 +10,8 @@ import {
   LayoutMixin,
   LayoutMixinInternals,
   LayoutPluginRender,
-} from '@spryker-oryx/experience';
-import { RouterService } from '@spryker-oryx/router';
+} from '@oryx-frontend/experience';
+import { RouterService } from '@oryx-frontend/router';
 import {
   computed,
   effect,
@@ -23,7 +23,7 @@ import {
   signalAware,
   signalProperty,
   subscribe,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html, isServer } from 'lit';
 import { property } from 'lit/decorators.js';
 import { repeat } from 'lit/directives/repeat.js';

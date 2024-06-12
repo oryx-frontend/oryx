@@ -1,5 +1,5 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { useComponent } from '@spryker-oryx/utilities';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { drawerComponent } from '../component';

@@ -1,5 +1,5 @@
-import { AuthIdentity } from '@spryker-oryx/auth';
-import { JsonApiPayload } from '@spryker-oryx/utilities';
+import { AuthIdentity } from '@oryx-frontend/auth';
+import { JsonApiPayload } from '@oryx-frontend/utilities';
 import { Observable } from 'rxjs';
 import { Address } from '../../models';
 

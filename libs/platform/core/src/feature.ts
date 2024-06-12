@@ -1,4 +1,4 @@
-import { resolve } from '@spryker-oryx/di';
+import { resolve } from '@oryx-frontend/di';
 import { AppFeature, ExecPlugin } from './orchestration';
 import { AppInitializerService, coreProviders } from './services';
 

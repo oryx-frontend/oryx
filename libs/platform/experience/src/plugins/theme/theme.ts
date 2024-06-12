@@ -1,4 +1,4 @@
-import { App, AppPlugin } from '@spryker-oryx/core';
+import { App, AppPlugin } from '@oryx-frontend/core';
 import {
   Breakpoints,
   ComponentDef,
@@ -9,7 +9,7 @@ import {
   iconInjectable,
   resolveLazyLoadable,
   rootInjectable,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { css, isServer, unsafeCSS } from 'lit';
 import { DefaultIconInjectable } from '../../injectables';
 import { ThemeTokens } from './theme-tokens';

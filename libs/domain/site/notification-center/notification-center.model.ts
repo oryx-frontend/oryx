@@ -1,4 +1,4 @@
-import { NotificationPosition } from '@spryker-oryx/ui/notification-center';
+import { NotificationPosition } from '@oryx-frontend/ui/notification-center';
 
 export interface SiteNotificationCenterOptions {
   position?: NotificationPosition;

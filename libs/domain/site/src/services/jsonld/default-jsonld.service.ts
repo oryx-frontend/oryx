@@ -2,9 +2,9 @@ import {
   ContextService,
   EntityService,
   TransformerService,
-} from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { JSONLD, jsonLdTokenFactory } from '@spryker-oryx/site';
+} from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { JSONLD, jsonLdTokenFactory } from '@oryx-frontend/site';
 import { Observable, catchError, map, of, switchMap } from 'rxjs';
 import { JsonLdService } from './jsonld.service';
 

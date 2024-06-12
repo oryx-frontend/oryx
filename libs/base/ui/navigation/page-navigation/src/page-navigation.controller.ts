@@ -1,5 +1,5 @@
-import { PageNavigationItemComponent } from '@spryker-oryx/ui/page-navigation-item';
-import { queryAssignedElements, throttle } from '@spryker-oryx/utilities';
+import { PageNavigationItemComponent } from '@oryx-frontend/ui/page-navigation-item';
+import { queryAssignedElements, throttle } from '@oryx-frontend/utilities';
 import { LitElement, ReactiveController } from 'lit';
 import { PageNavigationProperties } from './page-navigation.model';
 

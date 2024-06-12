@@ -1,7 +1,7 @@
 /// <reference lib="WebWorker" />
 
 // Stub window because lit it's not tree-shakeable and not compatible with service workers
-import '@spryker-oryx/utilities/window-stub';
+import '@oryx-frontend/utilities/window-stub';
 
 import { clientsClaim } from 'workbox-core';
 import { cleanupOutdatedCaches, precacheAndRoute } from 'workbox-precaching';

@@ -3,7 +3,7 @@ import {
   FacetValue,
   RangeFacet,
   ValueFacet,
-} from '@spryker-oryx/product';
+} from '@oryx-frontend/product';
 
 export function generateValues(
   count: number,

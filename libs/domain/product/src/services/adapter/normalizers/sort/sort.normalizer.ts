@@ -1,5 +1,5 @@
-import { Transformer } from '@spryker-oryx/core';
-import { snakify } from '@spryker-oryx/core/utilities';
+import { Transformer } from '@oryx-frontend/core';
+import { snakify } from '@oryx-frontend/core/utilities';
 import { ApiProductListModel, ProductListSort } from '../../../../models';
 
 export const SortNormalizer = 'oryx.SortNormalizer*';

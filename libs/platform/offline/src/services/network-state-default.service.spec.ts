@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { NetworkStateDefaultService } from './network-state-default.service';
 import { NetworkStateService } from './network-state.service';
 

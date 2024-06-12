@@ -1,4 +1,4 @@
-import { hydrate, ssrShim } from '@spryker-oryx/utilities';
+import { hydrate, ssrShim } from '@oryx-frontend/utilities';
 import { html, LitElement, PropertyValues, TemplateResult } from 'lit';
 import { property } from 'lit/decorators.js';
 import { ifDefined } from 'lit/directives/if-defined.js';

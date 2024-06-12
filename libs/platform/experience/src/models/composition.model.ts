@@ -1,5 +1,5 @@
-import { LayoutSpecificAttributes } from '@spryker-oryx/experience/layout';
-import { Breakpoint } from '@spryker-oryx/utilities';
+import { LayoutSpecificAttributes } from '@oryx-frontend/experience/layout';
+import { Breakpoint } from '@oryx-frontend/utilities';
 
 export interface CompositionProperties {
   rules?: StyleRuleSet[];

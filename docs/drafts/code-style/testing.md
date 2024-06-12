@@ -35,7 +35,7 @@ describe('when something happens', () => {
 Web components must be defined before they can be used in tests. The `utilities` package provides a the `useComponent` function to define one or multiple components. The `beforeAll` hook can be used to define a component for all test cases.
 
 ```ts
-import { useComponent } from '@spryker-oryx/utilities';
+import { useComponent } from '@oryx-frontend/utilities';
 
 describe('ComponentForTesting', () => {
   beforeAll(async () => {
@@ -161,8 +161,8 @@ someFn() {
 }
 
 
-import * as injector from '@spryker-oryx/injector';
-import { resolve } from '@spryker-oryx/injector';
+import * as injector from '@oryx-frontend/injector';
+import { resolve } from '@oryx-frontend/injector';
 
 vi.spyOn(injector, 'resolve');
 

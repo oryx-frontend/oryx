@@ -1,7 +1,7 @@
-import { AppRef } from '@spryker-oryx/core';
-import { ssrAwaiter } from '@spryker-oryx/core/utilities';
-import { resolve } from '@spryker-oryx/di';
-import { GraphicInjectable, isPromise } from '@spryker-oryx/utilities';
+import { AppRef } from '@oryx-frontend/core';
+import { ssrAwaiter } from '@oryx-frontend/core/utilities';
+import { resolve } from '@oryx-frontend/di';
+import { GraphicInjectable, isPromise } from '@oryx-frontend/utilities';
 import { DirectiveResult } from 'lit/directive.js';
 import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 import { map } from 'rxjs';

@@ -1,4 +1,4 @@
-import { Provider } from '@spryker-oryx/di';
+import { Provider } from '@oryx-frontend/di';
 import { cliCommandsProviders } from './commands';
 import { CliArgsService, CliService, NodeUtilService } from './services';
 

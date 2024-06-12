@@ -1,10 +1,10 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import {
   Component,
   ExperienceAdapter,
   ExperienceQualifier,
-} from '@spryker-oryx/experience';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/experience';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { Observable, map } from 'rxjs';
 import { ContentService } from '../content.service';
 

@@ -1,7 +1,7 @@
-import { AuthIdentity, IdentityService } from '@spryker-oryx/auth';
-import { StorageService, StorageType } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { mockOrderData } from '@spryker-oryx/order/mocks';
+import { AuthIdentity, IdentityService } from '@oryx-frontend/auth';
+import { StorageService, StorageType } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { mockOrderData } from '@oryx-frontend/order/mocks';
 import { Observable, of } from 'rxjs';
 import { orderStorageKey } from '../models';
 import { OrderAdapter } from './adapter';

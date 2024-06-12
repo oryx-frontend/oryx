@@ -1,5 +1,5 @@
-import { FacetValue, ValueFacet } from '@spryker-oryx/product';
-import { RequireAtLeastOneProp } from '@spryker-oryx/utilities';
+import { FacetValue, ValueFacet } from '@oryx-frontend/product';
+import { RequireAtLeastOneProp } from '@oryx-frontend/utilities';
 
 export type SelectRangeFacetValues = RequireAtLeastOneProp<
   { min?: number; max?: number },

@@ -1,11 +1,11 @@
-import { ssrAwaiter } from '@spryker-oryx/core/utilities';
-import { inject } from '@spryker-oryx/di';
+import { ssrAwaiter } from '@oryx-frontend/core/utilities';
+import { inject } from '@oryx-frontend/di';
 import {
   getI18nTextHash,
   I18nContext,
   InferI18nContext,
   toObservable,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { isServer } from 'lit';
 import {
   finalize,

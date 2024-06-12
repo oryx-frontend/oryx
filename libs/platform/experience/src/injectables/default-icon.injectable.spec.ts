@@ -1,13 +1,13 @@
 import { fixture, nextFrame } from '@open-wc/testing-helpers';
-import { AppRef } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { defaultIconFont, IconTypes } from '@spryker-oryx/ui/icon';
+import { AppRef } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { defaultIconFont, IconTypes } from '@oryx-frontend/ui/icon';
 import {
   computed,
   fontInjectable,
   signalAware,
   signalProperty,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { of } from 'rxjs';

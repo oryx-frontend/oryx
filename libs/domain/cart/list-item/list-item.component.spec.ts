@@ -1,10 +1,10 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { CartService } from '@spryker-oryx/cart';
-import { mockBaseCart } from '@spryker-oryx/cart/mocks';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { LinkService, PricingService } from '@spryker-oryx/site';
-import { SitePriceComponent } from '@spryker-oryx/site/price';
-import { Size, i18n, useComponent } from '@spryker-oryx/utilities';
+import { CartService } from '@oryx-frontend/cart';
+import { mockBaseCart } from '@oryx-frontend/cart/mocks';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { LinkService, PricingService } from '@oryx-frontend/site';
+import { SitePriceComponent } from '@oryx-frontend/site/price';
+import { Size, i18n, useComponent } from '@oryx-frontend/utilities';
 import { of } from 'rxjs';
 import { CartListItemComponent } from './list-item.component';
 import { cartListItemComponent } from './list-item.def';

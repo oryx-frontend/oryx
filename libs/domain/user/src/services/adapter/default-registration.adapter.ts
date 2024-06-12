@@ -1,5 +1,5 @@
-import { HttpService, JsonAPITransformerService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { HttpService, JsonAPITransformerService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { Observable, switchMap } from 'rxjs';
 import { ApiUserModel, User } from '../../models';
 import { UserNormalizer } from './normalizers';

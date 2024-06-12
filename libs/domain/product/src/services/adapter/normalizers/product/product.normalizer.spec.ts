@@ -1,4 +1,4 @@
-import { camelize } from '@spryker-oryx/core/utilities';
+import { camelize } from '@oryx-frontend/core/utilities';
 import { of, take } from 'rxjs';
 import { ApiProductModel, Product } from '../../../../models';
 import { CategoryNormalizer } from '../../../category';

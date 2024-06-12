@@ -1,4 +1,4 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 import { SiteLocaleSelectorComponent } from './locale-selector.component';
 
 export const siteLocaleSelectorSchema: ContentComponentSchema<SiteLocaleSelectorComponent> =

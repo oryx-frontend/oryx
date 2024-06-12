@@ -1,9 +1,9 @@
 {
-  "name": "@spryker-oryx/form",
+  "name": "@oryx-frontend/form",
   "type": "module",
   "version": "1.4.0",
   "description": "Form features for Oryx applications",
-  "author": "Spryker Systems GmbH",
+  "author": "Oryx frontend team",
   "license": "See license in LICENSE",
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
@@ -11,10 +11,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@spryker-oryx/core": "1.4.0",
-    "@spryker-oryx/di": "1.4.0",
-    "@spryker-oryx/ui": "1.4.0",
-    "@spryker-oryx/utilities": "1.4.0"
+    "@oryx-frontend/core": "1.4.0",
+    "@oryx-frontend/di": "1.4.0",
+    "@oryx-frontend/ui": "1.4.0",
+    "@oryx-frontend/utilities": "1.4.0"
   },
   "peerDependencies": {
     "lit": "^2.4.0",

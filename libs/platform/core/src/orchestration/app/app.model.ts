@@ -1,4 +1,4 @@
-import { BuilderPlugin, Type } from '@spryker-oryx/utilities';
+import { BuilderPlugin, Type } from '@oryx-frontend/utilities';
 
 export const AppRef = 'oryx.AppRef';
 

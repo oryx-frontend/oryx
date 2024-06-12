@@ -1,6 +1,6 @@
 import { dispatchKeydown } from '@/tools/testing';
 import { fixture } from '@open-wc/testing-helpers';
-import { a11yConfig } from '@spryker-oryx/utilities';
+import { a11yConfig } from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { SpyInstance } from 'vitest';

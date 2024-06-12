@@ -1,6 +1,6 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
-import { FormFieldType } from '@spryker-oryx/form';
-import { NotificationPosition } from '@spryker-oryx/ui/notification-center';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
+import { FormFieldType } from '@oryx-frontend/form';
+import { NotificationPosition } from '@oryx-frontend/ui/notification-center';
 import { SiteNotificationCenterComponent } from './notification-center.component';
 
 export const siteNotificationCenterSchema: ContentComponentSchema<SiteNotificationCenterComponent> =

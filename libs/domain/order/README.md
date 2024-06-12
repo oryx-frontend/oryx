@@ -4,4 +4,4 @@ Provides components and services for order related capabilities in an Oryx based
 
 ## Installation
 
-`npm install @spryker-oryx/order`
+`npm install @oryx-frontend/order`

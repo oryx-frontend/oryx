@@ -1,4 +1,4 @@
-import { NotificationComponent } from '@spryker-oryx/ui/notification';
+import { NotificationComponent } from '@oryx-frontend/ui/notification';
 import { Notification } from '../../../../notification';
 import { NotificationCenterComponent, NotificationService } from '../../index';
 import { generateNotification } from '../util';

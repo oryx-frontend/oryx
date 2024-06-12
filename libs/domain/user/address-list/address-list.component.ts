@@ -1,16 +1,16 @@
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import {
   Address,
   AddressEventDetail,
   AddressMixin,
   CrudState,
-} from '@spryker-oryx/user';
+} from '@oryx-frontend/user';
 import {
   AddressDefaults,
   EditTarget,
-} from '@spryker-oryx/user/address-list-item';
-import { Size, effect, hydrate } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/user/address-list-item';
+import { Size, effect, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { queryAll } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';

@@ -2,8 +2,8 @@ import {
   CompositionLayout,
   CompositionLayoutOrientation,
   LayoutTypes,
-} from '@spryker-oryx/experience';
-import { Breakpoint } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/experience';
+import { Breakpoint } from '@oryx-frontend/utilities';
 
 export interface LayoutAttributes
   extends LayoutProperties,

@@ -1,4 +1,4 @@
-import { CheckboxComponent } from '@spryker-oryx/ui/checkbox';
+import { CheckboxComponent } from '@oryx-frontend/ui/checkbox';
 import { Meta, Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';
 import { when } from 'lit/directives/when.js';

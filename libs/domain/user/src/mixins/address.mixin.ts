@@ -1,5 +1,5 @@
-import { resolve } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
+import { resolve } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
 import {
   computed,
   signal,
@@ -7,7 +7,7 @@ import {
   signalAware,
   signalProperty,
   Type,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { map } from 'rxjs';
 import type { Address, CrudState } from '../models';

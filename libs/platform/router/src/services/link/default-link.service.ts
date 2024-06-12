@@ -1,10 +1,10 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import {
   PathRouteConfig,
   RouteConfig,
   isRouterPath,
-} from '@spryker-oryx/router/lit';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/router/lit';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { Observable, of, switchMap, throwError } from 'rxjs';
 import { BASE_ROUTE } from '../base-route';
 import { RouteType, RouterService } from '../router.service';

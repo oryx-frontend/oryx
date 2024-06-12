@@ -1,4 +1,4 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 import { SitePriceComponent } from './price.component';
 
 export const sitePriceSchema: ContentComponentSchema<SitePriceComponent> = {

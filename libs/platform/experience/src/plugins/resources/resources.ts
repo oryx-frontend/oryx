@@ -1,10 +1,10 @@
-import { AppPlugin } from '@spryker-oryx/core';
+import { AppPlugin } from '@oryx-frontend/core';
 import {
   fontInjectable,
   graphicInjectable,
   iconInjectable,
   resolveLazyLoadable,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import {
   DefaultFontInjectable,
   DefaultGraphicInjectable,

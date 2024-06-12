@@ -4,7 +4,7 @@ import {
   coreProviders,
   FeatureOptions,
   InjectionPlugin,
-} from '@spryker-oryx/core';
+} from '@oryx-frontend/core';
 import { CliPlugin } from './plugin';
 import { cliProviders } from './providers';
 

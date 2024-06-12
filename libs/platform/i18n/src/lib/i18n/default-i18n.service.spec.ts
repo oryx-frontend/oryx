@@ -1,4 +1,4 @@
-import { rxjsTestScheduler } from '@spryker-oryx/core/testing';
+import { rxjsTestScheduler } from '@oryx-frontend/core/testing';
 import { BehaviorSubject, EMPTY, Observable, of } from 'rxjs';
 import { DefaultI18nService } from './default-i18n.service';
 import { I18nProcessor } from './i18n.processor';

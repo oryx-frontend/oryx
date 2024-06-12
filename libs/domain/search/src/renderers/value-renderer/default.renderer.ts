@@ -1,6 +1,6 @@
-import { Facet, FacetType } from '@spryker-oryx/product';
-import { SelectFacetEventDetail } from '@spryker-oryx/search';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { Facet, FacetType } from '@oryx-frontend/product';
+import { SelectFacetEventDetail } from '@oryx-frontend/search';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { TemplateResult, html } from 'lit';
 import { FacetMappingOptions, FacetParams } from '../renderer';
 

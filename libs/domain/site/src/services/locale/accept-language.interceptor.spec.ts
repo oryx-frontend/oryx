@@ -3,9 +3,9 @@ import {
   DefaultHttpHandler,
   HttpHandler,
   HttpInterceptor,
-} from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { LocaleService } from '@spryker-oryx/i18n';
+} from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { LocaleService } from '@oryx-frontend/i18n';
 import { of } from 'rxjs';
 import { fromFetch } from 'rxjs/fetch';
 import { Mock } from 'vitest';

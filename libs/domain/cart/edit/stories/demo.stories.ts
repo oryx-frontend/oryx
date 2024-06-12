@@ -1,5 +1,5 @@
-import { resolve } from '@spryker-oryx/di';
-import { PriceModeService, PriceModes } from '@spryker-oryx/site';
+import { resolve } from '@oryx-frontend/di';
+import { PriceModeService, PriceModes } from '@oryx-frontend/site';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';

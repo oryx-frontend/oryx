@@ -1,11 +1,11 @@
-import { resolve } from '@spryker-oryx/di';
+import { resolve } from '@oryx-frontend/di';
 import {
   ContentMixin,
   defaultOptions,
   LayoutMixin,
-} from '@spryker-oryx/experience';
-import { FacetType, RangeFacet } from '@spryker-oryx/product';
-import { RouterService } from '@spryker-oryx/router';
+} from '@oryx-frontend/experience';
+import { FacetType, RangeFacet } from '@oryx-frontend/product';
+import { RouterService } from '@oryx-frontend/router';
 import {
   FacetComponentRegistryService,
   FacetListService,
@@ -13,13 +13,13 @@ import {
   SelectFacetValue,
   SelectRangeFacetValue,
   SelectRangeFacetValues,
-} from '@spryker-oryx/search';
+} from '@oryx-frontend/search';
 import {
   computed,
   featureVersion,
   hydrate,
   signal,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { repeat } from 'lit/directives/repeat.js';
 import { unsafeHTML } from 'lit/directives/unsafe-html.js';

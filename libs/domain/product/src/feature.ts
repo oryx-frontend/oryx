@@ -1,4 +1,4 @@
-import { AppFeature } from '@spryker-oryx/core';
+import { AppFeature } from '@oryx-frontend/core';
 import * as components from './components';
 import { productProviders } from './services';
 export * from './components';

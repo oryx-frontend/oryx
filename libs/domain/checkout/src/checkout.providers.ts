@@ -1,5 +1,5 @@
-import { Provider } from '@spryker-oryx/di';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { Provider } from '@oryx-frontend/di';
+import { featureVersion } from '@oryx-frontend/utilities';
 import {
   CheckoutAdapter,
   CheckoutDataSerializer,
@@ -52,28 +52,28 @@ export const checkoutNormalizer: Provider[] =
         {
           provide: CheckoutNormalizer,
           useValue: () =>
-            import('@spryker-oryx/checkout/services').then(
+            import('@oryx-frontend/checkout/services').then(
               (m) => m.checkoutAttributesNormalizer
             ),
         },
         {
           provide: CheckoutNormalizer,
           useValue: () =>
-            import('@spryker-oryx/checkout/services').then(
+            import('@oryx-frontend/checkout/services').then(
               (m) => m.checkoutShipmentsNormalizer
             ),
         },
         {
           provide: CheckoutNormalizer,
           useValue: () =>
-            import('@spryker-oryx/checkout/services').then(
+            import('@oryx-frontend/checkout/services').then(
               (m) => m.checkoutPaymentsNormalizer
             ),
         },
         {
           provide: CheckoutNormalizer,
           useValue: () =>
-            import('@spryker-oryx/checkout/services').then(
+            import('@oryx-frontend/checkout/services').then(
               (m) => m.checkoutCartsNormalizer
             ),
         },
@@ -91,7 +91,7 @@ export const checkoutSerializer: Provider[] =
         {
           provide: CheckoutSerializer,
           useValue: () =>
-            import('@spryker-oryx/checkout/services').then(
+            import('@oryx-frontend/checkout/services').then(
               (m) => m.checkoutAttributesSerializer
             ),
         },
@@ -109,7 +109,7 @@ export const checkoutDataSerializer: Provider[] =
         {
           provide: CheckoutDataSerializer,
           useValue: () =>
-            import('@spryker-oryx/checkout/services').then(
+            import('@oryx-frontend/checkout/services').then(
               (m) => m.checkoutDataAttributesSerializer
             ),
         },
@@ -127,7 +127,7 @@ export const checkoutResponseNormalizer: Provider[] =
         {
           provide: CheckoutResponseNormalizer,
           useValue: () =>
-            import('@spryker-oryx/checkout/services').then(
+            import('@oryx-frontend/checkout/services').then(
               (m) => m.checkoutResponseAttributesNormalizer
             ),
         },
@@ -169,42 +169,42 @@ export const checkoutProviders =
         {
           provide: CheckoutService,
           asyncClass: () =>
-            import('@spryker-oryx/checkout/services').then(
+            import('@oryx-frontend/checkout/services').then(
               (m) => m.DefaultCheckoutService
             ),
         },
         {
           provide: CheckoutDataService,
           asyncClass: () =>
-            import('@spryker-oryx/checkout/services').then(
+            import('@oryx-frontend/checkout/services').then(
               (m) => m.DefaultCheckoutDataService
             ),
         },
         {
           provide: CheckoutStateService,
           asyncClass: () =>
-            import('@spryker-oryx/checkout/services').then(
+            import('@oryx-frontend/checkout/services').then(
               (m) => m.DefaultCheckoutStateService
             ),
         },
         {
           provide: CheckoutAdapter,
           asyncClass: () =>
-            import('@spryker-oryx/checkout/services').then(
+            import('@oryx-frontend/checkout/services').then(
               (m) => m.DefaultCheckoutAdapter
             ),
         },
         {
           provide: ShipmentsNormalizer,
           useValue: () =>
-            import('@spryker-oryx/checkout/services').then(
+            import('@oryx-frontend/checkout/services').then(
               (m) => m.shipmentsNormalizer
             ),
         },
         {
           provide: PaymentsNormalizer,
           useValue: () =>
-            import('@spryker-oryx/checkout/services').then(
+            import('@oryx-frontend/checkout/services').then(
               (m) => m.paymentsNormalizer
             ),
         },

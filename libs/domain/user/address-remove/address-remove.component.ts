@@ -1,7 +1,7 @@
-import { ButtonColor, ButtonSize, ButtonType } from '@spryker-oryx/ui/button';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { AddressMixin } from '@spryker-oryx/user';
-import { I18nMixin, Size, hydrate } from '@spryker-oryx/utilities';
+import { ButtonColor, ButtonSize, ButtonType } from '@oryx-frontend/ui/button';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { AddressMixin } from '@oryx-frontend/user';
+import { I18nMixin, Size, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { state } from 'lit/decorators.js';
 import { tap } from 'rxjs';

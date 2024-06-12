@@ -2,9 +2,9 @@ import {
   HttpService,
   JsonApiIncludeService,
   JsonAPITransformerService,
-} from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { Observable, switchMap } from 'rxjs';
 import { PRODUCT } from '../../entity';
 import { ApiProductModel, Product, ProductQualifier } from '../../models';

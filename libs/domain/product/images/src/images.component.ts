@@ -2,16 +2,16 @@ import {
   CarouselLayoutProperties,
   ContentMixin,
   defaultOptions,
-} from '@spryker-oryx/experience';
+} from '@oryx-frontend/experience';
 import {
   PRODUCT,
   ProductContext,
   ProductMedia,
   ProductMediaContainerSize,
   ProductMixin,
-} from '@spryker-oryx/product';
-import { OBJECT_FIT } from '@spryker-oryx/ui';
-import { featureVersion, hydrate } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/product';
+import { OBJECT_FIT } from '@oryx-frontend/ui';
+import { featureVersion, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { state } from 'lit/decorators.js';
 import { ifDefined } from 'lit/directives/if-defined.js';

@@ -1,6 +1,6 @@
-import { resolve } from '@spryker-oryx/di';
-import { BreadcrumbService } from '@spryker-oryx/site';
-import { MockBreadcrumbService } from '@spryker-oryx/site/mocks';
+import { resolve } from '@oryx-frontend/di';
+import { BreadcrumbService } from '@oryx-frontend/site';
+import { MockBreadcrumbService } from '@oryx-frontend/site/mocks';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../../.constants';

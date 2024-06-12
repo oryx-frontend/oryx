@@ -3,9 +3,9 @@ import {
   ResolvedToken,
   Resolver,
   TokenResourceResolvers,
-} from '@spryker-oryx/core';
-import { Provider, inject, resolve } from '@spryker-oryx/di';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/core';
+import { Provider, inject, resolve } from '@oryx-frontend/di';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { map } from 'rxjs';
 import { UserService } from '..';
 

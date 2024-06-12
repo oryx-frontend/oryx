@@ -1,6 +1,6 @@
-import { ApiProductModel } from '@spryker-oryx/product';
-import { ApiAddressModel } from '@spryker-oryx/user';
-import { JsonApiModel } from '@spryker-oryx/utilities';
+import { ApiProductModel } from '@oryx-frontend/product';
+import { ApiAddressModel } from '@oryx-frontend/user';
+import { JsonApiModel } from '@oryx-frontend/utilities';
 
 export module ApiOrderModel {
   export enum PriceMode {

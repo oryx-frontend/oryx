@@ -1,7 +1,7 @@
-import { IdentityService } from '@spryker-oryx/auth';
-import { HttpService, JsonAPITransformerService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { ApiUserModel, User } from '@spryker-oryx/user';
+import { IdentityService } from '@oryx-frontend/auth';
+import { HttpService, JsonAPITransformerService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { ApiUserModel, User } from '@oryx-frontend/user';
 import { Observable, switchMap, take } from 'rxjs';
 import { UserNormalizer } from './normalizers/user';
 import { UserAdapter } from './user.adapter';

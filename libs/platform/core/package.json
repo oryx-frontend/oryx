@@ -1,9 +1,9 @@
 {
-  "name": "@spryker-oryx/core",
+  "name": "@oryx-frontend/core",
   "version": "1.4.0",
   "type": "module",
   "description": "Core features for Oryx applications",
-  "author": "Spryker Systems GmbH",
+  "author": "Oryx frontend team",
   "license": "See license in LICENSE",
   "files": [
     "**/*"
@@ -11,8 +11,8 @@
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
   "dependencies": {
-    "@spryker-oryx/di": "1.4.0",
-    "@spryker-oryx/utilities": "1.4.0",
+    "@oryx-frontend/di": "1.4.0",
+    "@oryx-frontend/utilities": "1.4.0",
     "jsonapi-serializer": "~3.6.7"
   },
   "peerDependencies": {

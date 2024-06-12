@@ -1,4 +1,4 @@
-import { graphicInjectable, iconInjectable } from '@spryker-oryx/utilities';
+import { graphicInjectable, iconInjectable } from '@oryx-frontend/utilities';
 
 export const getAppIcons = (): string[] =>
   iconInjectable.get()?.getIcons() ?? [];

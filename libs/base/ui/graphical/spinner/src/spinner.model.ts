@@ -1,5 +1,5 @@
-import { Icons } from '@spryker-oryx/ui/icon';
-import { Size } from '@spryker-oryx/utilities';
+import { Icons } from '@oryx-frontend/ui/icon';
+import { Size } from '@oryx-frontend/utilities';
 
 export interface SpinnerProperties {
   icon?: Icons | string;

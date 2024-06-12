@@ -1,5 +1,5 @@
-import { AlertType } from '@spryker-oryx/ui';
-import { ButtonSize } from '@spryker-oryx/ui/button';
+import { AlertType } from '@oryx-frontend/ui';
+import { ButtonSize } from '@oryx-frontend/ui/button';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { when } from 'lit/directives/when.js';

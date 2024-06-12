@@ -1,5 +1,5 @@
 {
-  "name": "@spryker-oryx/push-notification",
+  "name": "@oryx-frontend/push-notification",
   "version": "1.4.0",
   "type": "module",
   "main": "./src/index.js",
@@ -8,9 +8,9 @@
   "author": "Spryker Sytems GmbH",
   "license": "See license in LICENSE",
   "dependencies": {
-    "@spryker-oryx/core": "1.4.0",
-    "@spryker-oryx/di": "1.4.0",
-    "@spryker-oryx/utilities": "1.4.0"
+    "@oryx-frontend/core": "1.4.0",
+    "@oryx-frontend/di": "1.4.0",
+    "@oryx-frontend/utilities": "1.4.0"
   },
   "peerDependencies": {
     "dexie": "^3.2.2",

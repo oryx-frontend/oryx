@@ -1,6 +1,6 @@
-import { resolve } from '@spryker-oryx/di';
-import { MockRouterService } from '@spryker-oryx/experience/mocks';
-import { RouterService } from '@spryker-oryx/router';
+import { resolve } from '@oryx-frontend/di';
+import { MockRouterService } from '@oryx-frontend/experience/mocks';
+import { RouterService } from '@oryx-frontend/router';
 import { html, TemplateResult } from 'lit';
 import { storybookPrefix } from '../../../.constants';
 import { SearchFacetComponentAttributes } from '../../facet.model';

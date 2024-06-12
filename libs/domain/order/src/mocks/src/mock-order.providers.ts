@@ -1,10 +1,10 @@
-import { TotalsResolver } from '@spryker-oryx/cart';
+import { TotalsResolver } from '@oryx-frontend/cart';
 import {
   mockedTotals,
   mockNormalizedCartTotals,
-} from '@spryker-oryx/cart/mocks';
-import { Provider } from '@spryker-oryx/di';
-import { OrderService } from '@spryker-oryx/order';
+} from '@oryx-frontend/cart/mocks';
+import { Provider } from '@oryx-frontend/di';
+import { OrderService } from '@oryx-frontend/order';
 import { MockOrderService } from './mock-order.service';
 
 export const mockOrderProviders: Provider[] = [

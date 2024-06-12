@@ -1,5 +1,5 @@
-import { ExperienceComponent } from '@spryker-oryx/experience';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { ExperienceComponent } from '@oryx-frontend/experience';
+import { featureVersion } from '@oryx-frontend/utilities';
 import {
   categoryNavigation,
   mainHeader,

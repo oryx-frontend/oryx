@@ -2,7 +2,7 @@ import {
   DefaultPageMetaService,
   ElementAttributes,
   ElementDefinition,
-} from '@spryker-oryx/core';
+} from '@oryx-frontend/core';
 
 export class ServerPageMetaService extends DefaultPageMetaService {
   protected template = '';

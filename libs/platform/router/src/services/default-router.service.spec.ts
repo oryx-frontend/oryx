@@ -1,6 +1,6 @@
-import { StorageService, StorageType } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { RouteConfig } from '@spryker-oryx/router/lit';
+import { StorageService, StorageType } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { RouteConfig } from '@oryx-frontend/router/lit';
 import { of } from 'rxjs';
 import 'urlpattern-polyfill';
 import { SpyInstance } from 'vitest';

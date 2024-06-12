@@ -2,8 +2,8 @@ import {
   ProductList,
   ProductListAdapter,
   ProductListQualifier,
-} from '@spryker-oryx/product';
-import { generateFacet, generateRange } from '@spryker-oryx/product/mocks';
+} from '@oryx-frontend/product';
+import { generateFacet, generateRange } from '@oryx-frontend/product/mocks';
 import { Observable, of } from 'rxjs';
 import { createProductListMock } from './mock-product-list.generator';
 

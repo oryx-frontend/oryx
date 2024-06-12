@@ -1,10 +1,10 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { RouteType } from '@spryker-oryx/router';
-import { LinkService } from '@spryker-oryx/site';
-import { ButtonType } from '@spryker-oryx/ui/button';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { hydrate, signal } from '@spryker-oryx/utilities';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { RouteType } from '@oryx-frontend/router';
+import { LinkService } from '@oryx-frontend/site';
+import { ButtonType } from '@oryx-frontend/ui/button';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { hydrate, signal } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { AddressMixin } from '../src/mixins';
 import { CrudState } from '../src/models';

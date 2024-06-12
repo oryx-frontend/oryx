@@ -1,4 +1,4 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 import { OrderSummaryComponent } from './summary.component';
 
 export const orderSummarySchema: ContentComponentSchema<OrderSummaryComponent> =

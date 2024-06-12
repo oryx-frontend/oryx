@@ -1,4 +1,4 @@
-import { AlertType } from '@spryker-oryx/ui';
+import { AlertType } from '@oryx-frontend/ui';
 import { html, TemplateResult } from 'lit';
 import { storybookPrefix } from '../../../../.constants';
 

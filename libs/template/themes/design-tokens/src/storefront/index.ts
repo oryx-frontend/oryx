@@ -1,5 +1,5 @@
-import { DesignToken } from '@spryker-oryx/experience';
-import { Size } from '@spryker-oryx/utilities';
+import { DesignToken } from '@oryx-frontend/experience';
+import { Size } from '@oryx-frontend/utilities';
 import { color } from '../color.tokens';
 import { commonTokens, commonTokensSmall } from '../common-tokens';
 import { layoutMdTokens, layoutSmTokens, layoutTokens } from '../layout.tokens';

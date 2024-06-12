@@ -1,5 +1,5 @@
-import { OptionComponent } from '@spryker-oryx/ui/option';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { OptionComponent } from '@oryx-frontend/ui/option';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { LitElement, ReactiveController } from 'lit';
 import {
   HighlightController,

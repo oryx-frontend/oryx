@@ -1,6 +1,6 @@
-import { CheckoutMixin, isValid, ShipmentMethod } from '@spryker-oryx/checkout';
-import { ContentMixin } from '@spryker-oryx/experience';
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { CheckoutMixin, isValid, ShipmentMethod } from '@oryx-frontend/checkout';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import {
   computed,
   elementEffect,
@@ -8,7 +8,7 @@ import {
   signal,
   signalAware,
   ssrShim,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { query } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';

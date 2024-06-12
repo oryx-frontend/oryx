@@ -1,4 +1,4 @@
-import { DefaultLocaleService, Locale } from '@spryker-oryx/i18n';
+import { DefaultLocaleService, Locale } from '@oryx-frontend/i18n';
 import { Observable, map } from 'rxjs';
 
 export class LabsLocaleService extends DefaultLocaleService {

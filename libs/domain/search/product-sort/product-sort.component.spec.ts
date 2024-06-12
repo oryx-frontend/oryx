@@ -1,8 +1,8 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
-import { SortingService } from '@spryker-oryx/search';
-import { useComponent } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
+import { SortingService } from '@oryx-frontend/search';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { SearchProductSortComponent } from './product-sort.component';

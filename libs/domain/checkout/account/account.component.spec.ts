@@ -1,12 +1,12 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { AuthService } from '@spryker-oryx/auth';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { FormRenderer } from '@spryker-oryx/form';
-import { RouterService } from '@spryker-oryx/router';
-import { LinkService } from '@spryker-oryx/site';
-import { ButtonComponent } from '@spryker-oryx/ui/button';
-import { User, UserService } from '@spryker-oryx/user';
-import { useComponent } from '@spryker-oryx/utilities';
+import { AuthService } from '@oryx-frontend/auth';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { FormRenderer } from '@oryx-frontend/form';
+import { RouterService } from '@oryx-frontend/router';
+import { LinkService } from '@oryx-frontend/site';
+import { ButtonComponent } from '@oryx-frontend/ui/button';
+import { User, UserService } from '@oryx-frontend/user';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import {

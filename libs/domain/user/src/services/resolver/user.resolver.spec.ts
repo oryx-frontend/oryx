@@ -1,6 +1,6 @@
-import { TokenResourceResolvers } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { User, UserService } from '@spryker-oryx/user';
+import { TokenResourceResolvers } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { User, UserService } from '@oryx-frontend/user';
 import { BehaviorSubject } from 'rxjs';
 import { UserResolver, UserResourceResolver } from './user.resolver';
 

@@ -8,7 +8,7 @@ import { i18n } from './i18n.directive';
  *
  * @example
  * ```ts
- * import { I18nMixin } from '@spryker-oryx/utilities';
+ * import { I18nMixin } from '@oryx-frontend/utilities';
  * import { LitElement } from 'lit';
  *
  * export class ExampleComponent extends I18nMixin(LitElement) {

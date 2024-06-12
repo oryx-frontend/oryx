@@ -1,7 +1,7 @@
-import { ElementResolver, PageMetaResolver } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { FacetValue } from '@spryker-oryx/product';
-import { RouterService } from '@spryker-oryx/router';
+import { ElementResolver, PageMetaResolver } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { FacetValue } from '@oryx-frontend/product';
+import { RouterService } from '@oryx-frontend/router';
 import { combineLatest, map, Observable, of, switchMap } from 'rxjs';
 import { FacetListService } from '../facet-list.service';
 

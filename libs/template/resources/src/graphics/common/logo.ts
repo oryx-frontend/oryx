@@ -1,4 +1,4 @@
-import { featureVersion } from '@spryker-oryx/utilities';
+import { featureVersion } from '@oryx-frontend/utilities';
 
 const darkMode =
   featureVersion >= '1.4'

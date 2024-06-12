@@ -1,5 +1,5 @@
-import { Transformer, TransformerService } from '@spryker-oryx/core';
-import { camelize } from '@spryker-oryx/core/utilities';
+import { Transformer, TransformerService } from '@oryx-frontend/core';
+import { camelize } from '@oryx-frontend/core/utilities';
 import { Observable, combineLatest, map } from 'rxjs';
 import { ApiProductModel, Product } from '../../../../models';
 import { CategoryIdNormalizer } from '../category-id';

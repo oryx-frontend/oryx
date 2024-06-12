@@ -1,5 +1,5 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { RouteType, RouterService } from '@spryker-oryx/router';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { RouteType, RouterService } from '@oryx-frontend/router';
 import { Observable, of } from 'rxjs';
 import { DefaultLinkService } from './default-link.service';
 import { LinkOptions, LinkService } from './link.service';

@@ -1,6 +1,6 @@
-import { resolve } from '@spryker-oryx/di';
-import { AddressService } from '@spryker-oryx/user';
-import { MockAddressService, MockAddressType } from '@spryker-oryx/user/mocks';
+import { resolve } from '@oryx-frontend/di';
+import { AddressService } from '@oryx-frontend/user';
+import { MockAddressService, MockAddressType } from '@oryx-frontend/user/mocks';
 import { html, TemplateResult } from 'lit';
 import { when } from 'lit/directives/when.js';
 import { UserAddressListItemOptions } from '../address-list-item.model';

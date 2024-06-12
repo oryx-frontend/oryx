@@ -1,4 +1,4 @@
-import { HeadingTag, headingUtil } from '@spryker-oryx/ui/heading';
+import { HeadingTag, headingUtil } from '@oryx-frontend/ui/heading';
 import { css } from 'lit';
 
 export const searchBoxStyles = css`

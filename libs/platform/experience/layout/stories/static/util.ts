@@ -1,4 +1,4 @@
-import { LayoutTypes } from '@spryker-oryx/experience';
+import { LayoutTypes } from '@oryx-frontend/experience';
 import { html, TemplateResult } from 'lit';
 
 export const generateLayoutItems = (

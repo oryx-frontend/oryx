@@ -3,7 +3,7 @@ import {
   a11yConfig,
   queryAssignedElements,
   useComponent,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { TabComponent } from '../../tab';
 import { tabComponent } from '../../tab/src/tab.def';
 import { TabsComponent } from './tabs.component';

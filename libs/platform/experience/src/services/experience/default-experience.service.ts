@@ -1,5 +1,5 @@
-import { HttpService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { HttpService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import {
   Observable,
   ReplaySubject,

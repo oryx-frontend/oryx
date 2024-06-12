@@ -1,10 +1,10 @@
-import { AuthIdentity, IdentityService } from '@spryker-oryx/auth';
-import { DefaultQueryService, QueryService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { AuthIdentity, IdentityService } from '@oryx-frontend/auth';
+import { DefaultQueryService, QueryService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   mockCurrentAddress,
   mockNormalizedAddresses,
-} from '@spryker-oryx/user/mocks';
+} from '@oryx-frontend/user/mocks';
 import { firstValueFrom, mergeMap, Observable, of, Subject } from 'rxjs';
 import { AddressAdapter } from './adapter';
 import { AddressService } from './address.service';

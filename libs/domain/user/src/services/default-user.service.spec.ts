@@ -1,5 +1,5 @@
-import { AuthIdentity, IdentityService } from '@spryker-oryx/auth';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { AuthIdentity, IdentityService } from '@oryx-frontend/auth';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { mergeMap, Observable, of, Subject } from 'rxjs';
 import { UserAdapter } from './adapter';
 import { DefaultUserService } from './default-user.service';

@@ -1,4 +1,4 @@
-import { Locale } from '@spryker-oryx/i18n';
+import { Locale } from '@oryx-frontend/i18n';
 
 export interface Country {
   /**

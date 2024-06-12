@@ -1,22 +1,22 @@
-import { ButtonType } from '@spryker-oryx/ui/button';
+import { ButtonType } from '@oryx-frontend/ui/button';
 import {
   Address,
   AddressEventDetail,
   AddressMixin,
   CrudState,
-} from '@spryker-oryx/user';
-import { Target } from '@spryker-oryx/user/address-add-button';
+} from '@oryx-frontend/user';
+import { Target } from '@oryx-frontend/user/address-add-button';
 import {
   SaveOption,
   UserAddressEditComponent,
-} from '@spryker-oryx/user/address-edit';
-import { EditTarget } from '@spryker-oryx/user/address-list-item';
+} from '@oryx-frontend/user/address-edit';
+import { EditTarget } from '@oryx-frontend/user/address-list-item';
 import {
   I18nMixin,
   Size,
   hydrate,
   signalProperty,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { DirectiveResult } from 'lit/async-directive';
 import { query, state } from 'lit/decorators.js';

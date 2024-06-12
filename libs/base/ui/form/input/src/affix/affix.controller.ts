@@ -1,4 +1,4 @@
-import { queryAssignedElements } from '@spryker-oryx/utilities';
+import { queryAssignedElements } from '@oryx-frontend/utilities';
 import { html, LitElement, ReactiveController, TemplateResult } from 'lit';
 import { AffixOptions } from './affix.model';
 

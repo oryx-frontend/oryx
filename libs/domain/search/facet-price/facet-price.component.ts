@@ -1,15 +1,15 @@
-import { resolve } from '@spryker-oryx/di';
-import { RangeFacet } from '@spryker-oryx/product';
-import { SelectRangeFacetValues } from '@spryker-oryx/search';
-import { SearchRangeFacetComponent } from '@spryker-oryx/search/facet-range';
-import { CurrencyService } from '@spryker-oryx/site';
-import { MultiRangeChangeEvent } from '@spryker-oryx/ui/multi-range';
+import { resolve } from '@oryx-frontend/di';
+import { RangeFacet } from '@oryx-frontend/product';
+import { SelectRangeFacetValues } from '@oryx-frontend/search';
+import { SearchRangeFacetComponent } from '@oryx-frontend/search/facet-range';
+import { CurrencyService } from '@oryx-frontend/site';
+import { MultiRangeChangeEvent } from '@oryx-frontend/ui/multi-range';
 import {
   I18nMixin,
   computed,
   signal,
   signalProperty,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { TemplateResult, html } from 'lit';
 import { keyed } from 'lit/directives/keyed.js';
 

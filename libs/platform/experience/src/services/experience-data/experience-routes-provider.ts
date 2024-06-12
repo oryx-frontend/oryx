@@ -1,6 +1,6 @@
-import { inject } from '@spryker-oryx/di';
-import { ExperienceDataService } from '@spryker-oryx/experience';
-import { LitRoutesRegistry, RouteConfig } from '@spryker-oryx/router/lit';
+import { inject } from '@oryx-frontend/di';
+import { ExperienceDataService } from '@oryx-frontend/experience';
+import { LitRoutesRegistry, RouteConfig } from '@oryx-frontend/router/lit';
 
 export function experienceStaticRoutesFactory(
   experienceData = inject(ExperienceDataService)

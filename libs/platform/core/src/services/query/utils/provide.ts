@@ -1,4 +1,4 @@
-import { FactoryProvider, ValueProvider } from '@spryker-oryx/di';
+import { FactoryProvider, ValueProvider } from '@oryx-frontend/di';
 import {
   CommandOptions,
   EffectDefinition,

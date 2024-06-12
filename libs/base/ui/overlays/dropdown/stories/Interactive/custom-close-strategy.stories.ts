@@ -1,5 +1,5 @@
 import { OverlaysDecorator } from '@/tools/storybook';
-import { wait } from '@spryker-oryx/utilities';
+import { wait } from '@oryx-frontend/utilities';
 import { expect } from '@storybook/jest';
 import { fireEvent } from '@storybook/testing-library';
 import { Meta, Story } from '@storybook/web-components';

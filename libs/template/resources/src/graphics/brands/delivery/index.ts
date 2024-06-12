@@ -1,4 +1,4 @@
-import { ResourceGraphic } from '@spryker-oryx/experience';
+import { ResourceGraphic } from '@oryx-frontend/experience';
 
 export const deliveryMethodsLogos: ResourceGraphic = {
   dhl: { source: () => import('./dhl').then((m) => m.resource) },

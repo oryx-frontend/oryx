@@ -13,8 +13,8 @@
     "build:ssr": "vite build -c vite.config.server.ts"
   },
   "dependencies": {
-    "@spryker-oryx/themes": "latest",
-    "@spryker-oryx/presets": "latest"
+    "@oryx-frontend/themes": "latest",
+    "@oryx-frontend/presets": "latest"
   },
   "devDependencies": {
     "vite": "^4.0.0",

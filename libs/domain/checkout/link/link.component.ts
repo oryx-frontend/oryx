@@ -1,8 +1,8 @@
-import { CartComponentMixin } from '@spryker-oryx/cart';
-import { resolve } from '@spryker-oryx/di';
-import { RouteType } from '@spryker-oryx/router';
-import { LinkService } from '@spryker-oryx/site';
-import { hydrate, I18nMixin, signal } from '@spryker-oryx/utilities';
+import { CartComponentMixin } from '@oryx-frontend/cart';
+import { resolve } from '@oryx-frontend/di';
+import { RouteType } from '@oryx-frontend/router';
+import { LinkService } from '@oryx-frontend/site';
+import { hydrate, I18nMixin, signal } from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { checkoutLinkStyles } from './link.styles';
 

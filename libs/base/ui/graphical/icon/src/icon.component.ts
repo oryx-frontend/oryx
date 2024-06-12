@@ -6,7 +6,7 @@ import {
   signalProperty,
   Size,
   ssrShim,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { html, LitElement, svg, TemplateResult } from 'lit';
 import { property } from 'lit/decorators.js';
 import { IconProperties, Icons } from './icon.model';

@@ -1,7 +1,7 @@
-import { ContentService } from '@spryker-oryx/content';
-import { ContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
+import { ContentService } from '@oryx-frontend/content';
+import { ContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
 import { of } from 'rxjs';
 import { ArticlePageTitleMetaResolver } from './article-page-title-meta.resolver';
 

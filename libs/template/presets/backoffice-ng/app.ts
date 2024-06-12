@@ -1,8 +1,8 @@
-import { cartFeature } from '@spryker-oryx/cart';
-import { AppFeature, coreFeature } from '@spryker-oryx/core';
-import { Resources } from '@spryker-oryx/experience';
-import { commonGraphics } from '@spryker-oryx/resources';
-import { uiFeature } from '@spryker-oryx/ui';
+import { cartFeature } from '@oryx-frontend/cart';
+import { AppFeature, coreFeature } from '@oryx-frontend/core';
+import { Resources } from '@oryx-frontend/experience';
+import { commonGraphics } from '@oryx-frontend/resources';
+import { uiFeature } from '@oryx-frontend/ui';
 
 export const backofficeNgResources: Resources = {
   graphics: commonGraphics,

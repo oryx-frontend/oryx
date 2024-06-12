@@ -1,6 +1,6 @@
 import { getAppIcons } from '@/tools/storybook';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { Size } from '@spryker-oryx/utilities';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { Size } from '@oryx-frontend/utilities';
 import { Meta, Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';
 import { storybookPrefix } from '../../../../.constants';

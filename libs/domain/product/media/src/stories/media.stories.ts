@@ -1,9 +1,9 @@
 import {
   ProductComponentProperties,
   ProductMediaContainerSize,
-} from '@spryker-oryx/product';
-import { MockProductService } from '@spryker-oryx/product/mocks';
-import { LoadingStrategy } from '@spryker-oryx/ui/image';
+} from '@oryx-frontend/product';
+import { MockProductService } from '@oryx-frontend/product/mocks';
+import { LoadingStrategy } from '@oryx-frontend/ui/image';
 import { Meta, Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';
 import { storybookPrefix } from '../../../.constants';

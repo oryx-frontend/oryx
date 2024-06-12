@@ -1,4 +1,4 @@
-import { TypeaheadOptions } from '@spryker-oryx/ui/typeahead';
+import { TypeaheadOptions } from '@oryx-frontend/ui/typeahead';
 import { html, LitElement, ReactiveController, TemplateResult } from 'lit';
 import { when } from 'lit/directives/when.js';
 import { getControl } from '../../../utilities';

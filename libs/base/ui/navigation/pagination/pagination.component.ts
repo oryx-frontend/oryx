@@ -1,5 +1,5 @@
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { I18nMixin } from '@spryker-oryx/utilities';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { I18nMixin } from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { property, queryAssignedElements } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';

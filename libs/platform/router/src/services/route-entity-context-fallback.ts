@@ -1,4 +1,4 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import { map, Observable } from 'rxjs';
 import { RouterService } from './router.service';
 

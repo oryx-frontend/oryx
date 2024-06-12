@@ -1,8 +1,8 @@
-import { CartComponentMixin, CartService, PriceMode } from '@spryker-oryx/cart';
-import { resolve } from '@spryker-oryx/di';
-import { LinkService, RouteType } from '@spryker-oryx/router';
-import { AlertType } from '@spryker-oryx/ui';
-import { I18nMixin, Size, signal } from '@spryker-oryx/utilities';
+import { CartComponentMixin, CartService, PriceMode } from '@oryx-frontend/cart';
+import { resolve } from '@oryx-frontend/di';
+import { LinkService, RouteType } from '@oryx-frontend/router';
+import { AlertType } from '@oryx-frontend/ui';
+import { I18nMixin, Size, signal } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { when } from 'lit/directives/when.js';
 import { cartListItemStyles } from './list-item.styles';

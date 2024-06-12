@@ -1,7 +1,7 @@
-import { AppFeature } from '@spryker-oryx/core';
-import { Resources } from '@spryker-oryx/experience';
-import { backofficeFeatures } from '@spryker-oryx/presets/backoffice';
-import { commonGraphics, materialDesignLink } from '@spryker-oryx/resources';
+import { AppFeature } from '@oryx-frontend/core';
+import { Resources } from '@oryx-frontend/experience';
+import { backofficeFeatures } from '@oryx-frontend/presets/backoffice';
+import { commonGraphics, materialDesignLink } from '@oryx-frontend/resources';
 
 export const fesResources: Resources = {
   graphics: commonGraphics,

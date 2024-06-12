@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
 import { of } from 'rxjs';
 import { ExperienceDataRevealer } from './data-client.service';
 import { DefaultExperienceDataClientService } from './default-data-client.service';

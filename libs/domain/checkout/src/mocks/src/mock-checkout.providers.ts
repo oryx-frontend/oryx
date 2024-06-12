@@ -3,11 +3,11 @@ import {
   CheckoutService,
   CheckoutStateService,
   DefaultCheckoutStateService,
-} from '@spryker-oryx/checkout';
-import { Provider } from '@spryker-oryx/di';
+} from '@oryx-frontend/checkout';
+import { Provider } from '@oryx-frontend/di';
 
-import { StorageService } from '@spryker-oryx/core';
-import { ExperienceData } from '@spryker-oryx/experience';
+import { StorageService } from '@oryx-frontend/core';
+import { ExperienceData } from '@oryx-frontend/experience';
 import { MockCheckoutDataService } from './mock-checkout-data.service';
 import { MockCheckoutService } from './mock-checkout.service';
 import { MockStorageService } from './mock-storage.service';

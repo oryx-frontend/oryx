@@ -1,7 +1,7 @@
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { RangeFacet } from '@spryker-oryx/product';
-import { FacetController, searchFacetStyles } from '@spryker-oryx/search/facet';
-import { I18nMixin, computed, featureVersion } from '@spryker-oryx/utilities';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { RangeFacet } from '@oryx-frontend/product';
+import { FacetController, searchFacetStyles } from '@oryx-frontend/search/facet';
+import { I18nMixin, computed, featureVersion } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { repeat } from 'lit/directives/repeat.js';

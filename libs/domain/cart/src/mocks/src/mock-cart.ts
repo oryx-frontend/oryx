@@ -7,7 +7,7 @@ import {
   Coupon,
   NormalizedTotals,
   PriceMode,
-} from '@spryker-oryx/cart';
+} from '@oryx-frontend/cart';
 
 export const mockCartEntry: CartEntry = {
   sku: '1',

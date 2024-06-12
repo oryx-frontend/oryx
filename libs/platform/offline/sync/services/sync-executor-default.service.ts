@@ -1,5 +1,5 @@
-import { inject } from '@spryker-oryx/di';
-import { IndexedDbService } from '@spryker-oryx/indexed-db';
+import { inject } from '@oryx-frontend/di';
+import { IndexedDbService } from '@oryx-frontend/indexed-db';
 import {
   catchError,
   forkJoin,

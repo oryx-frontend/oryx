@@ -1,7 +1,7 @@
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { PRODUCT, ProductContext, ProductMixin } from '@spryker-oryx/product';
-import { AlertType } from '@spryker-oryx/ui';
-import { computed, featureVersion, hydrate } from '@spryker-oryx/utilities';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { PRODUCT, ProductContext, ProductMixin } from '@oryx-frontend/product';
+import { AlertType } from '@oryx-frontend/ui';
+import { computed, featureVersion, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { when } from 'lit/directives/when.js';
 import {

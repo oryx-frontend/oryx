@@ -1,5 +1,5 @@
-import { QueryService } from '@spryker-oryx/core';
-import { Injector } from '@spryker-oryx/di';
+import { QueryService } from '@oryx-frontend/core';
+import { Injector } from '@oryx-frontend/di';
 import { Observable } from 'rxjs';
 import { DefaultPriceModeService } from './default-price-mode.service';
 import { PriceMode, PriceModeService } from './price-mode.service';

@@ -1,5 +1,5 @@
-import { StorageService, StorageType } from '@spryker-oryx/core';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import { StorageService, StorageType } from '@oryx-frontend/core';
+import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
 import { of, throwError } from 'rxjs';
 import { AnonAuthTokenService } from './anon-auth-token.service';
 import { AuthTokenService } from './auth-token.service';

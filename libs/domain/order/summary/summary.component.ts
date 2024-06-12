@@ -1,16 +1,16 @@
-import { resolve } from '@spryker-oryx/di';
-import { LocaleService } from '@spryker-oryx/i18n';
-import { OrderMixin } from '@spryker-oryx/order';
-import { ButtonType } from '@spryker-oryx/ui/button';
-import { HeadingTag } from '@spryker-oryx/ui/heading';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { Address } from '@spryker-oryx/user';
+import { resolve } from '@oryx-frontend/di';
+import { LocaleService } from '@oryx-frontend/i18n';
+import { OrderMixin } from '@oryx-frontend/order';
+import { ButtonType } from '@oryx-frontend/ui/button';
+import { HeadingTag } from '@oryx-frontend/ui/heading';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { Address } from '@oryx-frontend/user';
 import {
   computed,
   featureVersion,
   hydrate,
   I18nMixin,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { orderSummaryStyles } from './summary.styles';
 

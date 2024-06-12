@@ -1,4 +1,4 @@
-import { queryAssignedElements } from '@spryker-oryx/utilities';
+import { queryAssignedElements } from '@oryx-frontend/utilities';
 import { LitElement, ReactiveController } from 'lit';
 
 const focusableSelectors = [

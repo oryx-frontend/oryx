@@ -1,13 +1,13 @@
-import { CART, CartQualifier, CartService } from '@spryker-oryx/cart';
+import { CART, CartQualifier, CartService } from '@oryx-frontend/cart';
 import {
   BaseResolver,
   ContextService,
   ResolvedResult,
   Resolver,
   TokenResolverOptions,
-} from '@spryker-oryx/core';
-import { inject, resolve } from '@spryker-oryx/di';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/core';
+import { inject, resolve } from '@oryx-frontend/di';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { Observable, map, of, switchMap } from 'rxjs';
 
 export type CartResolvers = {

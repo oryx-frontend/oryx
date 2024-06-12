@@ -1,4 +1,4 @@
-import { FormFieldType } from '@spryker-oryx/form';
+import { FormFieldType } from '@oryx-frontend/form';
 import { ContentComponentSchema } from '../../../../../models';
 
 export const schema: ContentComponentSchema = {

@@ -1,4 +1,4 @@
-import { ApiCheckoutModel, PlaceOrderData } from '@spryker-oryx/checkout';
+import { ApiCheckoutModel, PlaceOrderData } from '@oryx-frontend/checkout';
 import { checkoutAttributesSerializer } from './checkout.serializer';
 
 export function checkoutDataAttributesSerializer(

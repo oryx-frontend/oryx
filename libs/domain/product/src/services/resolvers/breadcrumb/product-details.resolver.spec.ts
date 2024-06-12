@@ -1,11 +1,11 @@
-import { ContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { ContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   RouteType,
   RouteWithParams,
   RouterService,
-} from '@spryker-oryx/router';
-import { LinkService } from '@spryker-oryx/site';
+} from '@oryx-frontend/router';
+import { LinkService } from '@oryx-frontend/site';
 import { of } from 'rxjs';
 import { Product } from '../../../models';
 import { ProductCategoryService } from '../../category';

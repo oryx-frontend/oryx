@@ -1,4 +1,4 @@
-import { ProductListSort } from '@spryker-oryx/product';
+import { ProductListSort } from '@oryx-frontend/product';
 import { Observable } from 'rxjs';
 
 export interface SortingService {

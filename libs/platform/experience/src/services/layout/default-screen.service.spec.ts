@@ -1,6 +1,6 @@
-import { App, AppRef } from '@spryker-oryx/core';
-import { Injector } from '@spryker-oryx/di';
-import { Size } from '@spryker-oryx/utilities';
+import { App, AppRef } from '@oryx-frontend/core';
+import { Injector } from '@oryx-frontend/di';
+import { Size } from '@oryx-frontend/utilities';
 import { Theme, ThemePlugin } from '../../plugins';
 import { DefaultScreenService } from './default-screen.service';
 import { ScreenService } from './screen.service';

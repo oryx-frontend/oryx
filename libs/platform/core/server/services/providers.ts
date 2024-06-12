@@ -5,8 +5,8 @@ import {
   PageMetaService,
   SSRAwaiterService,
   StorageService,
-} from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
+} from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
 import { ServerContextService } from './context';
 import { ServerHttpService } from './http';
 import { ServerJsonApiTransformerService } from './json-api';

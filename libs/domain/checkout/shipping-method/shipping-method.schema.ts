@@ -1,4 +1,4 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 
 export const checkoutShippingMethodSchema: ContentComponentSchema = {
   name: 'Shipping method',

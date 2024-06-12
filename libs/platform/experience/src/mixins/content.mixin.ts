@@ -5,7 +5,7 @@ import {
   Signal,
   signalAware,
   Type,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { property } from 'lit/decorators.js';
 import { ContentComponentProperties, ContentController } from '../index';

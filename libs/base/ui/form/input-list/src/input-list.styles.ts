@@ -1,5 +1,5 @@
-import { HeadingTag, headingUtil } from '@spryker-oryx/ui/heading';
-import { screenCss } from '@spryker-oryx/utilities';
+import { HeadingTag, headingUtil } from '@oryx-frontend/ui/heading';
+import { screenCss } from '@oryx-frontend/utilities';
 
 import { css } from 'lit';
 

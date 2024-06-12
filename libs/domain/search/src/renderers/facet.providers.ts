@@ -1,4 +1,4 @@
-import { featureVersion } from '@spryker-oryx/utilities';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { DefaultFacetComponentRegistryService } from './default-facet-component-registry.service';
 import { FacetColorsMapping, colorsMap } from './facet-color-colors.mapping';
 import { FacetComponentRegistryService } from './facet-component-registry.service';

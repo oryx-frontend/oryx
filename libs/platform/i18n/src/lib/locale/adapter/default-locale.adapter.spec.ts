@@ -1,4 +1,4 @@
-import { Injector } from '@spryker-oryx/di';
+import { Injector } from '@oryx-frontend/di';
 import { Locale } from '../../models';
 import {
   DefaultLocaleAdapter,

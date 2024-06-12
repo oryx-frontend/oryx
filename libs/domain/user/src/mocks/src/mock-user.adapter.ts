@@ -1,4 +1,4 @@
-import { User, UserAdapter } from '@spryker-oryx/user';
+import { User, UserAdapter } from '@oryx-frontend/user';
 import { Observable, of } from 'rxjs';
 import { mockUser } from './mock-user';
 

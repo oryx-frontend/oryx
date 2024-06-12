@@ -1,5 +1,5 @@
 import { mockLitHtml } from '@/tools/testing';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
 import { ComponentMapping } from '../experience-tokens';
 import { ComponentsRegistryService } from './components-registry.service';
 import { DefaultComponentsRegistryService } from './default-components-registry.service';

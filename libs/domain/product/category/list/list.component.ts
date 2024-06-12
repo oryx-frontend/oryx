@@ -1,7 +1,7 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, LayoutMixin } from '@spryker-oryx/experience';
-import { ProductCategoryService } from '@spryker-oryx/product';
-import { computed, hydrate } from '@spryker-oryx/utilities';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, LayoutMixin } from '@oryx-frontend/experience';
+import { ProductCategoryService } from '@oryx-frontend/product';
+import { computed, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { repeat } from 'lit/directives/repeat.js';

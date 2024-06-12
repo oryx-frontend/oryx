@@ -1,5 +1,5 @@
-import { StorageService, StorageType } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { StorageService, StorageType } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import {
   BehaviorSubject,
   Observable,

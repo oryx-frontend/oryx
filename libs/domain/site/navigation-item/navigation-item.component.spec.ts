@@ -1,10 +1,10 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { TokenResolver } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { LinkService } from '@spryker-oryx/site';
-import { modalComponent } from '@spryker-oryx/ui';
-import { ButtonType } from '@spryker-oryx/ui/button';
-import { useComponent } from '@spryker-oryx/utilities';
+import { TokenResolver } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { LinkService } from '@oryx-frontend/site';
+import { modalComponent } from '@oryx-frontend/ui';
+import { ButtonType } from '@oryx-frontend/ui/button';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { beforeEach } from 'vitest';

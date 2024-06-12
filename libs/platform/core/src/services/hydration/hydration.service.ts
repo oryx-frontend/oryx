@@ -1,4 +1,4 @@
-import { OnDestroy } from '@spryker-oryx/di';
+import { OnDestroy } from '@oryx-frontend/di';
 import { Observable } from 'rxjs';
 
 export const HydrationService = 'oryx.HydrationService';

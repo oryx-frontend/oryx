@@ -2,8 +2,8 @@ import {
   AuthService,
   AuthTokenService,
   IdentityService,
-} from '@spryker-oryx/auth';
-import { inject, Provider } from '@spryker-oryx/di';
+} from '@oryx-frontend/auth';
+import { inject, Provider } from '@oryx-frontend/di';
 import { MockAuthService } from './mock-auth.service';
 
 export const mockAuthProviders: Provider[] = [

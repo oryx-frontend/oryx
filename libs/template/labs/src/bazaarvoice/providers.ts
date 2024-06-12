@@ -1,5 +1,5 @@
-import { Provider } from '@spryker-oryx/di';
-import { ComponentMapping } from '@spryker-oryx/experience';
+import { Provider } from '@oryx-frontend/di';
+import { ComponentMapping } from '@oryx-frontend/experience';
 import { html } from 'lit';
 import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 

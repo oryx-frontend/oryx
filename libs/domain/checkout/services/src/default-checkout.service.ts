@@ -1,5 +1,5 @@
-import { IdentityService } from '@spryker-oryx/auth';
-import { CartService, CartsUpdated } from '@spryker-oryx/cart';
+import { IdentityService } from '@oryx-frontend/auth';
+import { CartService, CartsUpdated } from '@oryx-frontend/cart';
 import {
   CheckoutAdapter,
   CheckoutResponse,
@@ -11,13 +11,13 @@ import {
   PlaceOrderFail,
   PlaceOrderStart,
   PlaceOrderSuccess,
-} from '@spryker-oryx/checkout';
-import { createCommand, createEffect } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { OrderService } from '@spryker-oryx/order';
-import { RouteType } from '@spryker-oryx/router';
-import { LinkService } from '@spryker-oryx/site';
-import { AddressModificationSuccess } from '@spryker-oryx/user';
+} from '@oryx-frontend/checkout';
+import { createCommand, createEffect } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { OrderService } from '@oryx-frontend/order';
+import { RouteType } from '@oryx-frontend/router';
+import { LinkService } from '@oryx-frontend/site';
+import { AddressModificationSuccess } from '@oryx-frontend/user';
 import {
   Observable,
   combineLatest,

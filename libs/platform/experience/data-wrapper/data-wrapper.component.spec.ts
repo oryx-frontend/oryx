@@ -1,8 +1,8 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { ContextService, EntityService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { LinkService } from '@spryker-oryx/router';
-import { useComponent } from '@spryker-oryx/utilities';
+import { ContextService, EntityService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { LinkService } from '@oryx-frontend/router';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { DataWrapperComponent } from './data-wrapper.component';

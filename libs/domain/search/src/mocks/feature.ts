@@ -1,5 +1,5 @@
-import { AppFeature } from '@spryker-oryx/core';
-import { searchComponents } from '@spryker-oryx/search';
+import { AppFeature } from '@oryx-frontend/core';
+import { searchComponents } from '@oryx-frontend/search';
 import { mockSearchProviders } from './src';
 
 export const mockSearchFeature: AppFeature = {

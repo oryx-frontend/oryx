@@ -1,5 +1,5 @@
-import { ProductMediaContainerSize } from '@spryker-oryx/product';
-import { LoadingStrategy } from '@spryker-oryx/ui/image';
+import { ProductMediaContainerSize } from '@oryx-frontend/product';
+import { LoadingStrategy } from '@oryx-frontend/ui/image';
 
 export interface ResponsiveImage {
   src?: string;

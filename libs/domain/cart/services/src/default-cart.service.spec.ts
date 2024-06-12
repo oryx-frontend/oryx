@@ -1,18 +1,18 @@
-import { AuthIdentity, AuthService, IdentityService } from '@spryker-oryx/auth';
+import { AuthIdentity, AuthService, IdentityService } from '@oryx-frontend/auth';
 import {
   CartAdapter,
   CartService,
   CreateCartQualifier,
-} from '@spryker-oryx/cart';
+} from '@oryx-frontend/cart';
 import {
   mockBaseCart,
   mockCartEntry,
   mockDefaultCart,
   mockEmptyCart,
-} from '@spryker-oryx/cart/mocks';
-import { DefaultQueryService, QueryService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { DefaultLocaleService, LocaleService } from '@spryker-oryx/i18n';
+} from '@oryx-frontend/cart/mocks';
+import { DefaultQueryService, QueryService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { DefaultLocaleService, LocaleService } from '@oryx-frontend/i18n';
 import {
   BehaviorSubject,
   Observable,

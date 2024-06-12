@@ -1,7 +1,7 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { Locale, LocaleService } from '@spryker-oryx/i18n';
-import { useComponent } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { Locale, LocaleService } from '@oryx-frontend/i18n';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { SiteLocaleSelectorComponent } from './locale-selector.component';

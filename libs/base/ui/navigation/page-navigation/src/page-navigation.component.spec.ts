@@ -1,12 +1,12 @@
 import { elementUpdated, fixture, html } from '@open-wc/testing-helpers';
-import { pageNavigationItemComponent } from '@spryker-oryx/ui';
-import { PageNavigationItemComponent } from '@spryker-oryx/ui/page-navigation-item';
+import { pageNavigationItemComponent } from '@oryx-frontend/ui';
+import { PageNavigationItemComponent } from '@oryx-frontend/ui/page-navigation-item';
 import {
   a11yConfig,
   queryAssignedElements,
   queryFirstAssigned,
   useComponent,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { TemplateResult } from 'lit';
 import { pageNavigationComponent } from './component';
 import { PageNavigationComponent } from './page-navigation.component';

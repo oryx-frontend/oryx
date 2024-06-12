@@ -1,11 +1,11 @@
-import { AppRef } from '@spryker-oryx/core';
-import { OnDestroy, inject } from '@spryker-oryx/di';
+import { AppRef } from '@oryx-frontend/core';
+import { OnDestroy, inject } from '@oryx-frontend/di';
 import {
   Breakpoint,
   Breakpoints,
   Size,
   throttle,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { ThemePlugin } from '../../plugins';
 import { ScreenService } from './screen.service';
 import {

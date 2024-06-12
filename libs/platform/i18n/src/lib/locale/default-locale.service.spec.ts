@@ -1,5 +1,5 @@
-import { QueryService } from '@spryker-oryx/core';
-import { inject, Injector } from '@spryker-oryx/di';
+import { QueryService } from '@oryx-frontend/core';
+import { inject, Injector } from '@oryx-frontend/di';
 import { EMPTY, of } from 'rxjs';
 import { LocaleAdapter } from './adapter';
 import { DefaultLocaleService } from './default-locale.service';

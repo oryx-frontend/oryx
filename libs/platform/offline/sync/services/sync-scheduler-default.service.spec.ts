@@ -1,6 +1,6 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { IndexedDbService } from '@spryker-oryx/indexed-db';
-import { nextTick } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { IndexedDbService } from '@oryx-frontend/indexed-db';
+import { nextTick } from '@oryx-frontend/utilities';
 import { Collection, Table } from 'dexie';
 import { from, of } from 'rxjs';
 import { SyncEntity } from '../entities';

@@ -1,5 +1,5 @@
-import { AppFeature, HttpInterceptor } from '@spryker-oryx/core';
-import { Provider, inject } from '@spryker-oryx/di';
+import { AppFeature, HttpInterceptor } from '@oryx-frontend/core';
+import { Provider, inject } from '@oryx-frontend/di';
 import {
   AuthService,
   AuthTokenInterceptorConfig,

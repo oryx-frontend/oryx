@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector, getInjector } from '@oryx-frontend/di';
 import { of, throwError } from 'rxjs';
 import {
   AuthTokenInterceptor,

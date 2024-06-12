@@ -1,8 +1,8 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { EntityService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { ImageComponent } from '@spryker-oryx/ui/image';
-import { useComponent } from '@spryker-oryx/utilities';
+import { EntityService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { ImageComponent } from '@oryx-frontend/ui/image';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { ContentAsset } from '../src/models';

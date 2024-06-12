@@ -1,13 +1,13 @@
-import { resolve } from '@spryker-oryx/di';
-import { MockRouterService } from '@spryker-oryx/experience/mocks';
-import { ValueFacet } from '@spryker-oryx/product';
-import { RouterService } from '@spryker-oryx/router';
+import { resolve } from '@oryx-frontend/di';
+import { MockRouterService } from '@oryx-frontend/experience/mocks';
+import { ValueFacet } from '@oryx-frontend/product';
+import { RouterService } from '@oryx-frontend/router';
 import {
   FacetListService,
   SelectFacetEventDetail,
   SelectFacetValue,
-} from '@spryker-oryx/search';
-import { SearchFacetComponentAttributes } from '@spryker-oryx/search/facet';
+} from '@oryx-frontend/search';
+import { SearchFacetComponentAttributes } from '@oryx-frontend/search/facet';
 import { Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { take } from 'rxjs';

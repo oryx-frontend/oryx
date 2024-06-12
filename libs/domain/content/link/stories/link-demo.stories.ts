@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';
 import { storybookPrefix } from '../../.constants';
 import { ContentLinkContent, ContentLinkOptions } from '../link.model';
-import { RouteType } from '@spryker-oryx/router';
+import { RouteType } from '@oryx-frontend/router';
 
 export default {
   title: `${storybookPrefix}/Link`,

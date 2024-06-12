@@ -4,4 +4,4 @@ Provides low level capabilities to manage push subscriptions for Oryx applicatio
 
 ## Installation
 
-`npm install @spryker-oryx/push-notification`
+`npm install @oryx-frontend/push-notification`

@@ -1,5 +1,5 @@
-import { Provider } from '@spryker-oryx/di';
-import { I18nFeature, LocaleService } from '@spryker-oryx/i18n';
+import { Provider } from '@oryx-frontend/di';
+import { I18nFeature, LocaleService } from '@oryx-frontend/i18n';
 import { LabsLocaleService } from './locales/labs-locale.service';
 
 // We have to use static strings for imports, as long as vite is

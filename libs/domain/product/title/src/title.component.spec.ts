@@ -1,9 +1,9 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { mockProductProviders } from '@spryker-oryx/product/mocks';
-import { LinkService } from '@spryker-oryx/site';
-import { LinkType } from '@spryker-oryx/ui/link';
-import { useComponent } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { mockProductProviders } from '@oryx-frontend/product/mocks';
+import { LinkService } from '@oryx-frontend/site';
+import { LinkType } from '@oryx-frontend/ui/link';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { ProductTitleComponent } from './title.component';

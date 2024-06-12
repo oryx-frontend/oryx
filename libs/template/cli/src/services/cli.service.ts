@@ -1,4 +1,4 @@
-import { inject, INJECTOR } from '@spryker-oryx/di';
+import { inject, INJECTOR } from '@oryx-frontend/di';
 import c from 'picocolors';
 import { CliCommands } from '../commands';
 import { CliCommand } from '../models';

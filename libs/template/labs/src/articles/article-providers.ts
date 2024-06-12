@@ -3,10 +3,10 @@ import {
   ContentConfig,
   ContentQualifier,
   ContentService,
-} from '@spryker-oryx/content';
-import { PageMetaResolver, provideEntity } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
-import { provideExperienceData } from '@spryker-oryx/experience';
+} from '@oryx-frontend/content';
+import { PageMetaResolver, provideEntity } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
+import { provideExperienceData } from '@oryx-frontend/experience';
 import { ArticleQualifierContextFallback } from './article-context';
 import { experienceArticlePages } from './article-page';
 import { articleTypes } from './article-types';

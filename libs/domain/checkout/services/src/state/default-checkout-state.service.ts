@@ -1,11 +1,11 @@
-import { IdentityService } from '@spryker-oryx/auth';
+import { IdentityService } from '@oryx-frontend/auth';
 import {
   CheckoutStateService,
   PlaceOrderData,
   checkoutDataStorageKey,
-} from '@spryker-oryx/checkout';
-import { StorageService, StorageType } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+} from '@oryx-frontend/checkout';
+import { StorageService, StorageType } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import {
   BehaviorSubject,
   Observable,

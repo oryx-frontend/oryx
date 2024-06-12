@@ -1,13 +1,13 @@
-import { resolve } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
-import { SortingService } from '@spryker-oryx/search';
+import { resolve } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
+import { SortingService } from '@oryx-frontend/search';
 import {
   computed,
   hydrate,
   I18nMixin,
   signal,
   signalAware,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { when } from 'lit/directives/when.js';
 import { tap } from 'rxjs/operators';
