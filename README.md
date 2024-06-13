@@ -1,4 +1,4 @@
-# Oryx
+# Oryx Frontend
 
 [![CI checks](https://github.com/spryker/oryx/actions/workflows/test.yml/badge.svg)](https://github.com/spryker/oryx/actions/workflows/test.yml)
 [![Oryx component dev env status](https://api.netlify.com/api/v1/badges/983ba7e1-0787-4036-a333-b1e01ef10fea/deploy-status)](https://app.netlify.com/sites/dev-oryx-components/deploys)
@@ -61,3 +61,6 @@ The application gets available at localhost:3000, or the next available port on 
 ## Further Documentation
 
 [Oryx Documentation](https://docs.spryker.com/docs/scos/dev/front-end-development/202311.0/oryx/oryx.html)
+
+## Contributing
+Contributions to Oryx Frontend are welcome and highly appreciated! That might be a PR, a resolved issue, a new idea registered on the issue tracker or other.
