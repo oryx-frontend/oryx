@@ -64,4 +64,4 @@ The application gets available at localhost:3000, or the next available port on 
 
 ## Contributing
 Contributions to Oryx Frontend are welcome and highly appreciated! That might be a PR, a resolved issue, a new idea registered on the issue tracker or other.
-[Contribute to Oryx] (https://docs.spryker.com/docs/dg/dev/frontend-development/202404.0/oryx/contribute-to-oryx.html)
+[How to contribute to Oryx] (https://docs.spryker.com/docs/dg/dev/frontend-development/202404.0/oryx/contribute-to-oryx.html)
