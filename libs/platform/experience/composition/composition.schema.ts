@@ -1,4 +1,4 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 import { CompositionComponent } from './composition.component';
 
 export const ContentSuggestionFieldType = 'ContentSuggestion';

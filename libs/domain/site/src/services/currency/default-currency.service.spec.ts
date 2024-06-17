@@ -1,6 +1,6 @@
-import { QueryService } from '@spryker-oryx/core';
-import { Injector } from '@spryker-oryx/di';
-import { LocaleService } from '@spryker-oryx/i18n';
+import { QueryService } from '@oryx-frontend/core';
+import { Injector } from '@oryx-frontend/di';
+import { LocaleService } from '@oryx-frontend/i18n';
 import { Observable, of } from 'rxjs';
 import { mockStore } from '../../mocks';
 import { StoreService } from '../store';

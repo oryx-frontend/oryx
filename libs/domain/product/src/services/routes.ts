@@ -1,5 +1,5 @@
-import { RouteType } from '@spryker-oryx/router';
-import { RouteConfig } from '@spryker-oryx/router/lit';
+import { RouteType } from '@oryx-frontend/router';
+import { RouteConfig } from '@oryx-frontend/router/lit';
 
 export const productRoutes: RouteConfig[] = [
   {

@@ -1,5 +1,5 @@
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { hydrate, signal, signalAware } from '@spryker-oryx/utilities';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { hydrate, signal, signalAware } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { TotalsController } from '../../../src/controllers';
 import { PriceMode } from '../../../src/models';

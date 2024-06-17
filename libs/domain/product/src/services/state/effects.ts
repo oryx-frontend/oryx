@@ -1,4 +1,4 @@
-import { provideEffect } from '@spryker-oryx/core';
+import { provideEffect } from '@oryx-frontend/core';
 import { ProductsLoaded } from './events';
 import { ProductQuery } from './queries';
 

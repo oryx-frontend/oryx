@@ -1,5 +1,5 @@
-import { TypeaheadOptions } from '@spryker-oryx/ui/typeahead';
-import { getControl } from '@spryker-oryx/ui/utilities';
+import { TypeaheadOptions } from '@oryx-frontend/ui/typeahead';
+import { getControl } from '@oryx-frontend/ui/utilities';
 import { LitElement, ReactiveController } from 'lit';
 
 /**

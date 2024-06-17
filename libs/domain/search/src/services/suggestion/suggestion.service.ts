@@ -1,4 +1,4 @@
-import { QueryState } from '@spryker-oryx/core';
+import { QueryState } from '@oryx-frontend/core';
 import { Observable } from 'rxjs';
 import { Suggestion, SuggestionQualifier } from '../../models';
 

@@ -1,14 +1,14 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { CartService } from '@spryker-oryx/cart';
+import { CartService } from '@oryx-frontend/cart';
 import {
   CheckoutDataService,
   CheckoutService,
   CheckoutStateService,
   CheckoutStatus,
   isValid,
-} from '@spryker-oryx/checkout';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/checkout';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { useComponent } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { BehaviorSubject, of } from 'rxjs';

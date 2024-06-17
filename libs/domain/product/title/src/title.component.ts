@@ -1,15 +1,15 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin } from '@spryker-oryx/experience';
-import { PRODUCT, ProductContext, ProductMixin } from '@spryker-oryx/product';
-import { RouteType } from '@spryker-oryx/router';
-import { LinkService } from '@spryker-oryx/site';
-import { LinkType } from '@spryker-oryx/ui/link';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { PRODUCT, ProductContext, ProductMixin } from '@oryx-frontend/product';
+import { RouteType } from '@oryx-frontend/router';
+import { LinkService } from '@oryx-frontend/site';
+import { LinkType } from '@oryx-frontend/ui/link';
 import {
   computed,
   featureVersion,
   hydrate,
   ssrShim,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { ifDefined } from 'lit/directives/if-defined.js';
 import { html } from 'lit/static-html.js';

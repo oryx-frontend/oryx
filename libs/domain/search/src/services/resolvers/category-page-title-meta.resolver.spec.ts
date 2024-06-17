@@ -1,5 +1,5 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
 import { of } from 'rxjs';
 import { FacetListService } from '../facet-list.service';
 import { CategoryPageTitleMetaResolver } from './category-page-title-meta.resolver';

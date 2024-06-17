@@ -1,11 +1,11 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   LayoutBuilder,
   LayoutService,
   ScreenService,
-} from '@spryker-oryx/experience';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/experience';
+import { useComponent } from '@oryx-frontend/utilities';
 import { of } from 'rxjs';
 import { LayoutComponent } from './layout.component';
 import { layoutComponent } from './layout.def';

@@ -1,13 +1,13 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { ExperienceService } from '@spryker-oryx/experience';
-import { NotificationService } from '@spryker-oryx/site';
-import { AlertType, notificationCenterComponent } from '@spryker-oryx/ui';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { ExperienceService } from '@oryx-frontend/experience';
+import { NotificationService } from '@oryx-frontend/site';
+import { AlertType, notificationCenterComponent } from '@oryx-frontend/ui';
 import {
   NotificationCenterComponent,
   NotificationPosition,
-} from '@spryker-oryx/ui/notification-center';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/ui/notification-center';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { Subject, of } from 'rxjs';
 import { SiteNotificationCenterComponent } from './notification-center.component';

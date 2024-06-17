@@ -1,6 +1,6 @@
-import { ContentMixin } from '@spryker-oryx/experience';
-import { OrderMixin } from '@spryker-oryx/order';
-import { HeadingTag } from '@spryker-oryx/ui/heading';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { OrderMixin } from '@oryx-frontend/order';
+import { HeadingTag } from '@oryx-frontend/ui/heading';
 import { LitElement, TemplateResult, html } from 'lit';
 
 export class OrderHeadingComponent extends OrderMixin(

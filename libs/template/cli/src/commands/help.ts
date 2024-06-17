@@ -1,5 +1,5 @@
 import { intro, log, outro } from '@clack/prompts';
-import { INJECTOR, inject } from '@spryker-oryx/di';
+import { INJECTOR, inject } from '@oryx-frontend/di';
 import c from 'picocolors';
 import { CliCommands } from '../commands';
 import { CliCommand } from '../models';

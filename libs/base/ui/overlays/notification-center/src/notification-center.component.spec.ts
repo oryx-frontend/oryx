@@ -1,11 +1,11 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { notificationComponent } from '@spryker-oryx/ui';
+import { notificationComponent } from '@oryx-frontend/ui';
 import {
   CLOSE_EVENT,
   NotificationComponent,
   NotificationEvent,
-} from '@spryker-oryx/ui/notification';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/ui/notification';
+import { useComponent } from '@oryx-frontend/utilities';
 import { SpyInstance } from 'vitest';
 import { NotificationCenterComponent } from './notification-center.component';
 import { notificationCenterComponent } from './notification-center.def';

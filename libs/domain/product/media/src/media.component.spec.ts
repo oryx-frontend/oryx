@@ -1,16 +1,16 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   ImageSource,
   Product,
   ProductImageService,
   ProductMediaContainerSize,
   ProductService,
-} from '@spryker-oryx/product';
-import { LoadingStrategy } from '@spryker-oryx/ui/image';
-import { Size, useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/product';
+import { LoadingStrategy } from '@oryx-frontend/ui/image';
+import { Size, useComponent } from '@oryx-frontend/utilities';
 
-import { ContextService, DefaultContextService } from '@spryker-oryx/core';
+import { ContextService, DefaultContextService } from '@oryx-frontend/core';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { ProductMediaComponent } from './media.component';

@@ -1,5 +1,9 @@
 import { nextFrame } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { of, throwError } from 'rxjs';
 import { AuthTokenInterceptorConfig } from '../services';
 import { OauthTokenInterceptor } from './oauth-token.interceptor';

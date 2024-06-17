@@ -1,7 +1,7 @@
-import { CheckoutMixin, isValid } from '@spryker-oryx/checkout';
-import { ContentMixin } from '@spryker-oryx/experience';
-import { elementEffect, hydrate } from '@spryker-oryx/utilities';
-import { html, LitElement, TemplateResult } from 'lit';
+import { CheckoutMixin, isValid } from '@oryx-frontend/checkout';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { elementEffect, hydrate } from '@oryx-frontend/utilities';
+import { LitElement, TemplateResult, html } from 'lit';
 import { checkoutOrchestratorStyles } from './orchestrator.styles';
 
 @hydrate({ event: 'window:load' })

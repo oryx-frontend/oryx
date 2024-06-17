@@ -4,15 +4,15 @@ import {
   CartQualifier,
   CartQuery,
   CartService,
-} from '@spryker-oryx/cart';
+} from '@oryx-frontend/cart';
 import {
   CheckoutAdapter,
   CheckoutData,
   CheckoutDataService,
   CheckoutStateService,
-} from '@spryker-oryx/checkout';
-import { createQuery, injectQuery } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+} from '@oryx-frontend/checkout';
+import { createQuery, injectQuery } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import {
   Observable,
   combineLatest,

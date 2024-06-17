@@ -1,4 +1,4 @@
-import { Provider } from '@spryker-oryx/di';
+import { Provider } from '@oryx-frontend/di';
 import { provideOauthProvider } from '../provider-factory.service';
 
 export * from './code-grant';

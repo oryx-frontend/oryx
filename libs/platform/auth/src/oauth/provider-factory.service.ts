@@ -4,7 +4,7 @@ import {
   INJECTOR,
   OnDestroy,
   Provider,
-} from '@spryker-oryx/di';
+} from '@oryx-frontend/di';
 import {
   InferOauthConfig,
   OauthGrantType,

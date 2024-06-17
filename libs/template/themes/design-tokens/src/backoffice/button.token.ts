@@ -1,5 +1,5 @@
-import { DesignToken } from '@spryker-oryx/experience';
-import { Size } from '@spryker-oryx/utilities';
+import { DesignToken } from '@oryx-frontend/experience';
+import { Size } from '@oryx-frontend/utilities';
 
 export const buttonTokens: DesignToken[] = [
   { 'button-border-radius': '10px' },

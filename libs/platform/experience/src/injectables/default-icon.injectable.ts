@@ -1,7 +1,7 @@
-import { AppRef } from '@spryker-oryx/core';
-import { ssrAwaiter } from '@spryker-oryx/core/utilities';
-import { resolve } from '@spryker-oryx/di';
-import { defaultIconFont, IconTypes } from '@spryker-oryx/ui/icon';
+import { AppRef } from '@oryx-frontend/core';
+import { ssrAwaiter } from '@oryx-frontend/core/utilities';
+import { resolve } from '@oryx-frontend/di';
+import { defaultIconFont, IconTypes } from '@oryx-frontend/ui/icon';
 import {
   fontInjectable,
   IconHost,
@@ -9,7 +9,7 @@ import {
   isPromise,
   LazyLoadable,
   resolveLazyLoadable,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { html, svg, TemplateResult } from 'lit';
 import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 import { when } from 'lit/directives/when.js';

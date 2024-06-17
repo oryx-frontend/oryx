@@ -1,13 +1,13 @@
-import { ButtonType } from '@spryker-oryx/ui/button';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { PopoverController } from '@spryker-oryx/ui/popover';
+import { ButtonType } from '@oryx-frontend/ui/button';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { PopoverController } from '@oryx-frontend/ui/popover';
 import {
   I18nMixin,
   Size,
   featureVersion,
   hydrate,
   queryFirstFocusable,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { DropdownProperties, Position } from './dropdown.model';

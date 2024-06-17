@@ -1,5 +1,5 @@
-import { HttpService, JsonAPITransformerService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { HttpService, JsonAPITransformerService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { Observable } from 'rxjs';
 import { ApiProductModel, Product, ProductQualifier } from '../../../models';
 import { RelationsListNormalizer } from '../../adapter/normalizers/relations-list';

@@ -4,4 +4,4 @@ Provides global features to Oryx applications that are used to build the global 
 
 ## Installation
 
-`npm install @spryker-oryx/site`
+`npm install @oryx-frontend/site`

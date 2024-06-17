@@ -1,4 +1,4 @@
-import { rootInjectable } from '@spryker-oryx/utilities';
+import { rootInjectable } from '@oryx-frontend/utilities';
 
 export interface ModeEvent {
   old: string;

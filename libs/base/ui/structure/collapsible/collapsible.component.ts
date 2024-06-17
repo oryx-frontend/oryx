@@ -1,6 +1,6 @@
-import { ButtonSize, ButtonType } from '@spryker-oryx/ui/button';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { I18nMixin, Size, featureVersion } from '@spryker-oryx/utilities';
+import { ButtonSize, ButtonType } from '@oryx-frontend/ui/button';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { I18nMixin, Size, featureVersion } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property, query } from 'lit/decorators.js';
 import { ifDefined } from 'lit/directives/if-defined.js';

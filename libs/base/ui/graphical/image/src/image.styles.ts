@@ -1,4 +1,4 @@
-import { OBJECT_FIT, OBJECT_POSITION } from '@spryker-oryx/ui';
+import { OBJECT_FIT, OBJECT_POSITION } from '@oryx-frontend/ui';
 import { css, unsafeCSS } from 'lit';
 
 const objectFit = unsafeCSS(`var(${OBJECT_FIT}, contain)`);

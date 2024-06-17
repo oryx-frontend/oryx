@@ -1,9 +1,9 @@
-import { CartsNormalizer } from '@spryker-oryx/cart';
+import { CartsNormalizer } from '@oryx-frontend/cart';
 import {
   PaymentsNormalizer,
   ShipmentsNormalizer,
-} from '@spryker-oryx/checkout';
-import { mockPaymentMethods } from '@spryker-oryx/checkout/mocks';
+} from '@oryx-frontend/checkout';
+import { mockPaymentMethods } from '@oryx-frontend/checkout/mocks';
 import { of, take } from 'rxjs';
 import {
   checkoutAttributesNormalizer,

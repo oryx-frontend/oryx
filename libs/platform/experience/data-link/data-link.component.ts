@@ -1,12 +1,12 @@
-import { EntityService } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin } from '@spryker-oryx/experience';
+import { EntityService } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin } from '@oryx-frontend/experience';
 import {
   computed,
   emailRegex,
   hydrate,
   phoneRegex,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { html } from 'lit/static-html.js';
 import { catchError, of } from 'rxjs';

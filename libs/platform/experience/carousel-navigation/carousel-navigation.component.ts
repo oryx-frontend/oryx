@@ -1,5 +1,5 @@
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { hydrate, throttle } from '@spryker-oryx/utilities';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { hydrate, throttle } from '@oryx-frontend/utilities';
 import { LitElement, PropertyValueMap, TemplateResult, html } from 'lit';
 import { property, queryAll, state } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';

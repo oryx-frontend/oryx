@@ -6,4 +6,4 @@ The site search box and the facet navigation component are the prominent compone
 
 ## Installation
 
-`npm install @spryker-oryx/search`
+`npm install @oryx-frontend/search`

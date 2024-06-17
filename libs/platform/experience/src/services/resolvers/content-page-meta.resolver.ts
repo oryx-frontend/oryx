@@ -1,8 +1,8 @@
-import { ElementResolver, PageMetaResolver } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { RouteWithParams, RouterService } from '@spryker-oryx/router';
-import { PathRouteConfig } from '@spryker-oryx/router/lit';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { ElementResolver, PageMetaResolver } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { RouteWithParams, RouterService } from '@oryx-frontend/router';
+import { PathRouteConfig } from '@oryx-frontend/router/lit';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { Observable, combineLatest, map, of, switchMap } from 'rxjs';
 import {
   ExperienceComponent,

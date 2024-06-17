@@ -1,11 +1,11 @@
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import {
   computed,
   graphicInjectable,
   hydrate,
   signalAware,
   signalProperty,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property, state } from 'lit/decorators.js';
 import { ifDefined } from 'lit/directives/if-defined.js';

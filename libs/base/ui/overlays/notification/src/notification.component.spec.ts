@@ -1,5 +1,5 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { useComponent } from '@spryker-oryx/utilities';
+import { useComponent } from '@oryx-frontend/utilities';
 import { NotificationComponent } from './notification.component';
 import { notificationComponent } from './notification.def';
 

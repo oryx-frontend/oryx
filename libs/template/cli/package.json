@@ -1,8 +1,8 @@
 {
-  "name": "@spryker-oryx/cli",
+  "name": "@oryx-frontend/cli",
   "version": "0.21.0",
   "type": "module",
-  "author": "Spryker Systems GmbH",
+  "author": "Oryx frontend team",
   "license": "See license in LICENSE",
   "description": "Spryker Oryx CLI",
   "main": "./src/index.js",
@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@clack/prompts": "^0.6.3",
-    "@spryker-oryx/core": "*",
-    "@spryker-oryx/di": "*",
+    "@oryx-frontend/core": "*",
+    "@oryx-frontend/di": "*",
     "picocolors": "^1.0.0",
     "request": "^2.88.2",
     "rxjs": "^7.5.0",

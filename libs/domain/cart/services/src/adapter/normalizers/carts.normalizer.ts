@@ -1,5 +1,5 @@
-import { Cart, CartNormalizer } from '@spryker-oryx/cart';
-import { TransformerService } from '@spryker-oryx/core';
+import { Cart, CartNormalizer } from '@oryx-frontend/cart';
+import { TransformerService } from '@oryx-frontend/core';
 import { Observable, combineLatest, of } from 'rxjs';
 import { DeserializedCart } from './model';
 

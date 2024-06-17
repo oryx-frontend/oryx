@@ -1,13 +1,11 @@
-import { AppRef } from '@spryker-oryx/core';
-import { OnDestroy, inject } from '@spryker-oryx/di';
+import { AppRef } from '@oryx-frontend/core';
+import { OnDestroy, inject } from '@oryx-frontend/di';
 import {
   Breakpoint,
   Breakpoints,
   Size,
   throttle,
-} from '@spryker-oryx/utilities';
-import { ThemePlugin } from '../../plugins';
-import { ScreenService } from './screen.service';
+} from '@oryx-frontend/utilities';
 import {
   Observable,
   ReplaySubject,
@@ -15,6 +13,8 @@ import {
   map,
   startWith,
 } from 'rxjs';
+import { ThemePlugin } from '../../plugins';
+import { ScreenService } from './screen.service';
 
 export class DefaultScreenService implements ScreenService, OnDestroy {
   protected themePlugin: ThemePlugin;

@@ -1,15 +1,15 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
-import { ModalComponent } from '@spryker-oryx/ui/modal';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
+import { ModalComponent } from '@oryx-frontend/ui/modal';
 import {
   Address,
   AddressService,
   AddressStateService,
   CrudState,
-} from '@spryker-oryx/user';
-import { UserAddressEditComponent } from '@spryker-oryx/user/address-edit';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/user';
+import { UserAddressEditComponent } from '@oryx-frontend/user/address-edit';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { BehaviorSubject, of } from 'rxjs';
 import { CheckoutStatus } from '../src/models';

@@ -1,7 +1,7 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin } from '@spryker-oryx/experience';
-import { LocaleService } from '@spryker-oryx/i18n';
-import { computed, hydrate, signalAware } from '@spryker-oryx/utilities';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { LocaleService } from '@oryx-frontend/i18n';
+import { computed, hydrate, signalAware } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { SiteTimeComponentAttributes } from './time.model';

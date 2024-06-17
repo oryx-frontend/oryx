@@ -1,9 +1,9 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   PasswordInputComponent,
   PasswordVisibilityStrategy,
-} from '@spryker-oryx/ui/password';
+} from '@oryx-frontend/ui/password';
 import { LitElement, TemplateResult, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { FormFieldDefinition, FormFieldType } from '../models';

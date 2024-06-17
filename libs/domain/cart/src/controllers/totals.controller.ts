@@ -1,5 +1,5 @@
-import { ContextController } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
+import { ContextController } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
 import { LitElement, ReactiveController } from 'lit';
 import { Observable, defer, shareReplay, switchMap } from 'rxjs';
 import { NormalizedTotals } from '../models';

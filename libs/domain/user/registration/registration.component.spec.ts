@@ -1,18 +1,18 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   FormFieldDefinition,
   FormFieldType,
   FormRenderer,
-} from '@spryker-oryx/form';
-import { GenderService, SalutationService } from '@spryker-oryx/site';
-import { passwordInputComponent } from '@spryker-oryx/ui';
+} from '@oryx-frontend/form';
+import { GenderService, SalutationService } from '@oryx-frontend/site';
+import { passwordInputComponent } from '@oryx-frontend/ui';
 import {
   PasswordValidationOptions,
   PasswordVisibilityStrategy,
-} from '@spryker-oryx/ui/password';
-import { RegistrationService } from '@spryker-oryx/user';
-import { i18n, useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/ui/password';
+import { RegistrationService } from '@oryx-frontend/user';
+import { i18n, useComponent } from '@oryx-frontend/utilities';
 import { TemplateResult, html } from 'lit';
 import { of, throwError } from 'rxjs';
 import { beforeEach } from 'vitest';

@@ -1,5 +1,5 @@
-import { ssrAwaiter } from '@spryker-oryx/core/utilities';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { ssrAwaiter } from '@oryx-frontend/core/utilities';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { Observable, of, switchMap } from 'rxjs';
 import { LayoutStyles, LayoutStylesOptions } from '../../../layout.model';
 import {

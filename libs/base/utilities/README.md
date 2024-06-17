@@ -4,4 +4,4 @@ Provides helpers and utilities to Oryx applications.
 
 ## Installation
 
-`npm install @spryker-oryx/utilities`
+`npm install @oryx-frontend/utilities`

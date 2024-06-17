@@ -1,7 +1,7 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { BreadcrumbItem, BreadcrumbService } from '@spryker-oryx/site';
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { BreadcrumbItem, BreadcrumbService } from '@oryx-frontend/site';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import {
   I18nMixin,
   I18nRawContent,
@@ -9,7 +9,7 @@ import {
   hydrate,
   signal,
   signalAware,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { DirectiveResult } from 'lit/directive';
 import { ifDefined } from 'lit/directives/if-defined.js';

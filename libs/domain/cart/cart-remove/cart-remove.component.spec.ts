@@ -1,10 +1,10 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { CartService } from '@spryker-oryx/cart';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { NotificationService, PricingService } from '@spryker-oryx/site';
-import { AlertType } from '@spryker-oryx/ui';
-import { CLOSED_MODAL_EVENT, ModalComponent } from '@spryker-oryx/ui/modal';
-import { i18n, useComponent } from '@spryker-oryx/utilities';
+import { CartService } from '@oryx-frontend/cart';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { NotificationService, PricingService } from '@oryx-frontend/site';
+import { AlertType } from '@oryx-frontend/ui';
+import { CLOSED_MODAL_EVENT, ModalComponent } from '@oryx-frontend/ui/modal';
+import { i18n, useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { mockDefaultCart } from '../src/mocks/src';

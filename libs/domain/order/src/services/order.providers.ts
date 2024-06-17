@@ -1,5 +1,5 @@
-import { provideLitRoutes } from '@spryker-oryx/router/lit';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { provideLitRoutes } from '@oryx-frontend/router/lit';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { DefaultOrderAdapter, OrderAdapter } from './adapter';
 import { orderNormalizer } from './adapter/normalizers';
 import { DefaultOrderService } from './default-order.service';

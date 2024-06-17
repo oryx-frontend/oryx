@@ -1,16 +1,16 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 import {
   ContentSuggestionFieldOptions,
   ContentSuggestionFieldType,
-} from '@spryker-oryx/experience/composition';
-import { FormFieldType } from '@spryker-oryx/form';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { ColorType } from '@spryker-oryx/ui/link';
-import { iconInjectable } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/experience/composition';
+import { FormFieldType } from '@oryx-frontend/form';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { ColorType } from '@oryx-frontend/ui/link';
+import { iconInjectable } from '@oryx-frontend/utilities';
 import { ContentLinkComponent } from './link.component';
 
 /**
- * @deprecated since 1.4 use ContentSuggestionFieldType from @spryker-oryx/experience.
+ * @deprecated since 1.4 use ContentSuggestionFieldType from @oryx-frontend/experience.
  */
 export const ContentSuggestionField = 'ContentSuggestion';
 

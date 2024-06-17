@@ -1,9 +1,9 @@
-import { resolve } from '@spryker-oryx/di';
-import { LocaleService } from '@spryker-oryx/i18n';
-import { ProductComponentProperties } from '@spryker-oryx/product';
-import { MockProductService } from '@spryker-oryx/product/mocks';
+import { resolve } from '@oryx-frontend/di';
+import { LocaleService } from '@oryx-frontend/i18n';
+import { ProductComponentProperties } from '@oryx-frontend/product';
+import { MockProductService } from '@oryx-frontend/product/mocks';
 import { Meta, Story } from '@storybook/web-components';
-import { html, TemplateResult } from 'lit';
+import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../../.constants';
 import { ProductPriceOptions } from '../price.model';
 

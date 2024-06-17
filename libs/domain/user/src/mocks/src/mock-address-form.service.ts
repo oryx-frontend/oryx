@@ -1,5 +1,5 @@
-import { AddressFormQualifier, AddressFormService } from '@spryker-oryx/user';
-import { AddressForm } from '@spryker-oryx/user/address-form';
+import { AddressFormQualifier, AddressFormService } from '@oryx-frontend/user';
+import { AddressForm } from '@oryx-frontend/user/address-form';
 import { Observable, of } from 'rxjs';
 
 export class MockAddressFormService implements Partial<AddressFormService> {

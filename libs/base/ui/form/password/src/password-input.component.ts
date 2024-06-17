@@ -1,18 +1,18 @@
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import {
   AffixController,
   AffixOptions,
   FormControlController,
   FormControlOptions,
   baseStyles as inputBaseStyles,
-} from '@spryker-oryx/ui/input';
+} from '@oryx-frontend/ui/input';
 import {
   I18nMixin,
   I18nTranslationValue,
   Size,
   hydrate,
   i18n,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, PropertyValues, TemplateResult, html } from 'lit';
 import { property, state } from 'lit/decorators.js';
 import { getControl } from '../../utilities/getControl';

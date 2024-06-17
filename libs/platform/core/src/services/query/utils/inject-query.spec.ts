@@ -1,8 +1,8 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import { QueryService } from '../query.service';
 import { injectQuery } from './inject-query';
 
-vi.mock('@spryker-oryx/di', () => ({
+vi.mock('@oryx-frontend/di', () => ({
   inject: vi.fn().mockReturnValue({
     getQuery: vi.fn((queryId) =>
       queryId === 'test-query-id' ? {} : undefined

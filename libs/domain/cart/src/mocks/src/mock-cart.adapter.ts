@@ -8,8 +8,8 @@ import {
   CartQualifier,
   ProductOption,
   UpdateCartEntryQualifier,
-} from '@spryker-oryx/cart';
-import { MockProductService } from '@spryker-oryx/product/mocks';
+} from '@oryx-frontend/cart';
+import { MockProductService } from '@oryx-frontend/product/mocks';
 import { Observable, delay, mapTo, of, take, tap, timer } from 'rxjs';
 import {
   mockCartEntry,

@@ -1,15 +1,15 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { LayoutBuilder, LayoutService } from '@spryker-oryx/experience';
-import { FacetType } from '@spryker-oryx/product';
-import { RouterService } from '@spryker-oryx/router';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { LayoutBuilder, LayoutService } from '@oryx-frontend/experience';
+import { FacetType } from '@oryx-frontend/product';
+import { RouterService } from '@oryx-frontend/router';
 import {
   FacetComponentRegistryService,
   FacetListService,
   SelectFacetEventDetail,
   SelectRangeFacetValue,
-} from '@spryker-oryx/search';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/search';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { SearchFacetNavigationComponent } from './facet-navigation.component';

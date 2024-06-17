@@ -1,4 +1,4 @@
-import { ResourceGraphic } from '@spryker-oryx/experience';
+import { ResourceGraphic } from '@oryx-frontend/experience';
 
 export const paymentMethodsLogos: ResourceGraphic = {
   applePay: { source: () => import('./apple-pay').then((m) => m.resource) },

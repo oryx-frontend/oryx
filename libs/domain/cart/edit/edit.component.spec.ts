@@ -1,17 +1,17 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { CARTS, CartService } from '@spryker-oryx/cart';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { FormFieldType, FormRenderer, SUBMIT_EVENT } from '@spryker-oryx/form';
-import { LinkService, RouterService } from '@spryker-oryx/router';
+import { CARTS, CartService } from '@oryx-frontend/cart';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { FormFieldType, FormRenderer, SUBMIT_EVENT } from '@oryx-frontend/form';
+import { LinkService, RouterService } from '@oryx-frontend/router';
 import {
   CurrencyService,
   NotificationService,
   PriceModeService,
   PriceModes,
   PricingService,
-} from '@spryker-oryx/site';
-import { AlertType } from '@spryker-oryx/ui';
-import { i18n, useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/site';
+import { AlertType } from '@oryx-frontend/ui';
+import { i18n, useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { mockDefaultCart } from '../src/mocks/src';

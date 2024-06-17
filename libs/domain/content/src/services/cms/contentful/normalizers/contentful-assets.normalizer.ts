@@ -1,6 +1,6 @@
-import { Transformer } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
-import { ContentAsset } from '@spryker-oryx/experience';
+import { Transformer } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
+import { ContentAsset } from '@oryx-frontend/experience';
 import { ContentfulCmsModel } from '../contentful.api.model';
 
 export const ContentfulAssetsNormalizer = 'oryx.ContentfulAssetsNormalizer*';

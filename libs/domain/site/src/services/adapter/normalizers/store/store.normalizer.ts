@@ -1,5 +1,5 @@
-import { Transformer } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
+import { Transformer } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
 import { Store } from '../../../../models';
 import { DeserializedStores } from '../model';
 

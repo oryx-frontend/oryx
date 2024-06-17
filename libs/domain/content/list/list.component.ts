@@ -1,13 +1,13 @@
-import { ContentService } from '@spryker-oryx/content';
-import { EntityService } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, LayoutMixin } from '@spryker-oryx/experience';
+import { ContentService } from '@oryx-frontend/content';
+import { EntityService } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, LayoutMixin } from '@oryx-frontend/experience';
 import {
   computed,
   hydrate,
   signalAware,
   signalProperty,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { of } from 'rxjs';
 import { ContentListOptions } from './list.model';

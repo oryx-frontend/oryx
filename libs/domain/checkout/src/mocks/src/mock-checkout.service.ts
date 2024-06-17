@@ -2,7 +2,7 @@ import {
   CheckoutResponse,
   CheckoutService,
   CheckoutStatus,
-} from '@spryker-oryx/checkout';
+} from '@oryx-frontend/checkout';
 import { Observable, of } from 'rxjs';
 
 export class MockCheckoutService implements Partial<CheckoutService> {

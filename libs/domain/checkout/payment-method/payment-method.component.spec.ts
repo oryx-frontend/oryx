@@ -3,9 +3,9 @@ import {
   CheckoutDataService,
   CheckoutService,
   CheckoutStateService,
-} from '@spryker-oryx/checkout';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/checkout';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 

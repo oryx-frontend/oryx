@@ -1,9 +1,9 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   DefaultRegistrationService,
   RegistrationAdapter,
   RegistrationService,
-} from '@spryker-oryx/user';
+} from '@oryx-frontend/user';
 import { of } from 'rxjs';
 import { beforeEach } from 'vitest';
 

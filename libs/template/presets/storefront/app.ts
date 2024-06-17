@@ -1,34 +1,37 @@
 import {
   ThemeMetaInitializer,
   applicationFeature,
-} from '@spryker-oryx/application';
-import { SapiAuthComponentsFeature, SapiAuthFeature } from '@spryker-oryx/auth';
-import { cartFeature } from '@spryker-oryx/cart';
-import { checkoutFeature } from '@spryker-oryx/checkout';
-import { contentFeature } from '@spryker-oryx/content';
-import { AppFeature, coreFeature } from '@spryker-oryx/core';
-import { coreServerProviders } from '@spryker-oryx/core/server';
+} from '@oryx-frontend/application';
+import {
+  SapiAuthComponentsFeature,
+  SapiAuthFeature,
+} from '@oryx-frontend/auth';
+import { cartFeature } from '@oryx-frontend/cart';
+import { checkoutFeature } from '@oryx-frontend/checkout';
+import { contentFeature } from '@oryx-frontend/content';
+import { AppFeature, coreFeature } from '@oryx-frontend/core';
+import { coreServerProviders } from '@oryx-frontend/core/server';
 import {
   Resources,
   experienceFeature,
   experiencePreviewFeature,
   experienceRoutesFeature,
-} from '@spryker-oryx/experience';
-import { formFeature } from '@spryker-oryx/form';
-import { I18nFeature } from '@spryker-oryx/i18n';
-import { orderFeature } from '@spryker-oryx/order';
-import { productFeature } from '@spryker-oryx/product';
+} from '@oryx-frontend/experience';
+import { formFeature } from '@oryx-frontend/form';
+import { I18nFeature } from '@oryx-frontend/i18n';
+import { orderFeature } from '@oryx-frontend/order';
+import { productFeature } from '@oryx-frontend/product';
 import {
   brandGraphics,
   commonGraphics,
   materialDesignLink,
-} from '@spryker-oryx/resources';
-import { RouterFeature } from '@spryker-oryx/router';
-import { searchFeature, searchPreviewProviders } from '@spryker-oryx/search';
-import { siteFeature } from '@spryker-oryx/site';
-import { uiFeature } from '@spryker-oryx/ui';
-import { userFeature } from '@spryker-oryx/user';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/resources';
+import { RouterFeature } from '@oryx-frontend/router';
+import { searchFeature, searchPreviewProviders } from '@oryx-frontend/search';
+import { siteFeature } from '@oryx-frontend/site';
+import { uiFeature } from '@oryx-frontend/ui';
+import { userFeature } from '@oryx-frontend/user';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { isServer } from 'lit';
 import 'urlpattern-polyfill';
 import { StaticExperienceFeature } from './experience';

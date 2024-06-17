@@ -1,12 +1,12 @@
-import { Provider, inject } from '@spryker-oryx/di';
-import { ProductCategoryService, ValueFacet } from '@spryker-oryx/product';
-import { RouteType } from '@spryker-oryx/router';
+import { Provider, inject } from '@oryx-frontend/di';
+import { ProductCategoryService, ValueFacet } from '@oryx-frontend/product';
+import { RouteType } from '@oryx-frontend/router';
 import {
   BreadcrumbItem,
   BreadcrumbResolver,
   BreadcrumbResolvers,
   LinkService,
-} from '@spryker-oryx/site';
+} from '@oryx-frontend/site';
 import { Observable, combineLatest, map, switchMap } from 'rxjs';
 import { FacetListService } from '../facet-list.service';
 

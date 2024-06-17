@@ -1,6 +1,6 @@
-import { Theme } from '@spryker-oryx/experience';
-import { materialDesignIcons } from '@spryker-oryx/resources';
-import { defaultBreakpoints } from '@spryker-oryx/themes/breakpoints';
+import { Theme } from '@oryx-frontend/experience';
+import { materialDesignIcons } from '@oryx-frontend/resources';
+import { defaultBreakpoints } from '@oryx-frontend/themes/breakpoints';
 
 /**
  * @deprecated since version 1.1 use backofficeTheme instead

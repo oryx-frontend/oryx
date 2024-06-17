@@ -1,9 +1,9 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { ContextService, DefaultContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { imageComponent } from '@spryker-oryx/ui';
-import { ImageComponent } from '@spryker-oryx/ui/image';
-import { useComponent } from '@spryker-oryx/utilities';
+import { ContextService, DefaultContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { imageComponent } from '@oryx-frontend/ui';
+import { ImageComponent } from '@oryx-frontend/ui/image';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { ProductService } from '../src/services';

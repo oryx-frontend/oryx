@@ -1,5 +1,5 @@
 import { OverlaysDecorator } from '@/tools/storybook';
-import { ButtonColor, ButtonSize } from '@spryker-oryx/ui/button';
+import { ButtonColor, ButtonSize } from '@oryx-frontend/ui/button';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../../../../.constants';

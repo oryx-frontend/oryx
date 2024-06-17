@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { of } from 'rxjs';
 import { SyncStatus } from '../models';
 import { SyncActionRegistryDefaultService } from './sync-action-registry-default.service';

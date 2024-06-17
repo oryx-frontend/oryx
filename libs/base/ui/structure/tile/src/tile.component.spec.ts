@@ -1,5 +1,5 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { queryFirstAssigned, useComponent } from '@spryker-oryx/utilities';
+import { queryFirstAssigned, useComponent } from '@oryx-frontend/utilities';
 import { tileComponent } from './component';
 import { TileComponent } from './tile.component';
 

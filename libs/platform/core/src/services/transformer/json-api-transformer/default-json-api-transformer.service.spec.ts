@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import * as jsonapi from 'jsonapi-serializer';
 import { of, take } from 'rxjs';
 import { TransformerService } from '../transformer.service';
@@ -17,7 +17,7 @@ vi.mock('jsonapi-serializer', () => ({
   },
 }));
 
-vi.mock('@spryker-oryx/core/utilities', () => ({
+vi.mock('@oryx-frontend/core/utilities', () => ({
   ssrAwaiter: vi.fn().mockImplementation((data: unknown) => of(data)),
 }));
 

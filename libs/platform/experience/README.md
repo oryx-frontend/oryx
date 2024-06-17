@@ -6,4 +6,4 @@ The main functionality is provided by the composition component, a component tha
 
 ## Installation
 
-`npm install @spryker-oryx/experience`
+`npm install @oryx-frontend/experience`

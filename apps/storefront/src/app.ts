@@ -1,9 +1,9 @@
-import { appBuilder } from '@spryker-oryx/application';
-import { multiCartFeature } from '@spryker-oryx/cart';
-import { labsFeatures } from '@spryker-oryx/labs';
-import { b2bStorefrontFeatures } from '@spryker-oryx/presets/b2b-storefront';
-import { storefrontFeatures } from '@spryker-oryx/presets/storefront';
-import { storefrontTheme } from '@spryker-oryx/themes';
+import { appBuilder } from '@oryx-frontend/application';
+import { multiCartFeature } from '@oryx-frontend/cart';
+import { labsFeatures } from '@oryx-frontend/labs';
+import { b2bStorefrontFeatures } from '@oryx-frontend/presets/b2b-storefront';
+import { storefrontFeatures } from '@oryx-frontend/presets/storefront';
+import { storefrontTheme } from '@oryx-frontend/themes';
 
 const env = import.meta.env;
 

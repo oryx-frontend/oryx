@@ -1,9 +1,9 @@
-import { EntityService } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin } from '@spryker-oryx/experience';
-import { LinkService } from '@spryker-oryx/router';
-import { TextMixin } from '@spryker-oryx/ui/text';
-import { computed, hydrate } from '@spryker-oryx/utilities';
+import { EntityService } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { LinkService } from '@oryx-frontend/router';
+import { TextMixin } from '@oryx-frontend/ui/text';
+import { computed, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { DirectiveResult } from 'lit/directive';
 import { UnsafeHTMLDirective } from 'lit/directives/unsafe-html';

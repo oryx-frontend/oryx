@@ -2,7 +2,7 @@ import {
   Product,
   ProductList,
   ProductListQualifier,
-} from '@spryker-oryx/product';
+} from '@oryx-frontend/product';
 import { MockProductService } from '../mock-product.service';
 
 const createProducts = (qualifier: ProductListQualifier): Product[] => {

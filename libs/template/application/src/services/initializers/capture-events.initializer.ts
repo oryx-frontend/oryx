@@ -1,6 +1,6 @@
-import { AppInitializer, PageMetaService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { captureEventsForHydrationInsertion } from '@spryker-oryx/utilities';
+import { AppInitializer, PageMetaService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { captureEventsForHydrationInsertion } from '@oryx-frontend/utilities';
 
 export const CaptureEventsInitializer = `${AppInitializer}CaptureEvents`;
 

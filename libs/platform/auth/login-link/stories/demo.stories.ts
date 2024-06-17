@@ -1,6 +1,6 @@
-import { MockAuthService } from '@spryker-oryx/auth/mocks';
-import { resolve } from '@spryker-oryx/di';
-import { ButtonSize } from '@spryker-oryx/ui/button';
+import { MockAuthService } from '@oryx-frontend/auth/mocks';
+import { resolve } from '@oryx-frontend/di';
+import { ButtonSize } from '@oryx-frontend/ui/button';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { take } from 'rxjs';

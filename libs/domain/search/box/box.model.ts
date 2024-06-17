@@ -1,4 +1,4 @@
-import { SuggestionRendererOptions } from '@spryker-oryx/search';
+import { SuggestionRendererOptions } from '@oryx-frontend/search';
 
 export interface SearchBoxProperties {
   /**

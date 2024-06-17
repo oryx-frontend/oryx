@@ -1,4 +1,4 @@
-import { I18nContext, I18nContextValue } from '@spryker-oryx/utilities';
+import { I18nContext, I18nContextValue } from '@oryx-frontend/utilities';
 import Globalize from 'globalize';
 import type { I18nDataBundle } from './i18n.loader';
 

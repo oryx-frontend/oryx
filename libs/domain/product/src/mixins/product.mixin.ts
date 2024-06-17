@@ -1,5 +1,5 @@
-import { ContextController } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
+import { ContextController } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
 import {
   computed,
   featureVersion,
@@ -7,7 +7,7 @@ import {
   signalAware,
   signalProperty,
   Type,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { map, of } from 'rxjs';
 import { PRODUCT } from '../entity';

@@ -11,11 +11,11 @@ import {
   OauthService,
   PasswordGrantAuthLoginStrategy,
   PasswordGrantAuthLoginStrategyConfig,
-} from '@spryker-oryx/auth';
-import { AuthLoginStrategy } from '@spryker-oryx/auth/login';
-import { AppFeature, HttpInterceptor } from '@spryker-oryx/core';
-import { inject, Provider } from '@spryker-oryx/di';
-import { ComponentsInfo, featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/auth';
+import { AuthLoginStrategy } from '@oryx-frontend/auth/login';
+import { AppFeature, HttpInterceptor } from '@oryx-frontend/core';
+import { inject, Provider } from '@oryx-frontend/di';
+import { ComponentsInfo, featureVersion } from '@oryx-frontend/utilities';
 import {
   GuestIdentityInterceptor,
   GuestIdentityInterceptorConfig,

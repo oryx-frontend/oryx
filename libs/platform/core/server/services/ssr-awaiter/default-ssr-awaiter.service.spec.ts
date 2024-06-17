@@ -1,4 +1,4 @@
-import { SSRAwaiterService } from '@spryker-oryx/core';
+import { SSRAwaiterService } from '@oryx-frontend/core';
 import { DefaultSSRAwaiterService } from './default-ssr-awaiter.service';
 
 describe('DefaultSSRAwaiterService', () => {

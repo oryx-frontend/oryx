@@ -1,10 +1,14 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { ContextService, DefaultContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
-import { ExperienceService } from '@spryker-oryx/experience';
-import { ProductPrice, ProductService } from '@spryker-oryx/product';
-import { PricingService } from '@spryker-oryx/site';
-import { useComponent } from '@spryker-oryx/utilities';
+import { ContextService, DefaultContextService } from '@oryx-frontend/core';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
+import { ExperienceService } from '@oryx-frontend/experience';
+import { ProductPrice, ProductService } from '@oryx-frontend/product';
+import { PricingService } from '@oryx-frontend/site';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { Observable, of } from 'rxjs';
 import { ProductPriceComponent } from './price.component';

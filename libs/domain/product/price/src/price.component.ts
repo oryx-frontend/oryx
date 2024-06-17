@@ -1,16 +1,16 @@
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
 import {
   PRODUCT,
   ProductContext,
   ProductMixin,
   ProductPrice,
-} from '@spryker-oryx/product';
+} from '@oryx-frontend/product';
 import {
   computed,
   featureVersion,
   hydrate,
   signalProperty,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { ProductPriceOptions } from './price.model';

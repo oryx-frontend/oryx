@@ -1,4 +1,4 @@
-import { CheckoutResponse } from '@spryker-oryx/checkout';
+import { CheckoutResponse } from '@oryx-frontend/checkout';
 import { checkoutResponseAttributesNormalizer } from './checkout-response.normalizer';
 
 describe('Checkout Response Normalizer', () => {

@@ -1,5 +1,5 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { PushProvider } from '@spryker-oryx/push-notification';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { PushProvider } from '@oryx-frontend/push-notification';
 import { from, lastValueFrom, map, of } from 'rxjs';
 import { WebPushProvider } from './web-push';
 

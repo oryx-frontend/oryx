@@ -1,15 +1,15 @@
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { Address, AddressMixin } from '@spryker-oryx/user';
-import { computed, hydrate } from '@spryker-oryx/utilities';
-import { html, LitElement, TemplateResult } from 'lit';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { Address, AddressMixin } from '@oryx-frontend/user';
+import { computed, hydrate } from '@oryx-frontend/utilities';
+import { LitElement, TemplateResult, html } from 'lit';
 import {
   AddressOptions,
   AddressSchema,
+  Match,
   defaultMultilineSchema,
   defaultSimpleSchema,
   defaultSinglelineSchema,
   lineBreaksRe,
-  Match,
   templateRe,
 } from './address.model';
 import { styles } from './address.styles';

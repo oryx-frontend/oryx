@@ -1,4 +1,4 @@
-import { INJECTOR, inject } from '@spryker-oryx/di';
+import { INJECTOR, inject } from '@oryx-frontend/di';
 import {
   Observable,
   combineLatest,

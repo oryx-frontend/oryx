@@ -1,9 +1,9 @@
-import { AppBuilder, AppFeature, AppPlugin } from '@spryker-oryx/core';
-import { InjectorOptions, Provider } from '@spryker-oryx/di';
-import { Resources, Theme } from '@spryker-oryx/experience';
-import { ComponentsInfo, ComponentsOptions } from '@spryker-oryx/utilities';
+import { AppBuilder, AppFeature, AppPlugin } from '@oryx-frontend/core';
+import { InjectorOptions, Provider } from '@oryx-frontend/di';
+import { Resources, Theme } from '@oryx-frontend/experience';
+import { ComponentsInfo, ComponentsOptions } from '@oryx-frontend/utilities';
 
-declare module '@spryker-oryx/core' {
+declare module '@oryx-frontend/core' {
   interface AppFeature {
     providers?: Provider[];
     components?: ComponentsInfo;

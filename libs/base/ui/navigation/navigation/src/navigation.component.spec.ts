@@ -1,5 +1,5 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { a11yConfig, useComponent } from '@spryker-oryx/utilities';
+import { a11yConfig, useComponent } from '@oryx-frontend/utilities';
 import { navigationComponent } from './component';
 import { NavigationComponent } from './navigation.component';
 

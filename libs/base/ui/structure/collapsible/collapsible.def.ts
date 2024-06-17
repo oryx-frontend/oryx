@@ -1,4 +1,4 @@
-import { componentDef, featureVersion } from '@spryker-oryx/utilities';
+import { componentDef, featureVersion } from '@oryx-frontend/utilities';
 
 export const collapsibleComponent = componentDef({
   name: 'oryx-collapsible',

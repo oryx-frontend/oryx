@@ -1,12 +1,12 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { NotificationService } from '@spryker-oryx/site';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { NotificationService } from '@oryx-frontend/site';
 import {
   NotificationCenterComponent,
   NotificationPosition,
-} from '@spryker-oryx/ui/notification-center';
-import { elementEffect, hydrate, signal } from '@spryker-oryx/utilities';
-import { html, LitElement, TemplateResult } from 'lit';
+} from '@oryx-frontend/ui/notification-center';
+import { elementEffect, hydrate, signal } from '@oryx-frontend/utilities';
+import { LitElement, TemplateResult, html } from 'lit';
 import { createRef, ref } from 'lit/directives/ref.js';
 import { SiteNotificationCenterOptions } from './notification-center.model';
 

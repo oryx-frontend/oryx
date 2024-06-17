@@ -1,4 +1,4 @@
-import { LazyLoadable } from '@spryker-oryx/utilities';
+import { LazyLoadable } from '@oryx-frontend/utilities';
 
 export interface Graphic {
   type?: string;

@@ -1,10 +1,10 @@
-import { InjectionPlugin } from '@spryker-oryx/core';
+import { InjectionPlugin } from '@oryx-frontend/core';
 import { ModularAppBuilder } from './modular-app-builder';
 
 const mockApply = vi.fn();
 
-vi.mock('@spryker-oryx/core', async () => {
-  const actual = (await vi.importActual('@spryker-oryx/core')) as Record<
+vi.mock('@oryx-frontend/core', async () => {
+  const actual = (await vi.importActual('@oryx-frontend/core')) as Record<
     string,
     unknown
   >;
@@ -17,8 +17,8 @@ vi.mock('@spryker-oryx/core', async () => {
   };
 });
 
-vi.mock('@spryker-oryx/utilities', async () => {
-  const actual = (await vi.importActual('@spryker-oryx/utilities')) as Record<
+vi.mock('@oryx-frontend/utilities', async () => {
+  const actual = (await vi.importActual('@oryx-frontend/utilities')) as Record<
     string,
     unknown
   >;

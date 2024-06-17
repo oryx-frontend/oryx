@@ -1,11 +1,11 @@
-import { AppFeature } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
-import { provideIndexedDbEntities } from '@spryker-oryx/indexed-db';
+import { AppFeature } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
+import { provideIndexedDbEntities } from '@oryx-frontend/indexed-db';
 import {
   SyncEntity,
   SyncSchedulerDefaultService,
   SyncSchedulerService,
-} from '@spryker-oryx/offline/sync';
+} from '@oryx-frontend/offline/sync';
 import { NetworkStateDefaultService, NetworkStateService } from './services';
 
 export class OfflineFeature implements AppFeature {

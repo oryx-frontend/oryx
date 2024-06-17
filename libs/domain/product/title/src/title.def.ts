@@ -1,4 +1,4 @@
-import { componentDef, featureVersion } from '@spryker-oryx/utilities';
+import { componentDef, featureVersion } from '@oryx-frontend/utilities';
 import { ProductTitleOptions } from './title.model';
 
 declare global {
@@ -17,11 +17,11 @@ export const productTitleComponent = componentDef({
       : [
           {
             rules: () =>
-              import('@spryker-oryx/ui/heading').then((m) => m.headingStyles),
+              import('@oryx-frontend/ui/heading').then((m) => m.headingStyles),
           },
           {
             rules: () =>
-              import('@spryker-oryx/ui/heading').then(
+              import('@oryx-frontend/ui/heading').then(
                 (m) => m.headingScreenStyles
               ),
           },

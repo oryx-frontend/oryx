@@ -1,6 +1,6 @@
-import { TotalsContext } from '@spryker-oryx/cart';
-import { ContextService } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
+import { TotalsContext } from '@oryx-frontend/cart';
+import { ContextService } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../../../.constants';

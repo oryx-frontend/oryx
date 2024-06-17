@@ -1,5 +1,5 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { RouteParams, RouterService } from '@spryker-oryx/router';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { RouteParams, RouterService } from '@oryx-frontend/router';
 import { Observable, of } from 'rxjs';
 import { Pagination } from '../../models';
 import { DefaultProductListPageService } from './default-product-list-page.service';

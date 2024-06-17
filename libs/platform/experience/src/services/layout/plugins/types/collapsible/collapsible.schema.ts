@@ -1,5 +1,5 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
-import { FormFieldType } from '@spryker-oryx/form';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
+import { FormFieldType } from '@oryx-frontend/form';
 export const schema: ContentComponentSchema = {
   name: 'collapsible',
   group: 'layout',

@@ -1,7 +1,7 @@
-import * as core from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { mockOrderData } from '@spryker-oryx/order/mocks';
-import * as litRxjs from '@spryker-oryx/utilities';
+import * as core from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { mockOrderData } from '@oryx-frontend/order/mocks';
+import * as litRxjs from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { of } from 'rxjs';
 import { SpyInstance } from 'vitest';

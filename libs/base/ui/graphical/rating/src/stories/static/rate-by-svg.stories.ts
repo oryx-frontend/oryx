@@ -1,8 +1,8 @@
 import { Meta, Story } from '@storybook/web-components';
-import { html, TemplateResult } from 'lit';
+import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../../../../.constants';
 
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import { RatingProperties } from '../../index';
 
 export default { title: `${storybookPrefix}/Graphical/Rating/Static` } as Meta;

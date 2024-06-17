@@ -1,12 +1,10 @@
-import { Transformer } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
+import { Transformer } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
 import { map, Observable, take } from 'rxjs';
 import { ApiProductListModel, Facet, FacetType } from '../../../../models';
 export const FacetRatingNormalizer = 'oryx.FacetRatingNormalizer*';
 
-//TODO: temporary solution. Should be fixed after https://spryker.atlassian.net/browse/CC-31032.
-// For now, it is only way to get current rating value because the backend wrongly returns the rating value.
 export function facetRatingNormalizer(
   facet: ApiProductListModel.RangeFacet
 ): Observable<Facet> {

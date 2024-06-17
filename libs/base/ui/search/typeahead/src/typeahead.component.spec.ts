@@ -4,7 +4,7 @@ import {
   a11yConfig,
   queryAssignedElements,
   useComponent,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { TypeaheadComponent } from './typeahead.component';
 import { typeheadComponent } from './typeahead.def';
 

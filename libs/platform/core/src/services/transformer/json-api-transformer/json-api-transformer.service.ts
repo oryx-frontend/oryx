@@ -1,4 +1,4 @@
-import { JsonApiPayload } from '@spryker-oryx/utilities';
+import { JsonApiPayload } from '@oryx-frontend/utilities';
 import { Observable } from 'rxjs';
 import { SerializerType, TransformerService } from '../transformer.service';
 

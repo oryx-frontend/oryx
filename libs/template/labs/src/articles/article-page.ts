@@ -1,5 +1,5 @@
-import { ExperienceComponent } from '@spryker-oryx/experience';
-import { SuggestionField } from '@spryker-oryx/search';
+import { ExperienceComponent } from '@oryx-frontend/experience';
+import { SuggestionField } from '@oryx-frontend/search';
 import { articleTypes } from './article-types';
 
 export const experienceArticlePages = [

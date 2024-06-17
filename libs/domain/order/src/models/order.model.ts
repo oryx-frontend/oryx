@@ -1,5 +1,5 @@
-import type { PriceMode, ProductOption } from '@spryker-oryx/cart';
-import { Address } from '@spryker-oryx/user';
+import type { PriceMode, ProductOption } from '@oryx-frontend/cart';
+import { Address } from '@oryx-frontend/user';
 
 export interface OrderTotals {
   subtotal?: number;

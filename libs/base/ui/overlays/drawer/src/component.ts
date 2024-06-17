@@ -1,4 +1,4 @@
-import { componentDef } from '@spryker-oryx/utilities';
+import { componentDef } from '@oryx-frontend/utilities';
 import { TAG_NAME } from './tag';
 
 export const drawerComponent = componentDef({

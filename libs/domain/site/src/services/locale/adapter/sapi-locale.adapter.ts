@@ -1,9 +1,9 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import {
   DefaultLocaleAdapter,
   DefaultLocaleAdapterConfig,
   Locale,
-} from '@spryker-oryx/i18n';
+} from '@oryx-frontend/i18n';
 import { Observable, catchError, filter, map, of, switchMap } from 'rxjs';
 import { StoreService } from '../../store';
 

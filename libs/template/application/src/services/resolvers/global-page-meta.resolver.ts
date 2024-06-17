@@ -2,8 +2,8 @@ import {
   ElementResolver,
   PageMetaResolver,
   ResolverScore,
-} from '@spryker-oryx/core';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/core';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { Observable, of } from 'rxjs';
 
 export class GlobalPageMetaResolver implements PageMetaResolver {

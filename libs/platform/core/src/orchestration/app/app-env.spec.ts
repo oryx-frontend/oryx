@@ -1,8 +1,8 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import { Mock } from 'vitest';
 import { AppEnvironment, injectEnv } from './app-env';
 
-vi.mock('@spryker-oryx/di');
+vi.mock('@oryx-frontend/di');
 
 describe('injectEnv() function', () => {
   const injectMock = inject as Mock;

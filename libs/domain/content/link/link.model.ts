@@ -1,5 +1,5 @@
-import { RouteType } from '@spryker-oryx/router';
-import { ColorType } from '@spryker-oryx/ui/link';
+import { RouteType } from '@oryx-frontend/router';
+import { ColorType } from '@oryx-frontend/ui/link';
 
 export interface ContentLinkContent {
   text?: string;

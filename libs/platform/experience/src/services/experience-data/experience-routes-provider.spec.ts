@@ -1,7 +1,7 @@
 import {
   ExperienceDataService,
   experienceStaticRoutesFactory,
-} from '@spryker-oryx/experience';
+} from '@oryx-frontend/experience';
 import { Mock } from 'vitest';
 
 describe('experienceStaticRoutesFactory', () => {

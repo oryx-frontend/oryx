@@ -6,4 +6,4 @@ The UI components are the lowest level components that are used in Oryx applicat
 
 ## Installation
 
-`npm install @spryker-oryx/ui`
+`npm install @oryx-frontend/ui`

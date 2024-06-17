@@ -1,4 +1,4 @@
-import { Size, screenCss } from '@spryker-oryx/utilities';
+import { Size, screenCss } from '@oryx-frontend/utilities';
 import { css } from 'lit';
 
 export const styles = css`

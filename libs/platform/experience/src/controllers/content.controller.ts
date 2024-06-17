@@ -1,10 +1,10 @@
-import { FeatureOptionsService } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
+import { FeatureOptionsService } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
 import {
   getStaticProp,
   InstanceWithStatic,
   ObserveController,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { map, Observable, of, shareReplay, switchMap } from 'rxjs';
 import { optionsKey } from '../decorators';

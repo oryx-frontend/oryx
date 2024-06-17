@@ -1,4 +1,4 @@
-import { isFocusable } from '@spryker-oryx/utilities';
+import { isFocusable } from '@oryx-frontend/utilities';
 import { html, LitElement, ReactiveController, TemplateResult } from 'lit';
 import { getControl } from '../../../utilities/getControl';
 import { ErrorController } from '../error/error.controller';

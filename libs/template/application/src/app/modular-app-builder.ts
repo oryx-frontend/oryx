@@ -5,19 +5,19 @@ import {
   FeatureOptions,
   InjectionPlugin,
   SimpleAppBuilder,
-} from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
+} from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
 import {
   ResourcePlugin,
   Resources,
   Theme,
   ThemePlugin,
-} from '@spryker-oryx/experience';
+} from '@oryx-frontend/experience';
 import {
   ComponentsInfo,
   ComponentsOptions,
   ComponentsPlugin,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { AppBuilderWithModules, ModularAppBuilderOptions } from './app.model';
 
 /**

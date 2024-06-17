@@ -1,13 +1,13 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { ContentService, contentListComponent } from '@spryker-oryx/content';
-import { EntityService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { ContentService, contentListComponent } from '@oryx-frontend/content';
+import { EntityService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   LayoutBuilder,
   LayoutService,
   ScreenService,
-} from '@spryker-oryx/experience';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/experience';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { ContentListComponent } from './list.component';

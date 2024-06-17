@@ -1,6 +1,6 @@
-import { ExperienceComponent } from '@spryker-oryx/experience';
-import { ButtonSize, ButtonType } from '@spryker-oryx/ui/button';
-import { Size, featureVersion } from '@spryker-oryx/utilities';
+import { ExperienceComponent } from '@oryx-frontend/experience';
+import { ButtonSize, ButtonType } from '@oryx-frontend/ui/button';
+import { Size, featureVersion } from '@oryx-frontend/utilities';
 
 export const registrationPage: ExperienceComponent = {
   id: 'registration-page',

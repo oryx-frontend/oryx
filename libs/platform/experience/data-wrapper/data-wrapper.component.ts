@@ -1,13 +1,13 @@
-import { ContextService, EntityService } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin } from '@spryker-oryx/experience';
-import { LinkService } from '@spryker-oryx/router';
+import { ContextService, EntityService } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { LinkService } from '@oryx-frontend/router';
 import {
   computed,
   elementEffect,
   hydrate,
   signalProperty,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { catchError, of, switchMap } from 'rxjs';
 import { DataWrapperComponentOptions } from './data-wrapper.model';

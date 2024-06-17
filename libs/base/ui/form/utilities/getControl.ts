@@ -1,4 +1,4 @@
-import { queryFirstAssigned } from '@spryker-oryx/utilities';
+import { queryFirstAssigned } from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 
 export class NoFormControlError {

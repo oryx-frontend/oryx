@@ -1,4 +1,4 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 import { SitePriceModeSelectorComponent } from './price-mode-selector.component';
 
 export const sitePriceModeSelectorSchema: ContentComponentSchema<SitePriceModeSelectorComponent> =

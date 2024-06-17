@@ -1,7 +1,7 @@
-import { injectEnv } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { IndexedDbEntities } from '@spryker-oryx/indexed-db';
-import { InferType, isDefined } from '@spryker-oryx/utilities';
+import { injectEnv } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { IndexedDbEntities } from '@oryx-frontend/indexed-db';
+import { InferType, isDefined } from '@oryx-frontend/utilities';
 import { Dexie, Table, Transaction } from 'dexie';
 import { Observable, map, of, shareReplay, switchMap } from 'rxjs';
 import {

@@ -1,8 +1,8 @@
-import { OauthService } from '@spryker-oryx/auth';
-import { resolve } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
-import { HeadingTag } from '@spryker-oryx/ui/heading';
-import { featureVersion, I18nMixin } from '@spryker-oryx/utilities';
+import { OauthService } from '@oryx-frontend/auth';
+import { resolve } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
+import { HeadingTag } from '@oryx-frontend/ui/heading';
+import { featureVersion, I18nMixin } from '@oryx-frontend/utilities';
 import { html, LitElement } from 'lit';
 import { property } from 'lit/decorators.js';
 import { styles } from './oauth-handler.styles';

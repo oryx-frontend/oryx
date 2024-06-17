@@ -1,4 +1,4 @@
-import { rxjsTestScheduler } from '@spryker-oryx/core/testing';
+import { rxjsTestScheduler } from '@oryx-frontend/core/testing';
 import { delay, firstValueFrom, merge, of, throwError } from 'rxjs';
 import { CommandOptions, CommandStrategy } from '../models';
 import { CoreCommand } from './core-command';

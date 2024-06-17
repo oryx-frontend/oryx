@@ -1,6 +1,6 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { AlertType } from '@spryker-oryx/ui';
-import { a11yConfig, useComponent } from '@spryker-oryx/utilities';
+import { AlertType } from '@oryx-frontend/ui';
+import { a11yConfig, useComponent } from '@oryx-frontend/utilities';
 import { ChipComponent } from './chip.component';
 import { chipComponent } from './chip.def';
 

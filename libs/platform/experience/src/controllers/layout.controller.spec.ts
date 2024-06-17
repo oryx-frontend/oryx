@@ -1,6 +1,6 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { LayoutAttributes } from '@spryker-oryx/experience/layout';
-import { Size } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { LayoutAttributes } from '@oryx-frontend/experience/layout';
+import { Size } from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { of } from 'rxjs';
 import { CompositionLayout } from '../models';

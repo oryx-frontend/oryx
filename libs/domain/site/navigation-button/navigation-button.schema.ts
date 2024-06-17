@@ -1,4 +1,4 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 import { NavigationButtonComponent } from './navigation-button.component';
 
 export const siteNavigationButtonSchema: ContentComponentSchema<NavigationButtonComponent> =

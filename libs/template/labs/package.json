@@ -1,21 +1,21 @@
 {
-  "name": "@spryker-oryx/labs",
+  "name": "@oryx-frontend/labs",
   "version": "0.131.0-oryx.1.4.0-patch.0",
   "type": "module",
-  "author": "Spryker Systems GmbH",
+  "author": "Oryx frontend team",
   "license": "See license in LICENSE",
   "description": "Demo features that contribute to the main Oryx component library. Please keep in mind that these components are experimental and are not suitable for use in production environments.",
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
   "dependencies": {
-    "@spryker-oryx/di": "*",
-    "@spryker-oryx/core": "*",
-    "@spryker-oryx/experience": "*",
-    "@spryker-oryx/i18n": "*",
-    "@spryker-oryx/product": "*",
-    "@spryker-oryx/utilities": "*",
-    "@spryker-oryx/form": "*",
-    "@spryker-oryx/ui": "*"
+    "@oryx-frontend/di": "*",
+    "@oryx-frontend/core": "*",
+    "@oryx-frontend/experience": "*",
+    "@oryx-frontend/i18n": "*",
+    "@oryx-frontend/product": "*",
+    "@oryx-frontend/utilities": "*",
+    "@oryx-frontend/form": "*",
+    "@oryx-frontend/ui": "*"
   },
   "peerDependencies": {
     "lit": "^2.4.0",

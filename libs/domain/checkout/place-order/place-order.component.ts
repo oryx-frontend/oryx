@@ -1,7 +1,7 @@
-import { CheckoutMixin } from '@spryker-oryx/checkout';
-import { resolve } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
-import { hydrate, I18nMixin } from '@spryker-oryx/utilities';
+import { CheckoutMixin } from '@oryx-frontend/checkout';
+import { resolve } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
+import { hydrate, I18nMixin } from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { checkoutPlaceOrder } from './place-order.styles';
 

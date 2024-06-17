@@ -1,4 +1,4 @@
-import { App, AppPlugin, InjectionPlugin } from '@spryker-oryx/core';
+import { App, AppPlugin, InjectionPlugin } from '@oryx-frontend/core';
 import { addons } from '@storybook/addons';
 import { SET_CURRENT_STORY } from '@storybook/core-events';
 import { resource, theme } from './data';

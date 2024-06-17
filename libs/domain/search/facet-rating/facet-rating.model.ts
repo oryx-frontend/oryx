@@ -1,4 +1,4 @@
-import { SearchFacetComponentAttributes } from '@spryker-oryx/search/facet';
+import { SearchFacetComponentAttributes } from '@oryx-frontend/search/facet';
 
 export type SearchRatingFacetComponentProperties = Omit<
   SearchFacetComponentAttributes,

@@ -1,7 +1,7 @@
 import { createEvent } from '@/tools/testing';
 import { fixture, nextFrame } from '@open-wc/testing-helpers';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { ColorMode, useComponent } from '@spryker-oryx/utilities';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { ColorMode, useComponent } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import {
   ColorModeSelectorComponent,

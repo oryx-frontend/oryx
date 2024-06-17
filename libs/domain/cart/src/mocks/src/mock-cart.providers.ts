@@ -3,13 +3,13 @@ import {
   CartService,
   TotalsResolver,
   TotalsService,
-} from '@spryker-oryx/cart';
+} from '@oryx-frontend/cart';
 import {
   DefaultCartService,
   DefaultTotalsService,
-} from '@spryker-oryx/cart/services';
-import { Provider } from '@spryker-oryx/di';
-import { ExperienceData } from '@spryker-oryx/experience';
+} from '@oryx-frontend/cart/services';
+import { Provider } from '@oryx-frontend/di';
+import { ExperienceData } from '@oryx-frontend/experience';
 import { cartTotalsStaticData, mockedTotals } from './cart-totals';
 import {
   mockNormalizedCartTotals,

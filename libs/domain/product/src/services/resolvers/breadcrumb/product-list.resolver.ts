@@ -1,11 +1,11 @@
-import { Provider, inject } from '@spryker-oryx/di';
-import { RouteType, RouterService } from '@spryker-oryx/router';
+import { Provider, inject } from '@oryx-frontend/di';
+import { RouteType, RouterService } from '@oryx-frontend/router';
 import {
   BreadcrumbItem,
   BreadcrumbResolver,
   BreadcrumbResolvers,
-} from '@spryker-oryx/site';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/site';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { Observable, map } from 'rxjs';
 import { PRODUCTS } from '../../../entity';
 

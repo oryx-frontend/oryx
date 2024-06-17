@@ -1,5 +1,5 @@
-import { IdentityService } from '@spryker-oryx/auth';
-import { Cart, CartService } from '@spryker-oryx/cart';
+import { IdentityService } from '@oryx-frontend/auth';
+import { Cart, CartService } from '@oryx-frontend/cart';
 import {
   CheckoutAdapter,
   CheckoutDataService,
@@ -7,11 +7,11 @@ import {
   CheckoutService,
   CheckoutStateService,
   CheckoutStatus,
-} from '@spryker-oryx/checkout';
-import { DefaultQueryService, QueryService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { OrderService } from '@spryker-oryx/order';
-import { LinkService } from '@spryker-oryx/site';
+} from '@oryx-frontend/checkout';
+import { DefaultQueryService, QueryService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { OrderService } from '@oryx-frontend/order';
+import { LinkService } from '@oryx-frontend/site';
 import { BehaviorSubject, of, take } from 'rxjs';
 import { DefaultCheckoutService } from './default-checkout.service';
 

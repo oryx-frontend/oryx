@@ -1,8 +1,8 @@
 import { elementUpdated, fixture } from '@open-wc/testing-helpers';
-import { ContextService, DefaultContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { mockProductProviders } from '@spryker-oryx/product/mocks';
-import { useComponent } from '@spryker-oryx/utilities';
+import { ContextService, DefaultContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { mockProductProviders } from '@oryx-frontend/product/mocks';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { ProductImagesComponent } from './images.component';
 import { productImagesComponent } from './images.def';

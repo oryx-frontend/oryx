@@ -1,10 +1,10 @@
-import { resolve } from '@spryker-oryx/di';
+import { resolve } from '@oryx-frontend/di';
 import {
   ConnectableSignal,
   Type,
   signal,
   signalAware,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { map } from 'rxjs';
 import { CheckoutStatus } from '../models';

@@ -1,5 +1,5 @@
 import { ClassDescriptor } from '@lit/reactive-element/decorators.js';
-import { Type } from '@spryker-oryx/utilities';
+import { Type } from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 
 export const optionsKey = Symbol.for('default-options');
@@ -9,7 +9,7 @@ type ClassType<T = Record<string, any>> = Type<LitElement & { options?: T }> & {
   [optionsKey]?: T;
 };
 
-declare module '@spryker-oryx/utilities' {
+declare module '@oryx-frontend/utilities' {
   interface ComponentStatic {
     [optionsKey]?: Record<string, unknown>;
   }

@@ -1,4 +1,4 @@
-import { componentDef } from '@spryker-oryx/utilities';
+import { componentDef } from '@oryx-frontend/utilities';
 
 export const searchFacetComponent = componentDef({
   name: 'oryx-search-facet',

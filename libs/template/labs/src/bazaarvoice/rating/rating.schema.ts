@@ -1,4 +1,4 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 import { BazaarvoiceRatingComponent } from './rating.component';
 
 export const ratingComponentSchema: ContentComponentSchema<BazaarvoiceRatingComponent> =

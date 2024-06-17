@@ -1,6 +1,6 @@
-import { AuthLoginStrategy, LoginRequest } from '@spryker-oryx/auth/login';
-import { HttpService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { AuthLoginStrategy, LoginRequest } from '@oryx-frontend/auth/login';
+import { HttpService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { EMPTY, Observable, switchMap } from 'rxjs';
 
 export class CodeGrantAuthLoginStrategy implements AuthLoginStrategy {

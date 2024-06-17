@@ -1,4 +1,4 @@
-import { ModeEvent } from '@spryker-oryx/ui/color-mode-selector';
+import { ModeEvent } from '@oryx-frontend/ui/color-mode-selector';
 import { ContentComponentSchema, FieldDefinition } from '../../models';
 import { ResourceGraphic } from '../../plugins';
 import { ExperienceComponent } from '../experience-data';

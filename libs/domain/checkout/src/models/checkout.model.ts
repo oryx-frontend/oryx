@@ -1,5 +1,5 @@
-import { Cart } from '@spryker-oryx/cart';
-import { OrderData } from '@spryker-oryx/order';
+import { Cart } from '@oryx-frontend/cart';
+import { OrderData } from '@oryx-frontend/order';
 
 export const enum CheckoutStatus {
   Empty = 'empty',

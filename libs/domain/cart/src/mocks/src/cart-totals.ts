@@ -1,4 +1,4 @@
-import { DiscountRowsAppearance } from '@spryker-oryx/cart/totals';
+import { DiscountRowsAppearance } from '@oryx-frontend/cart/totals';
 import { Observable, of } from 'rxjs';
 import { NormalizedTotals } from '../../models';
 import { TotalsResolver } from '../../services';

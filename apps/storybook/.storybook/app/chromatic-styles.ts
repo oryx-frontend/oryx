@@ -2,7 +2,7 @@ import {
   inputComponent,
   selectComponent,
   spinnerComponent,
-} from '@spryker-oryx/ui';
+} from '@oryx-frontend/ui';
 import { css } from 'lit';
 
 const noTransitionField = css`

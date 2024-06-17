@@ -1,4 +1,4 @@
-import { PriceMode } from '@spryker-oryx/cart';
+import { PriceMode } from '@oryx-frontend/cart';
 
 export const mockOrderData = {
   merchantReferences: [],

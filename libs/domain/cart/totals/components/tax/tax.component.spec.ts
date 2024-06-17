@@ -1,10 +1,10 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { TotalsService } from '@spryker-oryx/cart';
-import { mockNormalizedCartTotals } from '@spryker-oryx/cart/mocks';
-import * as core from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { SitePriceComponent } from '@spryker-oryx/site/price';
-import { useComponent } from '@spryker-oryx/utilities';
+import { TotalsService } from '@oryx-frontend/cart';
+import { mockNormalizedCartTotals } from '@oryx-frontend/cart/mocks';
+import * as core from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { SitePriceComponent } from '@oryx-frontend/site/price';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { SpyInstance } from 'vitest';

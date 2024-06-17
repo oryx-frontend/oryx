@@ -1,6 +1,6 @@
-import { Theme } from '@spryker-oryx/experience';
-import { materialDesignIcons, storefrontIcons } from '@spryker-oryx/resources';
-import { defaultBreakpoints } from '@spryker-oryx/themes/breakpoints';
+import { Theme } from '@oryx-frontend/experience';
+import { materialDesignIcons, storefrontIcons } from '@oryx-frontend/resources';
+import { defaultBreakpoints } from '@oryx-frontend/themes/breakpoints';
 
 export const storefrontTheme: Theme = {
   name: 'storefront',

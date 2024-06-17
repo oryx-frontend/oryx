@@ -1,4 +1,4 @@
-import { ColorMode } from '@spryker-oryx/utilities';
+import { ColorMode } from '@oryx-frontend/utilities';
 
 export interface OryxAppOptions {
   /**

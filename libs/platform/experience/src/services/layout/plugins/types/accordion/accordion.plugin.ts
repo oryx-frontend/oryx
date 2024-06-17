@@ -1,8 +1,8 @@
-import { ssrAwaiter } from '@spryker-oryx/core/utilities';
+import { ssrAwaiter } from '@oryx-frontend/core/utilities';
 import {
   CollapsibleComponent,
   ToggleEventDetail,
-} from '@spryker-oryx/ui/collapsible';
+} from '@oryx-frontend/ui/collapsible';
 import { html } from 'lit';
 import { Observable, of } from 'rxjs';
 import { LayoutStyles, LayoutStylesOptions } from '../../../layout.model';

@@ -1,4 +1,4 @@
-import { ProductQualifier } from '@spryker-oryx/product';
+import { ProductQualifier } from '@oryx-frontend/product';
 
 export interface CartQualifier {
   cartId?: string;

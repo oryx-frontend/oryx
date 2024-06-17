@@ -1,6 +1,6 @@
-// import { CheckoutShipmentService } from '@spryker-oryx/checkout';
-import { ShipmentProviderType } from '@spryker-oryx/checkout/mocks';
-// import { resolve } from '@spryker-oryx/di';
+// import { CheckoutShipmentService } from '@oryx-frontend/checkout';
+import { ShipmentProviderType } from '@oryx-frontend/checkout/mocks';
+// import { resolve } from '@oryx-frontend/di';
 import { html, TemplateResult } from 'lit';
 
 export const renderSelector = (type: ShipmentProviderType): TemplateResult => {

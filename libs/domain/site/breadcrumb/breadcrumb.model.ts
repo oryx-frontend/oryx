@@ -1,4 +1,4 @@
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 
 export interface SiteBreadcrumbOptions {
   /**

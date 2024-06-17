@@ -1,12 +1,16 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { CartService } from '@spryker-oryx/cart';
-import { ContextService, DefaultContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { ProductService } from '@spryker-oryx/product';
-import { MockProductService } from '@spryker-oryx/product/mocks';
-import { LinkService, PricingService, siteProviders } from '@spryker-oryx/site';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { featureVersion, useComponent } from '@spryker-oryx/utilities';
+import { CartService } from '@oryx-frontend/cart';
+import { ContextService, DefaultContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { ProductService } from '@oryx-frontend/product';
+import { MockProductService } from '@oryx-frontend/product/mocks';
+import {
+  LinkService,
+  PricingService,
+  siteProviders,
+} from '@oryx-frontend/site';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { featureVersion, useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { BehaviorSubject, of } from 'rxjs';
 import { QuantityInputComponent } from '../../quantity-input/src';

@@ -1,4 +1,4 @@
-import { userAttributesSerializer } from '@spryker-oryx/user';
+import { userAttributesSerializer } from '@oryx-frontend/user';
 
 describe('User Serializers', () => {
   describe('User Attributes Serializer', () => {

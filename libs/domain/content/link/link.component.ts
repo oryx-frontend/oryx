@@ -1,9 +1,9 @@
-import { ContentService } from '@spryker-oryx/content';
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin } from '@spryker-oryx/experience';
-import { ProductCategoryService, ProductService } from '@spryker-oryx/product';
-import { RouteType } from '@spryker-oryx/router';
-import { LinkService } from '@spryker-oryx/site';
+import { ContentService } from '@oryx-frontend/content';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { ProductCategoryService, ProductService } from '@oryx-frontend/product';
+import { RouteType } from '@oryx-frontend/router';
+import { LinkService } from '@oryx-frontend/site';
 import {
   computed,
   elementEffect,
@@ -11,7 +11,7 @@ import {
   hydrate,
   signalAware,
   ssrShim,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { ifDefined } from 'lit/directives/if-defined.js';
 import { when } from 'lit/directives/when.js';

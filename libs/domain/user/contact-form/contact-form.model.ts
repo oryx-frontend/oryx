@@ -1,4 +1,4 @@
-import { FormFieldDefinition, FormFieldType } from '@spryker-oryx/form';
+import { FormFieldDefinition, FormFieldType } from '@oryx-frontend/form';
 
 export const fields: FormFieldDefinition[] = [
   {

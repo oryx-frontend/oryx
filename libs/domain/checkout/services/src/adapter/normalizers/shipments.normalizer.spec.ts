@@ -1,4 +1,4 @@
-import { Shipment } from '@spryker-oryx/checkout';
+import { Shipment } from '@oryx-frontend/checkout';
 import { DeserializedCheckout } from './model';
 import { shipmentsNormalizer } from './shipments.normalizer';
 

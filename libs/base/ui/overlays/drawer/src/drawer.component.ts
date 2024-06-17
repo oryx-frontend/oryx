@@ -1,5 +1,5 @@
-import { Position } from '@spryker-oryx/ui';
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { Position } from '@oryx-frontend/ui';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import { html, LitElement, TemplateResult } from 'lit';
 import { property } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';

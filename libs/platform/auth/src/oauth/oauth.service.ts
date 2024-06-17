@@ -1,7 +1,7 @@
-import { StorageService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
-import { subscribeReplay } from '@spryker-oryx/utilities';
+import { StorageService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
+import { subscribeReplay } from '@oryx-frontend/utilities';
 import {
   BehaviorSubject,
   Observable,

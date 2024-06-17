@@ -1,6 +1,6 @@
-import { Provider } from '@spryker-oryx/di';
+import { Provider } from '@oryx-frontend/di';
 
-import { jsonLdTokenFactory } from '@spryker-oryx/site';
+import { jsonLdTokenFactory } from '@oryx-frontend/site';
 import { PRODUCT } from '../../entity';
 import { OfferJsonLdNormalizer } from './offer.jsonld';
 import { ProductJsonLdNormalizer } from './product.jsonld';

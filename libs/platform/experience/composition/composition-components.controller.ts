@@ -1,13 +1,13 @@
-import { TokenResolver } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
+import { TokenResolver } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
 import {
   Component,
   ContentComponentProperties,
   ExperienceService,
   ScreenService,
   StyleRuleSet,
-} from '@spryker-oryx/experience';
-import { ObserveController, Size } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/experience';
+import { ObserveController, Size } from '@oryx-frontend/utilities';
 import { LitElement, ReactiveController } from 'lit';
 import { Observable, combineLatest, map, of, startWith, switchMap } from 'rxjs';
 import { CompositionComponentProperties } from './composition.model';

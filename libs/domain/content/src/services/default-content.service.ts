@@ -1,6 +1,6 @@
-import { createQuery, QueryState } from '@spryker-oryx/core';
-import { inject, INJECTOR } from '@spryker-oryx/di';
-import { LocaleChanged } from '@spryker-oryx/i18n';
+import { createQuery, QueryState } from '@oryx-frontend/core';
+import { inject, INJECTOR } from '@oryx-frontend/di';
+import { LocaleChanged } from '@oryx-frontend/i18n';
 import {
   catchError,
   combineLatest,

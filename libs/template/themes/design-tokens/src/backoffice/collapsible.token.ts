@@ -1,4 +1,4 @@
-import { DesignToken } from '@spryker-oryx/experience';
+import { DesignToken } from '@oryx-frontend/experience';
 
 export const collapsibleTokens: DesignToken[] = [
   {

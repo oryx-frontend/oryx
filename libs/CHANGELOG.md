@@ -1199,7 +1199,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * remove address feature for adapter and service ([#1700](https://github.com/spryker/oryx/issues/1700)) ([cca58f7](https://github.com/spryker/oryx/commit/cca58f7b644316c89861e5f8eac0601bd7969dd0))
 * remove hardcoded product context ([#992](https://github.com/spryker/oryx/issues/992)) ([3bfcede](https://github.com/spryker/oryx/commit/3bfcede8f76ef0e29f6d4c2076269a1bef643e5b))
 * remove targetId controller from story ([#869](https://github.com/spryker/oryx/issues/869)) ([b9f38e5](https://github.com/spryker/oryx/commit/b9f38e5479e547f2c994450dd5d8e62b1039f4f6))
-* renaming [@spryker-oryx](https://github.com/spryker-oryx) to [@spryker-oryx](https://github.com/spryker-oryx) ([67bf1a7](https://github.com/spryker/oryx/commit/67bf1a74d3707e678d90e3e8c79f8e699f8e7e6f))
+* renaming [@oryx-frontend](https://github.com/spryker-oryx) to [@oryx-frontend](https://github.com/spryker-oryx) ([67bf1a7](https://github.com/spryker/oryx/commit/67bf1a74d3707e678d90e3e8c79f8e699f8e7e6f))
 * render banner component ([#198](https://github.com/spryker/oryx/issues/198)) ([05de310](https://github.com/spryker/oryx/commit/05de31042994d3ef8dc9e1be0c81791af4747486))
 * reorganize libraries for publishing ([#201](https://github.com/spryker/oryx/issues/201)) ([92bc93d](https://github.com/spryker/oryx/commit/92bc93d0c9b3c6088b6f1923970e71984d1d6a0b))
 * replace *** cart ([#1499](https://github.com/spryker/oryx/issues/1499)) ([c03b286](https://github.com/spryker/oryx/commit/c03b2869c418e98bd9ac77a1f175f9dd929a19bf))

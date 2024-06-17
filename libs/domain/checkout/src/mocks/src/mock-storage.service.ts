@@ -1,4 +1,4 @@
-import { StorageService } from '@spryker-oryx/core';
+import { StorageService } from '@oryx-frontend/core';
 import { Observable, of } from 'rxjs';
 
 // we like to avoid storing data in storybook to avoid different results on each visit of the stories

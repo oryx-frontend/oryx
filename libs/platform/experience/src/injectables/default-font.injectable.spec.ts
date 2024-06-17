@@ -1,6 +1,6 @@
-import { AppRef, PageMetaService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { FontInjectable } from '@spryker-oryx/utilities';
+import { AppRef, PageMetaService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { FontInjectable } from '@oryx-frontend/utilities';
 import { finalize } from 'rxjs';
 import { DefaultFontInjectable } from './default-font.injectable';
 

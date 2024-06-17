@@ -1,6 +1,6 @@
-import { AlertType } from '@spryker-oryx/ui';
-import { Scheme } from '@spryker-oryx/ui/notification';
-import { I18nContent, I18nTranslationValue } from '@spryker-oryx/utilities';
+import { AlertType } from '@oryx-frontend/ui';
+import { Scheme } from '@oryx-frontend/ui/notification';
+import { I18nContent, I18nTranslationValue } from '@oryx-frontend/utilities';
 import { TemplateResult } from 'lit';
 export interface NotificationCenterComponentAttributes {
   /**

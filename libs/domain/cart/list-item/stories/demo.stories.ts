@@ -1,11 +1,11 @@
-import { CartComponentAttributes } from '@spryker-oryx/cart';
+import { CartComponentAttributes } from '@oryx-frontend/cart';
 import {
   mockCartLarge,
   mockCartWithDiscount,
   mockDefaultCart,
   mockEmptyCart,
   mockNetCart,
-} from '@spryker-oryx/cart/mocks';
+} from '@oryx-frontend/cart/mocks';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';

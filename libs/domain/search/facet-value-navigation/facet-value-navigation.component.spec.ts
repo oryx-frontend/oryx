@@ -1,6 +1,6 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { CollapsibleComponent } from '@spryker-oryx/ui/collapsible';
-import { useComponent } from '@spryker-oryx/utilities';
+import { CollapsibleComponent } from '@oryx-frontend/ui/collapsible';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { SearchFacetValueNavigationComponent } from './facet-value-navigation.component';
 import { searchFacetValueNavigationComponent } from './facet-value-navigation.def';

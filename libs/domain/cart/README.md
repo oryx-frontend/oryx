@@ -4,4 +4,4 @@ Provides shopping cart features for an Oryx based application.
 
 ## Installation
 
-`npm install @spryker-oryx/cart`
+`npm install @oryx-frontend/cart`

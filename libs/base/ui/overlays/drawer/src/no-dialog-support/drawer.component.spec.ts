@@ -1,6 +1,6 @@
 import { getShadowElementBySelector } from '@/tools/testing';
 import { fixture } from '@open-wc/testing-helpers';
-import { useComponent } from '@spryker-oryx/utilities';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { drawerComponent } from '../component';
 import { NDSDrawerComponent } from './drawer.component';

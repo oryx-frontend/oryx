@@ -1,5 +1,5 @@
-import { Serializer } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
+import { Serializer } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
 import { ApiUserModel, User } from '../../../../models';
 
 export const UserSerializer = 'oryx.UserSerializer*';

@@ -1,4 +1,4 @@
-import { isPromise } from '@spryker-oryx/utilities';
+import { isPromise } from '@oryx-frontend/utilities';
 import { ResourcePlugin, ResourcePluginName } from './resources';
 
 const mockSource = './source';

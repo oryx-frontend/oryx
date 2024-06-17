@@ -1,4 +1,4 @@
-import { OverlayService, OverlayServiceOptions } from '@spryker-oryx/ui';
+import { OverlayService, OverlayServiceOptions } from '@oryx-frontend/ui';
 import { DrawerComponent } from '../drawer.component';
 import { TAG_NAME } from '../tag';
 

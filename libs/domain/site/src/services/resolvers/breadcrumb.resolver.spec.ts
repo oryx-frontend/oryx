@@ -1,9 +1,9 @@
-import { PageMetaResolverService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { PageMetaResolverService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   DefaultFallbackBreadcrumbResolver,
   FallbackBreadcrumbResolver,
-} from '@spryker-oryx/site';
+} from '@oryx-frontend/site';
 import { of } from 'rxjs';
 
 const title = 'test';

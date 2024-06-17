@@ -1,11 +1,11 @@
 import { getShadowElementBySelector } from '@/tools/testing';
 import { fixture, html } from '@open-wc/testing-helpers';
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import {
   a11yConfig,
   queryFirstAssigned,
   useComponent,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { SearchboxComponent } from './searchbox.component';
 import { searchboxComponent } from './searchbox.def';
 import {

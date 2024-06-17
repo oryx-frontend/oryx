@@ -4,10 +4,10 @@ import {
   userAgentFirefox109,
 } from '@/tools/testing';
 import { fixture } from '@open-wc/testing-helpers';
-import { ButtonComponent } from '@spryker-oryx/ui/button';
-import { IconComponent, IconTypes } from '@spryker-oryx/ui/icon';
-import { CLOSE_MODAL_EVENT } from '@spryker-oryx/ui/modal';
-import { a11yConfig, useComponent } from '@spryker-oryx/utilities';
+import { ButtonComponent } from '@oryx-frontend/ui/button';
+import { IconComponent, IconTypes } from '@oryx-frontend/ui/icon';
+import { CLOSE_MODAL_EVENT } from '@oryx-frontend/ui/modal';
+import { a11yConfig, useComponent } from '@oryx-frontend/utilities';
 import { clear, mockUserAgent } from 'jest-useragent-mock';
 import { html } from 'lit';
 import { ModalComponent } from './modal.component';

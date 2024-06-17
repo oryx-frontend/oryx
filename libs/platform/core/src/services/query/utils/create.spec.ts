@@ -2,7 +2,7 @@ import { of } from 'rxjs';
 import { QueryOptions } from '../models';
 import { createCommand, createEffect, createQuery } from './create';
 
-vi.mock('@spryker-oryx/di', () => ({
+vi.mock('@oryx-frontend/di', () => ({
   inject: vi.fn().mockReturnValue({
     createQuery: vi.fn((arg) => arg.id),
     createCommand: vi.fn((arg) => arg.id),

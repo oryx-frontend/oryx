@@ -1,5 +1,5 @@
 import { nextFrame } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { combineLatest, of } from 'rxjs';
 import { PageMetaService } from '../page-meta.service';
 import { DefaultPageMetaResolverService } from './default-page-meta-resolver.service';

@@ -1,4 +1,4 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 import { DataWrapperComponent } from './data-wrapper.component';
 
 export const dataWrapperSchema: ContentComponentSchema<DataWrapperComponent> = {

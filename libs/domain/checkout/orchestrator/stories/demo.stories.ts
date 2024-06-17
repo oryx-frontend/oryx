@@ -3,8 +3,8 @@ import {
   mockCarriers,
   MockCheckoutDataService,
   mockPayments,
-} from '@spryker-oryx/checkout/mocks';
-import { resolve } from '@spryker-oryx/di';
+} from '@oryx-frontend/checkout/mocks';
+import { resolve } from '@oryx-frontend/di';
 import { Story } from '@storybook/web-components';
 import { html, TemplateResult } from 'lit';
 import { storybookPrefix } from '../../.constants';

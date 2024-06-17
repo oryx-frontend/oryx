@@ -1,9 +1,9 @@
-import { POPOVER_HEIGHT } from '@spryker-oryx/ui/popover';
+import { POPOVER_HEIGHT } from '@oryx-frontend/ui/popover';
 import {
   baseStyles as searchboxBaseStyles,
   screenStyles as searchboxScreenStyles,
-} from '@spryker-oryx/ui/searchbox';
-import { screenCss } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/ui/searchbox';
+import { screenCss } from '@oryx-frontend/utilities';
 import { css, unsafeCSS as unsafecss } from 'lit';
 
 export const baseStyles = [

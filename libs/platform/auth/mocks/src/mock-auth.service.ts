@@ -4,8 +4,8 @@ import {
   AuthTokenData,
   AuthTokenService,
   IdentityService,
-} from '@spryker-oryx/auth';
-import { BehaviorSubject, map, Observable, of } from 'rxjs';
+} from '@oryx-frontend/auth';
+import { BehaviorSubject, Observable, map, of } from 'rxjs';
 
 export class MockAuthService
   implements AuthService, AuthTokenService, IdentityService

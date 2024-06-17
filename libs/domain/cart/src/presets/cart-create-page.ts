@@ -1,4 +1,4 @@
-import { ExperienceComponent } from '@spryker-oryx/experience';
+import { ExperienceComponent } from '@oryx-frontend/experience';
 
 export const cartCreatePage: ExperienceComponent = {
   id: 'cart-create-page-content',

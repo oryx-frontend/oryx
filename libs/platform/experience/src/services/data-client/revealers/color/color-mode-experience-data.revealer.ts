@@ -1,7 +1,7 @@
 import {
   EVENT_TOGGLE_COLOR,
   toggleMode,
-} from '@spryker-oryx/ui/color-mode-selector';
+} from '@oryx-frontend/ui/color-mode-selector';
 import { Observable, tap } from 'rxjs';
 import { MessageType } from '../../data-client.model';
 import { ExperienceDataRevealer } from '../../data-client.service';

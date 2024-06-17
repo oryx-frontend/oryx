@@ -1,6 +1,6 @@
-import { ContentMixin } from '@spryker-oryx/experience';
-import { PRODUCT, ProductContext, ProductMixin } from '@spryker-oryx/product';
-import { computed, featureVersion, hydrate } from '@spryker-oryx/utilities';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { PRODUCT, ProductContext, ProductMixin } from '@oryx-frontend/product';
+import { computed, featureVersion, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { html } from 'lit/static-html.js';
 import { ProductBrandOptions } from './brand.model';

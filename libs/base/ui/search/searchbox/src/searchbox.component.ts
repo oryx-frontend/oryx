@@ -2,7 +2,7 @@ import {
   AffixOptions,
   FormControlController,
   FormControlOptions,
-} from '@spryker-oryx/ui/input';
+} from '@oryx-frontend/ui/input';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { SearchboxController } from './searchbox.controller';

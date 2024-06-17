@@ -1,7 +1,7 @@
-import { defaultExperienceRoutes } from '@spryker-oryx/experience';
-import { RouteParams, RouterService } from '@spryker-oryx/router';
-import { RouteConfig } from '@spryker-oryx/router/lit';
-import { Observable, of, ReplaySubject } from 'rxjs';
+import { defaultExperienceRoutes } from '@oryx-frontend/experience';
+import { RouteParams, RouterService } from '@oryx-frontend/router';
+import { RouteConfig } from '@oryx-frontend/router/lit';
+import { Observable, ReplaySubject, of } from 'rxjs';
 
 export class MockRouterService implements Partial<RouterService> {
   params$ = new ReplaySubject<RouteParams>(1);

@@ -1,11 +1,11 @@
-import { backofficeResources } from '@spryker-oryx/presets/backoffice';
-import { fesResources } from '@spryker-oryx/presets/fes';
-import { storefrontResources } from '@spryker-oryx/presets/storefront';
+import { backofficeResources } from '@oryx-frontend/presets/backoffice';
+import { fesResources } from '@oryx-frontend/presets/fes';
+import { storefrontResources } from '@oryx-frontend/presets/storefront';
 import {
   backofficeTheme,
   fesTheme,
   storefrontTheme,
-} from '@spryker-oryx/themes';
+} from '@oryx-frontend/themes';
 
 export const theme = {
   default: 'backoffice',

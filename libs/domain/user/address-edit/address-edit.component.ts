@@ -1,16 +1,16 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { RouteType, RouterService } from '@spryker-oryx/router';
-import { LinkService } from '@spryker-oryx/site';
-import { ButtonType } from '@spryker-oryx/ui/button';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { RouteType, RouterService } from '@oryx-frontend/router';
+import { LinkService } from '@oryx-frontend/site';
+import { ButtonType } from '@oryx-frontend/ui/button';
 import {
   Address,
   AddressEventDetail,
   AddressMixin,
   CrudState,
-} from '@spryker-oryx/user';
-import { UserAddressFormComponent } from '@spryker-oryx/user/address-form';
-import { hydrate, signal } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/user';
+import { UserAddressFormComponent } from '@oryx-frontend/user/address-form';
+import { hydrate, signal } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { query, state } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';

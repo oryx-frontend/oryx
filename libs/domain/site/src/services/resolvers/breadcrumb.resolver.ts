@@ -1,5 +1,5 @@
-import { PageMetaResolverService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { PageMetaResolverService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { Observable, map } from 'rxjs';
 import { BreadcrumbItem } from '../../models';
 import { BreadcrumbResolver, BreadcrumbResolvers } from '../breadcrumb';

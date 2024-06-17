@@ -1,7 +1,7 @@
-import { provideQuery, Query, QueryOptions } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { LocaleChanged } from '@spryker-oryx/i18n';
-import { CurrencyChanged, PriceModeChanged } from '@spryker-oryx/site';
+import { provideQuery, Query, QueryOptions } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { LocaleChanged } from '@oryx-frontend/i18n';
+import { CurrencyChanged, PriceModeChanged } from '@oryx-frontend/site';
 import { Product, ProductQualifier } from '../../models';
 import { ProductAdapter } from '../adapter';
 import { ProductLoaded } from './events';

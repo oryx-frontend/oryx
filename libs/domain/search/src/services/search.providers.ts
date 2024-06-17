@@ -1,8 +1,8 @@
-import { PageMetaResolver } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
-import { ExperienceDataRevealer } from '@spryker-oryx/experience';
-import { provideLitRoutes } from '@spryker-oryx/router/lit';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { PageMetaResolver } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
+import { ExperienceDataRevealer } from '@oryx-frontend/experience';
+import { provideLitRoutes } from '@oryx-frontend/router/lit';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { facetProviders } from '../renderers';
 import {
   ContentSuggestionAdapter,

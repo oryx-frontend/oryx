@@ -1,7 +1,7 @@
-import { CartService } from '@spryker-oryx/cart';
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, LayoutMixin } from '@spryker-oryx/experience';
-import { signal } from '@spryker-oryx/utilities';
+import { CartService } from '@oryx-frontend/cart';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, LayoutMixin } from '@oryx-frontend/experience';
+import { signal } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { repeat } from 'lit/directives/repeat.js';
 

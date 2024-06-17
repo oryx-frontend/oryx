@@ -1,5 +1,5 @@
-import { StorageService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { StorageService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import {
   authorizationCodeGrantRequest,
   AuthorizationServer,

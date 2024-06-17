@@ -45,30 +45,30 @@ The base layer contains packages that serve as utilities to all above layers. An
 
 ## Packages
 
-| Layer        | Packages    | Location                    |
-| ------------ | ----------- | --------------------------- |
-| **Template** |             |                             |
-|              | Presets     | `@spryker-oryx/presets`     |
-|              | Application | `@spryker-oryx/application` |
-|              | Themes      | `@spryker-oryx/themes`      |
-| **Domain**   |             |                             |
-|              | Site        | `@spryker-oryx/site`        |
-|              | Auth        | `@spryker-oryx/auth`        |
-|              | User        | `@spryker-oryx/user`        |
-|              | Product     | `@spryker-oryx/product`     |
-|              | Search      | `@spryker-oryx/search`      |
-|              | Cart        | `@spryker-oryx/cart`        |
-|              | Checkout    | `@spryker-oryx/checkout`    |
-|              | Content     | `@spryker-oryx/content`     |
-| **Platform** |             |                             |
-|              | Core        | `@spryker-oryx/core`        |
-|              | I18n        | `@spryker-oryx/i18n`        |
-|              | Experience  | `@spryker-oryx/experience`  |
-| **Base**     |             |                             |
-|              | UI          | `@spryker-oryx/ui`          |
-|              | Form        | `@spryker-oryx/form`        |
-|              | Utilities   | `@spryker-oryx/utilities`   |
-|              | DI          | `@spryker-oryx/di`          |
+| Layer        | Packages    | Location                     |
+| ------------ | ----------- | ---------------------------- |
+| **Template** |             |                              |
+|              | Presets     | `@oryx-frontend/presets`     |
+|              | Application | `@oryx-frontend/application` |
+|              | Themes      | `@oryx-frontend/themes`      |
+| **Domain**   |             |                              |
+|              | Site        | `@oryx-frontend/site`        |
+|              | Auth        | `@oryx-frontend/auth`        |
+|              | User        | `@oryx-frontend/user`        |
+|              | Product     | `@oryx-frontend/product`     |
+|              | Search      | `@oryx-frontend/search`      |
+|              | Cart        | `@oryx-frontend/cart`        |
+|              | Checkout    | `@oryx-frontend/checkout`    |
+|              | Content     | `@oryx-frontend/content`     |
+| **Platform** |             |                              |
+|              | Core        | `@oryx-frontend/core`        |
+|              | I18n        | `@oryx-frontend/i18n`        |
+|              | Experience  | `@oryx-frontend/experience`  |
+| **Base**     |             |                              |
+|              | UI          | `@oryx-frontend/ui`          |
+|              | Form        | `@oryx-frontend/form`        |
+|              | Utilities   | `@oryx-frontend/utilities`   |
+|              | DI          | `@oryx-frontend/di`          |
 
 ## Module boundaries
 
@@ -93,4 +93,4 @@ All packages are distributed with the same version, to avoid complex dependency 
 
 ## Distribution
 
-Packages are distributed under the `@spryker-oryx` scope.
+Packages are distributed under the `@oryx-frontend` scope.

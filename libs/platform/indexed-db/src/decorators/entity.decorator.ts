@@ -1,4 +1,4 @@
-import { ClassContext, TargetContext } from '@spryker-oryx/utilities';
+import { ClassContext, TargetContext } from '@oryx-frontend/utilities';
 import { IndexedDbEntity } from '../models';
 import {
   IndexedDbIndexMetadata,

@@ -1,4 +1,4 @@
-import { JSONLD } from '@spryker-oryx/site';
+import { JSONLD } from '@oryx-frontend/site';
 
 export interface ProductJSONLD extends JSONLD {
   '@context'?: 'http://schema.org';

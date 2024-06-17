@@ -1,9 +1,9 @@
-import { Cart, CartController, CartService } from '@spryker-oryx/cart';
-import { mockBaseCart } from '@spryker-oryx/cart/mocks';
-import * as core from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { PricingService } from '@spryker-oryx/site';
-import * as litRxjs from '@spryker-oryx/utilities';
+import { Cart, CartController, CartService } from '@oryx-frontend/cart';
+import { mockBaseCart } from '@oryx-frontend/cart/mocks';
+import * as core from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { PricingService } from '@oryx-frontend/site';
+import * as litRxjs from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { of, take } from 'rxjs';
 import { SpyInstance } from 'vitest';

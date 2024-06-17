@@ -1,19 +1,19 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
 import {
   FormFieldAttributes,
   FormFieldDefinition,
   FormFieldType,
   FormRenderer,
-} from '@spryker-oryx/form';
-import { GenderService, SalutationService } from '@spryker-oryx/site';
-import { ButtonSize } from '@spryker-oryx/ui/button';
+} from '@oryx-frontend/form';
+import { GenderService, SalutationService } from '@oryx-frontend/site';
+import { ButtonSize } from '@oryx-frontend/ui/button';
 import {
   PasswordInputComponent,
   PasswordVisibilityStrategy,
-} from '@spryker-oryx/ui/password';
-import { ApiUserModel, RegistrationService } from '@spryker-oryx/user';
-import { hydrate, signal } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/ui/password';
+import { ApiUserModel, RegistrationService } from '@oryx-frontend/user';
+import { hydrate, signal } from '@oryx-frontend/utilities';
 import { LitElement, PropertyValues, TemplateResult, html } from 'lit';
 import { query, state } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';

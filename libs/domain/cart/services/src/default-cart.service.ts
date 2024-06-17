@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import { IdentityService } from '@spryker-oryx/auth';
+import { IdentityService } from '@oryx-frontend/auth';
 import {
   AddCartEntryQualifier,
   Cart,
@@ -23,7 +23,7 @@ import {
   CreateCartQualifier,
   UpdateCartEntryQualifier,
   UpdateCartQualifier,
-} from '@spryker-oryx/cart';
+} from '@oryx-frontend/cart';
 import {
   Command,
   QueryService,
@@ -31,10 +31,10 @@ import {
   createCommand,
   createEffect,
   createQuery,
-} from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { LocaleChanged } from '@spryker-oryx/i18n';
-import { subscribeReplay } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { LocaleChanged } from '@oryx-frontend/i18n';
+import { subscribeReplay } from '@oryx-frontend/utilities';
 import {
   Observable,
   combineLatest,

@@ -1,5 +1,5 @@
-import { ThemeStylesheets } from '@spryker-oryx/experience';
-import { HeadingTag, headingUtil } from '@spryker-oryx/ui/heading';
+import { ThemeStylesheets } from '@oryx-frontend/experience';
+import { HeadingTag, headingUtil } from '@oryx-frontend/ui/heading';
 import { css } from 'lit';
 
 const cartDeliveryTotalRules = css`

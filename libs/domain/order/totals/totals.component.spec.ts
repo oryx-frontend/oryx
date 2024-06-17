@@ -1,8 +1,8 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { TotalsService } from '@spryker-oryx/cart';
-import { ContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { useComponent } from '@spryker-oryx/utilities';
+import { TotalsService } from '@oryx-frontend/cart';
+import { ContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { OrderTotalsComponent } from './totals.component';

@@ -1,6 +1,6 @@
-import { ContentMixin } from '@spryker-oryx/experience';
-import { ProductMixin } from '@spryker-oryx/product';
-import { elementEffect, hydrate } from '@spryker-oryx/utilities';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { ProductMixin } from '@oryx-frontend/product';
+import { elementEffect, hydrate } from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { loadBvScript } from '../script';
 import { bzRatingStyles } from '../styles';

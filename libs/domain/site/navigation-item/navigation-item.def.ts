@@ -1,4 +1,4 @@
-import { componentDef } from '@spryker-oryx/utilities';
+import { componentDef } from '@oryx-frontend/utilities';
 import { SiteNavigationItemOptions } from './navigation-item.model';
 
 declare global {

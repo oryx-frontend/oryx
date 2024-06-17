@@ -8,4 +8,4 @@ Some of the work done in this package can be considered incubation and might eve
 
 ## Installation
 
-`npm install @spryker-oryx/labs`
+`npm install @oryx-frontend/labs`

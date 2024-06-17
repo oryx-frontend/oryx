@@ -1,6 +1,10 @@
-import { AppFeature, ContextFallback, EntityContext } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
-import { featureVersion } from '@spryker-oryx/utilities';
+import {
+  AppFeature,
+  ContextFallback,
+  EntityContext,
+} from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
+import { featureVersion } from '@oryx-frontend/utilities';
 import {
   DefaultLinkService,
   DefaultRouterService,

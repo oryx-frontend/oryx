@@ -1,7 +1,7 @@
 import {
   PasswordValidationOptions,
   PasswordVisibilityStrategy,
-} from '@spryker-oryx/ui/password';
+} from '@oryx-frontend/ui/password';
 
 export interface RegistrationOptions extends PasswordValidationOptions {
   /**

@@ -1,4 +1,4 @@
-import { computed, featureVersion } from '@spryker-oryx/utilities';
+import { computed, featureVersion } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { unsafeHTML } from 'lit/directives/unsafe-html.js';

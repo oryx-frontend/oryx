@@ -2,8 +2,8 @@ import {
   CarouselIndicatorAlignment,
   CarouselIndicatorPosition,
   ContentComponentSchema,
-} from '@spryker-oryx/experience';
-import { FormFieldType } from '@spryker-oryx/form';
+} from '@oryx-frontend/experience';
+import { FormFieldType } from '@oryx-frontend/form';
 import { ArrowNavigationBehavior } from './carousel-layout.model';
 export const schema: ContentComponentSchema = {
   name: 'carousel',

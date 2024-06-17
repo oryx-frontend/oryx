@@ -1,7 +1,7 @@
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { AlertType } from '@spryker-oryx/ui';
-import { ButtonSize, ButtonType } from '@spryker-oryx/ui/button';
-import { I18nMixin, featureVersion } from '@spryker-oryx/utilities';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { AlertType } from '@oryx-frontend/ui';
+import { ButtonSize, ButtonType } from '@oryx-frontend/ui/button';
+import { I18nMixin, featureVersion } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { DirectiveResult } from 'lit/async-directive';
 import { property, state } from 'lit/decorators.js';

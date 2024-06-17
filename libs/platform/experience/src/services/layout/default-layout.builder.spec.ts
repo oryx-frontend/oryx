@@ -1,7 +1,7 @@
-import { App, AppRef } from '@spryker-oryx/core';
-import { Injector } from '@spryker-oryx/di';
-import { HeadingTag } from '@spryker-oryx/ui/heading';
-import { Size } from '@spryker-oryx/utilities';
+import { App, AppRef } from '@oryx-frontend/core';
+import { Injector } from '@oryx-frontend/di';
+import { HeadingTag } from '@oryx-frontend/ui/heading';
+import { Size } from '@oryx-frontend/utilities';
 import { lastValueFrom, of } from 'rxjs';
 import {
   Component,

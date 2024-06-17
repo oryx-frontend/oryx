@@ -12,4 +12,4 @@ Contains a standard `oryx-app` component that is used in the standard boilerplat
 
 ## Installation
 
-`npm install @spryker-oryx/application`
+`npm install @oryx-frontend/application`

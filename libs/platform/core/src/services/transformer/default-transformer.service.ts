@@ -1,5 +1,5 @@
-import { inject, INJECTOR } from '@spryker-oryx/di';
-import { isPromise } from '@spryker-oryx/utilities';
+import { inject, INJECTOR } from '@oryx-frontend/di';
+import { isPromise } from '@oryx-frontend/utilities';
 import {
   from,
   isObservable,

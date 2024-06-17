@@ -1,11 +1,11 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { TextMixin } from '@spryker-oryx/ui/text';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { TextMixin } from '@oryx-frontend/ui/text';
 import {
   computed,
   elementEffect,
   featureVersion,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { FontService } from '../src/services/';
 import { ContentTextContent, ContentTextOptions } from './text.model';

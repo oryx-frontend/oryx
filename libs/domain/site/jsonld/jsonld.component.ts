@@ -1,6 +1,6 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { signal, signalAware } from '@spryker-oryx/utilities';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { signal, signalAware } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, css, html, isServer } from 'lit';
 import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 import { JsonLdService } from '../src/services';

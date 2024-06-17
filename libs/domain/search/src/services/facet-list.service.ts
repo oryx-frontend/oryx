@@ -1,4 +1,4 @@
-import { Facet } from '@spryker-oryx/product';
+import { Facet } from '@oryx-frontend/product';
 import { Observable } from 'rxjs';
 import { FacetQualifier } from '../models';
 

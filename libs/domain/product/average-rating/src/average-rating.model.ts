@@ -1,4 +1,4 @@
-import { Size } from '@spryker-oryx/utilities';
+import { Size } from '@oryx-frontend/utilities';
 
 export interface ProductAverageRatingOptions {
   /** Indicates whether the reviewCount should be rendered  */

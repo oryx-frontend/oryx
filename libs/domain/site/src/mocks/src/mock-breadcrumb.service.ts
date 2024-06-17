@@ -1,4 +1,4 @@
-import { BreadcrumbItem, BreadcrumbService } from '@spryker-oryx/site';
+import { BreadcrumbItem, BreadcrumbService } from '@oryx-frontend/site';
 import { BehaviorSubject, Observable } from 'rxjs';
 
 export class MockBreadcrumbService implements BreadcrumbService {

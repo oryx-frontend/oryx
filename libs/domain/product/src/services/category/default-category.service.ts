@@ -1,4 +1,4 @@
-import { injectQuery } from '@spryker-oryx/core';
+import { injectQuery } from '@oryx-frontend/core';
 import { Observable, map, of, switchMap } from 'rxjs';
 import { ProductCategory, ProductCategoryQualifier } from '../../models';
 import { ProductCategoryService } from './category.service';

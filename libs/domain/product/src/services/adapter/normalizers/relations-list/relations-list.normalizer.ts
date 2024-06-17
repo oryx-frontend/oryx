@@ -1,6 +1,6 @@
-import { Transformer, TransformerService } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
-import { combineLatest, Observable } from 'rxjs';
+import { Transformer, TransformerService } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
+import { Observable, combineLatest } from 'rxjs';
 import { Product } from '../../../../models/product.model';
 import { DeserializedProductListIncludes } from '../model';
 import { ProductNormalizer } from '../product/product.normalizer';

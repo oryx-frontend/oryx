@@ -1,4 +1,4 @@
-import { componentDef } from '@spryker-oryx/utilities';
+import { componentDef } from '@oryx-frontend/utilities';
 
 export const navigationItemComponent = componentDef({
   name: 'oryx-navigation-item',

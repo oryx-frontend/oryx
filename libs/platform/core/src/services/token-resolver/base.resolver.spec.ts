@@ -1,4 +1,4 @@
-import { BaseResolver, Resolver } from '@spryker-oryx/core';
+import { BaseResolver, Resolver } from '@oryx-frontend/core';
 import { of } from 'rxjs';
 
 describe('BaseResolver', () => {

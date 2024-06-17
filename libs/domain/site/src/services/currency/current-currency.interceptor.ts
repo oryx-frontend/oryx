@@ -1,6 +1,6 @@
-import { HttpHandlerFn, HttpInterceptor } from '@spryker-oryx/core';
-import { inject, INJECTOR } from '@spryker-oryx/di';
-import { map, Observable, switchMap, take } from 'rxjs';
+import { HttpHandlerFn, HttpInterceptor } from '@oryx-frontend/core';
+import { INJECTOR, inject } from '@oryx-frontend/di';
+import { Observable, map, switchMap, take } from 'rxjs';
 import { CurrencyService } from './currency.service';
 
 export class CurrentCurrencyInterceptor implements HttpInterceptor {

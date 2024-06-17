@@ -1,6 +1,6 @@
-import { INJECTOR, inject } from '@spryker-oryx/di';
-import { LayoutProperties } from '@spryker-oryx/experience/layout';
-import { Breakpoint } from '@spryker-oryx/utilities';
+import { INJECTOR, inject } from '@oryx-frontend/di';
+import { LayoutProperties } from '@oryx-frontend/experience/layout';
+import { Breakpoint } from '@oryx-frontend/utilities';
 import {
   Observable,
   concatMap,

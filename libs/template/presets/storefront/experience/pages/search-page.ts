@@ -1,7 +1,7 @@
-import { ExperienceComponent } from '@spryker-oryx/experience';
-import { PRODUCTS } from '@spryker-oryx/product';
-import { RouteType } from '@spryker-oryx/router';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { ExperienceComponent } from '@oryx-frontend/experience';
+import { PRODUCTS } from '@oryx-frontend/product';
+import { RouteType } from '@oryx-frontend/router';
+import { featureVersion } from '@oryx-frontend/utilities';
 
 export const searchPage: ExperienceComponent = {
   id: 'search-page',

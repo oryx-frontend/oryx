@@ -1,10 +1,10 @@
 /// <reference lib="WebWorker" />
 
-import { App, AppPlugin, InjectionPlugin } from '@spryker-oryx/core';
+import { App, AppPlugin, InjectionPlugin } from '@oryx-frontend/core';
 import {
   ProcessSyncsBackgroundSyncTag,
   SyncExecutorService,
-} from '@spryker-oryx/offline/sync';
+} from '@oryx-frontend/offline/sync';
 import { firstValueFrom } from 'rxjs';
 
 declare let self: ServiceWorkerGlobalScope;

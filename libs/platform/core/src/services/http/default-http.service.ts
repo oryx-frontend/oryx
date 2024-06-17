@@ -1,4 +1,4 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import { from, map, Observable, of, switchMap } from 'rxjs';
 import { HttpHandler } from './handler';
 import {

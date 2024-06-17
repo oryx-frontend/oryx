@@ -1,15 +1,15 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
 import {
   FormFieldDefinition,
   FormFieldType,
   FormRenderer,
-} from '@spryker-oryx/form';
-import { RouterService } from '@spryker-oryx/router';
-import { ButtonSize } from '@spryker-oryx/ui/button';
-import { ColorType } from '@spryker-oryx/ui/link';
-import { PasswordVisibilityStrategy } from '@spryker-oryx/ui/password';
-import { hydrate } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/form';
+import { RouterService } from '@oryx-frontend/router';
+import { ButtonSize } from '@oryx-frontend/ui/button';
+import { ColorType } from '@oryx-frontend/ui/link';
+import { PasswordVisibilityStrategy } from '@oryx-frontend/ui/password';
+import { hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property, query } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';

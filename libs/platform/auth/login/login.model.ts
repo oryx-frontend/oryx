@@ -1,4 +1,4 @@
-import { PasswordVisibilityStrategy } from '@spryker-oryx/ui/password';
+import { PasswordVisibilityStrategy } from '@oryx-frontend/ui/password';
 
 export interface LoginOptions {
   /**

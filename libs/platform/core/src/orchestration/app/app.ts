@@ -1,4 +1,4 @@
-import { PromiseSubject, Type } from '@spryker-oryx/utilities';
+import { PromiseSubject, Type } from '@oryx-frontend/utilities';
 import { App, AppPlugin } from './app.model';
 
 /**

@@ -1,4 +1,4 @@
-import { ColorDesignTokens, colorPalette } from '@spryker-oryx/experience';
+import { ColorDesignTokens, colorPalette } from '@oryx-frontend/experience';
 
 export const color: ColorDesignTokens = {
   neutral: colorPalette.grays.sprykerSfGray,

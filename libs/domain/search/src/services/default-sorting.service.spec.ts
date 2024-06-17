@@ -1,8 +1,8 @@
-import { Injector } from '@spryker-oryx/di';
+import { Injector } from '@oryx-frontend/di';
 import {
   ProductListPageService,
   ProductListService,
-} from '@spryker-oryx/product';
+} from '@oryx-frontend/product';
 import { Observable, of } from 'rxjs';
 import { DefaultSortingService } from './default-sorting.service';
 import { SortingService } from './sorting.service';

@@ -1,5 +1,5 @@
-import { QueryService, Transformer } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { QueryService, Transformer } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { ApiProductModel, ProductCategory } from '../../../../models';
 import { CategoriesLoaded } from '../../state';
 import { categoryNodeNormalizer } from './category-node.normalizer';

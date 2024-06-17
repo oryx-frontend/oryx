@@ -1,4 +1,4 @@
-import { cartTotalsStaticData } from '@spryker-oryx/cart/mocks';
+import { cartTotalsStaticData } from '@oryx-frontend/cart/mocks';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';

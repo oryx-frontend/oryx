@@ -1,8 +1,8 @@
-import { I18nContext } from '@spryker-oryx/utilities';
+import { I18nContext } from '@oryx-frontend/utilities';
 
 /**
  * @deprecated since 1.4. Use I18nContent interface
- * from '@spryker-oryx/utilities' instead.
+ * from '@oryx-frontend/utilities' instead.
  */
 export interface TextResource {
   raw?: string;

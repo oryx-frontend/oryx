@@ -1,10 +1,10 @@
-import { resolve } from '@spryker-oryx/di';
-import { NotificationService } from '@spryker-oryx/site';
-import { AlertType } from '@spryker-oryx/ui';
-import { Notification } from '@spryker-oryx/ui/notification';
-import { NotificationPosition } from '@spryker-oryx/ui/notification-center';
+import { resolve } from '@oryx-frontend/di';
+import { NotificationService } from '@oryx-frontend/site';
+import { AlertType } from '@oryx-frontend/ui';
+import { Notification } from '@oryx-frontend/ui/notification';
+import { NotificationPosition } from '@oryx-frontend/ui/notification-center';
 import { Meta, Story } from '@storybook/web-components';
-import { html, TemplateResult } from 'lit';
+import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';
 import { SiteNotificationCenterOptions } from '../notification-center.model';
 

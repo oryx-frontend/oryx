@@ -1,4 +1,4 @@
-import { componentDef } from '@spryker-oryx/utilities';
+import { componentDef } from '@oryx-frontend/utilities';
 
 export const searchProductSortComponent = componentDef({
   name: 'oryx-search-product-sort',

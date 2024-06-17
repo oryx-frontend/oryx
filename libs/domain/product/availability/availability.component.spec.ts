@@ -1,10 +1,10 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { ContextService, DefaultContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { ProductService } from '@spryker-oryx/product';
-import { AlertType } from '@spryker-oryx/ui';
-import { SwatchComponent } from '@spryker-oryx/ui/swatch';
-import { i18n, useComponent } from '@spryker-oryx/utilities';
+import { ContextService, DefaultContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { ProductService } from '@oryx-frontend/product';
+import { AlertType } from '@oryx-frontend/ui';
+import { SwatchComponent } from '@oryx-frontend/ui/swatch';
+import { i18n, useComponent } from '@oryx-frontend/utilities';
 import { of } from 'rxjs';
 import { ProductAvailabilityComponent } from './availability.component';
 import { productAvailabilityComponent } from './availability.def';

@@ -2,7 +2,7 @@ import {
   indexedDbEntity,
   indexedDbIndex,
   indexedDbPrimaryKey,
-} from '@spryker-oryx/indexed-db';
+} from '@oryx-frontend/indexed-db';
 import { Table } from 'dexie';
 import type { Sync, SyncAction, SyncPayload, SyncStatus } from '../models';
 

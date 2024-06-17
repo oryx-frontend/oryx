@@ -1,5 +1,5 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { FormController } from '@spryker-oryx/form';
+import { FormController } from '@oryx-frontend/form';
 import { LitElement, TemplateResult } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { FormMixinProperties } from '../models';

@@ -1,6 +1,6 @@
-import { ContentMixin } from '@spryker-oryx/experience';
-import { PRODUCT, ProductMixin } from '@spryker-oryx/product';
-import { hydrate } from '@spryker-oryx/utilities';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { PRODUCT, ProductMixin } from '@oryx-frontend/product';
+import { hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 
 @hydrate({ context: PRODUCT })

@@ -1,4 +1,4 @@
-import { subscribeReplay } from '@spryker-oryx/utilities';
+import { subscribeReplay } from '@oryx-frontend/utilities';
 import {
   filter,
   identity,

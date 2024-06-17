@@ -1,6 +1,6 @@
-import { ContentMixin } from '@spryker-oryx/experience';
-import { HeadingTag } from '@spryker-oryx/ui/heading';
-import { hydrate } from '@spryker-oryx/utilities';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { HeadingTag } from '@oryx-frontend/ui/heading';
+import { hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';

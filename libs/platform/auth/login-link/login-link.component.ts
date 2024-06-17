@@ -1,10 +1,10 @@
-import { AuthService } from '@spryker-oryx/auth';
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { RouterService } from '@spryker-oryx/router';
-import { ButtonType } from '@spryker-oryx/ui/button';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { hydrate, signal } from '@spryker-oryx/utilities';
+import { AuthService } from '@oryx-frontend/auth';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { RouterService } from '@oryx-frontend/router';
+import { ButtonType } from '@oryx-frontend/ui/button';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { hydrate, signal } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { LoginLinkOptions } from './login-link.model';
 import { styles } from './login-link.styles';

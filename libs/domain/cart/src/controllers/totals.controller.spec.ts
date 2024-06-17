@@ -2,9 +2,9 @@ import {
   TotalsContext,
   TotalsController,
   TotalsService,
-} from '@spryker-oryx/cart';
-import * as core from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+} from '@oryx-frontend/cart';
+import * as core from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { LitElement } from 'lit';
 import { of } from 'rxjs';
 import { SpyInstance } from 'vitest';

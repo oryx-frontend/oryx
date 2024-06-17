@@ -1,5 +1,5 @@
-import { injectEnv, PageMetaResolver } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
+import { injectEnv, PageMetaResolver } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
 import {
   AppReadyExperienceDataRevealer,
   ColorModeExperienceDataRevealer,

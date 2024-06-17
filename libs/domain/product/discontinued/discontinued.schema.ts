@@ -1,4 +1,4 @@
-import { ContentComponentSchema } from '@spryker-oryx/experience';
+import { ContentComponentSchema } from '@oryx-frontend/experience';
 import { ProductDiscontinuedComponent } from './discontinued.component';
 
 export const ProductDiscontinuedSchema: ContentComponentSchema<ProductDiscontinuedComponent> =

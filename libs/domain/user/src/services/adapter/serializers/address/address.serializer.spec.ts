@@ -1,4 +1,4 @@
-import { mockAddress } from '@spryker-oryx/user/mocks';
+import { mockAddress } from '@oryx-frontend/user/mocks';
 import { addressAttributesSerializer } from './address.serializer';
 
 describe('Address Serializers', () => {

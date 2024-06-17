@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { firstValueFrom, of } from 'rxjs';
 import { DefaultTransformerService } from './default-transformer.service';
 import { TransformerService } from './transformer.service';

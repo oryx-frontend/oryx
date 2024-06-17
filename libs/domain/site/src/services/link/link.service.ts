@@ -1,19 +1,19 @@
 import {
   LinkOptions as LinkOptionsFromRouter,
   LinkService as LinkServiceFromRouter,
-} from '@spryker-oryx/router';
+} from '@oryx-frontend/router';
 
 /**
- * @deprecated since 1.4, use LinkOptions from @spryker-oryx/router instead
+ * @deprecated since 1.4, use LinkOptions from @oryx-frontend/router instead
  */
 export type LinkOptions = LinkOptionsFromRouter;
 
 /**
- * @deprecated since 1.4, use LinkService from @spryker-oryx/router instead
+ * @deprecated since 1.4, use LinkService from @oryx-frontend/router instead
  */
 export type LinkService = LinkServiceFromRouter;
 
 /**
- * @deprecated since 1.4, use LinkService from @spryker-oryx/router instead
+ * @deprecated since 1.4, use LinkService from @oryx-frontend/router instead
  */
 export const LinkService = LinkServiceFromRouter;

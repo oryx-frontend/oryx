@@ -5,9 +5,9 @@ import {
   NormalizedTotals,
   TotalsResolver,
   TotalsResolverOptions,
-} from '@spryker-oryx/cart';
-import { ContextService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+} from '@oryx-frontend/cart';
+import { ContextService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { Observable, map, of, switchMap } from 'rxjs';
 
 export class CartTotalsResolver implements TotalsResolver {

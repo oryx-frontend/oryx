@@ -1,6 +1,6 @@
-import { ContextService } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { ContextService } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import { Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';

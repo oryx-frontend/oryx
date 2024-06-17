@@ -1,6 +1,10 @@
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
-import { RouteConfig } from '@spryker-oryx/router/lit';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
+import { RouteConfig } from '@oryx-frontend/router/lit';
 import { of } from 'rxjs';
 import { ExperienceDataService, ExperienceService } from '../experience';
 import { ContentPageMetaResolver } from './content-page-meta.resolver';

@@ -1,5 +1,5 @@
-import { ApiCheckoutModel, PaymentMethod } from '@spryker-oryx/checkout';
-import { camelize } from '@spryker-oryx/core/utilities';
+import { ApiCheckoutModel, PaymentMethod } from '@oryx-frontend/checkout';
+import { camelize } from '@oryx-frontend/core/utilities';
 import { DeserializedCheckout } from './model';
 
 export function paymentsNormalizer(

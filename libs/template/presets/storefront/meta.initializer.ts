@@ -1,5 +1,5 @@
-import { AppInitializer, PageMetaService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { AppInitializer, PageMetaService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { bodyStyles, fontMeta, iconMeta } from '../src/meta';
 
 export class StorefrontMetaInitializer implements AppInitializer {

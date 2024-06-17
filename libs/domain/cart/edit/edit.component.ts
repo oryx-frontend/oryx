@@ -1,21 +1,21 @@
-import { CartComponentMixin, CARTS, CartService } from '@spryker-oryx/cart';
-import { resolve } from '@spryker-oryx/di';
+import { CartComponentMixin, CARTS, CartService } from '@oryx-frontend/cart';
+import { resolve } from '@oryx-frontend/di';
 import {
   FormFieldDefinition,
   FormFieldType,
   FormMixin,
   FormRenderer,
   FormValues,
-} from '@spryker-oryx/form';
-import { LinkService, RouterService } from '@spryker-oryx/router';
+} from '@oryx-frontend/form';
+import { LinkService, RouterService } from '@oryx-frontend/router';
 import {
   CurrencyService,
   NotificationService,
   PriceModes,
   PriceModeService,
-} from '@spryker-oryx/site';
-import { AlertType } from '@spryker-oryx/ui';
-import { computed, I18nMixin, signal } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/site';
+import { AlertType } from '@oryx-frontend/ui';
+import { computed, I18nMixin, signal } from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { state } from 'lit/decorators.js';
 

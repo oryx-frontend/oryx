@@ -2,10 +2,10 @@ import {
   ContextService,
   ElementResolver,
   PageMetaResolver,
-} from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
-import { featureVersion } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { Observable, combineLatest, map, of, switchMap } from 'rxjs';
 import { PRODUCT } from '../../entity';
 import { ProductContext } from '../product-context';

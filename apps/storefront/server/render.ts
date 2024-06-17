@@ -1,4 +1,4 @@
-import { renderApp, RenderAppConfig } from '@spryker-oryx/application';
+import { renderApp, RenderAppConfig } from '@oryx-frontend/application';
 import { html } from 'lit';
 import { app } from '../src/app';
 

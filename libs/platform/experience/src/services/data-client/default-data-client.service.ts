@@ -1,4 +1,4 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import { merge, Observable, shareReplay } from 'rxjs';
 import {
   ExperienceDataClientService,

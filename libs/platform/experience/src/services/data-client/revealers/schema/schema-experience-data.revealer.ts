@@ -1,6 +1,6 @@
-import { AppRef } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { ComponentsPlugin } from '@spryker-oryx/utilities';
+import { AppRef } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { ComponentsPlugin } from '@oryx-frontend/utilities';
 import { Observable, of, switchMap, tap } from 'rxjs';
 import { ContentComponentSchema } from '../../../../models';
 import { MessageType } from '../../data-client.model';

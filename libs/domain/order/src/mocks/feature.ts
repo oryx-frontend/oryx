@@ -1,5 +1,5 @@
-import { AppFeature } from '@spryker-oryx/core';
-import { orderComponents } from '@spryker-oryx/order';
+import { AppFeature } from '@oryx-frontend/core';
+import { orderComponents } from '@oryx-frontend/order';
 import { mockOrderProviders } from './src';
 
 export const mockOrderFeature: AppFeature = {

@@ -1,5 +1,5 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { useComponent } from '@spryker-oryx/utilities';
+import { useComponent } from '@oryx-frontend/utilities';
 import { ToggleIconComponent } from './toggle-icon.component';
 import { toggleIconComponent } from './toggle-icon.def';
 

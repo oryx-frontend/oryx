@@ -1,10 +1,10 @@
-import { CartService } from '@spryker-oryx/cart';
-import { resolve } from '@spryker-oryx/di';
-import { NotificationService } from '@spryker-oryx/site';
-import { AlertType } from '@spryker-oryx/ui';
-import { ButtonColor, ButtonSize, ButtonType } from '@spryker-oryx/ui/button';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { I18nMixin, hydrate } from '@spryker-oryx/utilities';
+import { CartService } from '@oryx-frontend/cart';
+import { resolve } from '@oryx-frontend/di';
+import { NotificationService } from '@oryx-frontend/site';
+import { AlertType } from '@oryx-frontend/ui';
+import { ButtonColor, ButtonSize, ButtonType } from '@oryx-frontend/ui/button';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { I18nMixin, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { state } from 'lit/decorators.js';
 import { CartComponentMixin } from '../src/mixins';

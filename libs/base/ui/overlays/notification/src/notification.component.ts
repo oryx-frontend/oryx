@@ -1,6 +1,6 @@
-import { AlertType } from '@spryker-oryx/ui';
-import { ButtonColor, ButtonSize, ButtonType } from '@spryker-oryx/ui/button';
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { AlertType } from '@oryx-frontend/ui';
+import { ButtonColor, ButtonSize, ButtonType } from '@oryx-frontend/ui/button';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import {

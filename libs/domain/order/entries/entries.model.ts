@@ -1,4 +1,4 @@
-import { CartEntryOptions } from '@spryker-oryx/cart/entry';
+import { CartEntryOptions } from '@oryx-frontend/cart/entry';
 
 export interface OrderEntriesAttributes {
   /**

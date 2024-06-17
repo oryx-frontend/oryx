@@ -1,15 +1,15 @@
-import { contentFeature } from '@spryker-oryx/content';
-import { AppFeature, coreFeature } from '@spryker-oryx/core';
-import { Resources, layoutFeature } from '@spryker-oryx/experience';
-import { formFeature } from '@spryker-oryx/form';
-import { I18nFeature } from '@spryker-oryx/i18n';
+import { contentFeature } from '@oryx-frontend/content';
+import { AppFeature, coreFeature } from '@oryx-frontend/core';
+import { Resources, layoutFeature } from '@oryx-frontend/experience';
+import { formFeature } from '@oryx-frontend/form';
+import { I18nFeature } from '@oryx-frontend/i18n';
 import {
   commonGraphics,
   fontawesomeLink,
   materialDesignLink,
-} from '@spryker-oryx/resources';
-import { siteFeature } from '@spryker-oryx/site';
-import { uiFeature } from '@spryker-oryx/ui';
+} from '@oryx-frontend/resources';
+import { siteFeature } from '@oryx-frontend/site';
+import { uiFeature } from '@oryx-frontend/ui';
 
 export const backofficeResources: Resources = {
   graphics: commonGraphics,

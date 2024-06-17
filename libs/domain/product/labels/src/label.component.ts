@@ -1,11 +1,11 @@
-import { ContentMixin } from '@spryker-oryx/experience';
+import { ContentMixin } from '@oryx-frontend/experience';
 import {
   PRODUCT,
   ProductContext,
   ProductLabel,
   ProductMixin,
-} from '@spryker-oryx/product';
-import { computed, featureVersion, hydrate } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/product';
+import { computed, featureVersion, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { html } from 'lit/static-html.js';
 import { ProductLabelsOptions } from './label.model';

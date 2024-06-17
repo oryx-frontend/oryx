@@ -1,16 +1,16 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
-import { LinkService } from '@spryker-oryx/site';
-import { ButtonComponent } from '@spryker-oryx/ui/button';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
+import { LinkService } from '@oryx-frontend/site';
+import { ButtonComponent } from '@oryx-frontend/ui/button';
 import {
   Address,
   AddressService,
   AddressStateService,
   CrudState,
   userAddressAddButtonComponent,
-} from '@spryker-oryx/user';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/user';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { BehaviorSubject, of } from 'rxjs';
 import { UserAddressAddButtonComponent } from './address-add-button.component';

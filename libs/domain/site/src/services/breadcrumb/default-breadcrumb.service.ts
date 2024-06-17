@@ -1,6 +1,6 @@
-import { ssrAwaiter } from '@spryker-oryx/core/utilities';
-import { INJECTOR, inject } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
+import { ssrAwaiter } from '@oryx-frontend/core/utilities';
+import { INJECTOR, inject } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
 import { Observable, map, switchMap } from 'rxjs';
 import { BreadcrumbItem } from '../../models';
 import {

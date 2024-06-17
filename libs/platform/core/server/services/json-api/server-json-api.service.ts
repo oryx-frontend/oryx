@@ -1,8 +1,8 @@
 import {
   DefaultJsonAPITransformerService,
   InheritTransformerResult,
-} from '@spryker-oryx/core';
-import { ssrAwaiter } from '@spryker-oryx/core/utilities';
+} from '@oryx-frontend/core';
+import { ssrAwaiter } from '@oryx-frontend/core/utilities';
 
 export class ServerJsonApiTransformerService extends DefaultJsonAPITransformerService {
   transform<T extends keyof InjectionTokensContractMap>(

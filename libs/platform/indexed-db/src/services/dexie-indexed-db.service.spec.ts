@@ -1,5 +1,9 @@
 import { nextFrame } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { IndexedDbEntities } from '../entities.provider';
 import { IndexedDbEntityType } from '../models';
 import { DexieIndexedDbConfig } from './dexie-config.provider';

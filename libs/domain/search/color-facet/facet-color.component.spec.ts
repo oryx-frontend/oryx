@@ -1,9 +1,9 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { generateFacet } from '@spryker-oryx/product/mocks';
-import { SearchFacetComponent } from '@spryker-oryx/search/facet';
-import { mockFacetColors } from '@spryker-oryx/search/mocks';
-import { useComponent } from '@spryker-oryx/utilities';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { generateFacet } from '@oryx-frontend/product/mocks';
+import { SearchFacetComponent } from '@oryx-frontend/search/facet';
+import { mockFacetColors } from '@oryx-frontend/search/mocks';
+import { useComponent } from '@oryx-frontend/utilities';
 import { of } from 'rxjs';
 import { FacetListService } from '../src/services';
 import { FacetColorsMapping } from './facet-color-colors.mapping';

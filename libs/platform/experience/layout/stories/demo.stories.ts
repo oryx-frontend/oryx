@@ -2,7 +2,7 @@ import {
   CompositionLayout,
   CompositionProperties,
   StyleRuleSet,
-} from '@spryker-oryx/experience';
+} from '@oryx-frontend/experience';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';

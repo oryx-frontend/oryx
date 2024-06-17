@@ -1,4 +1,4 @@
-import { DeserializedProductListIncludes } from '@spryker-oryx/product';
+import { DeserializedProductListIncludes } from '@oryx-frontend/product';
 import { of } from 'rxjs';
 import { ProductNormalizer } from '../product/product.normalizer';
 import { listNormalizer } from './relations-list.normalizer';

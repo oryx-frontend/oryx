@@ -1,4 +1,4 @@
-import { OBJECT_FIT, OBJECT_POSITION } from '@spryker-oryx/ui';
+import { OBJECT_FIT, OBJECT_POSITION } from '@oryx-frontend/ui';
 import { lastValueFrom } from 'rxjs';
 import { ObjectFit } from './media-style.model';
 import { MediaStylePlugin } from './media-style.plugin';

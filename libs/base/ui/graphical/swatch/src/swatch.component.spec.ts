@@ -1,6 +1,6 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { AlertType } from '@spryker-oryx/ui';
-import { useComponent } from '@spryker-oryx/utilities';
+import { AlertType } from '@oryx-frontend/ui';
+import { useComponent } from '@oryx-frontend/utilities';
 import { SwatchComponent } from './swatch.component';
 import { swatchComponent } from './swatch.def';
 

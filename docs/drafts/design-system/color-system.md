@@ -89,7 +89,7 @@ The color system is configured by themes. You can use predefined themes from the
 The following configuration example is based on an existing theme `storefrontTheme`, but the base primary color is changed for light and dark modes.
 
 ```ts
-import { storefrontTheme } from '@spryker-oryx/themes';
+import { storefrontTheme } from '@oryx-frontend/themes';
 
 export const app = appBuilder()
   .withFeature([...])

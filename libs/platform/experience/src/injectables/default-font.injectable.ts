@@ -1,6 +1,6 @@
-import { AppRef, PageMetaService } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { FontInjectable } from '@spryker-oryx/utilities';
+import { AppRef, PageMetaService } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { FontInjectable } from '@oryx-frontend/utilities';
 import { isServer } from 'lit';
 import {
   Observable,

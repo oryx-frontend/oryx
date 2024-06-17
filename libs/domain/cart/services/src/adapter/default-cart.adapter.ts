@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import { AuthIdentity, IdentityService } from '@spryker-oryx/auth';
+import { AuthIdentity, IdentityService } from '@oryx-frontend/auth';
 import {
   AddCartEntryQualifier,
   ApiCartModel,
@@ -14,18 +14,18 @@ import {
   CreateCartQualifier,
   UpdateCartEntryQualifier,
   UpdateCartQualifier,
-} from '@spryker-oryx/cart';
+} from '@oryx-frontend/cart';
 import {
   FeatureOptionsService,
   HttpService,
   JsonAPITransformerService,
-} from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+} from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import {
   CurrencyService,
   PriceModeService,
   StoreService,
-} from '@spryker-oryx/site';
+} from '@oryx-frontend/site';
 import {
   Observable,
   catchError,

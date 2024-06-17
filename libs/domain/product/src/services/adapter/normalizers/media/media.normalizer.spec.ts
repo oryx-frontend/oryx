@@ -1,4 +1,4 @@
-import { ProductMedia } from '@spryker-oryx/product';
+import { ProductMedia } from '@oryx-frontend/product';
 import { mediaNormalizer } from './media.normalizer';
 
 const image = {

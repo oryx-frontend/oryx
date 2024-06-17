@@ -1,4 +1,4 @@
-import { ApiProductListModel } from '@spryker-oryx/product';
+import { ApiProductListModel } from '@oryx-frontend/product';
 import { sortNormalizer } from './sort.normalizer';
 
 const sort = {

@@ -23,7 +23,7 @@ A decorator function is used to setup the component definition with default opti
 The following code shows how to use the decorator function:
 
 ```ts
-import { defaultOptions } from '@spryker-oryx/experience';
+import { defaultOptions } from '@oryx-frontend/experience';
 
 @defaultOptions({
   minChars: 2,

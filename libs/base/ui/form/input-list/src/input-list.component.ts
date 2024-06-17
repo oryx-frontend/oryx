@@ -1,4 +1,4 @@
-import { Direction } from '@spryker-oryx/ui';
+import { Direction } from '@oryx-frontend/ui';
 import { html, LitElement, TemplateResult } from 'lit';
 import { property, queryAssignedElements } from 'lit/decorators.js';
 import { ErrorController, errorStyles } from '../../input';

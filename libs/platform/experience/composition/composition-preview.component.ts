@@ -1,4 +1,4 @@
-import { PreviewExperienceService } from '@spryker-oryx/experience';
+import { PreviewExperienceService } from '@oryx-frontend/experience';
 import {
   effect,
   elementEffect,
@@ -6,7 +6,7 @@ import {
   observe,
   signal,
   subscribe,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { query } from 'lit/decorators.js';
 import {
   BehaviorSubject,

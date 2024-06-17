@@ -1,5 +1,5 @@
-import { IconMapper } from '@spryker-oryx/experience';
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { IconMapper } from '@oryx-frontend/experience';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 
 export const backofficeIcons: IconMapper = {
   svg: true,

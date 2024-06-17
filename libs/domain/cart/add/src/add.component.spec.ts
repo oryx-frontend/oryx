@@ -1,16 +1,16 @@
 import { fixture, html, nextFrame } from '@open-wc/testing-helpers';
-import { CartService, quantityInputComponent } from '@spryker-oryx/cart';
+import { CartService, quantityInputComponent } from '@oryx-frontend/cart';
 import {
   QuantityEventDetail,
   QuantityInputComponent,
-} from '@spryker-oryx/cart/quantity-input';
-import { ContextService, DefaultContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { Product, ProductService } from '@spryker-oryx/product';
-import { PricingService } from '@spryker-oryx/site';
-import { buttonComponent } from '@spryker-oryx/ui';
-import { ButtonComponent, ButtonType } from '@spryker-oryx/ui/button';
-import { useComponent, wait } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/cart/quantity-input';
+import { ContextService, DefaultContextService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { Product, ProductService } from '@oryx-frontend/product';
+import { PricingService } from '@oryx-frontend/site';
+import { buttonComponent } from '@oryx-frontend/ui';
+import { ButtonComponent, ButtonType } from '@oryx-frontend/ui/button';
+import { useComponent, wait } from '@oryx-frontend/utilities';
 import { BehaviorSubject, delay, of } from 'rxjs';
 import { CartAddComponent } from './add.component';
 import { addToCartComponent } from './add.def';

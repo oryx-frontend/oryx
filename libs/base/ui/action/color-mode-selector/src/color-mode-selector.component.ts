@@ -1,5 +1,5 @@
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { ColorMode, I18nMixin, rootInjectable } from '@spryker-oryx/utilities';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { ColorMode, I18nMixin, rootInjectable } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { state } from 'lit/decorators.js';
 import { ButtonSize, ButtonType } from '../../button/button.model';

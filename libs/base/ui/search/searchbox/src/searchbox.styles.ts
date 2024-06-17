@@ -1,8 +1,8 @@
 import {
   baseStyles as inputBaseStyles,
   screenStyles as inputScreenStyles,
-} from '@spryker-oryx/ui/input';
-import { screenCss } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/ui/input';
+import { screenCss } from '@oryx-frontend/utilities';
 import { css } from 'lit';
 
 export const baseStyles = [

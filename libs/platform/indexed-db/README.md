@@ -4,4 +4,4 @@ Provides an ability to work with IndexedDB.
 
 ## Installation
 
-`npm install @spryker-oryx/indexed-db`
+`npm install @oryx-frontend/indexed-db`

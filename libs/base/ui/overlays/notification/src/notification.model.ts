@@ -1,4 +1,4 @@
-import { AlertType } from '@spryker-oryx/ui';
+import { AlertType } from '@oryx-frontend/ui';
 import { TemplateResult } from 'lit';
 
 export interface NotificationComponentAttributes {
@@ -47,7 +47,7 @@ export interface NotificationEvent {
 
 /**
  * @deprecated since 1.4.
- * Interface was moved to the '@spryker-oryx/ui/notification-center'
+ * Interface was moved to the '@oryx-frontend/ui/notification-center'
  * and must be imported from there.
  */
 export type Notification = {
@@ -63,7 +63,7 @@ export type Notification = {
 
 /**
  * @deprecated since 1.4.
- * Interface was moved to the '@spryker-oryx/ui/notification-center'
+ * Interface was moved to the '@oryx-frontend/ui/notification-center'
  * and must be imported from there.
  */
 export type NotificationContent =

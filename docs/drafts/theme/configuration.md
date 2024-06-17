@@ -166,7 +166,7 @@ const theme: Theme = {
 For using custom breakpoint keys `ThemeBreakpoints` should be augmented first.
 
 ```ts
-declare module '@spryker-oryx/core' {
+declare module '@oryx-frontend/core' {
   export interface ThemeBreakpoints {
     custom?: ScreenSize;
   }

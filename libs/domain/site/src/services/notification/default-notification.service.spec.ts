@@ -1,6 +1,6 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { AlertType } from '@spryker-oryx/ui';
-import { NotificationPosition } from '@spryker-oryx/ui/notification-center';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { AlertType } from '@oryx-frontend/ui';
+import { NotificationPosition } from '@oryx-frontend/ui/notification-center';
 import { DefaultNotificationService } from './default-notification.service';
 import { NotificationService } from './notification.service';
 

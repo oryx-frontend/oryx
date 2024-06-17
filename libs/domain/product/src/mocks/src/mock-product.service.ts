@@ -5,7 +5,7 @@ import {
   ProductMediaSet,
   ProductQualifier,
   ProductService,
-} from '@spryker-oryx/product';
+} from '@oryx-frontend/product';
 
 import { Observable, of } from 'rxjs';
 

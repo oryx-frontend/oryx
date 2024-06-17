@@ -1,13 +1,13 @@
-import { resolve } from '@spryker-oryx/di';
-import { AddressService } from '@spryker-oryx/user';
+import { resolve } from '@oryx-frontend/di';
+import { AddressService } from '@oryx-frontend/user';
 import {
   MockAddressService,
   MockAddressType,
   mockCurrentAddress,
   uncompletedAddress,
-} from '@spryker-oryx/user/mocks';
+} from '@oryx-frontend/user/mocks';
 import { Meta, Story } from '@storybook/web-components';
-import { html, TemplateResult } from 'lit';
+import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';
 import { AddressOptions } from '../address.model';
 

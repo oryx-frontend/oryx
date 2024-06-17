@@ -1,9 +1,9 @@
 {
-  "name": "@spryker-oryx/di",
+  "name": "@oryx-frontend/di",
   "version": "1.4.0",
   "type": "module",
   "description": "Dependency injection for Oryx applications",
-  "author": "Spryker Systems GmbH",
+  "author": "Oryx frontend team",
   "license": "See license in LICENSE",
   "files": [
     "**/*"

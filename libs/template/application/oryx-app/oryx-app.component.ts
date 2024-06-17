@@ -1,12 +1,12 @@
-import { ContentMixin } from '@spryker-oryx/experience';
-import { LitRouter } from '@spryker-oryx/router/lit';
+import { ContentMixin } from '@oryx-frontend/experience';
+import { LitRouter } from '@oryx-frontend/router/lit';
 import {
   ColorMode,
   elementEffect,
   featureVersion,
   hydrate,
   ssrShim,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { OryxAppOptions } from './oryx-app.model';
 import { styles } from './oryx-app.styles';

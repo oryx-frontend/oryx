@@ -64,8 +64,8 @@ jobs:
           VERDACCIO_CONFIG: /home/runner/.config/verdaccio/config.yaml
       - name: Run verdaccio again
         run: verdaccio &
-      - name: Set npm registry for @spryker-oryx to verdaccio
-        run: npm config set @spryker-oryx:registry http://localhost:4873
+      - name: Set npm registry for @oryx-frontend to verdaccio
+        run: npm config set @oryx-frontend:registry http://localhost:4873
       - name: Release test
         run: npm run release-test
       - name: Install dependencies for testfront

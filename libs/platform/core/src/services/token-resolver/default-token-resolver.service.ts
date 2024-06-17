@@ -1,5 +1,5 @@
-import { INJECTOR, inject, resolve } from '@spryker-oryx/di';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { INJECTOR, inject, resolve } from '@oryx-frontend/di';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { Observable, combineLatest, map, of } from 'rxjs';
 import {
   ResolvedResult,

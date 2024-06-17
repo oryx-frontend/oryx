@@ -1,24 +1,24 @@
-import { AuthIdentity, IdentityService } from '@spryker-oryx/auth';
+import { AuthIdentity, IdentityService } from '@oryx-frontend/auth';
 import {
   ApiCartModel,
   CartAdapter,
   CartNormalizer,
   CartsNormalizer,
-} from '@spryker-oryx/cart';
-import { mockGetCartsResponse } from '@spryker-oryx/cart/mocks';
+} from '@oryx-frontend/cart';
+import { mockGetCartsResponse } from '@oryx-frontend/cart/mocks';
 import {
   FeatureOptionsService,
   HttpService,
   JsonAPITransformerService,
-} from '@spryker-oryx/core';
-import { HttpTestService } from '@spryker-oryx/core/testing';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+} from '@oryx-frontend/core';
+import { HttpTestService } from '@oryx-frontend/core/testing';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   CurrencyService,
   PriceModeService,
   Store,
   StoreService,
-} from '@spryker-oryx/site';
+} from '@oryx-frontend/site';
 import { Observable, of } from 'rxjs';
 import { DefaultCartAdapter } from './default-cart.adapter';
 

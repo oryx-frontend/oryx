@@ -3,8 +3,12 @@ import {
   indexedDbStorageName,
   IndexedDBStorageService,
   indexedDbTableName,
-} from '@spryker-oryx/core';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+} from '@oryx-frontend/core';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { firstValueFrom } from 'rxjs';
 
 const mockIndexedDB = {

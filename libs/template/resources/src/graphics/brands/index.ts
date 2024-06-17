@@ -1,4 +1,4 @@
-import { ResourceGraphic } from '@spryker-oryx/experience';
+import { ResourceGraphic } from '@oryx-frontend/experience';
 import { deliveryMethodsLogos } from './delivery';
 import { paymentMethodsLogos } from './payment';
 import { socialLogos } from './social';

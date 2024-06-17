@@ -1,16 +1,16 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { CartService } from '@spryker-oryx/cart';
+import { CartService } from '@oryx-frontend/cart';
 import {
   CheckoutDataService,
   CheckoutResponse,
   CheckoutService,
   CheckoutStateService,
   CheckoutStatus,
-} from '@spryker-oryx/checkout';
-import { CheckoutPlaceOrderComponent } from '@spryker-oryx/checkout/place-order';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/checkout';
+import { CheckoutPlaceOrderComponent } from '@oryx-frontend/checkout/place-order';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { checkoutPlaceOrderComponent } from './place-order.def';

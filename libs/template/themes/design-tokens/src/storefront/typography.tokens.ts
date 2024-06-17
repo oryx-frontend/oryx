@@ -1,5 +1,5 @@
-import { ThemeToken } from '@spryker-oryx/experience';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { ThemeToken } from '@oryx-frontend/experience';
+import { featureVersion } from '@oryx-frontend/utilities';
 
 export const typographyTokens: ThemeToken = {
   typography: {

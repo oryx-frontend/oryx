@@ -1,4 +1,4 @@
-import { mockOrderData } from '@spryker-oryx/order/mocks';
+import { mockOrderData } from '@oryx-frontend/order/mocks';
 import { orderAttributesNormalizer } from './order.normalizer';
 
 describe('Order Normalizers', () => {

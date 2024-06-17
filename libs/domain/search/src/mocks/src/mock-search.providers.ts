@@ -1,4 +1,4 @@
-import { Provider } from '@spryker-oryx/di';
+import { Provider } from '@oryx-frontend/di';
 import {
   DefaultFacetListService,
   DefaultSuggestionAdapter,
@@ -12,7 +12,7 @@ import {
   SuggestionRenderer,
   SuggestionRendererService,
   SuggestionService,
-} from '@spryker-oryx/search';
+} from '@oryx-frontend/search';
 import { SortingService } from '../../services/sorting.service';
 import { mockFacetColors } from './mock-facet-colors';
 import { MockSortingService } from './sort/mock-sorting.service';

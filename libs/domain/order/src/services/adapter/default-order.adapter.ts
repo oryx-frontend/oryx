@@ -1,6 +1,6 @@
-import { IdentityService } from '@spryker-oryx/auth';
-import { HttpService, JsonAPITransformerService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { IdentityService } from '@oryx-frontend/auth';
+import { HttpService, JsonAPITransformerService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { Observable, of, switchMap, take } from 'rxjs';
 import { ApiOrderModel, OrderData } from '../../models';
 import { OrderNormalizer } from './normalizers';

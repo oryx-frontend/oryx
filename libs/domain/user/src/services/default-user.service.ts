@@ -1,5 +1,5 @@
-import { IdentityService } from '@spryker-oryx/auth';
-import { inject, OnDestroy } from '@spryker-oryx/di';
+import { IdentityService } from '@oryx-frontend/auth';
+import { inject, OnDestroy } from '@oryx-frontend/di';
 import {
   defer,
   map,

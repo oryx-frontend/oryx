@@ -1,8 +1,8 @@
-import { App, InjectionPlugin } from '@spryker-oryx/core';
+import { App, InjectionPlugin } from '@oryx-frontend/core';
 import {
   ProcessSyncsBackgroundSyncTag,
   SyncExecutorService,
-} from '@spryker-oryx/offline/sync';
+} from '@oryx-frontend/offline/sync';
 import { of } from 'rxjs';
 import { SpyInstance } from 'vitest';
 import { OfflineServiceWorkerPlugin } from './plugin';

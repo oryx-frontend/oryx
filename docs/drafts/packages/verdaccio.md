@@ -12,4 +12,4 @@
    `node tools/packages/generate.js`
 
 Packages are available from verdaccio registry:
-`npm i @spryker-oryx/core --registry http://localhost:4873`
+`npm i @oryx-frontend/core --registry http://localhost:4873`

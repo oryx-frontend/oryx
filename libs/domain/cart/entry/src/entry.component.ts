@@ -1,24 +1,24 @@
-import { ContextController } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
+import { ContextController } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
 import {
   PRODUCT,
   ProductContext,
   ProductMediaContainerSize,
   ProductMixin,
-} from '@spryker-oryx/product';
-import { ProductPriceOptions } from '@spryker-oryx/product/price';
-import { ProductTitleOptions } from '@spryker-oryx/product/title';
-import { RouteType } from '@spryker-oryx/router';
+} from '@oryx-frontend/product';
+import { ProductPriceOptions } from '@oryx-frontend/product/price';
+import { ProductTitleOptions } from '@oryx-frontend/product/title';
+import { RouteType } from '@oryx-frontend/router';
 import {
   LinkService,
   NotificationService,
   PricingService,
-} from '@spryker-oryx/site';
-import { AlertType } from '@spryker-oryx/ui';
-import { ButtonColor, ButtonSize, ButtonType } from '@spryker-oryx/ui/button';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { LinkType } from '@spryker-oryx/ui/link';
+} from '@oryx-frontend/site';
+import { AlertType } from '@oryx-frontend/ui';
+import { ButtonColor, ButtonSize, ButtonType } from '@oryx-frontend/ui/button';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { LinkType } from '@oryx-frontend/ui/link';
 import {
   Size,
   computed,
@@ -26,7 +26,7 @@ import {
   featureVersion,
   hydrate,
   signalProperty,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { property, state } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';

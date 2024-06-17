@@ -1,4 +1,4 @@
-import { Size } from '@spryker-oryx/utilities';
+import { Size } from '@oryx-frontend/utilities';
 import { LitElement, ReactiveController } from 'lit';
 import {
   HeadingAttributes,

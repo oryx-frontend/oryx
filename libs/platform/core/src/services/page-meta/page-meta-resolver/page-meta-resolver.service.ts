@@ -1,4 +1,4 @@
-import { OnDestroy } from '@spryker-oryx/di';
+import { OnDestroy } from '@oryx-frontend/di';
 import { Observable } from 'rxjs';
 import { AppInitializer } from '../../app-initializer';
 import { ElementResolver, ResolverScore } from './page-meta-resolver.model';

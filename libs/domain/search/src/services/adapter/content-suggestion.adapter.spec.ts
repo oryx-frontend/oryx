@@ -1,5 +1,5 @@
-import { ContentService } from '@spryker-oryx/content';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { ContentService } from '@oryx-frontend/content';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { of } from 'rxjs';
 import { SuggestionQualifier } from '../../models';
 import { ContentSuggestionAdapter } from './content-suggestion.adapter';

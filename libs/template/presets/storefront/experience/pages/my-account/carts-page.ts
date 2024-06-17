@@ -1,6 +1,6 @@
-import { CARTS } from '@spryker-oryx/cart';
-import { ExperienceComponent } from '@spryker-oryx/experience';
-import { Size } from '@spryker-oryx/utilities';
+import { CARTS } from '@oryx-frontend/cart';
+import { ExperienceComponent } from '@oryx-frontend/experience';
+import { Size } from '@oryx-frontend/utilities';
 
 export const cartsPage: ExperienceComponent = {
   id: 'carts-page',

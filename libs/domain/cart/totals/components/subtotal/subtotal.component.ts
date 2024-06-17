@@ -3,7 +3,7 @@ import {
   I18nMixin,
   signal,
   signalAware,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { TotalsController } from '../../../src/controllers';
 

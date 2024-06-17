@@ -1,7 +1,7 @@
-import { ContextController } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { PricingService } from '@spryker-oryx/site';
-import { ObserveController } from '@spryker-oryx/utilities';
+import { ContextController } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { PricingService } from '@oryx-frontend/site';
+import { ObserveController } from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { Observable, combineLatest, filter, map, of, switchMap } from 'rxjs';
 import { CART } from '../entity';

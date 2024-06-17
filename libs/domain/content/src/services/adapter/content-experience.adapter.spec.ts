@@ -1,5 +1,5 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { ExperienceAdapter } from '@spryker-oryx/experience';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { ExperienceAdapter } from '@oryx-frontend/experience';
 import { lastValueFrom, of } from 'rxjs';
 import { ContentService } from '../content.service';
 import { ContentExperienceAdapter } from './content-experience.adapter';

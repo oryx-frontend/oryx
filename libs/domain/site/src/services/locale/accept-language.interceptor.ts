@@ -1,7 +1,7 @@
-import { HttpHandlerFn, HttpInterceptor } from '@spryker-oryx/core';
-import { inject, INJECTOR } from '@spryker-oryx/di';
-import { LocaleService } from '@spryker-oryx/i18n';
-import { map, Observable, switchMap, take } from 'rxjs';
+import { HttpHandlerFn, HttpInterceptor } from '@oryx-frontend/core';
+import { INJECTOR, inject } from '@oryx-frontend/di';
+import { LocaleService } from '@oryx-frontend/i18n';
+import { Observable, map, switchMap, take } from 'rxjs';
 
 export class AcceptLanguageInterceptor implements HttpInterceptor {
   protected headerName = 'Accept-Language';

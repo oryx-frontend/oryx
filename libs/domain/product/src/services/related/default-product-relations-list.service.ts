@@ -1,7 +1,7 @@
-import { createQuery } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { LocaleChanged } from '@spryker-oryx/i18n';
-import { CurrencyChanged, PriceModeChanged } from '@spryker-oryx/site';
+import { createQuery } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { LocaleChanged } from '@oryx-frontend/i18n';
+import { CurrencyChanged, PriceModeChanged } from '@oryx-frontend/site';
 import { Observable } from 'rxjs';
 import { Product, ProductQualifier } from '../../models';
 import { ProductsLoaded } from '../state';

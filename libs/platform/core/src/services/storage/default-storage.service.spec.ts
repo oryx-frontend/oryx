@@ -1,4 +1,8 @@
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { lastValueFrom, of } from 'rxjs';
 import { beforeEach, describe } from 'vitest';
 import { DefaultStorageService } from './default-storage.service';

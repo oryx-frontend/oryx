@@ -1,4 +1,4 @@
-import { Position } from '@spryker-oryx/ui';
+import { Position } from '@oryx-frontend/ui';
 import { LayoutPlugin } from '../../layout.plugin';
 
 export const DropdownLayoutPluginToken = `${LayoutPlugin}dropdown`;

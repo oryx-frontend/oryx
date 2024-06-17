@@ -1,7 +1,7 @@
-import { ContentContext } from '@spryker-oryx/content';
-import { ContextFallback } from '@spryker-oryx/core';
-import { inject, Provider } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
+import { ContentContext } from '@oryx-frontend/content';
+import { ContextFallback } from '@oryx-frontend/core';
+import { inject, Provider } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
 import { combineLatest, map } from 'rxjs';
 
 export const ArticleQualifierContextFallback: Provider = {

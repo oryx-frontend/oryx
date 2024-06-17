@@ -1,6 +1,6 @@
-import { App, InjectionPlugin } from '@spryker-oryx/core';
-import { Injector } from '@spryker-oryx/di';
-import { I18nInjectable, Injectable } from '@spryker-oryx/utilities';
+import { App, InjectionPlugin } from '@oryx-frontend/core';
+import { Injector } from '@oryx-frontend/di';
+import { I18nInjectable, Injectable } from '@oryx-frontend/utilities';
 import { I18nService } from './i18n';
 import { I18nPlugin } from './plugin';
 

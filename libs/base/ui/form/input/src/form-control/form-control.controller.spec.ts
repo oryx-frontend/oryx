@@ -1,5 +1,5 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { a11yConfig } from '@spryker-oryx/utilities';
+import { a11yConfig } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { SpyInstance } from 'vitest';

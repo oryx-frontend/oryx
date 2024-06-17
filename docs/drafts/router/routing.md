@@ -1,28 +1,28 @@
 # Routing
 
 Routing is an essential feature for any web application, allowing users to navigate between
-different pages or components within the application. The `@spryker-oryx/router` package
+different pages or components within the application. The `@oryx-frontend/router` package
 provides routing infrastructure for your application, including a `RouterService`
 for interacting with the router and framework-specific integrations for providing
 actual routing config. This guide will walk you through the process of setting up routing
 in your application, including how to add the `RouterFeature` to your application,
 render the router outlet, and provide routes using Dependency Injection (DI).
 
-`@spryker-oryx/router` provides infrastructure for routing capabilities.
+`@oryx-frontend/router` provides infrastructure for routing capabilities.
 It gives you mainly the [`RouterService`](/libs/platform/router/src/services/router.service.ts)
 which is a generic way for navigating in your application.
 
 There are also framework specific integrations for providing actual routing config:
 
-- for Lit use `@spryker-oryx/router/lit` package
+- for Lit use `@oryx-frontend/router/lit` package
 
 ## Getting started
 
 To start using router add `RouterFeature` to your application:
 
 ```ts
-import { appBuilder } from '@spryker-oryx/core';
-import { RouterFeature } from '@spryker-oryx/router';
+import { appBuilder } from '@oryx-frontend/core';
+import { RouterFeature } from '@oryx-frontend/router';
 
 appBuilder().withFeature(new RouterFeature());
 ```
@@ -36,7 +36,7 @@ and render it's outlet:
 
 ```ts
 import { LitElement } from 'lit';
-import { LitRouter } from '@spryker-oryx/router/lit';
+import { LitRouter } from '@oryx-frontend/router/lit';
 
 class RootComponent extends LitElement {
   router = new LitRouter(this, []); // <-- You may provide some static routes here
@@ -50,8 +50,8 @@ class RootComponent extends LitElement {
 Then you can provide routes for Lit applications using DI:
 
 ```ts
-import { appBuilder } from '@spryker-oryx/core';
-import { provideLitRoutes } from '@spryker-oryx/router/lit';
+import { appBuilder } from '@oryx-frontend/core';
+import { provideLitRoutes } from '@oryx-frontend/router/lit';
 
 const routes = [{ path: '/', render: () => html`<my-page></my-page>` }];
 

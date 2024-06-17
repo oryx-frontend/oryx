@@ -1,5 +1,5 @@
-import { Provider } from '@spryker-oryx/di';
-import { Component } from '@spryker-oryx/experience';
+import { Provider } from '@oryx-frontend/di';
+import { Component } from '@oryx-frontend/experience';
 
 export const ExperienceData = 'oryx.ExperienceData*';
 export const ExperienceDataService = 'oryx.ExperienceDataService';

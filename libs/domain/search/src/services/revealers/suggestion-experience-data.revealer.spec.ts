@@ -1,7 +1,11 @@
 import { nextFrame } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
-import { MessageType, postMessage } from '@spryker-oryx/experience';
-import { RouteType } from '@spryker-oryx/router';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
+import { MessageType, postMessage } from '@oryx-frontend/experience';
+import { RouteType } from '@oryx-frontend/router';
 import { of } from 'rxjs';
 import { SuggestionField } from '../adapter';
 import { SuggestionService } from '../suggestion';

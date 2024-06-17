@@ -1,4 +1,4 @@
-import { provideEffect } from '@spryker-oryx/core';
+import { provideEffect } from '@oryx-frontend/core';
 import { ProductCategory } from '../../../models';
 import { CategoriesLoaded } from './events';
 import { CategoryQuery } from './queries';

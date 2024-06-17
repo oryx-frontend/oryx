@@ -1,5 +1,5 @@
-import { ExperienceComponent } from '@spryker-oryx/experience';
-import { RouteType } from '@spryker-oryx/router';
+import { ExperienceComponent } from '@oryx-frontend/experience';
+import { RouteType } from '@oryx-frontend/router';
 
 export const editAddressPage: ExperienceComponent = {
   id: 'edit-address',

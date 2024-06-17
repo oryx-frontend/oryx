@@ -1,8 +1,12 @@
 import { fixture, nextFrame } from '@open-wc/testing-helpers';
-import { AppRef } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { computed, signalAware, signalProperty } from '@spryker-oryx/utilities';
-import { html, LitElement, TemplateResult } from 'lit';
+import { AppRef } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import {
+  computed,
+  signalAware,
+  signalProperty,
+} from '@oryx-frontend/utilities';
+import { LitElement, TemplateResult, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { DefaultGraphicInjectable } from './default-graphic.injectable';
 

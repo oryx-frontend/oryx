@@ -1,6 +1,6 @@
-import { ContextController } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { ObserveController } from '@spryker-oryx/utilities';
+import { ContextController } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { ObserveController } from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { defer, map, Observable, shareReplay, switchMap } from 'rxjs';
 import { OrderComponentProperties, OrderData } from '../models';

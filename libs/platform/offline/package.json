@@ -1,9 +1,9 @@
 {
-  "name": "@spryker-oryx/offline",
+  "name": "@oryx-frontend/offline",
   "version": "1.4.0",
   "type": "module",
   "description": "Functionality for offline first applications",
-  "author": "Spryker Systems GmbH",
+  "author": "Oryx frontend team",
   "license": "See license in LICENSE",
   "files": [
     "**/*"
@@ -17,10 +17,10 @@
     }
   },
   "dependencies": {
-    "@spryker-oryx/core": "1.4.0",
-    "@spryker-oryx/di": "1.4.0",
-    "@spryker-oryx/indexed-db": "1.4.0",
-    "@spryker-oryx/utilities": "1.4.0"
+    "@oryx-frontend/core": "1.4.0",
+    "@oryx-frontend/di": "1.4.0",
+    "@oryx-frontend/indexed-db": "1.4.0",
+    "@oryx-frontend/utilities": "1.4.0"
   },
   "peerDependencies": {
     "dexie": "^3.2.2",

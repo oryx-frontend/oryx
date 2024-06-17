@@ -1,6 +1,6 @@
-import { appBuilder } from '@spryker-oryx/application';
-import { storefrontFeatures } from '@spryker-oryx/presets/storefront';
-import { storefrontTheme } from '@spryker-oryx/themes';
+import { appBuilder } from '@oryx-frontend/application';
+import { storefrontFeatures } from '@oryx-frontend/presets/storefront';
+import { storefrontTheme } from '@oryx-frontend/themes';
 
 export const app = appBuilder()
   .withFeature(storefrontFeatures)

@@ -1,4 +1,4 @@
-import { Provider } from '@spryker-oryx/di';
+import { Provider } from '@oryx-frontend/di';
 import { isServer } from 'lit';
 import { of } from 'rxjs';
 import {

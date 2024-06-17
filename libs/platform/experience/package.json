@@ -1,9 +1,9 @@
 {
-  "name": "@spryker-oryx/experience",
+  "name": "@oryx-frontend/experience",
   "version": "1.4.0",
   "type": "module",
   "description": "Experience features for Oryx applications",
-  "author": "Spryker Systems GmbH",
+  "author": "Oryx frontend team",
   "license": "See license in LICENSE",
   "files": [
     "**/*"
@@ -24,11 +24,11 @@
     }
   },
   "dependencies": {
-    "@spryker-oryx/core": "1.4.0",
-    "@spryker-oryx/di": "1.4.0",
-    "@spryker-oryx/router": "1.4.0",
-    "@spryker-oryx/ui": "1.4.0",
-    "@spryker-oryx/utilities": "1.4.0"
+    "@oryx-frontend/core": "1.4.0",
+    "@oryx-frontend/di": "1.4.0",
+    "@oryx-frontend/router": "1.4.0",
+    "@oryx-frontend/ui": "1.4.0",
+    "@oryx-frontend/utilities": "1.4.0"
   },
   "peerDependencies": {
     "lit": "^2.4.0",

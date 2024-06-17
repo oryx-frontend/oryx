@@ -1,5 +1,5 @@
-import { ClassTransformer } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { ClassTransformer } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { Observable, map, of, take } from 'rxjs';
 import { ProductCategoryService } from '..';
 import { Product } from '../../models';

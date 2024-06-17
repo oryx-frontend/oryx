@@ -1,6 +1,6 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { collapsibleComponent } from '@spryker-oryx/ui';
-import { useComponent } from '@spryker-oryx/utilities';
+import { collapsibleComponent } from '@oryx-frontend/ui';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { lastValueFrom } from 'rxjs';
 import { CollapsibleLayoutPlugin } from './collapsible.plugin';

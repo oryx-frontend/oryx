@@ -1,5 +1,5 @@
-import { injectEnv } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
+import { injectEnv } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
 import {
   ComponentsRegistryService,
   ContentBackendUrl,
@@ -15,8 +15,8 @@ import {
   LayoutService,
   ScreenService,
   layoutPluginsProviders,
-} from '@spryker-oryx/experience';
-import { RouterService } from '@spryker-oryx/router';
+} from '@oryx-frontend/experience';
+import { RouterService } from '@oryx-frontend/router';
 import { MockRouterService } from './mock-router.service';
 
 export const mockExperienceProviders: Provider[] = [

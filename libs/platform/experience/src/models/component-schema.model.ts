@@ -1,4 +1,4 @@
-import { FormFieldDefinition } from '@spryker-oryx/form';
+import { FormFieldDefinition } from '@oryx-frontend/form';
 import { LitElement } from 'lit';
 import { ContentMixinInterface } from '../mixins';
 

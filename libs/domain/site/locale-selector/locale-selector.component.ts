@@ -1,10 +1,10 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { LocaleService } from '@spryker-oryx/i18n';
-import { Position } from '@spryker-oryx/ui';
-import { ButtonSize, ButtonType } from '@spryker-oryx/ui/button';
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { featureVersion, hydrate, signal } from '@spryker-oryx/utilities';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { LocaleService } from '@oryx-frontend/i18n';
+import { Position } from '@oryx-frontend/ui';
+import { ButtonSize, ButtonType } from '@oryx-frontend/ui/button';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { featureVersion, hydrate, signal } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { repeat } from 'lit/directives/repeat.js';
 import { when } from 'lit/directives/when.js';

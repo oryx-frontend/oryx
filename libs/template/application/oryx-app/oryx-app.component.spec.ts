@@ -1,11 +1,15 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { mockCartProviders } from '@spryker-oryx/cart/mocks';
-import { ContextService, DefaultContextService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
-import { RouteParams, RouterService } from '@spryker-oryx/router';
-import { LitRouter, RouteConfig } from '@spryker-oryx/router/lit';
-import { siteProviders } from '@spryker-oryx/site';
-import { ColorMode, useComponent } from '@spryker-oryx/utilities';
+import { mockCartProviders } from '@oryx-frontend/cart/mocks';
+import { ContextService, DefaultContextService } from '@oryx-frontend/core';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
+import { RouteParams, RouterService } from '@oryx-frontend/router';
+import { LitRouter, RouteConfig } from '@oryx-frontend/router/lit';
+import { siteProviders } from '@oryx-frontend/site';
+import { ColorMode, useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { BehaviorSubject, Observable, Subject } from 'rxjs';
 import { SpyInstance } from 'vitest';

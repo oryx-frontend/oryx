@@ -1,7 +1,7 @@
-import { ErrorHandler, HttpInterceptor, injectEnv } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
-import { LocaleAdapter } from '@spryker-oryx/i18n';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { ErrorHandler, HttpInterceptor, injectEnv } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
+import { LocaleAdapter } from '@oryx-frontend/i18n';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { PriceModes } from '../models';
 import { DefaultStoreAdapter, StoreAdapter, storeNormalizer } from './adapter';
 import { BreadcrumbService, DefaultBreadcrumbService } from './breadcrumb';

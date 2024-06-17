@@ -1,5 +1,5 @@
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { hydrate, I18nMixin, Size } from '@spryker-oryx/utilities';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { hydrate, I18nMixin, Size } from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { property } from 'lit/decorators.js';
 import { ifDefined } from 'lit/directives/if-defined.js';

@@ -1,4 +1,4 @@
-import { ElementDefinition } from '@spryker-oryx/core';
+import { ElementDefinition } from '@oryx-frontend/core';
 
 /**
  * Icons for both light and dark mode.

@@ -1,18 +1,18 @@
-import { AuthIdentity, IdentityService } from '@spryker-oryx/auth';
+import { AuthIdentity, IdentityService } from '@oryx-frontend/auth';
 import {
   CheckoutAdapter,
   CheckoutNormalizer,
   CheckoutResponseNormalizer,
-} from '@spryker-oryx/checkout';
+} from '@oryx-frontend/checkout';
 import {
   mockCheckout,
   mockGetShipmentResponse,
   mockPlaceOrderData,
   mockPlaceOrderResponse,
-} from '@spryker-oryx/checkout/mocks';
-import { HttpService, JsonAPITransformerService } from '@spryker-oryx/core';
-import { HttpTestService } from '@spryker-oryx/core/testing';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+} from '@oryx-frontend/checkout/mocks';
+import { HttpService, JsonAPITransformerService } from '@oryx-frontend/core';
+import { HttpTestService } from '@oryx-frontend/core/testing';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { Observable, of } from 'rxjs';
 import { DefaultCheckoutAdapter } from './default-checkout.adapter';
 

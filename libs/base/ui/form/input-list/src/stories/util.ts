@@ -1,4 +1,4 @@
-import { IconTypes } from '@spryker-oryx/ui/icon';
+import { IconTypes } from '@oryx-frontend/ui/icon';
 import { html, TemplateResult } from 'lit';
 import { when } from 'lit/directives/when.js';
 

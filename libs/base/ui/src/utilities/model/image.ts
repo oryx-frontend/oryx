@@ -1,4 +1,4 @@
-import { featureVersion } from '@spryker-oryx/utilities';
+import { featureVersion } from '@oryx-frontend/utilities';
 
 export const OBJECT_FIT =
   featureVersion > '1.4' ? '--object-fit' : '--image-fit';

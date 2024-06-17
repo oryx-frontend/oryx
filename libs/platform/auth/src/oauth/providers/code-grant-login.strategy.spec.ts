@@ -1,7 +1,11 @@
-import { AuthLoginStrategy } from '@spryker-oryx/auth/login';
-import { HttpService } from '@spryker-oryx/core';
-import { HttpTestService } from '@spryker-oryx/core/testing';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import { AuthLoginStrategy } from '@oryx-frontend/auth/login';
+import { HttpService } from '@oryx-frontend/core';
+import { HttpTestService } from '@oryx-frontend/core/testing';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import { catchError, of } from 'rxjs';
 import {
   CodeGrantAuthLoginStrategy,

@@ -1,9 +1,9 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { CartService } from '@spryker-oryx/cart';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { LinkService, PricingService } from '@spryker-oryx/site';
-import { ButtonComponent } from '@spryker-oryx/ui/button';
-import { useComponent } from '@spryker-oryx/utilities';
+import { CartService } from '@oryx-frontend/cart';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { LinkService, PricingService } from '@oryx-frontend/site';
+import { ButtonComponent } from '@oryx-frontend/ui/button';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { CheckoutLinkComponent } from './link.component';

@@ -1,13 +1,17 @@
-import { AuthService } from '@spryker-oryx/auth';
-import { CheckoutMixin, ContactDetails, isValid } from '@spryker-oryx/checkout';
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { FormFieldType, FormRenderer } from '@spryker-oryx/form';
-import { RouteType, RouterService } from '@spryker-oryx/router';
-import { LinkService } from '@spryker-oryx/site';
-import { ButtonType } from '@spryker-oryx/ui/button';
-import { UserService } from '@spryker-oryx/user';
-import { elementEffect, hydrate, signal } from '@spryker-oryx/utilities';
+import { AuthService } from '@oryx-frontend/auth';
+import {
+  CheckoutMixin,
+  ContactDetails,
+  isValid,
+} from '@oryx-frontend/checkout';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { FormFieldType, FormRenderer } from '@oryx-frontend/form';
+import { RouteType, RouterService } from '@oryx-frontend/router';
+import { LinkService } from '@oryx-frontend/site';
+import { ButtonType } from '@oryx-frontend/ui/button';
+import { UserService } from '@oryx-frontend/user';
+import { elementEffect, hydrate, signal } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { query, state } from 'lit/decorators.js';
 import { CheckoutAccountComponentOptions } from './account.model';

@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import { firstValueFrom, of } from 'rxjs';
 import { Mock } from 'vitest';
 import { DefaultQueryService } from './default-query.service';

@@ -1,4 +1,4 @@
-import { featureVersion, ssrShim } from '@spryker-oryx/utilities';
+import { featureVersion, ssrShim } from '@oryx-frontend/utilities';
 import { LitElement, PropertyValueMap, TemplateResult, isServer } from 'lit';
 import { property } from 'lit/decorators.js';
 import { html } from 'lit/static-html.js';

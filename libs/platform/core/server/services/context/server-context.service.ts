@@ -1,4 +1,4 @@
-import { DefaultContextService } from '@spryker-oryx/core';
+import { DefaultContextService } from '@oryx-frontend/core';
 import { defer, Observable, of, ReplaySubject } from 'rxjs';
 import { DefaultSSRStreamParserService } from './default-ssr-stream-parser';
 

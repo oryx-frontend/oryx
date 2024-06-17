@@ -1,9 +1,9 @@
-import { TokenResolver } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
-import { LinkService } from '@spryker-oryx/site';
-import { ButtonType } from '@spryker-oryx/ui/button';
-import { computed, hydrate } from '@spryker-oryx/utilities';
+import { TokenResolver } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
+import { LinkService } from '@oryx-frontend/site';
+import { ButtonType } from '@oryx-frontend/ui/button';
+import { computed, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { ifDefined } from 'lit/directives/if-defined.js';
 import { html } from 'lit/static-html.js';

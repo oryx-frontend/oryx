@@ -1,5 +1,5 @@
-import { HydrationTrigger } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { HydrationTrigger } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { Observable, skip, take } from 'rxjs';
 import { PriceModeService } from './price-mode.service';
 

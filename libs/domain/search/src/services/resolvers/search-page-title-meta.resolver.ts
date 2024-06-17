@@ -1,7 +1,7 @@
-import { ElementResolver, PageMetaResolver } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
-import { combineLatest, map, Observable } from 'rxjs';
+import { ElementResolver, PageMetaResolver } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
+import { Observable, combineLatest, map } from 'rxjs';
 
 export class SearchPageTitleMetaResolver implements PageMetaResolver {
   constructor(protected router = inject(RouterService)) {}

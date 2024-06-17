@@ -1,6 +1,6 @@
-import { resolve } from '@spryker-oryx/di';
-import { AddressService } from '@spryker-oryx/user';
-import { MockAddressService, MockAddressType } from '@spryker-oryx/user/mocks';
+import { resolve } from '@oryx-frontend/di';
+import { AddressService } from '@oryx-frontend/user';
+import { MockAddressService, MockAddressType } from '@oryx-frontend/user/mocks';
 import { LitElement } from 'lit';
 
 export type BehaviorType = 'with-address' | 'long-list';

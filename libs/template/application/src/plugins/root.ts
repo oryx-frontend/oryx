@@ -4,10 +4,10 @@ import {
   AppPluginAfterApply,
   AppPluginBeforeApply,
   HydrationService,
-} from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
-import { rootInjectable } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
+import { rootInjectable } from '@oryx-frontend/utilities';
 import { hydrateShadowRoots } from '@webcomponents/template-shadowroot/template-shadowroot.js';
 import { LitElement } from 'lit';
 

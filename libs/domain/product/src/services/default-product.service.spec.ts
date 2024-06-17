@@ -1,6 +1,6 @@
-import { DefaultQueryService, QueryService } from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { productQueries } from '@spryker-oryx/product';
+import { DefaultQueryService, QueryService } from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { productQueries } from '@oryx-frontend/product';
 import { Observable, of, switchMap, take } from 'rxjs';
 import { SpyInstance } from 'vitest';
 import { ProductQualifier } from '../models';

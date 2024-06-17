@@ -1,5 +1,5 @@
-import { AppRef } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
+import { AppRef } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
 import { Observable, of, tap } from 'rxjs';
 import { ResourcePlugin } from '../../../../plugins';
 import { MessageType } from '../../data-client.model';

@@ -1,5 +1,5 @@
 import { getAppIcons } from '@/tools/storybook';
-import { Size } from '@spryker-oryx/utilities';
+import { Size } from '@oryx-frontend/utilities';
 import { Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { when } from 'lit/directives/when.js';

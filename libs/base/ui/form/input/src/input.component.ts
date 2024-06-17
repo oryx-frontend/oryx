@@ -1,4 +1,4 @@
-import { hydrate } from '@spryker-oryx/utilities';
+import { hydrate } from '@oryx-frontend/utilities';
 import { html, LitElement, TemplateResult } from 'lit';
 import { property } from 'lit/decorators.js';
 import { AffixController, AffixOptions } from './affix';

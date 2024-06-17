@@ -1,14 +1,14 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
-import { generateRange } from '@spryker-oryx/product/mocks';
-import { FacetListService } from '@spryker-oryx/search';
-import { CurrencyService } from '@spryker-oryx/site';
-import { InputComponent } from '@spryker-oryx/ui/input';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
+import { generateRange } from '@oryx-frontend/product/mocks';
+import { FacetListService } from '@oryx-frontend/search';
+import { CurrencyService } from '@oryx-frontend/site';
+import { InputComponent } from '@oryx-frontend/ui/input';
 import {
   CHANGE_EVENT,
   MultiRangeComponent,
-} from '@spryker-oryx/ui/multi-range';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/ui/multi-range';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { of } from 'rxjs';
 import { SearchPriceFacetComponent } from './facet-price.component';

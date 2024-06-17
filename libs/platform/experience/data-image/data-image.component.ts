@@ -1,7 +1,7 @@
-import { EntityService } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
-import { ContentAsset, ContentMixin } from '@spryker-oryx/experience';
-import { computed, hydrate } from '@spryker-oryx/utilities';
+import { EntityService } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
+import { ContentAsset, ContentMixin } from '@oryx-frontend/experience';
+import { computed, hydrate } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { html } from 'lit/static-html.js';
 import { catchError, of } from 'rxjs';

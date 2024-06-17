@@ -1,4 +1,4 @@
-import { PushProvider } from '@spryker-oryx/push-notification';
+import { PushProvider } from '@oryx-frontend/push-notification';
 import { from, map, Observable, of, switchMap } from 'rxjs';
 
 export interface WebPushProviderOptions {

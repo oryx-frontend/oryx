@@ -1,4 +1,4 @@
-import { Component } from '@spryker-oryx/experience';
+import { Component } from '@oryx-frontend/experience';
 import { TemplateResult, html } from 'lit';
 import { LayoutPluginRenderParams } from '../../layout.plugin';
 

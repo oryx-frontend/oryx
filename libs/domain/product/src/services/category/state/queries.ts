@@ -1,6 +1,6 @@
-import { injectQuery, provideQuery } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { LocaleChanged } from '@spryker-oryx/i18n';
+import { injectQuery, provideQuery } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { LocaleChanged } from '@oryx-frontend/i18n';
 import { ProductCategory, ProductCategoryQualifier } from '../../../models';
 import { ProductCategoryAdapter } from '../adapter';
 

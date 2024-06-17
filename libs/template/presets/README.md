@@ -8,4 +8,4 @@ The presets are likely not the perfect production setup for your project, as it 
 
 ## Installation
 
-`npm install @spryker-oryx/presets`
+`npm install @oryx-frontend/presets`

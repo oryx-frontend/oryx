@@ -1,6 +1,6 @@
 import { fixture, html } from '@open-wc/testing-helpers';
-import { dropdownComponent } from '@spryker-oryx/ui';
-import { useComponent } from '@spryker-oryx/utilities';
+import { dropdownComponent } from '@oryx-frontend/ui';
+import { useComponent } from '@oryx-frontend/utilities';
 import { lastValueFrom, startWith } from 'rxjs';
 import { LayoutStyles } from '../../../layout.model';
 import { LayoutPluginOptionsParams } from '../../layout.plugin';

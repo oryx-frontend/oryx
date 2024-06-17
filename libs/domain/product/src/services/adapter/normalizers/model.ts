@@ -1,4 +1,4 @@
-import { CamelCase } from '@spryker-oryx/core/utilities';
+import { CamelCase } from '@oryx-frontend/core/utilities';
 import { ApiProductModel } from '../../../models';
 import { ApiProductListModel } from '../../../models/product-list.api.model';
 import { DeserializedAvailability } from './availability';

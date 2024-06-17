@@ -3,14 +3,14 @@ import {
   CheckoutDataService,
   CheckoutService,
   CheckoutStateService,
-} from '@spryker-oryx/checkout';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+} from '@oryx-frontend/checkout';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 import {
   Address,
   AddressEventDetail,
   AddressService,
-} from '@spryker-oryx/user';
-import { useComponent } from '@spryker-oryx/utilities';
+} from '@oryx-frontend/user';
+import { useComponent } from '@oryx-frontend/utilities';
 import { LitElement, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { of } from 'rxjs';

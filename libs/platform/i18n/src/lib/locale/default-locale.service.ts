@@ -1,6 +1,6 @@
-import { QueryService } from '@spryker-oryx/core';
-import { inject } from '@spryker-oryx/di';
-import { isDefined } from '@spryker-oryx/utilities';
+import { QueryService } from '@oryx-frontend/core';
+import { inject } from '@oryx-frontend/di';
+import { isDefined } from '@oryx-frontend/utilities';
 import {
   BehaviorSubject,
   concat,

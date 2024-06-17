@@ -1,6 +1,6 @@
-import { OrderMixin } from '@spryker-oryx/order';
-import { HeadingTag } from '@spryker-oryx/ui/heading';
-import { I18nMixin, featureVersion, signal } from '@spryker-oryx/utilities';
+import { OrderMixin } from '@oryx-frontend/order';
+import { HeadingTag } from '@oryx-frontend/ui/heading';
+import { I18nMixin, featureVersion, signal } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { orderConfirmationBannerStyles } from './confirmation-banner.styles';
 

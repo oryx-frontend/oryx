@@ -7,4 +7,4 @@ The theme configuration is build by design tokens and icon configurations.
 
 ## Installation
 
-`npm install @spryker-oryx/themes`
+`npm install @oryx-frontend/themes`

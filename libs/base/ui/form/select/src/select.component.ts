@@ -1,20 +1,20 @@
-import { IconTypes } from '@spryker-oryx/ui/icon';
-import { ErrorOptions, FormControlController } from '@spryker-oryx/ui/input';
+import { IconTypes } from '@oryx-frontend/ui/icon';
+import { ErrorOptions, FormControlController } from '@oryx-frontend/ui/input';
 import {
   ClearIconAppearance,
   ClearIconPosition,
   SearchAttributes,
-  SearchboxController,
   SearchIconPosition,
-} from '@spryker-oryx/ui/searchbox';
+  SearchboxController,
+} from '@oryx-frontend/ui/searchbox';
 import {
   FilterStrategyType,
   TypeaheadController,
   TypeaheadOptions,
-} from '@spryker-oryx/ui/typeahead';
-import { getControl } from '@spryker-oryx/ui/utilities';
-import { hydrate } from '@spryker-oryx/utilities';
-import { html, LitElement, TemplateResult } from 'lit';
+} from '@oryx-frontend/ui/typeahead';
+import { getControl } from '@oryx-frontend/ui/utilities';
+import { hydrate } from '@oryx-frontend/utilities';
+import { LitElement, TemplateResult, html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { SelectController, SelectFilterController } from './controllers';
 import { baseStyles } from './styles';

@@ -1,1 +1,1 @@
-export * from '@spryker-oryx/ui/quantity-input';
+export * from '@oryx-frontend/ui/quantity-input';

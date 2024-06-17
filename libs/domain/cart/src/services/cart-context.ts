@@ -3,9 +3,9 @@ import {
   ContextSerializer,
   ContextService,
   FieldContextSerializer,
-} from '@spryker-oryx/core';
-import { Provider, inject } from '@spryker-oryx/di';
-import { RouterService } from '@spryker-oryx/router';
+} from '@oryx-frontend/core';
+import { Provider, inject } from '@oryx-frontend/di';
+import { RouterService } from '@oryx-frontend/router';
 import { Observable, switchMap } from 'rxjs';
 import { CART } from '../entity';
 

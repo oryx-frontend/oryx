@@ -14,9 +14,9 @@ const findDependencies = (
   for (const dep of iterable) {
     const isExist = foundDependencies[dep.target];
     const isNpm = dep.target.match('^npm:.*$');
-    const isSprykerOryx = dep.target === 'spryker-oryx';
+    const isOryxFrontend = dep.target === 'oryx-frontend';
 
-    if (isNpm || isExist || isSprykerOryx) {
+    if (isNpm || isExist || isOryxFrontend) {
       continue;
     }
 

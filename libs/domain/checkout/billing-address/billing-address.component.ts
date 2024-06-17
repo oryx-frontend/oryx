@@ -1,17 +1,17 @@
-import { CheckoutMixin, isValid } from '@spryker-oryx/checkout';
-import { resolve } from '@spryker-oryx/di';
-import { ButtonType } from '@spryker-oryx/ui/button';
+import { CheckoutMixin, isValid } from '@oryx-frontend/checkout';
+import { resolve } from '@oryx-frontend/di';
+import { ButtonType } from '@oryx-frontend/ui/button';
 import {
   Address,
   AddressEventDetail,
   AddressService,
-} from '@spryker-oryx/user';
+} from '@oryx-frontend/user';
 import {
   I18nMixin,
   elementEffect,
   hydrate,
   signal,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { query } from 'lit/decorators.js';
 import { when } from 'lit/directives/when.js';

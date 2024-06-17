@@ -1,5 +1,5 @@
 import { fixture } from '@open-wc/testing-helpers';
-import { useComponent } from '@spryker-oryx/utilities';
+import { useComponent } from '@oryx-frontend/utilities';
 import { html } from 'lit';
 import { TextComponent } from './text.component';
 import { textComponent } from './text.def';
@@ -62,7 +62,7 @@ describe('TextComponent', () => {
         element = await fixture(
           html`<oryx-text
             .content=${`
-              <h1 style="margin:10px" class="foo-bar" foo="bar">This is the content</h1><p>with a 
+              <h1 style="margin:10px" class="foo-bar" foo="bar">This is the content</h1><p>with a
               <a href="/link">link</a></p><p>and a <button>but</button>`}
           ></oryx-text>`
         );
@@ -79,10 +79,10 @@ describe('TextComponent', () => {
       beforeEach(async () => {
         element = await fixture(
           html`<oryx-text
-            .content=${`foo <small>small</small> bar <span class="caption">cap</span> 
-            baz <span class="subtitle">subtitle</span> qux  
-            baz <b>b</b> qux  
-            baz <strong>b</strong> qux  
+            .content=${`foo <small>small</small> bar <span class="caption">cap</span>
+            baz <span class="subtitle">subtitle</span> qux
+            baz <b>b</b> qux
+            baz <strong>b</strong> qux
             `}
           ></oryx-text>`
         );

@@ -1,7 +1,7 @@
 {
-  "name": "@spryker-oryx/resources",
+  "name": "@oryx-frontend/resources",
   "version": "1.4.0",
-  "author": "Spryker Systems GmbH",
+  "author": "Oryx frontend team",
   "license": "See license in LICENSE",
   "description": "Resources for Oryx applications",
   "type": "module",
@@ -14,7 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@spryker-oryx/experience": "1.4.0",
-    "@spryker-oryx/ui": "1.4.0"
+    "@oryx-frontend/experience": "1.4.0",
+    "@oryx-frontend/ui": "1.4.0"
   }
 }

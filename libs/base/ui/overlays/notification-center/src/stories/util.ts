@@ -1,5 +1,5 @@
-import { AlertType } from '@spryker-oryx/ui';
-import { Notification, Scheme } from '@spryker-oryx/ui/notification';
+import { AlertType } from '@oryx-frontend/ui';
+import { Notification, Scheme } from '@oryx-frontend/ui/notification';
 import { TAG_NAME } from '../tag';
 
 const types = [

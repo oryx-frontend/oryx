@@ -1,6 +1,6 @@
-import { AppFeature } from '@spryker-oryx/core';
-import { provideExperienceData } from '@spryker-oryx/experience';
-import { featureVersion } from '@spryker-oryx/utilities';
+import { AppFeature } from '@oryx-frontend/core';
+import { provideExperienceData } from '@oryx-frontend/experience';
+import { featureVersion } from '@oryx-frontend/utilities';
 import { FooterTemplate } from './footer';
 import { HeaderTemplate } from './header';
 import {

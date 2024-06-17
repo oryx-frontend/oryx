@@ -1,4 +1,4 @@
-import { FormFieldOption } from '@spryker-oryx/form';
+import { FormFieldOption } from '@oryx-frontend/form';
 import { Observable, of } from 'rxjs';
 import { SalutationService } from './salutation.service';
 

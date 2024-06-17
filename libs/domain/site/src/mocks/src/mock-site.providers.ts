@@ -1,10 +1,10 @@
-import { ErrorHandler } from '@spryker-oryx/core';
-import { Provider } from '@spryker-oryx/di';
+import { ErrorHandler } from '@oryx-frontend/core';
+import { Provider } from '@oryx-frontend/di';
 import {
   DefaultLocaleService,
   LocaleAdapter,
   LocaleService,
-} from '@spryker-oryx/i18n';
+} from '@oryx-frontend/i18n';
 import {
   BreadcrumbService,
   CountryService,
@@ -28,7 +28,7 @@ import {
   SapiLocaleAdapter,
   SiteErrorHandler,
   StoreService,
-} from '@spryker-oryx/site';
+} from '@oryx-frontend/site';
 import { MockBreadcrumbService } from './mock-breadcrumb.service';
 import { MockStoreService } from './mock-store.service';
 

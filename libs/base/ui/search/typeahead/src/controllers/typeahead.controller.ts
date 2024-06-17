@@ -1,11 +1,11 @@
-import { OptionComponent } from '@spryker-oryx/ui/option';
+import { OptionComponent } from '@oryx-frontend/ui/option';
 import {
   CLOSE_POPOVER_ATTR,
   PopoverController,
   PopoverOptions,
   PopoverSelectEvent,
-} from '@spryker-oryx/ui/popover';
-import { SearchEventDetail } from '@spryker-oryx/ui/searchbox';
+} from '@oryx-frontend/ui/popover';
+import { SearchEventDetail } from '@oryx-frontend/ui/searchbox';
 import { LitElement, ReactiveController, TemplateResult, html } from 'lit';
 import { when } from 'lit/directives/when.js';
 import { getControl } from '../../../../form/utilities/getControl';

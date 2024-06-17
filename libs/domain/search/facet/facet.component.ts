@@ -1,11 +1,11 @@
-import { FacetValue } from '@spryker-oryx/product';
+import { FacetValue } from '@oryx-frontend/product';
 import {
   I18nMixin,
   computed,
   featureVersion,
   signalAware,
   signalProperty,
-} from '@spryker-oryx/utilities';
+} from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult, html } from 'lit';
 import { repeat } from 'lit/directives/repeat.js';
 import { when } from 'lit/directives/when.js';

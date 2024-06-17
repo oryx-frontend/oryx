@@ -1,5 +1,5 @@
-import { ApiProductModel } from '@spryker-oryx/product';
-import { Include, JsonApiModel } from '@spryker-oryx/utilities';
+import { ApiProductModel } from '@oryx-frontend/product';
+import { Include, JsonApiModel } from '@oryx-frontend/utilities';
 
 export module ApiCartModel {
   export enum PriceMode {

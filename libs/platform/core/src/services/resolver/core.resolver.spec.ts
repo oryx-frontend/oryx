@@ -2,8 +2,8 @@ import {
   CoreResolver,
   CoreResourceResolver,
   TokenResourceResolvers,
-} from '@spryker-oryx/core';
-import { createInjector, destroyInjector } from '@spryker-oryx/di';
+} from '@oryx-frontend/core';
+import { createInjector, destroyInjector } from '@oryx-frontend/di';
 
 vi.mock('lit', async () => ({
   ...((await vi.importActual('lit')) as Array<unknown>),

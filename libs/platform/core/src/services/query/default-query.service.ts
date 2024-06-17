@@ -1,4 +1,4 @@
-import { inject, INJECTOR, OnDestroy } from '@spryker-oryx/di';
+import { inject, INJECTOR, OnDestroy } from '@oryx-frontend/di';
 
 import { CoreQueryManager } from './core/core-query-manager';
 
@@ -6,8 +6,8 @@ import { Command, EffectDefinition, Query } from './models';
 import {
   COMMAND_TOKEN,
   EFFECT_TOKEN,
-  QueryService,
   QUERY_TOKEN,
+  QueryService,
 } from './query.service';
 
 export class DefaultQueryService

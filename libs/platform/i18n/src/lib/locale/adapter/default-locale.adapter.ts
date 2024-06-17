@@ -1,4 +1,4 @@
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import { Observable, of } from 'rxjs';
 import { Locale } from '../../models';
 import { LocaleAdapter } from './locale.adapter';

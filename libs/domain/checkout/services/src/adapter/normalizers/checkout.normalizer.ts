@@ -1,10 +1,10 @@
-import { CartsNormalizer } from '@spryker-oryx/cart';
+import { CartsNormalizer } from '@oryx-frontend/cart';
 import {
   CheckoutData,
   PaymentsNormalizer,
   ShipmentsNormalizer,
-} from '@spryker-oryx/checkout';
-import { TransformerService } from '@spryker-oryx/core';
+} from '@oryx-frontend/checkout';
+import { TransformerService } from '@oryx-frontend/core';
 import { Observable, map } from 'rxjs';
 import { DeserializedCheckout } from './model';
 

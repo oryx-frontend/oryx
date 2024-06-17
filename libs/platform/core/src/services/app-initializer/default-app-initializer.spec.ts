@@ -1,4 +1,4 @@
-import { createInjector, destroyInjector, Injector } from '@spryker-oryx/di';
+import { createInjector, destroyInjector, Injector } from '@oryx-frontend/di';
 import { finalize, of, tap } from 'rxjs';
 import { AppInitializer, AppInitializerService } from './app-initializer';
 import { DefaultAppInitializerService } from './default-app-initializer';

@@ -1,14 +1,14 @@
-import { resolve } from '@spryker-oryx/di';
-import { ContentMixin, defaultOptions } from '@spryker-oryx/experience';
+import { resolve } from '@oryx-frontend/di';
+import { ContentMixin, defaultOptions } from '@oryx-frontend/experience';
 import {
   ImageSource,
   ProductImageService,
   ProductMediaContainerSize,
   ProductMixin,
-} from '@spryker-oryx/product';
-import { LoadingStrategy } from '@spryker-oryx/ui/image';
-import { computed, hydrate } from '@spryker-oryx/utilities';
-import { html, LitElement, TemplateResult } from 'lit';
+} from '@oryx-frontend/product';
+import { LoadingStrategy } from '@oryx-frontend/ui/image';
+import { computed, hydrate } from '@oryx-frontend/utilities';
+import { LitElement, TemplateResult, html } from 'lit';
 import { ProductMediaOptions } from './media.model';
 
 @defaultOptions({

@@ -1,5 +1,5 @@
-import { AppFeature } from '@spryker-oryx/core';
-import { provideExperienceData } from '@spryker-oryx/experience';
+import { AppFeature } from '@oryx-frontend/core';
+import { provideExperienceData } from '@oryx-frontend/experience';
 import { myAccountNavigation } from './my-account-navigation.ref';
 import { myAccountPage } from './my-account.page';
 

@@ -1,8 +1,8 @@
 // organize-imports-ignore
-import { inject } from '@spryker-oryx/di';
+import { inject } from '@oryx-frontend/di';
 import './json-api.shim';
 // Add full import because of issue with naming exports from cjs.
-import { JsonApiPayload } from '@spryker-oryx/utilities';
+import { JsonApiPayload } from '@oryx-frontend/utilities';
 import jsonapi from 'jsonapi-serializer';
 import { Observable, from, map, switchMap } from 'rxjs';
 import {

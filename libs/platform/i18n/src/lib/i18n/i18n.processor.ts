@@ -1,4 +1,4 @@
-import { I18nContext } from '@spryker-oryx/utilities';
+import { I18nContext } from '@oryx-frontend/utilities';
 import { Observable } from 'rxjs';
 import { I18nString } from '../models';
 

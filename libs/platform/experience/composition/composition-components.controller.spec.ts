@@ -1,11 +1,15 @@
-import { TokenResolver } from '@spryker-oryx/core';
-import { createInjector, destroyInjector, getInjector } from '@spryker-oryx/di';
+import { TokenResolver } from '@oryx-frontend/core';
+import {
+  createInjector,
+  destroyInjector,
+  getInjector,
+} from '@oryx-frontend/di';
 import {
   Component,
   ExperienceService,
   ScreenService,
-} from '@spryker-oryx/experience';
-import * as utils from '@spryker-oryx/utilities';
+} from '@oryx-frontend/experience';
+import * as utils from '@oryx-frontend/utilities';
 import { LitElement } from 'lit';
 import { of } from 'rxjs';
 import { SpyInstance, describe } from 'vitest';

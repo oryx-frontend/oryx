@@ -1,5 +1,5 @@
 import { elementUpdated, fixture, html } from '@open-wc/testing-helpers';
-import { signal, signalAware } from '@spryker-oryx/utilities';
+import { signal, signalAware } from '@oryx-frontend/utilities';
 import { LitElement, TemplateResult } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { of } from 'rxjs';

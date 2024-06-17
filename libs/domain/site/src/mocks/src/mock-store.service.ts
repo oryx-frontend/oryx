@@ -1,4 +1,4 @@
-import { Store, StoreService } from '@spryker-oryx/site';
+import { Store, StoreService } from '@oryx-frontend/site';
 import { Observable, of } from 'rxjs';
 
 export class MockStoreService implements Partial<StoreService> {

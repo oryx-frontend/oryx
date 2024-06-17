@@ -1,5 +1,5 @@
-import { ContextService } from '@spryker-oryx/core';
-import { resolve } from '@spryker-oryx/di';
+import { ContextService } from '@oryx-frontend/core';
+import { resolve } from '@oryx-frontend/di';
 import { Meta, Story } from '@storybook/web-components';
 import { TemplateResult, html } from 'lit';
 import { storybookPrefix } from '../../.constants';

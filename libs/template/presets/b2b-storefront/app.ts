@@ -1,7 +1,7 @@
-import { multiCartFeature } from '@spryker-oryx/cart';
-import { AppFeature } from '@spryker-oryx/core';
-import { provideExperienceData } from '@spryker-oryx/experience';
-import { storefrontFeatures } from '@spryker-oryx/presets/storefront';
+import { multiCartFeature } from '@oryx-frontend/cart';
+import { AppFeature } from '@oryx-frontend/core';
+import { provideExperienceData } from '@oryx-frontend/experience';
+import { storefrontFeatures } from '@oryx-frontend/presets/storefront';
 import { contactPage } from './experience/contact-page';
 import { HeaderTemplate } from './experience/header';
 

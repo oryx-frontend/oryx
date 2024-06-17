@@ -20,7 +20,7 @@ const mockInjector = {
   destroyInjector: vi.fn(),
 };
 
-vi.mock('@spryker-oryx/di', () => ({
+vi.mock('@oryx-frontend/di', () => ({
   createInjector: (value: unknown): SpyInstance =>
     mockInjector.createInjector(value),
   destroyInjector: (value: unknown): SpyInstance =>
