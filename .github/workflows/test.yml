@@ -192,7 +192,8 @@ jobs:
 
   test-storefront-visual-regression:
     runs-on: ubuntu-latest
-    needs: [test-format, test-lint, test-stylelint, test-tsconfig]
+    needs: [test-format, test-lint, test-stylelint, test-tsconfig, set-env]
+    if: needs.set-env.outputs.should-run-regression == 'true'
     steps:
       - uses: actions/checkout@v3
         with:
