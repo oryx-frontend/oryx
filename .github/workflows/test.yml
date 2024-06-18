@@ -18,7 +18,6 @@ env:
   GITHUB_REF: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.ref || github.ref }}
   IS_DEV: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/development' }}
   REPOSITORY: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name || github.repository }}
-  CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
 jobs:
   test-format:
     runs-on: ubuntu-latest
@@ -104,17 +103,16 @@ jobs:
   test-visual-pr:
     runs-on: ubuntu-latest
     needs: [test-format, test-lint, test-stylelint, test-tsconfig]
-    if: ${{ github.event_name == 'pull_request' }}
+    if: ${{ github.event_name == 'pull_request' && secrets.CHROMATIC_PROJECT_TOKEN != '' }}
     steps:
       - uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Visual Regression Tests
         env:
-          CHROMATIC_PROJECT_TOKEN: ${{ env.CHROMATIC_PROJECT_TOKEN }}
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           CHROMATIC_SHA: ${{ github.event.pull_request.head.sha }}
           CHROMATIC_BRANCH: ${{ github.event.pull_request.head.ref }}
         run: npx nx run storybook:visual-regression-pr
@@ -122,12 +120,11 @@ jobs:
   test-visual-dev:
     runs-on: ubuntu-latest
     needs: [test-format, test-lint, test-stylelint, test-tsconfig]
-    if: ${{ github.event_name == 'push' }}
+    if: ${{ github.event_name == 'push' && secrets.CHROMATIC_PROJECT_TOKEN != '' }}
     steps:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
-          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Visual Regression Tests
