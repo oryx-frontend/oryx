@@ -100,10 +100,25 @@ jobs:
           affectedCmd: npx nx affected:test
           isDev: ${{ env.IS_DEV }}
 
+  set-env-visual-pr:
+    runs-on: ubuntu-latest
+    outputs:
+      should-run: ${{ steps.set-env.outputs.should-run }}
+    steps:
+      - name: Set should-run
+        id: set-env
+        run: |
+          echo "CHROMATIC_PROJECT_TOKEN=${{ secrets.CHROMATIC_PROJECT_TOKEN }}"
+          if [ "${{ github.event_name }}" = "pull_request" ] && [ -n "${{ secrets.CHROMATIC_PROJECT_TOKEN }}" ]; then
+            echo "::set-output name=should-run::true"
+          else
+            echo "::set-output name=should-run::false"
+          fi
+
   test-visual-pr:
     runs-on: ubuntu-latest
-    needs: [test-format, test-lint, test-stylelint, test-tsconfig]
-    if: github.event_name == 'pull_request' && secrets.CHROMATIC_PROJECT_TOKEN != ''
+    needs: [test-format, test-lint, test-stylelint, test-tsconfig, set-env-visual-pr]
+    if: needs.set-env.outputs.should-run == 'true'
     steps:
       - uses: actions/checkout@v3
         with:
@@ -120,11 +135,12 @@ jobs:
   test-visual-dev:
     runs-on: ubuntu-latest
     needs: [test-format, test-lint, test-stylelint, test-tsconfig]
-    if: github.event_name == 'push' && secrets.CHROMATIC_PROJECT_TOKEN != ''
+    if: ${{ github.event_name == 'push' }}
     steps:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Visual Regression Tests
