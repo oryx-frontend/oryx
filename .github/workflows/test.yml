@@ -37,6 +37,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Lint
@@ -52,6 +53,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Style Lint All
@@ -67,6 +69,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: TsConfig Paths
@@ -83,6 +86,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Unit Tests
@@ -104,6 +108,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Visual Regression Tests
@@ -121,6 +126,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Visual Regression Tests
@@ -142,6 +148,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Storefront E2E Tests
@@ -163,6 +170,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Storefront B2C visual regression tests
@@ -185,6 +193,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Build
