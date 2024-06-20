@@ -100,6 +100,9 @@ jobs:
           affectedCmd: npx nx affected:test
           isDev: ${{ env.IS_DEV }}
 
+  # Job for checking if we should run other jobs with specific conditions.
+  # This is usefull for forked repos where secrets are not available.
+  # Checking if specific secret is available to determine if we should run and also a type of event.
   set-env:
     runs-on: ubuntu-latest
     outputs:
