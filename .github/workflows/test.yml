@@ -17,6 +17,7 @@ concurrency:
 env:
   GITHUB_REF: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.ref || github.ref }}
   IS_DEV: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/development' }}
+  REPOSITORY: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name || github.repository }}
 jobs:
   test-format:
     runs-on: ubuntu-latest
@@ -24,6 +25,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Format
@@ -35,6 +37,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Lint
@@ -50,6 +53,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Style Lint All
@@ -65,6 +69,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: TsConfig Paths
@@ -81,6 +86,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Unit Tests
@@ -94,10 +100,41 @@ jobs:
           affectedCmd: npx nx affected:test
           isDev: ${{ env.IS_DEV }}
 
+  # Job for checking if we should run other jobs with specific conditions.
+  # This is usefull for forked repos where secrets are not available.
+  # Checking if specific secret is available to determine if we should run and also a type of event.
+  set-env:
+    runs-on: ubuntu-latest
+    outputs:
+      should-run-pr: ${{ steps.set-env.outputs.should-run-pr }}
+      should-run-push: ${{ steps.set-env.outputs.should-run-push }}
+      should-run-regression: ${{ steps.set-env.outputs.should-run-regression }}
+    steps:
+      - name: Set should-run for PR
+        id: set-env
+        run: |
+          echo "CHROMATIC_PROJECT_TOKEN=${{ secrets.CHROMATIC_PROJECT_TOKEN }}"
+          echo "SCOS_BASE_URL=${{ secrets.SCOS_BASE_URL }}"
+          if [ -n "${{ secrets.SCOS_BASE_URL }}" ]; then
+            echo "::set-output name=should-run-regression::true"
+          else
+            echo "::set-output name=should-run-regression::false"
+          fi
+          if [ "${{ github.event_name }}" = "pull_request" ] && [ -n "${{ secrets.CHROMATIC_PROJECT_TOKEN }}" ]; then
+            echo "::set-output name=should-run-pr::true"
+          else
+            echo "::set-output name=should-run-pr::false"
+          fi
+          if [ "${{ github.event_name }}" = "push" ] && [ -n "${{ secrets.CHROMATIC_PROJECT_TOKEN }}" ]; then
+            echo "::set-output name=should-run-push::true"
+          else
+            echo "::set-output name=should-run-push::false"
+          fi
+
   test-visual-pr:
     runs-on: ubuntu-latest
-    needs: [test-format, test-lint, test-stylelint, test-tsconfig]
-    if: ${{ github.event_name == 'pull_request' }}
+    needs: [test-format, test-lint, test-stylelint, test-tsconfig, set-env]
+    if: needs.set-env.outputs.should-run-pr == 'true'
     steps:
       - uses: actions/checkout@v3
         with:
@@ -113,12 +150,13 @@ jobs:
 
   test-visual-dev:
     runs-on: ubuntu-latest
-    needs: [test-format, test-lint, test-stylelint, test-tsconfig]
-    if: ${{ github.event_name == 'push' }}
+    needs: [test-format, test-lint, test-stylelint, test-tsconfig, set-env]
+    if: needs.set-env.outputs.should-run-push == 'true'
     steps:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Visual Regression Tests
@@ -140,6 +178,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Storefront E2E Tests
@@ -156,11 +195,13 @@ jobs:
 
   test-storefront-visual-regression:
     runs-on: ubuntu-latest
-    needs: [test-format, test-lint, test-stylelint, test-tsconfig]
+    needs: [test-format, test-lint, test-stylelint, test-tsconfig, set-env]
+    if: needs.set-env.outputs.should-run-regression == 'true'
     steps:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Storefront B2C visual regression tests
@@ -183,6 +224,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.GITHUB_REF }}
+          repository: ${{ env.REPOSITORY }}
           fetch-depth: 0
       - uses: ./.github/actions/init
       - name: Build
