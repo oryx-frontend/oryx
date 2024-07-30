@@ -7,7 +7,7 @@ import {
 import { Provider, inject } from '@oryx-frontend/di';
 import { RouteType, RouterService } from '@oryx-frontend/router';
 import { featureVersion } from '@oryx-frontend/utilities';
-import { Observable, map, of, take } from 'rxjs';
+import { Observable, map, of } from 'rxjs';
 import { PRODUCT } from '../entity';
 import { ProductQualifier } from '../models';
 
@@ -36,7 +36,6 @@ export function productContextFallbackFactory(
   context = inject(ContextService)
 ): Observable<unknown> {
   return router.current().pipe(
-    take(1),
     map((route) =>
       route.type === RouteType.Product ? route.params : undefined
     )
