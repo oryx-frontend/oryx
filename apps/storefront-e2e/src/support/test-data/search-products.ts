@@ -1,6 +1,6 @@
 export const sortingTestData = {
   default: ['cable-hdmi-1-1', 'cable-vga-1-1', '216_123', '217_123', '215_123'],
-  rating: ['216_123', '217_123', '215_123', 'cable-hdmi-1-1', 'cable-vga-1-1'],
+  rating: ['216_123', '217_123', 'cable-hdmi-1-1', 'cable-vga-1-1', '215_123'],
   name_asc: [
     '217_123',
     '215_123',
@@ -32,8 +32,8 @@ export const sortingTestData = {
   popularity: [
     'cable-vga-1-1',
     'cable-hdmi-1-1',
-    '215_123',
     '216_123',
     '217_123',
+    '215_123',
   ],
 };

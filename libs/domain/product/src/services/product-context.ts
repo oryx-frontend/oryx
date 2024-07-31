@@ -35,12 +35,13 @@ export function productContextFallbackFactory(
   router = inject(RouterService),
   context = inject(ContextService)
 ): Observable<unknown> {
-  return router.current().pipe(
-    // take(1),
-    map((route) =>
-      route.type === RouteType.Product ? route.params : undefined
-    )
-  );
+  return router
+    .current()
+    .pipe(
+      map((route) =>
+        route.type === RouteType.Product ? route.params : undefined
+      )
+    );
 }
 
 export const ProductContextSerializerToken = `${ContextSerializer}${
