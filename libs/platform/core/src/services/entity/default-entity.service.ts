@@ -131,6 +131,8 @@ export class DefaultEntityService implements EntityService {
 
     return type$.pipe(
       map((type) => {
+        // TODO: Fix errors exposing.
+
         if (!type) {
           throw new Error(`No type resolved and no type provided for entity`);
         }
