@@ -29,17 +29,14 @@ export function concreteProductsNormalizer(
         }
 
         return combineLatest([
-          transformer.transform(
-            concrete,
-            ProductNormalizer
-          ),
+          transformer.transform(concrete, ProductNormalizer),
           transformer.transform(abstract[categoryKey], CategoryIdNormalizer),
         ]).pipe(
           map(([product, nodeId]) => ({
             ...product,
             ...nodeId,
           }))
-        )
+        );
       })
   );
 }
