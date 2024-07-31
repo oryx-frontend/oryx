@@ -36,7 +36,9 @@ export function productAttributeNormalizer(
     reviewCount,
     attributes,
     attributeNames,
-    variants: variants?.length ? variants.map((variant) => ({ sku: variant.sku! })) : undefined,
+    variants: variants?.length
+      ? variants.map((variant) => ({ sku: variant.sku! }))
+      : undefined,
   };
 }
 
