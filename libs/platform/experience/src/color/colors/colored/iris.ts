@@ -2,6 +2,7 @@ import { Color } from '../../color.model';
 
 export const iris: Color = {
   light: {
+    0: 'white',
     1: '#fdfdff',
     2: '#f8f8ff',
     3: '#f0f1fe',
@@ -16,6 +17,7 @@ export const iris: Color = {
     12: '#272962',
   },
   dark: {
+    0: 'white',
     1: '#13131e',
     2: '#171625',
     3: '#202248',

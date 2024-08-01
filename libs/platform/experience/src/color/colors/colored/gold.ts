@@ -2,6 +2,7 @@ import { Color } from '../../color.model';
 
 export const gold: Color = {
   light: {
+    0: 'white',
     1: '#fdfdfc',
     2: '#faf9f2',
     3: '#f2f0e7',
@@ -16,6 +17,7 @@ export const gold: Color = {
     12: '#3b352b',
   },
   dark: {
+    0: 'white',
     1: '#121211',
     2: '#1b1a17',
     3: '#24231f',
