@@ -6,7 +6,10 @@ import { ProductAttributesOptions } from './attributes.model';
 import { productAttributeStyles } from './attributes.styles';
 
 @ssrShim('style')
-@defaultOptions({ columnCount: '2' })
+@defaultOptions({
+  columnCount: '2',
+  ...(featureVersion >= '1.5' ? { highlightVariantAttribute: true } : {}),
+})
 @hydrate({ context: featureVersion >= '1.4' ? PRODUCT : ProductContext.SKU })
 export class ProductAttributesComponent extends ProductMixin(
   ContentMixin<ProductAttributesOptions>(LitElement)
@@ -23,11 +26,28 @@ export class ProductAttributesComponent extends ProductMixin(
         ${Object.keys(names).map(
           (key) => html`
             <dt>${this.getName(names, key)}</dt>
-            <dd>${values[key]}</dd>
+            <dd ?highlight=${this.isHighlighted(key)}>${values[key]}</dd>
           `
         )}
       </dl>
     `;
+  }
+
+  /**
+   * Highlighted attributes will clarify the uniqueness of the value among
+   * the variants.
+   *
+   * Indicates whether the attribute value should be highlighted, based on
+   * a global component configuration and if the attribute is part of the
+   * variant definition.
+   *
+   * @since 1.5
+   */
+  protected isHighlighted(key: string): boolean {
+    const { variantDefinition } = this.$product() ?? {};
+    return (
+      !!this.$options().highlightVariantAttribute && !!variantDefinition?.[key]
+    );
   }
 
   protected getName(
