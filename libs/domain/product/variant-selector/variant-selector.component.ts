@@ -14,11 +14,11 @@ import {
 } from '@oryx-frontend/utilities/src/signals/core';
 import { LitElement, TemplateResult, html } from 'lit';
 import { repeat } from 'lit/directives/repeat.js';
-import { variantListStyle } from './variant-list.styles';
+import { variantListStyle } from './variant-selector.styles';
 
 @hydrate({ context: PRODUCT })
 @signalAware()
-export class ProductVariantListComponent extends ProductMixin(
+export class ProductVariantSelectorComponent extends ProductMixin(
   LayoutMixin(LitElement)
 ) {
   static styles = variantListStyle;
