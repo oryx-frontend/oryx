@@ -63,7 +63,7 @@ export class ProductVariantListComponent extends ProductMixin(
     return html` <form @change=${this.handleVariantChange}>
       ${repeat(
         keys,
-        (key) =>
+        (key, index) =>
           html`<h3>${attributeNames?.[key]}</h3>
           ${repeat(
             variantDefinition[key],
@@ -75,6 +75,7 @@ export class ProductVariantListComponent extends ProductMixin(
                   .name=${key}
                   .value=${value}
                   ?checked=${this.isChecked(key, value)}
+                  ?disabled=${this.isDisabled(key, value, index)}
                 />
                 <span>${value}</span>
               </oryx-toggle-icon>
@@ -88,6 +89,71 @@ export class ProductVariantListComponent extends ProductMixin(
     const product = this.$product();
     return product?.attributes?.[key] === value;
   }
+
+  /**
+   * Determines if a given attribute is disabled based on the product's variant attribute info.
+   */
+  protected isDisabled(
+    attributeKey: string,
+    attributeValue: string,
+    index: number
+  ): boolean {
+    const product = this.$product();
+
+    if (!product?.variants) {
+      return false;
+    }
+
+    // Extract all active variant attribute keys except the one at the given index
+    const allKeys = Object.keys(product.variantDefinition || {});
+    const activeKeys = allKeys.filter((_, i) => i !== index);
+
+    // Check if any variant matches the selected attribute values
+    const isVariantDisabled = !Object.values(product.variants).some(
+      (variant) => {
+        // Check if all selected attribute values (except the one at the index) match the variant
+        return (
+          activeKeys.every(
+            (key) => variant[key] === this.$product()?.attributes?.[key]
+          ) && variant[attributeKey] === attributeValue
+        );
+      }
+    );
+
+    return isVariantDisabled;
+  }
+
+  // protected isDisabled(
+  //   attributeKey: string,
+  //   attributeValue: string,
+  //   index: number
+  // ): boolean {
+  //   const product = this.$product();
+
+  //   if (!product?.variants) {
+  //     return false;
+  //   }
+
+  //   // Extract active variant attribute keys up to the given index
+  //   const activeKeys = Object.keys(product.variantDefinition || {}).slice(
+  //     0,
+  //     index
+  //   );
+
+  //   // Check if any variant matches the selected attribute values
+  //   const isVariantDisabled = !Object.values(product.variants).some(
+  //     (variant) => {
+  //       // Check if all selected attribute values match the variant
+  //       return (
+  //         activeKeys.every(
+  //           (key) => variant[key] === this.$product()?.attributes?.[key]
+  //         ) && variant[attributeKey] === attributeValue
+  //       );
+  //     }
+  //   );
+
+  //   return isVariantDisabled;
+  // }
 
   protected handleVariantChange(e: Event) {
     const form = e.currentTarget as HTMLFormElement;
