@@ -104,6 +104,12 @@ export const experienceArticlePages = [
                       field: 'content',
                     },
                   },
+                  {
+                    type: 'oryx-data-text',
+                    options: {
+                      field: 'spryker.example',
+                    },
+                  },
                 ],
               },
               { ref: 'footer' },

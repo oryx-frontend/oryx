@@ -13,6 +13,14 @@ export const StoryblokFieldNormalizer = 'oryx.StoryblokFieldNormalizer*';
 export function storyblokFieldNormalizer(
   data: StoryblokContentField
 ): StoryblokContentField {
+  if (data.type === 'spryker' && (data.value as any).example) {
+    return {
+      ...data,
+      value: marked.parse((data.value as any).example as string),
+    };
+  }
+
+
   if (data.type === 'markdown') {
     return {
       ...data,
