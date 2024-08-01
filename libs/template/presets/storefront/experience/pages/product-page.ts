@@ -97,6 +97,7 @@ export const productPage: ExperienceComponent = {
                 },
                 { type: 'oryx-product-average-rating' },
                 { type: 'oryx-product-id' },
+                { type: 'oryx-product-variant-list' },
                 {
                   type: 'oryx-product-price',
                   options: { enableSalesLabel: true },
@@ -110,20 +111,6 @@ export const productPage: ExperienceComponent = {
             },
           ],
         },
-        {
-          type: 'oryx-product-variant-list',
-          options: {
-            heading: 'Variants',
-            rules: [
-              {
-                layout: { type: 'carousel' },
-                padding: '20 0',
-                colSpan: 2,
-              },
-            ],
-          },
-        },
-
         {
           type: 'oryx-product-relations',
           options: {
