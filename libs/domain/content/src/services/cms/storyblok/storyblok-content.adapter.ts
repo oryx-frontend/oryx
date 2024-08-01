@@ -9,8 +9,7 @@ import {
   map,
   of,
   reduce,
-  switchMap,
-  tap,
+  switchMap
 } from 'rxjs';
 import { Content, ContentMeta, ContentQualifier } from '../../../models';
 import { ContentAdapter } from '../../adapter';
@@ -64,9 +63,6 @@ export class DefaultStoryblokContentAdapter implements ContentAdapter {
           component.schema
         )
       ),
-      tap(s => {
-        console.log(s, 's')
-      })
     );
   }
 
