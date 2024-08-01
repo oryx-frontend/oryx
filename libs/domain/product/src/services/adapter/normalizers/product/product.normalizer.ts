@@ -24,10 +24,7 @@ export function productAttributeNormalizer(
     reviewCount,
     attributes,
     attributeNames,
-    abstractProducts,
   } = data;
-  const variants = abstractProducts?.[0].concreteProducts;
-
   return {
     sku,
     name,
@@ -36,9 +33,6 @@ export function productAttributeNormalizer(
     reviewCount,
     attributes,
     attributeNames,
-    variants: variants?.length
-      ? variants.map((variant) => ({ sku: variant.sku! }))
-      : undefined,
   };
 }
 
@@ -134,6 +128,41 @@ export function productCategoryNormalizer(
   return transformer.transform(node, CategoryNormalizer);
 }
 
+export function productVariantNormalizer(
+  data: DeserializedProduct
+): Partial<Product> {
+  const { abstractProducts } = data;
+
+  const abstract = abstractProducts?.[0];
+
+  const variantMap = abstract.attributeMap?.attributeVariantMap;
+  const variantDefinition = abstract.attributeMap?.superAttributes;
+
+  if (variantMap) {
+    const variantMapEntries = Object.entries(variantMap);
+
+    const variants = variantMapEntries.reduce((skuMap, [_, mapAttributes]) => {
+      const matchingVariant = abstract.concreteProducts.find(
+        (variant) =>
+          variant.attributes &&
+          Object.keys(mapAttributes).every(
+            (attrKey) => variant.attributes![attrKey] === mapAttributes[attrKey]
+          )
+      );
+
+      if (matchingVariant && matchingVariant.sku) {
+        skuMap[matchingVariant.sku] = mapAttributes;
+      }
+
+      return skuMap;
+    }, {} as Record<string, Record<string, string>>);
+
+    return { variants, variantDefinition };
+  }
+
+  return {};
+}
+
 export const productNormalizer: Provider[] = [
   {
     provide: ProductNormalizer,
@@ -166,6 +195,10 @@ export const productNormalizer: Provider[] = [
   {
     provide: ProductNormalizer,
     useValue: productCategoryNormalizer,
+  },
+  {
+    provide: ProductNormalizer,
+    useValue: productVariantNormalizer,
   },
 ];
 

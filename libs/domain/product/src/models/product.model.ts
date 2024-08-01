@@ -47,7 +47,8 @@ export interface Product {
    * Holds variants of the current product. We only keep track of the SKU, so
    * that additional product data must be resolved from the product service.
    */
-  variants?: { sku: string }[];
+  variants?: Record<string, Record<string, string>>;
+  variantDefinition?: Record<string, string[]>;
 }
 
 export interface ProductLabel {

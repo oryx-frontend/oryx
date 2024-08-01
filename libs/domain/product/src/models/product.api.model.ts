@@ -32,7 +32,10 @@ export module ApiProductModel {
   }
 
   export interface Abstract extends Attributes {
-    attributeMap?: string[][];
+    attributeMap?: {
+      superAttributes?: Record<string, string[]>;
+      attributeVariantMap?: Record<string, Record<string, string>>;
+    };
     merchantReference?: string;
     superAttributes?: string[];
     /**
