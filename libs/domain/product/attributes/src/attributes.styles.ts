@@ -18,8 +18,8 @@ export const productAttributeStyles = css`
   }
 
   dd[highlight] {
-    background: var(--oryx-color-primary-5);
-    color: var(--oryx-color-primary-10);
+    background: var(--oryx-color-primary-4);
+    color: initial;
     border-radius: 8px;
     padding: 1px 6px;
     margin-inline-start: -6px;
