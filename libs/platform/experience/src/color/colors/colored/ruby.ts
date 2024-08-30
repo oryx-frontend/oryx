@@ -2,6 +2,7 @@ import { Color } from '../../color.model';
 
 export const ruby: Color = {
   light: {
+    0: 'white',
     1: '#fffcfd',
     2: '#fff7f8',
     3: '#feeaed',
@@ -16,6 +17,7 @@ export const ruby: Color = {
     12: '#64172b',
   },
   dark: {
+    0: 'white',
     1: '#191113',
     2: '#1e1517',
     3: '#3a141e',

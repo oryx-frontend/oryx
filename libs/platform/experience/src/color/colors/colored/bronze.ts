@@ -2,6 +2,7 @@ import { Color } from '../../color.model';
 
 export const bronze: Color = {
   light: {
+    0: 'white',
     1: '#fdfcfc',
     2: '#fdf7f5',
     3: '#f6edea',
@@ -16,6 +17,7 @@ export const bronze: Color = {
     12: '#43302b',
   },
   dark: {
+    0: 'white',
     1: '#141110',
     2: '#1c1917',
     3: '#262220',

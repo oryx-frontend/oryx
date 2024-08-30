@@ -2,6 +2,7 @@ import { Color } from '../../color.model';
 
 export const jade: Color = {
   light: {
+    0: 'white',
     1: '#fbfefd',
     2: '#f4fbf7',
     3: '#e6f7ed',
@@ -16,6 +17,7 @@ export const jade: Color = {
     12: '#1d3b31',
   },
   dark: {
+    0: 'white',
     1: '#0d1512',
     2: '#121c18',
     3: '#0f2e22',

@@ -2,6 +2,7 @@ import { Color } from '../../color.model';
 
 export const orange: Color = {
   light: {
+    0: 'white',
     1: 'hsl(24, 70.0%, 99.0%)',
     2: 'hsl(24, 83.3%, 97.6%)',
     3: 'hsl(24, 100%, 95.3%)',
@@ -16,6 +17,7 @@ export const orange: Color = {
     12: 'hsl(15, 60.0%, 17.0%)',
   },
   dark: {
+    0: 'white',
     1: 'hsl(30, 70.0%, 7.2%)',
     2: 'hsl(28, 100%, 8.4%)',
     3: 'hsl(26, 91.1%, 11.6%)',

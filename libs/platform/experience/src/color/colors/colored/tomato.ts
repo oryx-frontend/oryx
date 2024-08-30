@@ -2,6 +2,7 @@ import { Color } from '../../color.model';
 
 export const tomato: Color = {
   light: {
+    0: 'white',
     1: 'hsl(10, 100%, 99.4%)',
     2: 'hsl(8, 100%, 98.4%)',
     3: 'hsl(8, 100%, 96.6%)',
@@ -16,6 +17,7 @@ export const tomato: Color = {
     12: 'hsl(10, 50.0%, 13.5%)',
   },
   dark: {
+    0: 'white',
     1: 'hsl(10, 23.0%, 9.4%)',
     2: 'hsl(9, 44.8%, 11.4%)',
     3: 'hsl(8, 52.0%, 15.3%)',

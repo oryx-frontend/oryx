@@ -2,6 +2,7 @@ import { Color } from '../../color.model';
 
 export const crimson: Color = {
   light: {
+    0: 'white',
     1: 'hsl(332, 100%, 99.4%)',
     2: 'hsl(330, 100%, 98.4%)',
     3: 'hsl(331, 85.6%, 96.6%)',
@@ -16,6 +17,7 @@ export const crimson: Color = {
     12: 'hsl(340, 65.0%, 14.5%)',
   },
   dark: {
+    0: 'white',
     1: 'hsl(335, 20%, 9.6%)',
     2: 'hsl(335, 32.2%, 11.6%)',
     3: 'hsl(335, 42.5%, 16.5%)',

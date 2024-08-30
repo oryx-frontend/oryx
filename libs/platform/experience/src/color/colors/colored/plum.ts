@@ -2,6 +2,7 @@ import { Color } from '../../color.model';
 
 export const plum: Color = {
   light: {
+    0: 'white',
     1: 'hsl(292, 90.0%, 99.4%)',
     2: 'hsl(300, 100%, 98.6%)',
     3: 'hsl(299, 71.2%, 96.4%)',
@@ -16,6 +17,7 @@ export const plum: Color = {
     12: 'hsl(291, 66.0%, 14.0%)',
   },
   dark: {
+    0: 'white',
     1: 'hsl(301, 20.0%, 9.4%)',
     2: 'hsl(300, 29.8%, 11.2%)',
     3: 'hsl(298, 34.4%, 15.3%)',

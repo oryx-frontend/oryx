@@ -2,6 +2,7 @@ import { Color } from '../../color.model';
 
 export const indigo: Color = {
   light: {
+    0: 'white',
     1: 'hsl(225, 60.0%, 99.4%)',
     2: 'hsl(223, 100%, 98.6%)',
     3: 'hsl(223, 98.4%, 97.1%)',
@@ -16,6 +17,7 @@ export const indigo: Color = {
     12: 'hsl(226, 62.0%, 17.0%)',
   },
   dark: {
+    0: 'white',
     1: 'hsl(229, 24.0%, 10.0%)',
     2: 'hsl(230, 36.4%, 12.9%)',
     3: 'hsl(228, 43.3%, 17.5%)',

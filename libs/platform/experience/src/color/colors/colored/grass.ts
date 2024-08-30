@@ -2,6 +2,7 @@ import { Color } from '../../color.model';
 
 export const grass: Color = {
   light: {
+    0: 'white',
     1: 'hsl(116, 50.0%, 98.9%)',
     2: 'hsl(120, 60.0%, 97.1%)',
     3: 'hsl(120, 53.6%, 94.8%)',
@@ -16,6 +17,7 @@ export const grass: Color = {
     12: 'hsl(130, 30.0%, 14.9%)',
   },
   dark: {
+    0: 'white',
     1: 'hsl(146, 30.0%, 7.4%)',
     2: 'hsl(136, 33.3%, 8.8%)',
     3: 'hsl(137, 36.0%, 11.4%)',
