@@ -10,8 +10,8 @@ export const enum ExperienceDataMergeType {
   Append = 'append',
   After = 'after',
   Replace = 'replace',
-  Patch = 'patch',
   Remove = 'remove',
+  Patch = 'patch',
 }
 
 export const enum ExperienceDataType {
