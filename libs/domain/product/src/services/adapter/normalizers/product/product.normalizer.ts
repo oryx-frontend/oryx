@@ -138,6 +138,10 @@ export function productVariantNormalizer(
   const variantMap = abstract.attributeMap?.attributeVariantMap;
   const variantDefinition = abstract.attributeMap?.superAttributes;
 
+  if (!variantDefinition) {
+    return {};
+  }
+
   if (variantMap) {
     const variantMapEntries = Object.entries(variantMap);
 

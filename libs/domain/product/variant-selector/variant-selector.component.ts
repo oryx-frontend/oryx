@@ -23,9 +23,6 @@ export class ProductVariantSelectorComponent extends ProductMixin(
 ) {
   static styles = variantListStyle;
 
-  protected productListService = resolve(ProductListService);
-  protected productListPageService = resolve(ProductListPageService);
-
   protected routerService = resolve(RouterService);
   protected linkService = resolve(LinkService);
 
@@ -48,6 +45,9 @@ export class ProductVariantSelectorComponent extends ProductMixin(
   });
 
   protected render(): TemplateResult | void {
+    console.log('this.$product():');
+
+
     const variants = this.$product()?.variants;
 
     if (!variants || Object.keys(variants).length < 2) return;
@@ -57,6 +57,7 @@ export class ProductVariantSelectorComponent extends ProductMixin(
 
   protected renderAttributeSelectors() {
     const { variantDefinition, attributeNames } = this.$product() ?? {};
+
     if (!variantDefinition) return;
     const keys = Object.keys(variantDefinition);
 
@@ -71,7 +72,7 @@ export class ProductVariantSelectorComponent extends ProductMixin(
               <oryx-toggle-icon>
                 <input
                   type="radio"
-                  placeholder="make a11y happy"
+                  .placeholder=${key}
                   .name=${key}
                   .value=${value}
                   ?checked=${this.isChecked(key, value)}
@@ -80,7 +81,7 @@ export class ProductVariantSelectorComponent extends ProductMixin(
                 <span>${value}</span>
               </oryx-toggle-icon>
             `
-          )}</form>`
+          )}`
       )}
     </form>`;
   }
@@ -122,38 +123,6 @@ export class ProductVariantSelectorComponent extends ProductMixin(
 
     return isVariantDisabled;
   }
-
-  // protected isDisabled(
-  //   attributeKey: string,
-  //   attributeValue: string,
-  //   index: number
-  // ): boolean {
-  //   const product = this.$product();
-
-  //   if (!product?.variants) {
-  //     return false;
-  //   }
-
-  //   // Extract active variant attribute keys up to the given index
-  //   const activeKeys = Object.keys(product.variantDefinition || {}).slice(
-  //     0,
-  //     index
-  //   );
-
-  //   // Check if any variant matches the selected attribute values
-  //   const isVariantDisabled = !Object.values(product.variants).some(
-  //     (variant) => {
-  //       // Check if all selected attribute values match the variant
-  //       return (
-  //         activeKeys.every(
-  //           (key) => variant[key] === this.$product()?.attributes?.[key]
-  //         ) && variant[attributeKey] === attributeValue
-  //       );
-  //     }
-  //   );
-
-  //   return isVariantDisabled;
-  // }
 
   protected handleVariantChange(e: Event) {
     const form = e.currentTarget as HTMLFormElement;
