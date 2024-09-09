@@ -37,7 +37,10 @@ export class DefaultPageMetaResolverService implements PageMetaResolverService {
     ).pipe(
       map((data) =>
         data
-          .filter(([score]) => score !== ResolverScore.NotUsed)
+          .filter(
+            ([score, data]) =>
+              score !== ResolverScore.NotUsed && Object.keys(data).length
+          )
           .sort(([aScore], [bScore]) => aScore - bScore)
           .reduce((acc, [_, elements]) => ({ ...acc, ...elements }), {})
       )

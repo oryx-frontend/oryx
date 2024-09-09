@@ -32,13 +32,35 @@ const legalLinks: ExperienceComponent = {
   components: [
     {
       type: 'oryx-content-text',
-      content: { data: { text: `©️ ${new Date().getFullYear()} Spryker` } },
+      content: {
+        data: { text: `©️ ${new Date().getFullYear()} Spryker` },
+      },
     },
-    link('Imprint', '/faq/imprint'),
-    link('Terms & conditions', '/article/terms-and-conditions'),
-    link('Privacy Notice', '/article/privacy'),
-    link('Data preference'),
-    link('Condition of use'),
+    ...(featureVersion >= '1.5'
+      ? [
+          {
+            type: 'oryx-content-list',
+            options: {
+              tags: 'legal',
+              rules: [
+                {
+                  layout: {
+                    type: 'flex',
+                    divider: true,
+                  },
+                  width: 'auto',
+                },
+              ],
+            },
+          },
+        ]
+      : [
+          link('Imprint', '/faq/imprint'),
+          link('Terms & conditions', '/article/terms-and-conditions'),
+          link('Privacy Notice', '/article/privacy'),
+          link('Data preference'),
+          link('Condition of use'),
+        ]),
   ],
   options: {
     rules: [

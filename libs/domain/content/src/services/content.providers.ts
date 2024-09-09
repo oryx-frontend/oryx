@@ -2,11 +2,7 @@ import { provideEntity } from '@oryx-frontend/core';
 import { Provider } from '@oryx-frontend/di';
 import { ExperienceAdapter } from '@oryx-frontend/experience';
 import { ContentExperienceAdapter } from './adapter';
-import {
-  contentfulProviders,
-  storyblokProviders,
-  strapiProviders,
-} from './cms';
+import { cmsProviders } from './cms';
 import { ContentContext } from './content-context';
 import { ContentService } from './content.service';
 import { DefaultContentService } from './default-content.service';
@@ -25,11 +21,9 @@ export const contentProviders: Provider[] = [
     provide: FontService,
     useClass: DefaultFontService,
   },
-  ...contentfulProviders,
-  ...storyblokProviders,
-  ...strapiProviders,
   provideEntity('content', {
     service: ContentService,
     context: ContentContext.Content,
   }),
+  ...cmsProviders,
 ];

@@ -1,30 +1,29 @@
-import {
-  Content,
-  ContentConfig,
-  ContentQualifier,
-  ContentService,
-} from '@oryx-frontend/content';
 import { PageMetaResolver, provideEntity } from '@oryx-frontend/core';
 import { Provider } from '@oryx-frontend/di';
-import { provideExperienceData } from '@oryx-frontend/experience';
-import { ArticleQualifierContextFallback } from './article-context';
-import { experienceArticlePages } from './article-page';
-import { articleTypes } from './article-types';
+import { Content, ContentQualifier, cmsTypes } from '../../models';
 import {
-  ArticlePageDescriptionMetaResolver,
-  ArticlePageTitleMetaResolver,
-} from './resolvers';
+  CmsPageDescriptionMetaResolver,
+  CmsPageTitleMetaResolver,
+} from '../../resolvers';
+import { ContentConfig } from '../adapter';
+import { ContentService } from '../content.service';
+import { CmsQualifierContextFallback } from './cms-context';
+import { contentfulProviders } from './contentful';
+import { storyblokProviders } from './storyblok';
+import { strapiProviders } from './strapi';
 
-export const articleProviders: Provider[] = [
-  ArticleQualifierContextFallback,
-  provideExperienceData(experienceArticlePages),
+export const cmsProviders: Provider[] = [
+  ...contentfulProviders,
+  ...storyblokProviders,
+  ...strapiProviders,
+  CmsQualifierContextFallback,
   {
     provide: PageMetaResolver,
-    useClass: ArticlePageTitleMetaResolver,
+    useClass: CmsPageTitleMetaResolver,
   },
   {
     provide: PageMetaResolver,
-    useClass: ArticlePageDescriptionMetaResolver,
+    useClass: CmsPageDescriptionMetaResolver,
   },
   {
     provide: ContentConfig,
@@ -41,10 +40,10 @@ export const articleProviders: Provider[] = [
       },
     },
   },
-  ...articleTypes.map((type) =>
+  ...cmsTypes.map((type) =>
     provideEntity<Content | null | undefined, ContentQualifier>(type, {
       service: ContentService,
-      context: type,
+      context: 'content',
       get: (service, qualifier) =>
         (service as ContentService).get({ ...qualifier, type }),
     })

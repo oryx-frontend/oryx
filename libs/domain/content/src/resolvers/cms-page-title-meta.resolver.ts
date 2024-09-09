@@ -1,9 +1,4 @@
 import {
-  ContentContext,
-  ContentQualifier,
-  ContentService,
-} from '@oryx-frontend/content';
-import {
   ContextService,
   ElementResolver,
   PageMetaResolver,
@@ -11,9 +6,10 @@ import {
 import { inject } from '@oryx-frontend/di';
 import { RouterService } from '@oryx-frontend/router';
 import { Observable, combineLatest, map, of, switchMap } from 'rxjs';
-import { ArticleContent } from '../article.model';
+import { CmsContent, ContentQualifier } from '../models';
+import { ContentContext, ContentService } from '../services';
 
-export class ArticlePageTitleMetaResolver implements PageMetaResolver {
+export class CmsPageTitleMetaResolver implements PageMetaResolver {
   constructor(
     protected context = inject(ContextService),
     protected router = inject(RouterService),
@@ -26,7 +22,11 @@ export class ArticlePageTitleMetaResolver implements PageMetaResolver {
       combineLatest([
         this.context.get(null, ContentContext.Content),
         this.router.currentRoute(),
-      ]).pipe(map(([type, route]) => route.includes(`/${type}/`))),
+      ]).pipe(
+        map(([qualifier, route]) =>
+          route.includes(`/${qualifier?.type}/${qualifier?.id}`)
+        )
+      ),
     ]);
   }
 
@@ -41,7 +41,7 @@ export class ArticlePageTitleMetaResolver implements PageMetaResolver {
           if (!id || !type) return of({});
 
           return this.content
-            .get<ArticleContent>({
+            .get<CmsContent>({
               id,
               type,
               entities: [type],

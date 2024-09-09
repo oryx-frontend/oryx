@@ -10,6 +10,7 @@ import {
   cartsPage,
   categoryPage,
   checkoutPage,
+  cmsPage,
   contactPage,
   createAddressPage,
   editAddressPage,
@@ -40,6 +41,7 @@ export const StaticExperienceFeature: AppFeature = {
       editAddressPage,
       ...(featureVersion >= '1.1' ? [registrationPage] : []),
       ...(featureVersion >= '1.4' ? [cartsPage, cartCreatePage] : []),
+      ...cmsPage,
     ]),
   ],
 };

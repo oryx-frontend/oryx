@@ -1,5 +1,8 @@
 declare global {
   interface ContentFields {
+    /**
+     * Page or component config. // ExperienceComponent
+     */
     component: undefined;
   }
 }

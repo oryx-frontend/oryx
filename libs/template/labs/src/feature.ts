@@ -1,5 +1,4 @@
 import { AppFeature } from '@oryx-frontend/core';
-import { articleProviders } from './articles';
 import { bazaarVoiceComponentMapping } from './bazaarvoice';
 import { cloudinaryImageConverter } from './cloudinary';
 import * as components from './components';
@@ -24,7 +23,6 @@ export const labsFeatures: AppFeature[] = [
     providers: [
       cloudinaryImageConverter,
       bazaarVoiceComponentMapping,
-      ...articleProviders,
       ...i18nLabsProviders,
     ],
   },
