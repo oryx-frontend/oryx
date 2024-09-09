@@ -113,7 +113,7 @@ jobs:
       - name: Set should-run for PR
         id: set-env
         run: |
-          echo "CHROMATIC_PROJECT_TOKEN=${{ vars.CHROMATIC_PROJECT_TOKEN }}"
+          echo "CHROMATIC_PROJECT_TOKEN=${{ secrets.CHROMATIC_PROJECT_TOKEN }}"
           echo "SCOS_BASE_URL=${{ vars.SCOS_BASE_URL }}"
           if [ -n "${{ vars.SCOS_BASE_URL }}" ]; then
             echo "::set-output name=should-run-regression::true"
