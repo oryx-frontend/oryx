@@ -34,10 +34,10 @@ export class BapiAuthFeature extends OauthFeature implements AppFeature {
       providers: [
         {
           id: 'spryker',
-          clientId: 'frontend',
+          clientId: injectEnv('ORYX_BAPI_CLIENT_ID') ?? 'frontend',
           grantType: 'authorization_code',
           authUrl: new URL('/login', globalThis.location.origin).toString(),
-          tokenUrl: urlJoin('', '/token'),
+          tokenUrl: urlJoin(injectEnv('ORYX_BAPI_BACKEND_URL') ?? '', '/token'),
           redirectUrl: new URL(
             '/oauth/cb/spryker',
             globalThis.location.origin
