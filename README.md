@@ -1,4 +1,4 @@
-# Oryx
+# Oryx Frontend
 
 CI Checks | Oryx component dev env status | Composable storefront dev env status
 :-----: | :---: | :---:
@@ -61,3 +61,7 @@ The application gets available at localhost:3000, or the next available port on 
 ## Further Documentation
 
 [Oryx Documentation](https://docs.spryker.com/docs/scos/dev/front-end-development/202311.0/oryx/oryx.html)
+
+## Contributing
+Contributions to Oryx Frontend are welcome and highly appreciated! That might be a PR, a resolved issue, a new idea registered on the issue tracker or other.
+[How to contribute to Oryx] (https://docs.spryker.com/docs/dg/dev/frontend-development/202404.0/oryx/contribute-to-oryx.html)
