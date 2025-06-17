@@ -1,11 +1,11 @@
 import { Observable } from 'rxjs';
 import {
   IndexedDbEntityType,
-  IndexedDbIntanceType,
+  IndexedDbInstanceType,
   InferIndexedDbStore,
 } from '../models';
 
-export interface IndexedDbService<TdbInstance = IndexedDbIntanceType> {
+export interface IndexedDbService<TdbInstance = IndexedDbInstanceType> {
   registerEntities(entityTypes: IndexedDbEntityType[]): Observable<void>;
   getDb(): Observable<TdbInstance>;
   getStoreName(entityType: IndexedDbEntityType): string;
