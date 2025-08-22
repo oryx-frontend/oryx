@@ -114,8 +114,8 @@ jobs:
         id: set-env
         run: |
           echo "CHROMATIC_PROJECT_TOKEN=${{ secrets.CHROMATIC_PROJECT_TOKEN }}"
-          echo "SCOS_BASE_URL=${{ secrets.SCOS_BASE_URL }}"
-          if [ -n "${{ secrets.SCOS_BASE_URL }}" ]; then
+          echo "SCOS_BASE_URL=${{ vars.SCOS_BASE_URL }}"
+          if [ -n "${{ vars.SCOS_BASE_URL }}" ]; then
             echo "::set-output name=should-run-regression::true"
           else
             echo "::set-output name=should-run-regression::false"
@@ -184,7 +184,7 @@ jobs:
       - name: Storefront E2E Tests
         uses: ./.github/actions/run-optimal
         env:
-          SCOS_BASE_URL: ${{ secrets.SCOS_BASE_URL }}
+          SCOS_BASE_URL: ${{ vars.SCOS_BASE_URL }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           STORE: DE
           ORYX_FEATURE_VERSION: latest
@@ -207,7 +207,7 @@ jobs:
       - name: Storefront B2C visual regression tests
         uses: ./.github/actions/run-optimal
         env:
-          SCOS_BASE_URL: ${{ secrets.SCOS_BASE_URL }}
+          SCOS_BASE_URL: ${{ vars.SCOS_BASE_URL }}
           STORE: DE
           ORYX_FEATURE_VERSION: latest
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
