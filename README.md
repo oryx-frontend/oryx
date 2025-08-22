@@ -1,3 +1,7 @@
+This repository has been moved to a new organization to make it easier for the community to contribute. 
+
+The new location is: [https://github.com/oryx-frontend/oryx](https://github.com/oryx-frontend/oryx)
+
 # Oryx
 
 CI Checks | Oryx component dev env status | Composable storefront dev env status
