@@ -1,5 +1,5 @@
 import {
-  IndexedDbIntanceType,
+  IndexedDbInstanceType,
   IndexedDbMigrationArgsType,
 } from './db-instance.model';
 
@@ -10,6 +10,6 @@ export interface IndexedDbVersioned {
 }
 
 export type IndexedDbMigrationFn = (
-  db: IndexedDbIntanceType,
+  db: IndexedDbInstanceType,
   ...args: IndexedDbMigrationArgsType
 ) => void | Promise<void>;

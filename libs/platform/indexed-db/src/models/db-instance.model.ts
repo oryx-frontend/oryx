@@ -4,18 +4,23 @@ declare global {
   /**
    * Specify the type of IndexedDB instance by providing `type` property with it's type.
    *
-   * The provided type is available in an alias {@link IndexedDbIntanceType}.
+ * The provided type is available in an alias {@link IndexedDbInstanceType}.
    *
    * @example
    * ```ts
    * declare global {
-   *   interface IndexedDbIntance {
+ *   interface IndexedDbInstance {
    *     type: MyDbTypeHere;
    *   }
    * ```
    */
   // eslint-disable-next-line @typescript-eslint/no-empty-interface
-  interface IndexedDbIntance {}
+  interface IndexedDbInstance {}
+  /**
+   * @deprecated Use {@link IndexedDbInstance} instead.
+   */
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
+  interface IndexedDbIntance extends IndexedDbInstance {}
 
   /**
    * Specify the type of migration function arguments by providing `args` property with it's type.
@@ -71,9 +76,12 @@ declare global {
   interface IndexedDbEntityMap {}
 }
 
-export type IndexedDbIntanceType = IndexedDbIntance extends { type: infer T }
+export type IndexedDbInstanceType = IndexedDbInstance extends { type: infer T }
   ? T
   : unknown;
+
+/** @deprecated Use {@link IndexedDbInstanceType} instead. */
+export type IndexedDbIntanceType = IndexedDbInstanceType;
 
 export type IndexedDbMigrationArgsType = IndexedDbMigrationArgs extends {
   args: [...infer T];

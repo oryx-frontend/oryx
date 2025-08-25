@@ -21,9 +21,13 @@ import { DexieIndexedDbConfig } from './dexie-config.provider';
 import { IndexedDbService } from './indexed-db.service';
 
 declare global {
-  interface IndexedDbIntance {
+  interface IndexedDbInstance {
     type: OryxDexieDb;
   }
+  /**
+   * @deprecated Use {@link IndexedDbInstance} instead.
+   */
+  interface IndexedDbIntance extends IndexedDbInstance {}
 
   interface IndexedDbMigrationArgs {
     args: [Transaction];
@@ -156,7 +160,7 @@ export class DexieIndexedDbService implements IndexedDbService<OryxDexieDb> {
       const migrations = this.getMigrations(metadataGroup.metadata);
 
       this.debug(
-        `Settinp up IndexedDb version ${metadataGroup.version} with schema`,
+        `Setting up IndexedDb version ${metadataGroup.version} with schema`,
         schema
       );
 
