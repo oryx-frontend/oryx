@@ -199,6 +199,9 @@
         "libs/domain/product/relations/index.ts"
       ],
       "@oryx-frontend/product/title": ["libs/domain/product/title/index.ts"],
+      "@oryx-frontend/product/variant-selector": [
+        "libs/domain/product/variant-selector/index.ts"
+      ],
       "@oryx-frontend/push-notification": [
         "libs/platform/push-notification/src/index.ts"
       ],
