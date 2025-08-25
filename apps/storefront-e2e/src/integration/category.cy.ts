@@ -62,7 +62,7 @@ describe('Category suite', () => {
         categoryPage.visit();
       });
 
-      it.skip('should apply price filtering', () => {
+      it('should apply price filtering', () => {
         cy.log('set minimum price');
         categoryPage.getFacets().setMinPrice(minPrice);
         categoryPage.waitForSearchRequest();

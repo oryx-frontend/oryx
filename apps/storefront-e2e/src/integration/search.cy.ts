@@ -54,7 +54,7 @@ describe('Search suite', () => {
         searchPage.visit();
       });
 
-      it.skip('should apply price filtering', () => {
+      it('should apply price filtering', () => {
         cy.log('set minimum price');
         searchPage.getFacets().setMinPrice(minPrice);
         searchPage.waitForSearchRequest();
