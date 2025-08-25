@@ -100,6 +100,15 @@ export class MockProductService implements Partial<ProductService> {
         availability: true,
       },
       categoryIds: ['category id 1'],
+      variants: {
+        'variant-1': { brand: 'Brand1', color: 'color1' },
+        'variant-2': { brand: 'Brand1', color: 'green' },
+        'variant-3': { brand: 'Brand1', color: 'blue' },
+      },
+      variantDefinition: {
+        brand: ['Brand1'],
+        color: ['color1', 'green', 'blue'],
+      },
     },
     {
       sku: '2',
@@ -138,6 +147,14 @@ export class MockProductService implements Partial<ProductService> {
         availability: false,
       },
       categoryIds: ['category id 2'],
+      variantDefinition: {
+        brand: ['Brand2'],
+        color: ['red', 'green', 'blue'],
+      },
+      variants: {
+        'variant-1': { brand: 'Brand2', color: 'color2' },
+        'variant-2': { brand: 'Brand3' },
+      }
     },
     {
       sku: '3',
@@ -291,7 +308,6 @@ export class MockProductService implements Partial<ProductService> {
           'Sample attribute lengthy name, Sample attribute lengthy name, Sample attribute lengthy name.',
       },
     },
-
     {
       sku: 'single-image',
       name: 'Sample product with one image',
@@ -326,6 +342,59 @@ export class MockProductService implements Partial<ProductService> {
       discontinued: true,
       discontinuedNote: 'This product is discontinued...',
     },
+    {
+      sku: 'variant-selector',
+      name: 'Product with Variants',
+      mediaSet,
+      description: 'This product has multiple variants to choose from.',
+      price: {
+        defaultPrice: {
+          currency: 'EUR',
+          value: 1999,
+          isNet: true,
+        },
+        originalPrice: {
+          currency: 'EUR',
+          value: 2499,
+          isNet: true,
+        },
+      },
+      averageRating: 4.5,
+      reviewCount: 10,
+      attributes: {
+        brand: 'Brand9',
+        color: 'red',
+        size: 'M',
+      },
+      attributeNames: {
+        brand: 'Brand',
+        color: 'Color',
+        size: 'Size',
+      },
+      labels: [newLabel, saleLabel],
+      availability: {
+        quantity: 5,
+        isNeverOutOfStock: false,
+        availability: true,
+      },
+      categoryIds: ['category id 9'],
+      variants: {
+        'variant-1': { brand: 'Brand9', color: 'red', size: 'S' },
+        'variant-2': { brand: 'Brand9', color: 'red', size: 'M' },
+        'variant-3': { brand: 'Brand9', color: 'red', size: 'L' },
+        'variant-4': { brand: 'Brand9', color: 'green', size: 'S' },
+        'variant-5': { brand: 'Brand9', color: 'green', size: 'M' },
+        'variant-6': { brand: 'Brand9', color: 'green', size: 'L' },
+        'variant-7': { brand: 'Brand9', color: 'blue', size: 'S' },
+        'variant-8': { brand: 'Brand9', color: 'blue', size: 'M' },
+        'variant-9': { brand: 'Brand9', color: 'blue', size: 'L' },
+      },
+      variantDefinition: {
+        brand: ['Brand9'],
+        color: ['red', 'green', 'blue'],
+        size: ['S', 'M', 'L'],
+      },
+    }
   ];
 
   get(qualifier: ProductQualifier): Observable<Product> {

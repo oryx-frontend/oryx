@@ -43,6 +43,12 @@ export interface Product {
   availability?: ProductAvailability;
   discontinued?: boolean;
   discontinuedNote?: string;
+  /**
+   * Holds variants of the current product. We only keep track of the SKU, so
+   * that additional product data must be resolved from the product service.
+   */
+  variants?: Record<string, Record<string, string>>;
+  variantDefinition?: Record<string, string[]>;
 }
 
 export interface ProductLabel {

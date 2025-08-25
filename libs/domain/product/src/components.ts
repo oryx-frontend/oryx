@@ -14,3 +14,4 @@ export * from '../media/src/media.def';
 export * from '../price/src/price.def';
 export * from '../relations/relations.def';
 export * from '../title/src/title.def';
+export * from '../variant-selector/variant-selector.def';

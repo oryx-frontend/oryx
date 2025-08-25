@@ -20,20 +20,24 @@ export function concreteProductsNormalizer(
   return combineLatest(
     data
       .filter((abstract) => abstract[concreteProductsKey]?.length)
-      .map((abstract) =>
-        combineLatest([
-          transformer.transform(
-            abstract[concreteProductsKey]?.[0],
-            ProductNormalizer
-          ),
+      .map((abstract) => {
+        const concretes = abstract[concreteProductsKey];
+        const concrete = abstract[concreteProductsKey][0];
+
+        if (concrete.abstractProducts) {
+          concrete.abstractProducts[0][concreteProductsKey] = concretes;
+        }
+
+        return combineLatest([
+          transformer.transform(concrete, ProductNormalizer),
           transformer.transform(abstract[categoryKey], CategoryIdNormalizer),
         ]).pipe(
           map(([product, nodeId]) => ({
             ...product,
             ...nodeId,
           }))
-        )
-      )
+        );
+      })
   );
 }
 

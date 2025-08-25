@@ -20,12 +20,28 @@ export module ApiProductModel {
     id?: string;
     isDiscontinued?: boolean;
     productAbstractSku?: string;
+
+    /**
+     * Reference to the abstract product(s).
+     */
+    abstractProducts: Abstract[];
+    /**
+     * Reference to the concrete variations. This includes the current SKU.
+     */
+    concreteProducts: Concrete[];
   }
 
   export interface Abstract extends Attributes {
-    attributeMap?: string[][];
+    attributeMap?: {
+      superAttributes?: Record<string, string[]>;
+      attributeVariantMap?: Record<string, Record<string, string>>;
+    };
     merchantReference?: string;
     superAttributes?: string[];
+    /**
+     * Reference to the concrete variations. This includes the current SKU.
+     */
+    concreteProducts: Concrete[];
   }
 
   export interface Image {
@@ -121,7 +137,8 @@ export module ApiProductModel {
     | Include<Includes.ConcreteProductAvailabilities, ProductAvailability>
     | Include<Includes.Labels, ProductLabels>
     | Include<Includes.AbstractProducts, Abstract>
-    | Include<Includes.CategoryNodes, CategoryNodes>;
+    | Include<Includes.CategoryNodes, CategoryNodes>
+    | Include<Includes.ConcreteProducts, Concrete>;
 
   export type Response = JsonApiModel<Concrete, ResponseIncludes[]>;
 }
